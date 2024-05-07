@@ -44,13 +44,29 @@ This page lists the supplementary materiales that are omitted from the paper due
     - *gen_fingerprint_multi_rep.py*: python script to get the rephrased signature *Xrep*
     - *gen_fingerprint_multi_org.py*: python script to get the original signature *Xorg*
     - *config_sigs.json*: configuration file for signature generation
+    - *pagerank.py*: python script to get the PageRank score of each modified function in the patch.
+    - *config.py*: configuration file for PageRank score generation.
 
-  - **configuration:** the modifiable parameters include:
-
+  - **configuration for signature generation:** the modifiable parameters include:
+  
     - *signature_path*: the absolute path to store signature
     - *work_path*: the absolute path to the directory of joern-cli
     - *macros*: the absolute path to store macros
     - *ctagsPath*: the absolute path to the directory of ctags tool
+  
+  - **configuration for PageRank:**
+  
+    - *Doxygen_conf_location*: the absolute path to the directory of doxygen.
+    - *work_path*: the absolute path to the directory of joern-cli
+    - *error_log_file*:the path to the error log file
+    - *timeout_repo_list_file*: the file path to record repository information for timeouts
+    - *method_info_location*: the file path to record method information
+    - *no_define_location_prefix*: the directory path to store the call graph information
+    - *jump_threshold*: call graph jump threshold, the default is 3
+    - *subprocess_exec_max_time_sec*: the time limit for call graph generation, specified in seconds, the default is 4 hours
+    - *subprocess_exam_time_sec*: the polling frequency for call graph generation process, specified in seconds, the default is 1minute
+    - *file_num_threshold*: the scale of files involved in the call graph, the default is 5000
+    - *pagerank_location_prefix*: the directory path to store the PageRank score files.
   
   - **Runtime environment**:
   
@@ -60,11 +76,29 @@ This page lists the supplementary materiales that are omitted from the paper due
   
        To install and run Joern, JDK 11 environment is required.
   
-    2. **Python**: The required libraries for the version include json, os, hashlib, re, sys, queue, and xml.
+    2. **doxygen:**  we use the version of 1.10. 
   
-    3. **ctags:** The installation process for ctags can be found at https://github.com/universal-ctags/ctags.
+       The installation process for Joern can be found at https://github.com/doxygen/doxygen.
+  
+    3. **Python**: The required libraries for the version include json, os, hashlib, re, sys, queue, and xml.
+  
+    4. **ctags:** The installation process for ctags can be found at https://github.com/universal-ctags/ctags.
   
   - **generation steps:**
+  
+    - **PageRank score generation:** please place the files *metadata.sc*, *pagerank.py*, and *config.py* into the *joern-cli* directory. Ensure that the directory includes executable files such as *joern*, *joern-parse*, and *joern-flow*. After complete the relevant entries in the configuration file, just run the following command:
+  
+      ```bash
+      python pagerank.py CVE_ID commit_file_location git_repo_location
+      ```
+  
+      It will generate the corresponding PageRank score information file for the CVE-ID in the directory specified in the configuration file for PageRank.
+  
+      - **CVE_ID**: the CVE-ID for which PageRank score files need to be generated.
+      - **commit_file_location**: the file paths of patch commit files for CVEs for which PageRank files need to be generated.
+      - **git_repo_location:** the GitHub repository paths corresponding to CVEs for which PageRank files need to be generated.
+  
+      **For the vulnerability patches we have used in evaluation, we have already generated all [PageRank score](https://github.com/vmud20/vmud20.github.io/tree/main/dataset/pagerank) of each modified function in the patch.**
   
     - **preprocess step: ** if you want to generate X~rep~, you need to extract all macros involved in patch files. After complete the relevant entries in the configuration file, just run the following command:
   
@@ -77,27 +111,25 @@ This page lists the supplementary materiales that are omitted from the paper due
       - **git_repo_location:** the absolute path to the directory of the GitHub repository corresponding to the CVE.
   
       **For the vulnerability patches we have collected, we have already extracted all [macros](https://github.com/vmud20/vmud20.github.io/tree/main/dataset/macros4sig) involved in each patch.**
-    
+  
     - **generation step:** please place the files (*normalize.sc*, *gen_fingerprint_multi_rep.py*, *gen_fingerprint_multi_org.py*,  *config_sigs.json* *slice.sc*, *metadata.sc*, *get_condition.sc*) into the *joern-cli* directory. Ensure that the directory includes executable files such as *joern*, *joern-parse*, and *joern-flow*. After complete the relevant entries in the configuration file, just run the following command:
-    
+  
       ```
       python gen_fingerprint_multi.py CVE_ID commit_file_location git_repo_location
       ```
-    
+  
       - **gen_fingerprint_multi.py**: refers to *gen_fingerprint_multi_rep.py* or *gen_fingerprint_multi_org.py*
-    
+  
       - **CVE_ID**: the CVE-ID corresponding to the patch file.
-    
+  
       - **commit_file_location**: the absolute path to the file storing GitHub commit content.
-    
+  
       - **git_repo_location:** the absolute path to the directory of the GitHub repository corresponding to the CVE.
 
 ##### Detector
 
 - **List of File:**
 
-  - *pagerank.py*: python script to get the PageRank score of each modified function in the patch.
-  - *config.py*: configuration file for PageRank score generation.
   - *normalize_per.sc*: scala script to extract the positional information of formal parameters, local variables, type declarations, and method invocations using Joern
   - *slice_per.sc*: scala script to get the method's Program Dependency Graph(PDG) via Joern
   - *metadata.sc*: scala script to retrieve the list of methods for a specified file using Joern
@@ -109,21 +141,7 @@ This page lists the supplementary materiales that are omitted from the paper due
   - *config.json*: configuration for detector
   - *Detector.py*: python script to implement vmud
   - *Instructions for Utilizing SAGA.md*: a instruction for SAGA
-
-- **configuration for PageRank:**
-
-  - *Doxygen_conf_location*: the absolute path to the directory of doxygen.
-  - *work_path*: the absolute path to the directory of joern-cli
-  - *error_log_file*:the path to the error log file
-  - *timeout_repo_list_file*: the file path to record repository information for timeouts
-  - *method_info_location *: the file path to record method information
-  - *no_define_location_prefix*: the directory path to store the call graph information
-  - *jump_threshold*: call graph jump threshold, the default is 3
-  - *subprocess_exec_max_time_sec*: the time limit for call graph generation, specified in seconds, the default is 4 hours
-  - *subprocess_exam_time_sec *: the polling frequency for call graph generation process, specified in seconds, the default is 1minute
-  - *file_num_threshold*: the scale of files involved in the call graph, the default is 5000
-  - *pagerank_location_prefix*: the directory path to store the PageRank score files.
-
+  
 - **configuration for detector:**
 
   - *signature_path*: the absolute path to store rephrased signature X~rep~
@@ -136,6 +154,8 @@ This page lists the supplementary materiales that are omitted from the paper due
   - *tempSignature*: the path to store the detected repository's signature
   - *signature_path_org*:  the absolute path to store original signature X~org~
   - *targetRepoMacros*:  the absolute path to store macros
+  - *pagerank_location_prefix*: the directory path to store the PageRank score files.
+  - *pagerank_threshold*: PageRank score threshold, the default is 0.018
 
 - **Runtime environment**:
 
@@ -145,41 +165,21 @@ This page lists the supplementary materiales that are omitted from the paper due
 
     To install and run Joern, JDK 11 environment is required.
 
-  - **doxygen:**  we use the version of 1.10. 
-
-    The installation process for Joern can be found at https://github.com/doxygen/doxygen.
-
   - **Python**: The required libraries for the version include json, os, hashlib, re, sys, queue, xml, pickle and networkx.
   - **ctags:** The installation process for ctags can be found at https://github.com/universal-ctags/ctags.
-
+  
 - **Detector**
 
-  1. **PageRank score generation:** please place the files *metadata.sc*, *pagerank.py*, and *config.py* into the *joern-cli* directory. Ensure that the directory includes executable files such as *joern*, *joern-parse*, and *joern-flow*. After complete the relevant entries in the configuration file, just run the following command:
+  1. In the *joern-cli* directory (which should include executable files such as *joern*, *joern-parse*, and *joern-flow*), create five folders named *temp*, *slicingJson*, *normalizeJson*, *normalized*, and *conditionJson*. 
 
-     ```bash
-     python pagerank.py CVE_ID commit_file_location git_repo_location
-     ```
-
-     It will generate the corresponding PageRank score information file for the CVE-ID in the directory specified in the configuration file for PageRank.
-
-     - **CVE_ID**: the CVE-ID for which PageRank score files need to be generated.
-     - **commit_file_location**: the file paths of patch commit files for CVEs for which PageRank files need to be generated.
-     - **git_repo_location:** the GitHub repository paths corresponding to CVEs for which PageRank files need to be generated.
-
-     **For the vulnerability patches we have used in evaluation, we have already generated all [PageRank score](https://github.com/vmud20/vmud20.github.io/tree/main/dataset/pagerank) of each modified function in the patch.**
-
-  2. **Detector:**
-
-     (i) In the *joern-cli* directory (which should include executable files such as *joern*, *joern-parse*, and *joern-flow*), create five folders named *temp*, *slicingJson*, *normalizeJson*, *normalized*, and *conditionJson*. 
-
-     (ii) Please place the following files in the *joern-cli* directory: *normalize_per.sc*, *Detector.py*, *slice_per.sc*, *metadata.sc*, *getCondition_per.sc*, *thrown_cve.pkl*, *config.json*, *pagerank.py*, and *config.py*. The folders *vulFileMulti* and *ctags*, along with the *saga* folder and *sagaMulti.json* file, have no specific placement restriction.
-
-     (iii) After complete the relevant entries in the configuration file, just run the following command:
+  2. Please place the following files in the *joern-cli* directory: *normalize_per.sc*, *Detector.py*, *slice_per.sc*, *metadata.sc*, *getCondition_per.sc*, *thrown_cve.pkl* and *config.json*. The folders *vulFileMulti* and *ctags*, along with the *saga* folder and *sagaMulti.json* file, have no specific placement restriction.
+  
+  3. After complete the relevant entries in the configuration file, just run the following command:
 
      ```bash
      python Detector.py detect_dir
      ```
-
+  
      The tool will output the detected recurring vulnerability results to the *resultMulti.txt* file in the *joern-cli* directory.
 
      - *detect_dir* refers to absolute path for repository that needed to be detected

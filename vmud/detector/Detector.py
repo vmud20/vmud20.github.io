@@ -10,7 +10,6 @@ from xml.dom.minidom import parse
 import subprocess
 from datetime import datetime
 from tqdm import tqdm
-import config
 import pickle
 
 encoding_format="ISO-8859-1"
@@ -29,6 +28,8 @@ process_file = info["process_file"]
 tempSignature = info["tempSignature"]
 temp_work_dir = info["work_path"]
 targetRepoMacros = info["targetRepoMacros"]
+pagerank_location_prefix = info["pagerank_location_prefix"]
+pagerank_threshold = info["pagerank_threshold"]
 includeFiles = []
 analysizedFiles = []
 removedMacros = ["__FILE__", "__LINE__", "__DATE__", "__TIME__", "__STDC__", "__STDC_VERSION__", 
@@ -993,19 +994,19 @@ def detect_file(detect_dir, file, CVEList):
     total=len(CVEList)
     for CVE in CVEList:
         index1 += 1
-        if not os.path.exists(config.pagerank_location_prefix + CVE + ".json"):
+        if not os.path.exists(pagerank_location_prefix + CVE + ".json"):
             continue
-        with open(config.pagerank_location_prefix + CVE + ".json", "r") as f:
+        with open(pagerank_location_prefix + CVE + ".json", "r") as f:
             temp_dict = json.load(f)
             key_point_list = []
             a = sorted(temp_dict.items(), key=lambda x: x[1], reverse=True)
-            if a[0][1] < config.pagerank_threshold:
+            if a[0][1] < pagerank_threshold:
                 for item in a:
                     if item[1] == a[0][1]:
                         key_point_list.append(item[0])
             else:
                 for func in temp_dict.keys():
-                    if temp_dict[func] >= config.pagerank_threshold:
+                    if temp_dict[func] >= pagerank_threshold:
                         key_point_list.append(func)
             key_point_list = list(set(key_point_list))
         if CVE not in ans_list.keys():
@@ -1148,19 +1149,19 @@ def detect_file(detect_dir, file, CVEList):
         with open(tempSignature + index.__str__()+".json","r") as f:
             sus_method_dict[index]=json.load(f)
     for CVE in CVEList:
-        if not os.path.exists(config.pagerank_location_prefix + CVE + ".json"):
+        if not os.path.exists(pagerank_location_prefix + CVE + ".json"):
             continue
-        with open(config.pagerank_location_prefix + CVE + ".json", "r") as f:
+        with open(pagerank_location_prefix + CVE + ".json", "r") as f:
             temp_dict = json.load(f)
             key_point_list = []
             a = sorted(temp_dict.items(), key=lambda x: x[1], reverse=True)
-            if a[0][1] < config.pagerank_threshold:
+            if a[0][1] < pagerank_threshold:
                 for item in a:
                     if item[1] == a[0][1]:
                         key_point_list.append(item[0])
             else:
                 for func in temp_dict.keys():
-                    if temp_dict[func] >= config.pagerank_threshold:
+                    if temp_dict[func] >= pagerank_threshold:
                         key_point_list.append(func)
             key_point_list = list(set(key_point_list))
         if CVE not in ans_list.keys():

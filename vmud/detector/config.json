@@ -8,5 +8,7 @@
     "ctagsPath":"/path/to/ctags",
     "tempSignature": "/path/to/save/tempSignature/",
     "signature_path_org": "/path/to/signature_org/",
-    "targetRepoMacros":"/path/to/save/tarMacros/"
+    "targetRepoMacros":"/path/to/save/tarMacros/",
+    "pagerank_location_prefix":"/path/to/pagerank_dir",
+    "pagerank_threshold":0.018
 }
