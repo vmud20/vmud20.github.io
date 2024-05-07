@@ -20,9 +20,9 @@ This page lists the supplementary materiales that are omitted from the paper due
 
 - **Output**: 
 
-  - a directory named `vulFileMulti`: Files containing vulnerable functions
-  - a file named `sagaMulti.json`: The line number information of the vulnerability method in the file
-  - the signature file named `CVE-XXXX-XXXX.json`
+  - a directory named *vulFileMulti*: Files containing vulnerable functions
+  - a file named *sagaMulti.json*: The line number information of the vulnerability method in the file
+  - the signature file named *CVE-XXXX-XXXX.json*
 
 - **vulFileMulti construction:**
 
@@ -30,27 +30,27 @@ This page lists the supplementary materiales that are omitted from the paper due
 
 - **sagaMulti.json construction:**
 
-   Follow the instructions provided in [Instructions for Utilizing SAGA](vmud/detector/Instructions for Utilizing SAGA.md) to execute SAGA, analyzing the path of `vulFileMulti`. Subsequently, locate the index number corresponding to the method modified by the patch commit in the generated `result/MeasureIndex.csv`. Record the starting line number of the method index. Initially, add the information in the format `CVEID Number of Modified Methods` to `sagaMulti.json`. Next, append the information in the format `File Name Starting Line Number of Method` to `saga.json`.
+   Follow the instructions provided in [Instructions for Utilizing SAGA](vmud/detector/Instructions for Utilizing SAGA.md) to execute SAGA, analyzing the path of *vulFileMulti*. Subsequently, locate the index number corresponding to the method modified by the patch commit in the generated *result/MeasureIndex.csv*. Record the starting line number of the method index. Initially, add the information in the format *CVEID Number of Modified Methods* to *sagaMulti.json*. Next, append the information in the format *File Name Starting Line Number of Method* to *saga.json*.
 
 - **signature generation:**
 
   - **List of File:**
 
-    - `normalize.sc`: scala script to extract the positional information of formal parameters, local variables, type declarations, and method invocations using Joern
-    - `slice.sc`: scala script to get the method's Program Dependency Graph(PDG) via Joern
-    - `metadata.sc`: scala script to retrieve the list of methods for a specified file using Joern
-    - `get_condition.sc`: scala script to get the positional information of expression which need to rephrase via Joern
-    - `getMacros.py`: python script to extract all macros involved in patch files.
-    - `gen_fingerprint_multi_rep.py`: python script to get the rephrased signature X~rep~
-    - `gen_fingerprint_multi_org.py`: python script to get the original signature X~org~
-    - `config_sigs.json`: configuration file for signature generation
+    - *normalize.sc*: scala script to extract the positional information of formal parameters, local variables, type declarations, and method invocations using Joern
+    - *slice.sc*: scala script to get the method's Program Dependency Graph(PDG) via Joern
+    - *metadata.sc*: scala script to retrieve the list of methods for a specified file using Joern
+    - *get_condition.sc*: scala script to get the positional information of expression which need to rephrase via Joern
+    - *getMacros.py*: python script to extract all macros involved in patch files.
+    - *gen_fingerprint_multi_rep.py*: python script to get the rephrased signature *Xrep*
+    - *gen_fingerprint_multi_org.py*: python script to get the original signature *Xorg*
+    - *config_sigs.json*: configuration file for signature generation
 
   - **configuration:** the modifiable parameters include:
 
-    - `signature_path`: the absolute path to store signature
-    - `work_path`: the absolute path to the directory of joern-cli
-    - `macros`: the absolute path to store macros
-    - `ctagsPath`: the absolute path to the directory of ctags tool
+    - *signature_path*: the absolute path to store signature
+    - *work_path*: the absolute path to the directory of joern-cli
+    - *macros*: the absolute path to store macros
+    - *ctagsPath*: the absolute path to the directory of ctags tool
   
   - **Runtime environment**:
   
@@ -78,13 +78,13 @@ This page lists the supplementary materiales that are omitted from the paper due
   
       **For the vulnerability patches we have collected, we have already extracted all [macros](https://github.com/vmud20/vmud20.github.io/tree/main/dataset/macros4sig) involved in each patch.**
     
-    - **generation step:** please place the files (`normalize.sc`, `gen_fingerprint_multi_rep.py`, `gen_fingerprint_multi_org.py`,  `config_sigs.json` `slice.sc`, `metadata.sc`, `get_condition.sc`) into the `joern-cli` directory. Ensure that the directory includes executable files such as `joern`, `joern-parse`, and `joern-flow`. After complete the relevant entries in the configuration file, just run the following command:
+    - **generation step:** please place the files (*normalize.sc*, *gen_fingerprint_multi_rep.py*, *gen_fingerprint_multi_org.py*,  *config_sigs.json* *slice.sc*, *metadata.sc*, *get_condition.sc*) into the *joern-cli* directory. Ensure that the directory includes executable files such as *joern*, *joern-parse*, and *joern-flow*. After complete the relevant entries in the configuration file, just run the following command:
     
       ```
       python gen_fingerprint_multi.py CVE_ID commit_file_location git_repo_location
       ```
     
-      - **gen_fingerprint_multi.py**: refers to `gen_fingerprint_multi_rep.py` or `gen_fingerprint_multi_org.py`
+      - **gen_fingerprint_multi.py**: refers to *gen_fingerprint_multi_rep.py* or *gen_fingerprint_multi_org.py*
     
       - **CVE_ID**: the CVE-ID corresponding to the patch file.
     
@@ -96,46 +96,46 @@ This page lists the supplementary materiales that are omitted from the paper due
 
 - **List of File:**
 
-  - `pagerank.py`: python script to get the PageRank score of each modified function in the patch.
-  - `config.py`: configuration file for PageRank score generation.
-  - `normalize_per.sc`: scala script to extract the positional information of formal parameters, local variables, type declarations, and method invocations using Joern
-  - `slice_per.sc`: scala script to get the method's Program Dependency Graph(PDG) via Joern
-  - `metadata.sc`: scala script to retrieve the list of methods for a specified file using Joern
-  - `getCondition_per.sc`: scala script to get the positional information of expression which need to rephrase via Joern
-  - `thrown_cve.pkl`: the list of CVEs removed due to the limitations of the Joern and Doxygen tools
-  - `sagaMulti.json`: the line number information of the vulnerability method in the file
-  - `saga`: a clone detection tool saga
-  - `vulFileMulti`: files containing vulnerable functions
-  - `config.json`: configuration for detector
-  - `Detector.py`: python script to implement vmud
-  - `Instructions for Utilizing SAGA.md`: a instruction for SAGA
+  - *pagerank.py*: python script to get the PageRank score of each modified function in the patch.
+  - *config.py*: configuration file for PageRank score generation.
+  - *normalize_per.sc*: scala script to extract the positional information of formal parameters, local variables, type declarations, and method invocations using Joern
+  - *slice_per.sc*: scala script to get the method's Program Dependency Graph(PDG) via Joern
+  - *metadata.sc*: scala script to retrieve the list of methods for a specified file using Joern
+  - *getCondition_per.sc*: scala script to get the positional information of expression which need to rephrase via Joern
+  - *thrown_cve.pkl*: the list of CVEs removed due to the limitations of the Joern and Doxygen tools
+  - *sagaMulti.json*: the line number information of the vulnerability method in the file
+  - *saga*: a clone detection tool saga
+  - *vulFileMulti*: files containing vulnerable functions
+  - *config.json*: configuration for detector
+  - *Detector.py*: python script to implement vmud
+  - *Instructions for Utilizing SAGA.md*: a instruction for SAGA
 
 - **configuration for PageRank:**
 
-  - `Doxygen_conf_location`: the absolute path to the directory of doxygen.
-  - `work_path`: the absolute path to the directory of joern-cli
-  - `error_log_file`:the path to the error log file
-  - `timeout_repo_list_file`: the file path to record repository information for timeouts
-  - `method_info_location `: the file path to record method information
-  - `no_define_location_prefix`: the directory path to store the call graph information
-  - `jump_threshold`: call graph jump threshold, the default is 3
-  - `subprocess_exec_max_time_sec`: the time limit for call graph generation, specified in seconds, the default is 4 hours
-  - `subprocess_exam_time_sec `: the polling frequency for call graph generation process, specified in seconds, the default is 1minute
-  - `file_num_threshold`: the scale of files involved in the call graph, the default is 5000
-  - `pagerank_location_prefix`: the directory path to store the PageRank score files.
+  - *Doxygen_conf_location*: the absolute path to the directory of doxygen.
+  - *work_path*: the absolute path to the directory of joern-cli
+  - *error_log_file*:the path to the error log file
+  - *timeout_repo_list_file*: the file path to record repository information for timeouts
+  - *method_info_location *: the file path to record method information
+  - *no_define_location_prefix*: the directory path to store the call graph information
+  - *jump_threshold*: call graph jump threshold, the default is 3
+  - *subprocess_exec_max_time_sec*: the time limit for call graph generation, specified in seconds, the default is 4 hours
+  - *subprocess_exam_time_sec *: the polling frequency for call graph generation process, specified in seconds, the default is 1minute
+  - *file_num_threshold*: the scale of files involved in the call graph, the default is 5000
+  - *pagerank_location_prefix*: the directory path to store the PageRank score files.
 
 - **configuration for detector:**
 
-  - `signature_path`: the absolute path to store rephrased signature X~rep~
-  - `work_path`: the absolute path to the directory of joern-cli
-  - `saga_path`: the absolute path to the directory of SAGA
-  - `progress_file`: the path of log file
-  - `saga_multi`: the path of `sagaMulti.json`
-  - `vulFileMulti`: the path of `vulFileMulti`
-  - `ctagsPath`: the absolute path to the directory of ctags tool
-  - `tempSignature`: the path to store the detected repository's signature
-  - `signature_path_org`:  the absolute path to store original signature X~org~
-  - `targetRepoMacros`:  the absolute path to store macros
+  - *signature_path*: the absolute path to store rephrased signature X~rep~
+  - *work_path*: the absolute path to the directory of joern-cli
+  - *saga_path*: the absolute path to the directory of SAGA
+  - *progress_file*: the path of log file
+  - *saga_multi*: the path of *sagaMulti.json*
+  - *vulFileMulti*: the path of *vulFileMulti*
+  - *ctagsPath*: the absolute path to the directory of ctags tool
+  - *tempSignature*: the path to store the detected repository's signature
+  - *signature_path_org*:  the absolute path to store original signature X~org~
+  - *targetRepoMacros*:  the absolute path to store macros
 
 - **Runtime environment**:
 
@@ -154,7 +154,7 @@ This page lists the supplementary materiales that are omitted from the paper due
 
 - **Detector**
 
-  1. **PageRank score generation:** please place the files `metadata.sc`, `pagerank.py`, and `config.py` into the `joern-cli` directory. Ensure that the directory includes executable files such as `joern`, `joern-parse`, and `joern-flow`. After complete the relevant entries in the configuration file, just run the following command:
+  1. **PageRank score generation:** please place the files *metadata.sc*, *pagerank.py*, and *config.py* into the *joern-cli* directory. Ensure that the directory includes executable files such as *joern*, *joern-parse*, and *joern-flow*. After complete the relevant entries in the configuration file, just run the following command:
 
      ```bash
      python pagerank.py CVE_ID commit_file_location git_repo_location
@@ -170,9 +170,9 @@ This page lists the supplementary materiales that are omitted from the paper due
 
   2. **Detector:**
 
-     (i) In the `joern-cli` directory (which should include executable files such as `joern`, `joern-parse`, and `joern-flow`), create five folders named `temp`, `slicingJson`, `normalizeJson`, `normalized`, and `conditionJson`. 
+     (i) In the *joern-cli* directory (which should include executable files such as *joern*, *joern-parse*, and *joern-flow*), create five folders named *temp*, *slicingJson*, *normalizeJson*, *normalized*, and *conditionJson*. 
 
-     (ii) Please place the following files in the `joern-cli` directory: `normalize_per.sc`, `Detector.py`, `slice_per.sc`, `metadata.sc`, `getCondition_per.sc`, `thrown_cve.pkl`, `config.json`, `pagerank.py`, and `config.py`. The folders `vulFileMulti` and `ctags`, along with the `saga` folder and `sagaMulti.json` file, have no specific placement restriction.
+     (ii) Please place the following files in the *joern-cli* directory: *normalize_per.sc*, *Detector.py*, *slice_per.sc*, *metadata.sc*, *getCondition_per.sc*, *thrown_cve.pkl*, *config.json*, *pagerank.py*, and *config.py*. The folders *vulFileMulti* and *ctags*, along with the *saga* folder and *sagaMulti.json* file, have no specific placement restriction.
 
      (iii) After complete the relevant entries in the configuration file, just run the following command:
 
@@ -180,9 +180,9 @@ This page lists the supplementary materiales that are omitted from the paper due
      python Detector.py detect_dir
      ```
 
-     The tool will output the detected recurring vulnerability results to the `resultMulti.txt` file in the `joern-cli` directory.
+     The tool will output the detected recurring vulnerability results to the *resultMulti.txt* file in the *joern-cli* directory.
 
-     - `detect_dir` refers to absolute path for repository that needed to be detected
+     - *detect_dir* refers to absolute path for repository that needed to be detected
 
 ### Evaluation
 
