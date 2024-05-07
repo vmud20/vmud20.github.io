@@ -1,0 +1,23 @@
+
+
+
+
+
+
+
+
+
+
+#   define PJ_CLI_CONSOLE_POOL_INC     256
+#   define PJ_CLI_CONSOLE_POOL_SIZE    256
+#   define PJ_CLI_MAX_CHOICE_VAL   64
+#   define PJ_CLI_MAX_CMD_HISTORY  16
+#   define PJ_CLI_POOL_INC     512
+#   define PJ_CLI_POOL_SIZE    1024
+#   define PJ_CLI_TELNET_POOL_INC  512
+#   define PJ_CLI_TELNET_POOL_SIZE 1024
+#   define PJ_DNS_MAX_IP_IN_A_REC   8
+#   define PJ_DNS_RESOLVER_QUERY_RETRANSMIT_COUNT   5
+#   define PJ_DNS_RESOLVER_QUERY_RETRANSMIT_DELAY   2000
+#   define PJ_HTTP_DEFAULT_TIMEOUT         (60000)
+

@@ -1,0 +1,65 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#define DNS4_DOMAIN  L"in-addr.arpa"
+#define DNS6_DOMAIN  L"IP6.ARPA"
+#define DNS_DEFAULT_TIMEOUT      2
+#define DNS_FLAGS_OPCODE_INVERSE      1
+#define DNS_FLAGS_OPCODE_SERVER_STATE 2
+#define DNS_FLAGS_OPCODE_STANDARD     0
+#define DNS_FLAGS_QR_QUERY     0
+#define DNS_FLAGS_QR_RESPONSE  1
+#define DNS_FLAGS_RCODE_NAME_ERROR  3
+#define DNS_FLAGS_RCODE_NO_ERROR    0
+#define DNS_PROTOCOL_TCP   EFI_IP_PROTO_TCP
+#define DNS_PROTOCOL_UDP   EFI_IP_PROTO_UDP
+#define DNS_SERVER_PORT   53
+#define DNS_STATE_CONFIGED       1
+#define DNS_STATE_DESTROY        2
+#define DNS_STATE_UNCONFIGED     0
+#define DNS_TIME_TO_GETMAP       5
+#define DNS_VERSION  0x00000000
+
+#define DHCP4_MAGIC                  0x63538263 
+#define DHCP4_MSG_INFORM             8
+#define DHCP4_MSG_REQUEST            3
+#define DHCP4_OPCODE_REQUEST         1
+#define DHCP4_TAG_DNS_SERVER         6
+#define DHCP4_TAG_EOP                255  
+#define DHCP4_TAG_PARA_LIST          55
+#define DHCP4_TAG_TYPE               53
+#define DHCP6_TAG_DNS_REQUEST        6
+#define DHCP6_TAG_DNS_SERVER         23
+#define DNS_CHECK_MEDIA_GET_DHCP_WAITING_TIME    EFI_TIMER_PERIOD_SECONDS(20)
+#define IP4_ETHER_PROTO       0x0800
+
+#define DNS_INSTANCE_FROM_THIS_PROTOCOL4(a)  \
+  CR (a, DNS_INSTANCE, Dns4, DNS_INSTANCE_SIGNATURE)
+#define DNS_INSTANCE_FROM_THIS_PROTOCOL6(a)  \
+  CR (a, DNS_INSTANCE, Dns6, DNS_INSTANCE_SIGNATURE)
+#define DNS_INSTANCE_SIGNATURE   SIGNATURE_32 ('D', 'N', 'S', 'I')
+#define DNS_SERVICE_FROM_THIS(a)   \
+  CR (a, DNS_SERVICE, ServiceBinding, DNS_SERVICE_SIGNATURE)
+#define DNS_SERVICE_SIGNATURE    SIGNATURE_32 ('D', 'N', 'S', 'S')
+

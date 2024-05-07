@@ -1,0 +1,6 @@
+{
+    "signature_path":"/path/to/save/signature/",
+    "work_path": "/path/to/joern/",
+    "macros": "/path/to/save/macros/",
+    "ctagsPath":"/path/to/ctags"
+}

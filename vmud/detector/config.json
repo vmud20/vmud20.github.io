@@ -1,0 +1,12 @@
+{
+    "signature_path":"/path/to/signature_rep/",
+    "work_path": "/path/to/joern/",
+    "saga_path": "/path/to/saga",
+    "progress_file": "/path/to/progess/",
+    "saga_multi": "/path/to/sagaMulti.json",
+    "vulFileMulti": "/path/to/vulFileMulti/",
+    "ctagsPath":"/path/to/ctags",
+    "tempSignature": "/path/to/save/tempSignature/",
+    "signature_path_org": "/path/to/signature_org/",
+    "targetRepoMacros":"/path/to/save/tarMacros/"
+}

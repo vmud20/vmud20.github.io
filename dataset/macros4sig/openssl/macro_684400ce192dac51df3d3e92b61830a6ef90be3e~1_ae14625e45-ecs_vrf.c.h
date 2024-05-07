@@ -1,0 +1,4 @@
+
+
+#define ECDSA_METHOD_FLAG_ALLOCATED 0x2
+

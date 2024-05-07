@@ -1,0 +1,244 @@
+
+
+#include<sys/eventfd.h>
+#include<stdio.h>
+
+#include<sys/socket.h>
+
+#include<sys/queue.h>
+
+#include<sys/types.h>
+#include<linux/virtio_ring.h>
+#include<stdbool.h>
+
+#include<linux/if.h>
+
+
+#include<stdint.h>
+#include<linux/virtio_net.h>
+#include<linux/vhost.h>
+#include<unistd.h>
+
+
+
+#define VIRTIO_CRYPTO_AEAD_CCM    2
+#define VIRTIO_CRYPTO_AEAD_CHACHA20_POLY1305  3
+#define VIRTIO_CRYPTO_AEAD_CREATE_SESSION \
+	   VIRTIO_CRYPTO_OPCODE(VIRTIO_CRYPTO_SERVICE_AEAD, 0x02)
+#define VIRTIO_CRYPTO_AEAD_DECRYPT \
+	VIRTIO_CRYPTO_OPCODE(VIRTIO_CRYPTO_SERVICE_AEAD, 0x01)
+#define VIRTIO_CRYPTO_AEAD_DESTROY_SESSION \
+	   VIRTIO_CRYPTO_OPCODE(VIRTIO_CRYPTO_SERVICE_AEAD, 0x03)
+#define VIRTIO_CRYPTO_AEAD_ENCRYPT \
+	VIRTIO_CRYPTO_OPCODE(VIRTIO_CRYPTO_SERVICE_AEAD, 0x00)
+#define VIRTIO_CRYPTO_AEAD_GCM    1
+#define VIRTIO_CRYPTO_BADMSG    2
+#define VIRTIO_CRYPTO_CIPHER_3DES_CBC           8
+#define VIRTIO_CRYPTO_CIPHER_3DES_CTR           9
+#define VIRTIO_CRYPTO_CIPHER_3DES_ECB           7
+#define VIRTIO_CRYPTO_CIPHER_AES_CBC            3
+#define VIRTIO_CRYPTO_CIPHER_AES_CTR            4
+#define VIRTIO_CRYPTO_CIPHER_AES_ECB            2
+#define VIRTIO_CRYPTO_CIPHER_AES_F8             12
+#define VIRTIO_CRYPTO_CIPHER_AES_XTS            13
+#define VIRTIO_CRYPTO_CIPHER_ARC4               1
+#define VIRTIO_CRYPTO_CIPHER_CREATE_SESSION \
+	   VIRTIO_CRYPTO_OPCODE(VIRTIO_CRYPTO_SERVICE_CIPHER, 0x02)
+#define VIRTIO_CRYPTO_CIPHER_DECRYPT \
+	VIRTIO_CRYPTO_OPCODE(VIRTIO_CRYPTO_SERVICE_CIPHER, 0x01)
+#define VIRTIO_CRYPTO_CIPHER_DESTROY_SESSION \
+	   VIRTIO_CRYPTO_OPCODE(VIRTIO_CRYPTO_SERVICE_CIPHER, 0x03)
+#define VIRTIO_CRYPTO_CIPHER_DES_CBC            6
+#define VIRTIO_CRYPTO_CIPHER_DES_ECB            5
+#define VIRTIO_CRYPTO_CIPHER_ENCRYPT \
+	VIRTIO_CRYPTO_OPCODE(VIRTIO_CRYPTO_SERVICE_CIPHER, 0x00)
+#define VIRTIO_CRYPTO_CIPHER_KASUMI_F8          10
+#define VIRTIO_CRYPTO_CIPHER_SNOW3G_UEA2        11
+#define VIRTIO_CRYPTO_CIPHER_ZUC_EEA3           14
+#define VIRTIO_CRYPTO_ERR       1
+#define VIRTIO_CRYPTO_HASH \
+	VIRTIO_CRYPTO_OPCODE(VIRTIO_CRYPTO_SERVICE_HASH, 0x00)
+#define VIRTIO_CRYPTO_HASH_CREATE_SESSION \
+	   VIRTIO_CRYPTO_OPCODE(VIRTIO_CRYPTO_SERVICE_HASH, 0x02)
+#define VIRTIO_CRYPTO_HASH_DESTROY_SESSION \
+	   VIRTIO_CRYPTO_OPCODE(VIRTIO_CRYPTO_SERVICE_HASH, 0x03)
+#define VIRTIO_CRYPTO_HASH_MD5           1
+#define VIRTIO_CRYPTO_HASH_SHA1          2
+#define VIRTIO_CRYPTO_HASH_SHA3_224      7
+#define VIRTIO_CRYPTO_HASH_SHA3_256      8
+#define VIRTIO_CRYPTO_HASH_SHA3_384      9
+#define VIRTIO_CRYPTO_HASH_SHA3_512      10
+#define VIRTIO_CRYPTO_HASH_SHA3_SHAKE128      11
+#define VIRTIO_CRYPTO_HASH_SHA3_SHAKE256      12
+#define VIRTIO_CRYPTO_HASH_SHA_224       3
+#define VIRTIO_CRYPTO_HASH_SHA_256       4
+#define VIRTIO_CRYPTO_HASH_SHA_384       5
+#define VIRTIO_CRYPTO_HASH_SHA_512       6
+#define VIRTIO_CRYPTO_INVSESS   4 
+#define VIRTIO_CRYPTO_MAC \
+	VIRTIO_CRYPTO_OPCODE(VIRTIO_CRYPTO_SERVICE_MAC, 0x00)
+#define VIRTIO_CRYPTO_MAC_CBCMAC_AES               49
+#define VIRTIO_CRYPTO_MAC_CBCMAC_KASUMI_F9         50
+#define VIRTIO_CRYPTO_MAC_CMAC_3DES                25
+#define VIRTIO_CRYPTO_MAC_CMAC_AES                 26
+#define VIRTIO_CRYPTO_MAC_CREATE_SESSION \
+	   VIRTIO_CRYPTO_OPCODE(VIRTIO_CRYPTO_SERVICE_MAC, 0x02)
+#define VIRTIO_CRYPTO_MAC_DESTROY_SESSION \
+	   VIRTIO_CRYPTO_OPCODE(VIRTIO_CRYPTO_SERVICE_MAC, 0x03)
+#define VIRTIO_CRYPTO_MAC_GMAC_AES                 41
+#define VIRTIO_CRYPTO_MAC_GMAC_TWOFISH             42
+#define VIRTIO_CRYPTO_MAC_HMAC_MD5                 1
+#define VIRTIO_CRYPTO_MAC_HMAC_SHA1                2
+#define VIRTIO_CRYPTO_MAC_HMAC_SHA_224             3
+#define VIRTIO_CRYPTO_MAC_HMAC_SHA_256             4
+#define VIRTIO_CRYPTO_MAC_HMAC_SHA_384             5
+#define VIRTIO_CRYPTO_MAC_HMAC_SHA_512             6
+#define VIRTIO_CRYPTO_MAC_KASUMI_F9                27
+#define VIRTIO_CRYPTO_MAC_SNOW3G_UIA2              28
+#define VIRTIO_CRYPTO_MAC_XCBC_AES                 53
+#define VIRTIO_CRYPTO_NOTSUPP   3
+#define VIRTIO_CRYPTO_NO_AEAD     0
+#define VIRTIO_CRYPTO_NO_CIPHER                 0
+#define VIRTIO_CRYPTO_NO_HASH            0
+#define VIRTIO_CRYPTO_NO_MAC                       0
+#define VIRTIO_CRYPTO_OK        0
+#define VIRTIO_CRYPTO_OPCODE(service, op)   (((service) << 8) | (op))
+#define VIRTIO_CRYPTO_OP_DECRYPT  2
+#define VIRTIO_CRYPTO_OP_ENCRYPT  1
+#define VIRTIO_CRYPTO_SERVICE_AEAD   3
+#define VIRTIO_CRYPTO_SERVICE_CIPHER 0
+#define VIRTIO_CRYPTO_SERVICE_HASH   1
+#define VIRTIO_CRYPTO_SERVICE_MAC    2
+#define VIRTIO_CRYPTO_SYM_ALG_CHAIN_ORDER_CIPHER_THEN_HASH  2
+#define VIRTIO_CRYPTO_SYM_ALG_CHAIN_ORDER_HASH_THEN_CIPHER  1
+#define VIRTIO_CRYPTO_SYM_HASH_MODE_AUTH     2
+#define VIRTIO_CRYPTO_SYM_HASH_MODE_NESTED   3
+#define VIRTIO_CRYPTO_SYM_HASH_MODE_PLAIN    1
+#define VIRTIO_CRYPTO_SYM_OP_ALGORITHM_CHAINING  2
+#define VIRTIO_CRYPTO_SYM_OP_CIPHER  1
+#define VIRTIO_CRYPTO_SYM_OP_NONE  0
+#define VIRTIO_CRYPTO_S_HW_READY  (1 << 0)
+
+#define VHOST_MEMORY_MAX_NREGIONS 8
+#define VHOST_USER_HDR_SIZE offsetof(VhostUserMsg, payload.u64)
+#define VHOST_USER_REPLY_MASK       (0x1 << 2)
+#define VHOST_USER_VERSION    0x1
+#define VHOST_USER_VERSION_MASK     0x3
+#define VHOST_USER_VRING_IDX_MASK   0xff
+#define VHOST_USER_VRING_NOFD_MASK  (0x1<<8)
+
+#define RTE_VHOST_NEED_LOG(features)	((features) & (1ULL << VHOST_F_LOG_ALL))
+#define VHOST_USER_PROTOCOL_F_CONFIG 9
+#define VHOST_USER_PROTOCOL_F_CRYPTO_SESSION 7
+#define VHOST_USER_PROTOCOL_F_HOST_NOTIFIER 11
+#define VHOST_USER_PROTOCOL_F_INFLIGHT_SHMFD 12
+#define VHOST_USER_PROTOCOL_F_PAGEFAULT 8
+#define VHOST_USER_PROTOCOL_F_SLAVE_SEND_FD 10
+#define VHOST_USER_PROTOCOL_F_STATUS 16
+ #define VIRTIO_NET_F_GUEST_ANNOUNCE 21
+ #define VIRTIO_NET_F_MTU 3
+
+#define ASYNC_MAX_POLL_SEG 255
+#define BUF_VECTOR_MAX 256
+#define IF_NAME_SZ (PATH_MAX > IFNAMSIZ ? PATH_MAX : IFNAMSIZ)
+#define MAX_PKT_BURST 32
+#define PACKED_BATCH_MASK (PACKED_BATCH_SIZE - 1)
+#define PACKED_BATCH_SIZE (RTE_CACHE_LINE_SIZE / \
+			    sizeof(struct vring_packed_desc))
+#define PACKED_DESC_DEQUEUE_USED_FLAG(w)	\
+	((w) ? (VRING_DESC_F_AVAIL | VRING_DESC_F_USED) : 0x0)
+#define PACKED_DESC_ENQUEUE_USED_FLAG(w)	\
+	((w) ? (VRING_DESC_F_AVAIL | VRING_DESC_F_USED | VRING_DESC_F_WRITE) : \
+		VRING_DESC_F_WRITE)
+#define PACKED_DESC_SINGLE_DEQUEUE_FLAG (VRING_DESC_F_NEXT | \
+					 VRING_DESC_F_INDIRECT)
+#define PRINT_PACKET(device, addr, size, header) do { \
+	char *pkt_addr = (char *)(addr); \
+	unsigned int index; \
+	char packet[VHOST_MAX_PRINT_BUFF]; \
+	\
+	if ((header)) \
+		snprintf(packet, VHOST_MAX_PRINT_BUFF, "(%d) Header size %d: ", (device->vid), (size)); \
+	else \
+		snprintf(packet, VHOST_MAX_PRINT_BUFF, "(%d) Packet size %d: ", (device->vid), (size)); \
+	for (index = 0; index < (size); index++) { \
+		snprintf(packet + strnlen(packet, VHOST_MAX_PRINT_BUFF), VHOST_MAX_PRINT_BUFF - strnlen(packet, VHOST_MAX_PRINT_BUFF), \
+			"%02hhx ", pkt_addr[index]); \
+	} \
+	snprintf(packet + strnlen(packet, VHOST_MAX_PRINT_BUFF), VHOST_MAX_PRINT_BUFF - strnlen(packet, VHOST_MAX_PRINT_BUFF), "\n"); \
+	\
+	VHOST_LOG_DATA(DEBUG, "%s", packet); \
+} while (0)
+#define VHOST_ACCESS_RO      0x1
+#define VHOST_ACCESS_RW      0x3
+#define VHOST_ACCESS_WO      0x2
+#define VHOST_BINARY_SEARCH_THRESH 256
+#define VHOST_IOTLB_ACCESS_FAIL    4
+#define VHOST_IOTLB_INVALIDATE     3
+#define VHOST_IOTLB_MISS           1
+#define VHOST_IOTLB_MSG 0x1
+#define VHOST_IOTLB_UPDATE         2
+#define VHOST_LOG_CACHE_NR 32
+#define VHOST_LOG_CONFIG(level, fmt, args...)			\
+	rte_log(RTE_LOG_ ## level, vhost_config_log_level,	\
+		"VHOST_CONFIG: " fmt, ##args)
+#define VHOST_LOG_DATA(level, fmt, args...) \
+	(void)((RTE_LOG_ ## level <= RTE_LOG_DP_LEVEL) ?	\
+	 rte_log(RTE_LOG_ ## level,  vhost_data_log_level,	\
+		"VHOST_DATA : " fmt, ##args) :			\
+	 0)
+#define VHOST_MAX_ASYNC_IT (MAX_PKT_BURST * 2)
+#define VHOST_MAX_ASYNC_VEC (BUF_VECTOR_MAX * 2)
+#define VHOST_MAX_PRINT_BUFF 6072
+#define VIRTIO_DEV_BUILTIN_VIRTIO_NET 4
+#define VIRTIO_DEV_FEATURES_FAILED 16
+#define VIRTIO_DEV_READY 2
+#define VIRTIO_DEV_RUNNING 1
+#define VIRTIO_DEV_STOPPED -1
+#define VIRTIO_DEV_VDPA_CONFIGURED 8
+#define VIRTIO_F_IN_ORDER      35
+#define VIRTIO_F_IOMMU_PLATFORM 33
+#define VIRTIO_F_RING_PACKED 34
+ #define VIRTIO_F_VERSION_1 32
+#define VIRTIO_NET_SUPPORTED_FEATURES ((1ULL << VIRTIO_NET_F_MRG_RXBUF) | \
+				(1ULL << VIRTIO_F_ANY_LAYOUT) | \
+				(1ULL << VIRTIO_NET_F_CTRL_VQ) | \
+				(1ULL << VIRTIO_NET_F_CTRL_RX) | \
+				(1ULL << VIRTIO_NET_F_GUEST_ANNOUNCE) | \
+				(1ULL << VIRTIO_NET_F_MQ)      | \
+				(1ULL << VIRTIO_F_VERSION_1)   | \
+				(1ULL << VHOST_F_LOG_ALL)      | \
+				(1ULL << VHOST_USER_F_PROTOCOL_FEATURES) | \
+				(1ULL << VIRTIO_NET_F_GSO) | \
+				(1ULL << VIRTIO_NET_F_HOST_TSO4) | \
+				(1ULL << VIRTIO_NET_F_HOST_TSO6) | \
+				(1ULL << VIRTIO_NET_F_HOST_UFO) | \
+				(1ULL << VIRTIO_NET_F_HOST_ECN) | \
+				(1ULL << VIRTIO_NET_F_CSUM)    | \
+				(1ULL << VIRTIO_NET_F_GUEST_CSUM) | \
+				(1ULL << VIRTIO_NET_F_GUEST_TSO4) | \
+				(1ULL << VIRTIO_NET_F_GUEST_TSO6) | \
+				(1ULL << VIRTIO_NET_F_GUEST_UFO) | \
+				(1ULL << VIRTIO_NET_F_GUEST_ECN) | \
+				(1ULL << VIRTIO_RING_F_INDIRECT_DESC) | \
+				(1ULL << VIRTIO_RING_F_EVENT_IDX) | \
+				(1ULL << VIRTIO_NET_F_MTU)  | \
+				(1ULL << VIRTIO_F_IN_ORDER) | \
+				(1ULL << VIRTIO_F_IOMMU_PLATFORM) | \
+				(1ULL << VIRTIO_F_RING_PACKED))
+#define VRING_EVENT_F_DESC 0x2
+#define VRING_EVENT_F_DISABLE 0x1
+#define VRING_EVENT_F_ENABLE 0x0
+
+#define vhost_avail_event(vr) \
+	(*(volatile uint16_t*)&(vr)->used->ring[(vr)->size])
+#define vhost_for_each_try_unroll(iter, val, size) _Pragma("GCC unroll 4") \
+	for (iter = val; iter < size; iter++)
+#define vhost_used_event(vr) \
+	(*(volatile uint16_t*)&(vr)->avail->ring[(vr)->size])
+
+#define RTE_VHOST_QUEUE_ALL UINT16_MAX
+
+#define RTE_VDPA_STATS_NAME_SIZE 64
+
+
