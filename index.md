@@ -30,7 +30,7 @@ This page lists the supplementary materiales that are omitted from the paper due
 
 - **sagaMulti.json construction:**
 
-   Follow the instructions provided in [Instructions for Utilizing SAGA](vmud/detector/Instructions for Utilizing SAGA.md) to execute SAGA, analyzing the path of *vulFileMulti*. Subsequently, locate the index number corresponding to the method modified by the patch commit in the generated *result/MeasureIndex.csv*. Record the starting line number of the method index. Initially, add the information in the format *CVEID Number of Modified Methods* to *sagaMulti.json*. Next, append the information in the format *File Name Starting Line Number of Method* to *saga.json*.
+   Follow the instructions provided in [Instructions for Utilizing SAGA](https://github.com/vmud20/vmud20.github.io/tree/main/vmud/detector/Instructions for Utilizing SAGA.md) to execute SAGA, analyzing the path of *vulFileMulti*. Subsequently, locate the index number corresponding to the method modified by the patch commit in the generated *result/MeasureIndex.csv*. Record the starting line number of the method index. Initially, add the information in the format *CVEID Number of Modified Methods* to *sagaMulti.json*. Next, append the information in the format *File Name Starting Line Number of Method* to *saga.json*.
 
 - **signature generation:**
 
@@ -100,7 +100,7 @@ This page lists the supplementary materiales that are omitted from the paper due
   
       **For the vulnerability patches we have used in evaluation, we have already generated all [PageRank score](https://github.com/vmud20/vmud20.github.io/tree/main/dataset/pagerank) of each modified function in the patch.**
   
-    - **preprocess step: ** if you want to generate X~rep~, you need to extract all macros involved in patch files. After complete the relevant entries in the configuration file, just run the following command:
+    - **preprocess step:** if you want to generate X~rep~, you need to extract all macros involved in patch files. After complete the relevant entries in the configuration file, just run the following command:
   
       ```bash
       python getMacros.py CVE_ID commit_file_location git_repo_location
