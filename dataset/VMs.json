@@ -1,0 +1,4052 @@
+[
+    {
+        "cveId": "CVE-2020-35518",
+        "commitId": "b6aae4d8e7c8a6ddd21646f94fef1bf7f22c3f32",
+        "repo": "https://github.com/389ds/389-ds-base"
+    },
+    {
+        "cveId": "CVE-2020-15173",
+        "commitId": "2324bcd5ba12cf28f47357a8f03cd41b7c04c52b",
+        "repo": "https://github.com/accel-ppp/accel-ppp"
+    },
+    {
+        "cveId": "CVE-2020-14147",
+        "commitId": "ef764dde1cca2f25d00686673d1bc89448819571",
+        "repo": "https://github.com/antirez/redis"
+    },
+    {
+        "cveId": "CVE-2020-12607",
+        "commitId": "e592f106edd5acf6dacedfab2ad16fe6c735c9d1",
+        "repo": "https://github.com/AntonKueltz/fastecdsa"
+    },
+    {
+        "cveId": "CVE-2021-25939",
+        "commitId": "d7b35a6884c6b2802d34d79fb2a79fb2c9ec2175",
+        "repo": "https://github.com/arangodb/arangodb"
+    },
+    {
+        "cveId": "CVE-2021-25940",
+        "commitId": "e9c6ee9dcca7b9b4fbcd02a0b323d205bee838d3",
+        "repo": "https://github.com/arangodb/arangodb"
+    },
+    {
+        "cveId": "CVE-2021-3889",
+        "commitId": "bec783e6212439a335ba6e8df7ab8ed610ca9a21",
+        "repo": "https://github.com/bfabiszewski/libmobi"
+    },
+    {
+        "cveId": "CVE-2020-27153",
+        "commitId": "1cd644db8c23a2f530ddb93cebed7dacc5f5721a",
+        "repo": "https://github.com/bluez/bluez"
+    },
+    {
+        "cveId": "CVE-2021-3658",
+        "commitId": "b497b5942a8beb8f89ca1c359c54ad67ec843055",
+        "repo": "https://github.com/bluez/bluez"
+    },
+    {
+        "cveId": "CVE-2021-45005",
+        "commitId": "df8559e7bdbc6065276e786217eeee70f28fce66",
+        "repo": "https://github.com/ccxvii/mujs"
+    },
+    {
+        "cveId": "CVE-2021-3660",
+        "commitId": "8d9bc10d8128aae03dfde62fd00075fe492ead10",
+        "repo": "https://github.com/cockpit-project/cockpit"
+    },
+    {
+        "cveId": "CVE-2020-11722",
+        "commitId": "768f60da87a3fa0b5561da5ade9309577c176d04",
+        "repo": "https://github.com/crawl/crawl"
+    },
+    {
+        "cveId": "CVE-2021-22901",
+        "commitId": "7f4a9a9b2a49547eae24d2e19bc5c346e9026479",
+        "repo": "https://github.com/curl/curl"
+    },
+    {
+        "cveId": "CVE-2020-36279",
+        "commitId": "3c18c43b6a3f753f0dfff99610d46ad46b8bfac4",
+        "repo": "https://github.com/DanBloomberg/leptonica"
+    },
+    {
+        "cveId": "CVE-2020-26272",
+        "commitId": "07a1c2a3e5845901f7e2eda9506695be58edc73c",
+        "repo": "https://github.com/electron/electron"
+    },
+    {
+        "cveId": "CVE-2020-15174",
+        "commitId": "18613925610ba319da7f497b6deed85ad712c59b",
+        "repo": "https://github.com/electron/electron"
+    },
+    {
+        "cveId": "CVE-2020-20740",
+        "commitId": "1b422459f07353adce2878806d5247d9e91fb397",
+        "repo": "https://github.com/enferex/pdfresurrect"
+    },
+    {
+        "cveId": "CVE-2021-43825",
+        "commitId": "148de954ed3585d8b4298b424aa24916d0de6136",
+        "repo": "https://github.com/envoyproxy/envoy"
+    },
+    {
+        "cveId": "CVE-2021-43826",
+        "commitId": "ce0ae309057a216aba031aff81c445c90c6ef145",
+        "repo": "https://github.com/envoyproxy/envoy"
+    },
+    {
+        "cveId": "CVE-2021-24028",
+        "commitId": "bfda1efa547dce11a38592820916db01b05b9339",
+        "repo": "https://github.com/facebook/fbthrift"
+    },
+    {
+        "cveId": "CVE-2021-24036",
+        "commitId": "4f304af1411e68851bdd00ef6140e9de4616f7d3",
+        "repo": "https://github.com/facebook/folly"
+    },
+    {
+        "cveId": "CVE-2020-1912",
+        "commitId": "091835377369c8fd5917d9b87acffa721ad2a168",
+        "repo": "https://github.com/facebook/hermes"
+    },
+    {
+        "cveId": "CVE-2020-1914",
+        "commitId": "b2021df620824627f5a8c96615edbd1eb7fdddfc",
+        "repo": "https://github.com/facebook/hermes"
+    },
+    {
+        "cveId": "CVE-2020-1898",
+        "commitId": "1746dfb11fc0048366f34669e74318b8278a684c",
+        "repo": "https://github.com/facebook/hhvm"
+    },
+    {
+        "cveId": "CVE-2021-24025",
+        "commitId": "08193b7f0cd3910256e00d599f0f3eb2519c44ca",
+        "repo": "https://github.com/facebook/hhvm"
+    },
+    {
+        "cveId": "CVE-2020-1916",
+        "commitId": "abe0b29e4d3a610f9bc920b8be4ad8403364c2d4",
+        "repo": "https://github.com/facebook/hhvm"
+    },
+    {
+        "cveId": "CVE-2020-1900",
+        "commitId": "c1c4bb0cf9e076aafaf4ff3515556ef9faf906f3",
+        "repo": "https://github.com/facebook/hhvm"
+    },
+    {
+        "cveId": "CVE-2021-43860",
+        "commitId": "ba818f504c926baaf6e362be8159cfacf994310e",
+        "repo": "https://github.com/flatpak/flatpak"
+    },
+    {
+        "cveId": "CVE-2020-4030",
+        "commitId": "05cd9ea2290d23931f615c1b004d4b2e69074e27",
+        "repo": "https://github.com/FreeRDP/FreeRDP"
+    },
+    {
+        "cveId": "CVE-2020-11089",
+        "commitId": "6b485b146a1b9d6ce72dfd7b5f36456c166e7a16",
+        "repo": "https://github.com/FreeRDP/FreeRDP"
+    },
+    {
+        "cveId": "CVE-2020-11097",
+        "commitId": "58a3122250d54de3a944c487776bcd4d1da4721e",
+        "repo": "https://github.com/FreeRDP/FreeRDP"
+    },
+    {
+        "cveId": "CVE-2020-11095",
+        "commitId": "733ee3208306b1ea32697b356c0215180fc3f049",
+        "repo": "https://github.com/FreeRDP/FreeRDP"
+    },
+    {
+        "cveId": "CVE-2020-11048",
+        "commitId": "9301bfe730c66180263248b74353daa99f5a969b",
+        "repo": "https://github.com/FreeRDP/FreeRDP"
+    },
+    {
+        "cveId": "CVE-2020-11096",
+        "commitId": "b8beb55913471952f92770c90c372139d78c16c0",
+        "repo": "https://github.com/FreeRDP/FreeRDP"
+    },
+    {
+        "cveId": "CVE-2020-11085",
+        "commitId": "b73143cf7ee5fe4cdabcbf56908aa15d8a883821",
+        "repo": "https://github.com/FreeRDP/FreeRDP"
+    },
+    {
+        "cveId": "CVE-2020-11086",
+        "commitId": "c098f21fdaadca57ff649eee1674f6cc321a2ec4",
+        "repo": "https://github.com/FreeRDP/FreeRDP"
+    },
+    {
+        "cveId": "CVE-2020-11046",
+        "commitId": "ed53cd148f43cbab905eaa0f5308c2bf3c48cc37",
+        "repo": "https://github.com/FreeRDP/FreeRDP"
+    },
+    {
+        "cveId": "CVE-2021-32020",
+        "commitId": "c7a9a01c94987082b223d3e59969ede64363da63",
+        "repo": "https://github.com/FreeRTOS/FreeRTOS-Kernel"
+    },
+    {
+        "cveId": "CVE-2021-21300",
+        "commitId": "684dd4c2b414bcf648505e74498a608f28de4592",
+        "repo": "https://github.com/git/git"
+    },
+    {
+        "cveId": "CVE-2020-11008",
+        "commitId": "c44088ecc4b0722636e0a305f9608d3047197282",
+        "repo": "https://github.com/git/git"
+    },
+    {
+        "cveId": "CVE-2020-14976",
+        "commitId": "2eb0d1dab6a6de76cf3556130a2d52af101077db",
+        "repo": "https://github.com/GNS3/ubridge"
+    },
+    {
+        "cveId": "CVE-2021-40574",
+        "commitId": "30ac5e5236b790accd1f25347eebf2dc8c6c1bcb",
+        "repo": "https://github.com/gpac/gpac"
+    },
+    {
+        "cveId": "CVE-2021-30022",
+        "commitId": "51cdb67ff7c5f1242ac58c5aa603ceaf1793b788",
+        "repo": "https://github.com/gpac/gpac"
+    },
+    {
+        "cveId": "CVE-2021-32439",
+        "commitId": "77ed81c069e10b3861d88f72e1c6be1277ee7eae",
+        "repo": "https://github.com/gpac/gpac"
+    },
+    {
+        "cveId": "CVE-2021-32134",
+        "commitId": "328c6d682698fdb9878dbb4f282963d42c538c01",
+        "repo": "https://github.com/gpac/gpac"
+    },
+    {
+        "cveId": "CVE-2021-40592",
+        "commitId": "71460d72ec07df766dab0a4d52687529f3efcf0a",
+        "repo": "https://github.com/gpac/gpac"
+    },
+    {
+        "cveId": "CVE-2021-40566",
+        "commitId": "96047e0e6166407c40cc19f4e94fb35cd7624391",
+        "repo": "https://github.com/gpac/gpac"
+    },
+    {
+        "cveId": "CVE-2021-31262",
+        "commitId": "b2eab95e07cb5819375a50358d4806a8813b6e50",
+        "repo": "https://github.com/gpac/gpac"
+    },
+    {
+        "cveId": "CVE-2021-40564",
+        "commitId": "cf6771c857eb9a290e2c19ddacfdd3ed98b27618",
+        "repo": "https://github.com/gpac/gpac"
+    },
+    {
+        "cveId": "CVE-2021-32139",
+        "commitId": "d527325a9b72218612455a534a508f9e1753f76e",
+        "repo": "https://github.com/gpac/gpac"
+    },
+    {
+        "cveId": "CVE-2021-31258",
+        "commitId": "ebfa346eff05049718f7b80041093b4c5581c24e",
+        "repo": "https://github.com/gpac/gpac"
+    },
+    {
+        "cveId": "CVE-2021-40568",
+        "commitId": "f1ae01d745200a258cdf62622f71754c37cb6c30",
+        "repo": "https://github.com/gpac/gpac"
+    },
+    {
+        "cveId": "CVE-2021-43848",
+        "commitId": "8c0eca3",
+        "repo": "https://github.com/h2o/h2o"
+    },
+    {
+        "cveId": "CVE-2021-45931",
+        "commitId": "d3e09bf4654fe5478b6dbf2b26ebab6271317d81",
+        "repo": "https://github.com/harfbuzz/harfbuzz"
+    },
+    {
+        "cveId": "CVE-2021-39212",
+        "commitId": "35893e7cad78ce461fcaffa56076c11700ba5e4e",
+        "repo": "https://github.com/ImageMagick/ImageMagick"
+    },
+    {
+        "cveId": "CVE-2020-5208",
+        "commitId": "e824c23316ae50beb7f7488f2055ac65e8b341f2",
+        "repo": "https://github.com/ipmitool/ipmitool"
+    },
+    {
+        "cveId": "CVE-2021-23521",
+        "commitId": "2e874e80cba0152201aff6a4d0dc407997d10a7f",
+        "repo": "https://github.com/juce-framework/JUCE"
+    },
+    {
+        "cveId": "CVE-2021-31616",
+        "commitId": "e49d45594002d4d3fbc1f03488e6dfc0a0a65836",
+        "repo": "https://github.com/keepkey/keepkey-firmware"
+    },
+    {
+        "cveId": "CVE-2020-28196",
+        "commitId": "57415dda6cf04e73ffc3723be518eddfae599bfd",
+        "repo": "https://github.com/krb5/krb5"
+    },
+    {
+        "cveId": "CVE-2021-4076",
+        "commitId": "e82459fda10f0630c3414ed2afbc6320bb9ea7c9",
+        "repo": "https://github.com/latchset/tang"
+    },
+    {
+        "cveId": "CVE-2021-32435",
+        "commitId": "3169ace6d63f6f517a64e8df0298f44a490c4a15",
+        "repo": "https://github.com/leesavide/abcm2ps"
+    },
+    {
+        "cveId": "CVE-2020-21674",
+        "commitId": "4f085eea879e2be745f4d9bf57e8513ae48157f4",
+        "repo": "https://github.com/libarchive/libarchive"
+    },
+    {
+        "cveId": "CVE-2020-13112",
+        "commitId": "435e21f05001fb03f9f186fa7cbc69454afd00d1",
+        "repo": "https://github.com/libexif/libexif"
+    },
+    {
+        "cveId": "CVE-2020-13113",
+        "commitId": "ec412aa4583ad71ecabb967d3c77162760169d1f",
+        "repo": "https://github.com/libexif/libexif"
+    },
+    {
+        "cveId": "CVE-2021-3622",
+        "commitId": "771728218dac2fbf6997a7e53225e75a4c6b7255",
+        "repo": "https://github.com/libguestfs/hivex"
+    },
+    {
+        "cveId": "CVE-2021-46822",
+        "commitId": "f35fd27ec641c42d6b115bfa595e483ec58188d2",
+        "repo": "https://github.com/libjpeg-turbo/libjpeg-turbo"
+    },
+    {
+        "cveId": "CVE-2020-15503",
+        "commitId": "20ad21c0d87ca80217aee47533d91e633ce1864d",
+        "repo": "https://github.com/LibRaw/LibRaw"
+    },
+    {
+        "cveId": "CVE-2021-33657",
+        "commitId": "8c91cf7dba5193f5ce12d06db1336515851c9ee9",
+        "repo": "https://github.com/libsdl-org/SDL"
+    },
+    {
+        "cveId": "CVE-2020-14397",
+        "commitId": "38e98ee61d74f5f5ab4aa4c77146faad1962d6d0",
+        "repo": "https://github.com/LibVNC/libvncserver"
+    },
+    {
+        "cveId": "CVE-2020-14398",
+        "commitId": "57433015f856cc12753378254ce4f1c78f5d9c7b",
+        "repo": "https://github.com/LibVNC/libvncserver"
+    },
+    {
+        "cveId": "CVE-2020-11684",
+        "commitId": "45419497309ffbf27c17ea7938499aca99168927",
+        "repo": "https://github.com/linux4sam/at91bootstrap"
+    },
+    {
+        "cveId": "CVE-2021-46225",
+        "commitId": "8cd68c54e0647c0030ae4506a225ad4a2655c316",
+        "repo": "https://github.com/LoicMarechal/libMeshb"
+    },
+    {
+        "cveId": "CVE-2020-11068",
+        "commitId": "e3063a91daa7ad8a687223efa63079f0c24568e4",
+        "repo": "https://github.com/Lora-net/LoRaMac-node"
+    },
+    {
+        "cveId": "CVE-2020-24371",
+        "commitId": "a6da1472c0c5e05ff249325f979531ad51533110",
+        "repo": "https://github.com/lua/lua"
+    },
+    {
+        "cveId": "CVE-2020-24370",
+        "commitId": "a585eae6e7ada1ca9271607a4f48dfb17868ab7b",
+        "repo": "https://github.com/lua/lua"
+    },
+    {
+        "cveId": "CVE-2020-15945",
+        "commitId": "a2195644d89812e5b157ce7bac35543e06db05e3",
+        "repo": "https://github.com/lua/lua"
+    },
+    {
+        "cveId": "CVE-2020-15888",
+        "commitId": "eb41999461b6f428186c55abd95f4ce1a76217d5",
+        "repo": "https://github.com/lua/lua"
+    },
+    {
+        "cveId": "CVE-2021-23206",
+        "commitId": "ba61a3ece382389ae4482c7027af8b32e8ab4cc8",
+        "repo": "https://github.com/michaelrsweet/htmldoc"
+    },
+    {
+        "cveId": "CVE-2020-12887",
+        "commitId": "4647a68e364401e81dbd370728127d844f221d93",
+        "repo": "https://github.com/mjurczak/mbed-coap"
+    },
+    {
+        "cveId": "CVE-2020-24619",
+        "commitId": "f008adc039642307f6ee3378d378cdb842e52c1d",
+        "repo": "https://github.com/mltframework/shotcut"
+    },
+    {
+        "cveId": "CVE-2021-4110",
+        "commitId": "f5e10c5a79a17939af763b1dcf5232ce47e24a34",
+        "repo": "https://github.com/mruby/mruby"
+    },
+    {
+        "cveId": "CVE-2020-26759",
+        "commitId": "3e990547e064b8fca916b23a0f7d6fe8c63c7f6b",
+        "repo": "https://github.com/mymarilyn/clickhouse-driver"
+    },
+    {
+        "cveId": "CVE-2020-14954",
+        "commitId": "fb013ec666759cb8a9e294347c7b4c1f597639cc",
+        "repo": "https://github.com/neomutt/neomutt"
+    },
+    {
+        "cveId": "CVE-2020-27638",
+        "commitId": "737925113363b6130879729cdff9ccc46c33eaea",
+        "repo": "https://github.com/NeoRaider/fastd"
+    },
+    {
+        "cveId": "CVE-2020-15861",
+        "commitId": "4fd9a450444a434a993bc72f7c3486ccce41f602",
+        "repo": "https://github.com/net-snmp/net-snmp"
+    },
+    {
+        "cveId": "CVE-2020-5210",
+        "commitId": "f3def5c0b999478da2d0a8f0b6a7c370a2065f77",
+        "repo": "https://github.com/NetHack/NetHack"
+    },
+    {
+        "cveId": "CVE-2020-11080",
+        "commitId": "336a98feb0d56b9ac54e12736b18785c27f75090",
+        "repo": "https://github.com/nghttp2/nghttp2"
+    },
+    {
+        "cveId": "CVE-2021-3618",
+        "commitId": "173f16f736c10eae46cd15dd861b04b82d91a37a",
+        "repo": "https://github.com/nginx/nginx"
+    },
+    {
+        "cveId": "CVE-2021-46463",
+        "commitId": "6a40a85ff239497c6458c7dbef18f6a2736fe992",
+        "repo": "https://github.com/nginx/njs"
+    },
+    {
+        "cveId": "CVE-2021-36082",
+        "commitId": "1ec621c85b9411cc611652fd57a892cfef478af3",
+        "repo": "https://github.com/ntop/nDPI"
+    },
+    {
+        "cveId": "CVE-2020-15474",
+        "commitId": "23594f036536468072198a57c59b6e9d63caf6ce",
+        "repo": "https://github.com/ntop/nDPI"
+    },
+    {
+        "cveId": "CVE-2021-45098",
+        "commitId": "50e2b973eeec7172991bf8f544ab06fb782b97df",
+        "repo": "https://github.com/OISF/suricata"
+    },
+    {
+        "cveId": "CVE-2021-45462",
+        "commitId": "a0f2535cb5a29bba6dbbccdb90c74ccd770cc700",
+        "repo": "https://github.com/open5gs/open5gs"
+    },
+    {
+        "cveId": "CVE-2021-44109",
+        "commitId": "d919b2744cd05abae043490f0a3dd1946c1ccb8c",
+        "repo": "https://github.com/open5gs/open5gs"
+    },
+    {
+        "cveId": "CVE-2020-36429",
+        "commitId": "c800e2987b10bb3af6ef644b515b5d6392f8861d",
+        "repo": "https://github.com/open62541/open62541"
+    },
+    {
+        "cveId": "CVE-2021-43784",
+        "commitId": "9c444070ec7bb83995dbc0185da68284da71c554",
+        "repo": "https://github.com/opencontainers/runc"
+    },
+    {
+        "cveId": "CVE-2020-15224",
+        "commitId": "bcac8e7acb514429fee9e0b5d0c7a0308fd4d76b",
+        "repo": "https://github.com/openenclave/openenclave"
+    },
+    {
+        "cveId": "CVE-2021-42341",
+        "commitId": "63db2d99e730547339d1bdd28e8437999c380cae",
+        "repo": "https://github.com/OpenRC/openrc"
+    },
+    {
+        "cveId": "CVE-2020-11724",
+        "commitId": "9ab38e8ee35fc08a57636b1b6190dca70b0076fa",
+        "repo": "https://github.com/openresty/lua-nginx-module"
+    },
+    {
+        "cveId": "CVE-2021-42782",
+        "commitId": "456ac566",
+        "repo": "https://github.com/OpenSC/OpenSC"
+    },
+    {
+        "cveId": "CVE-2021-28041",
+        "commitId": "e04fd6dde16de1cdc5a4d9946397ff60d96568db",
+        "repo": "https://github.com/openssh/openssh-portable"
+    },
+    {
+        "cveId": "CVE-2020-26273",
+        "commitId": "c3f9a3dae22d43ed3b4f6a403cbf89da4cba7c3c",
+        "repo": "https://github.com/osquery/osquery"
+    },
+    {
+        "cveId": "CVE-2020-8597",
+        "commitId": "8d7970b8f3db727fe798b65f3377fe6787575426",
+        "repo": "https://github.com/paulusmack/ppp"
+    },
+    {
+        "cveId": "CVE-2020-22873",
+        "commitId": "430ea27accd4d4ffddc946c9402e7c9064835a18",
+        "repo": "https://github.com/pcmacdon/jsish"
+    },
+    {
+        "cveId": "CVE-2020-22874",
+        "commitId": "858da537bde4de9d8c92466d5a866505310bc328",
+        "repo": "https://github.com/pcmacdon/jsish"
+    },
+    {
+        "cveId": "CVE-2020-22875",
+        "commitId": "5408a6d93f45bf1f7acd9ae5d44e0ebd77379e98",
+        "repo": "https://github.com/pcmacdon/jsish"
+    },
+    {
+        "cveId": "CVE-2020-10878",
+        "commitId": "0a320d753fe7fca03df259a4dfd8e641e51edaa8",
+        "repo": "https://github.com/perl/perl5"
+    },
+    {
+        "cveId": "CVE-2020-12723",
+        "commitId": "66bbb51b93253a3f87d11c2695cfb7bdb782184a",
+        "repo": "https://github.com/perl/perl5"
+    },
+    {
+        "cveId": "CVE-2021-41141",
+        "commitId": "1aa2c0e0fb60a1b0bf793e0d834073ffe50fb196",
+        "repo": "https://github.com/pjsip/pjproject"
+    },
+    {
+        "cveId": "CVE-2020-15260",
+        "commitId": "67e46c1ac45ad784db5b9080f5ed8b133c122872",
+        "repo": "https://github.com/pjsip/pjproject"
+    },
+    {
+        "cveId": "CVE-2021-32686",
+        "commitId": "d5f95aa066f878b0aef6a64e60b61e8626e664cd",
+        "repo": "https://github.com/pjsip/pjproject"
+    },
+    {
+        "cveId": "CVE-2021-23214",
+        "commitId": "28e24125541545483093819efae9bca603441951",
+        "repo": "https://github.com/postgres/postgres"
+    },
+    {
+        "cveId": "CVE-2021-36148",
+        "commitId": "25c0e3817eb332660dd63d1d4522e63dcc94e79a",
+        "repo": "https://github.com/projectacrn/acrn-hypervisor"
+    },
+    {
+        "cveId": "CVE-2020-13848",
+        "commitId": "c805c1de1141cb22f74c0d94dd5664bda37398e0",
+        "repo": "https://github.com/pupnp/pupnp"
+    },
+    {
+        "cveId": "CVE-2020-5311",
+        "commitId": "a79b65c47c7dc6fe623aadf09aa6192fc54548f3",
+        "repo": "https://github.com/python-pillow/Pillow"
+    },
+    {
+        "cveId": "CVE-2021-36978",
+        "commitId": "dc92574c10f3e2516ec6445b88c5d584f40df4e5",
+        "repo": "https://github.com/qpdf/qpdf"
+    },
+    {
+        "cveId": "CVE-2021-45930",
+        "commitId": "36cfd9efb9b22b891adee9c48d30202289cfa620",
+        "repo": "https://github.com/qt/qtsvg"
+    },
+    {
+        "cveId": "CVE-2020-15121",
+        "commitId": "04edfa82c1f3fa2bc3621ccdad2f93bdbf00e4f9",
+        "repo": "https://github.com/radareorg/radare2"
+    },
+    {
+        "cveId": "CVE-2021-32613",
+        "commitId": "5e16e2d1c9fe245e4c17005d779fde91ec0b9c05",
+        "repo": "https://github.com/radareorg/radare2"
+    },
+    {
+        "cveId": "CVE-2021-32672",
+        "commitId": "6ac3c0b7abd35f37201ed2d6298ecef4ea1ae1dd",
+        "repo": "https://github.com/redis/redis"
+    },
+    {
+        "cveId": "CVE-2021-32626",
+        "commitId": "666ed7facf4524bf6d19b11b20faa2cf93fdf591",
+        "repo": "https://github.com/redis/redis"
+    },
+    {
+        "cveId": "CVE-2021-32675",
+        "commitId": "5674b0057ff2903d43eaff802017eddf37c360f8",
+        "repo": "https://github.com/redis/redis"
+    },
+    {
+        "cveId": "CVE-2021-32687",
+        "commitId": "a30d367a71b7017581cf1ca104242a3c644dec0f",
+        "repo": "https://github.com/redis/redis"
+    },
+    {
+        "cveId": "CVE-2021-21309",
+        "commitId": "c992857618db99776917f10bf4f2345a5fdc78b0",
+        "repo": "https://github.com/redis/redis"
+    },
+    {
+        "cveId": "CVE-2021-32628",
+        "commitId": "f6a40570fa63d5afdd596c78083d754081d80ae3",
+        "repo": "https://github.com/redis/redis"
+    },
+    {
+        "cveId": "CVE-2020-36316",
+        "commitId": "76c9a1fdf19d9e92e566a77376673e522aae9f80",
+        "repo": "https://github.com/relic-toolkit/relic"
+    },
+    {
+        "cveId": "CVE-2021-43814",
+        "commitId": "aa6917772d2f32e5a7daab25a46c72df0b5ea406",
+        "repo": "https://github.com/rizinorg/rizin"
+    },
+    {
+        "cveId": "CVE-2021-20271",
+        "commitId": "d6a86b5e69e46cc283b1e06c92343319beb42e21",
+        "repo": "https://github.com/rpm-software-management/rpm"
+    },
+    {
+        "cveId": "CVE-2021-46389",
+        "commitId": "882925b295a80ec992063deffc2a3b0d803c3195",
+        "repo": "https://github.com/ruven/iipsrv"
+    },
+    {
+        "cveId": "CVE-2020-21049",
+        "commitId": "0b1e0b3f7b44233f84e5c9f512f8c90d6bbbe33d",
+        "repo": "https://github.com/saitoha/libsixel"
+    },
+    {
+        "cveId": "CVE-2021-36087",
+        "commitId": "340f0eb7f3673e8aacaf0a96cbfcd4d12a405521",
+        "repo": "https://github.com/SELinuxProject/selinux"
+    },
+    {
+        "cveId": "CVE-2021-36218",
+        "commitId": "77425c862ad20cd270d42c54f3d63e1eb4e02195",
+        "repo": "https://github.com/skalenetwork/sgxwallet"
+    },
+    {
+        "cveId": "CVE-2020-27208",
+        "commitId": "a9c02cd354f34b48195a342c7f524abdef5cbcec",
+        "repo": "https://github.com/solokeys/solo"
+    },
+    {
+        "cveId": "CVE-2020-26247",
+        "commitId": "9c87439d9afa14a365ff13e73adc809cb2c3d97b",
+        "repo": "https://github.com/sparklemotion/nokogiri"
+    },
+    {
+        "cveId": "CVE-2020-11945",
+        "commitId": "eeebf0f37a72a2de08348e85ae34b02c34e9a811",
+        "repo": "https://github.com/squid-cache/squid"
+    },
+    {
+        "cveId": "CVE-2021-3623",
+        "commitId": "2f30d62",
+        "repo": "https://github.com/stefanberger/libtpms"
+    },
+    {
+        "cveId": "CVE-2020-19498",
+        "commitId": "2710c930918609caaf0a664e9c7bc3dce05d5b58",
+        "repo": "https://github.com/strukturag/libheif"
+    },
+    {
+        "cveId": "CVE-2020-19497",
+        "commitId": "5fa49ef9fc4368fe3d19b5fdaa36d8fa5e7f4606",
+        "repo": "https://github.com/tbeu/matio"
+    },
+    {
+        "cveId": "CVE-2020-15201",
+        "commitId": "3cbb917b4714766030b28eba9fb41bb97ce9ee02",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2021-29566",
+        "commitId": "3f6fe4dfef6f57e768260b48166c27d148f3015f",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2021-37642",
+        "commitId": "4aacb30888638da75023e6601149415b39763d76",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2020-5215",
+        "commitId": "5ac1b9e24ff6afc465756edf845d2e9660bd34bf",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2021-37681",
+        "commitId": "5b048e87e4e55990dae6b547add4dae59f4e1c76",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2021-41208",
+        "commitId": "5c8c9a8bfe750f9743d0c859bae112060b216f5c",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2021-29605",
+        "commitId": "7c8cc4ec69cd348e44ad6a2699057ca88faad3e5",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2021-41197",
+        "commitId": "7c1692bd417eb4f9b33ead749a41166d6080af85",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2021-41205",
+        "commitId": "7cf73a2274732c9d82af51c2bc2cf90d13cd7e6d",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2021-37675",
+        "commitId": "8a793b5d7f59e37ac7f3cd0954a750a2fe76bad4",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2020-26269",
+        "commitId": "8b5b9dc96666a3a5d27fad7179ff215e3b74b67c",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2021-29520",
+        "commitId": "8f37b52e1320d8d72a9529b2468277791a261197",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2021-29595",
+        "commitId": "106d8f4fb89335a2c52d7c895b7a7485465ca8d9",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2021-37674",
+        "commitId": "136b51f10903e044308cf77117c0ed9871350475",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2021-29517",
+        "commitId": "799f835a3dfa00a4d852defa29b15841eea9d64f",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2021-37656",
+        "commitId": "1071f554dbd09f7e101324d366eec5f4fe5a3ece",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2021-37682",
+        "commitId": "8933b8a21280696ab119b63263babdb54c298538",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2021-37648",
+        "commitId": "9728c60e136912a12d99ca56e106b7cce7af5986",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2021-37670",
+        "commitId": "42459e4273c2e47a3232cc16c4f4fff3b3a35c38",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2021-29522",
+        "commitId": "311403edbc9816df80274bd1ea8b3c0c0f22c3fa",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2021-41223",
+        "commitId": "aab9998916c2ffbd8f0592059fad352622f89cda",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2021-37653",
+        "commitId": "ac117ee8a8ea57b73d34665cdf00ef3303bc0b11",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2020-15206",
+        "commitId": "adf095206f25471e864a8e63a0f1caef53a0e3a6",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2021-41221",
+        "commitId": "af5fcebb37c8b5d71c237f4e59c6477015c78ce6",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2021-29519",
+        "commitId": "b1cc5e5a50e7cee09f2c6eb48eb40ee9c4125025",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2021-29526",
+        "commitId": "b12aa1d44352de21d1a6faaf04172d8c2508b42b",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2021-29608",
+        "commitId": "b761c9b652af2107cfbc33efd19be0ce41daa33e",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2021-29542",
+        "commitId": "ba424dd8f16f7110eea526a8086f1a155f14f22b",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2021-29591",
+        "commitId": "c6173f5fe66cdbab74f4f869311fe6aae2ba35f4",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2020-15202",
+        "commitId": "ca8c013b5e97b1373b3bb1c97ea655e69f31a575",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2021-41220",
+        "commitId": "ca38dab9d3ee66c5de06f11af9a4b1200da5ef75",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2021-29602",
+        "commitId": "cbda3c6b2dbbd3fbdc482ff8c0170a78ec2e97d0",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2020-15210",
+        "commitId": "d58c96946b2880991d63d1dacacb32f0a4dfa453",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2021-37686",
+        "commitId": "dfa22b348b70bb89d6d6ec0ff53973bacb4f4695",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2021-29530",
+        "commitId": "e6a7c7cc18c3aaad1ae0872cb0a959f5c923d2bd",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2021-29615",
+        "commitId": "e07e1c3d26492c06f078c7e5bf2d138043e199c1",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2020-26267",
+        "commitId": "ebc70b7a592420d3d2f359e4b1694c236b82c7ae",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2021-37657",
+        "commitId": "f2a673bd34f0d64b8e40a551ac78989d16daad09",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2021-29564",
+        "commitId": "f4c364a5d6880557f6f5b6eb5cee2c407f0186b3",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2021-29572",
+        "commitId": "f7cc8755ac6683131fdfa7a8a121f9d7a9dec6fb",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2021-29518",
+        "commitId": "ff70c47a396ef1e3cb73c90513da4f5cb71bebba",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2021-29594",
+        "commitId": "ff489d95a9006be080ad14feb378f2b4dac35552",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2020-26117",
+        "commitId": "7399eab79a4365434d26494fa1628ce1eb91562b",
+        "repo": "https://github.com/TigerVNC/tigervnc"
+    },
+    {
+        "cveId": "CVE-2021-44513",
+        "commitId": "1c020d1f5ca462f5b150b46a027aaa1bbe3c9596",
+        "repo": "https://github.com/tmate-io/tmate-ssh-server"
+    },
+    {
+        "cveId": "CVE-2021-38203",
+        "commitId": "1cb3db1cf383a3c7dbda1aa0ce748b0958759947",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2020-12657",
+        "commitId": "2f95fa5c955d0a9987ffdc3a095e2f4e62c5f2a9",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2020-12652",
+        "commitId": "28d76df18f0ad5bcf5fa48510b225f0ed262a99b",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2020-27675",
+        "commitId": "073d0552ead5bfc7a3a9c01de590e924f11b5dd2",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2020-25669",
+        "commitId": "77e70d351db7de07a46ac49b87a6c3c7a60fca7e",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2021-3640",
+        "commitId": "99c23da0eed4fd20cae8243f2b51e10e66aa0951",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2020-11609",
+        "commitId": "485b06aadb933190f4bc44e006076bc27a23f205",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2021-31829",
+        "commitId": "801c6058d14a82179a7ee17a4b532cac6fad067f",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2020-28097",
+        "commitId": "973c096f6a85e5b5f2a295126ba6928d9a6afd45",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2021-3753",
+        "commitId": "2287a51ba822384834dafc1c798453375d1107c7",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2020-28374",
+        "commitId": "2896c93811e39d63a4d9b63ccf12a8fbc226e5e4",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2021-33624",
+        "commitId": "9183671af6dbf60a1219371d4ed73e23f43b49db",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2020-11608",
+        "commitId": "998912346c0da53a6dbb71fab3a138586b596b30",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2020-11668",
+        "commitId": "a246b4d547708f33ff4d4b9a7a5dbac741dc89d8",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2021-38204",
+        "commitId": "b5fdf5c6e6bee35837e160c00ac89327bdad031b",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2021-38206",
+        "commitId": "bddc0c411a45d3718ac535a070f349be8eca8d48",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2020-15852",
+        "commitId": "cadfad870154e14f745ec845708bc17d166065f2",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2020-8428",
+        "commitId": "d0cb50185ae942b03c4327be322055d622dc79f6",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2021-3609",
+        "commitId": "d5f9023fa61ee8b94f37a93f08e94b136cf1e463",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2021-38199",
+        "commitId": "dd99e9f98fbf423ff6d365b37a98e8879170f17c",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2020-27673",
+        "commitId": "e99502f76271d6bc4e374fe368c50c67a1fd3070",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2021-36979",
+        "commitId": "bf1713d9e011b55ca1f502a6779fc4722b4bb077",
+        "repo": "https://github.com/unicorn-engine/unicorn"
+    },
+    {
+        "cveId": "CVE-2020-6018",
+        "commitId": "bea84e2844b647532a9b7fbc3a6a8989d66e49e3",
+        "repo": "https://github.com/ValveSoftware/GameNetworkingSockets"
+    },
+    {
+        "cveId": "CVE-2020-6017",
+        "commitId": "e0c86dcb9139771db3db0cfdb1fb8bef0af19c43",
+        "repo": "https://github.com/ValveSoftware/GameNetworkingSockets"
+    },
+    {
+        "cveId": "CVE-2021-36740",
+        "commitId": "9be22198e258d0e7a5c41f4291792214a29405cf",
+        "repo": "https://github.com/varnishcache/varnish-cache"
+    },
+    {
+        "cveId": "CVE-2021-4173",
+        "commitId": "9c23f9bb5fe435b28245ba8ac65aa0ca6b902c04",
+        "repo": "https://github.com/vim/vim"
+    },
+    {
+        "cveId": "CVE-2021-3973",
+        "commitId": "615ddd5342b50a6878a907062aa471740bd9a847",
+        "repo": "https://github.com/vim/vim"
+    },
+    {
+        "cveId": "CVE-2021-3770",
+        "commitId": "b7081e135a16091c93f6f5f7525a5c58fb7ca9f9",
+        "repo": "https://github.com/vim/vim"
+    },
+    {
+        "cveId": "CVE-2021-43523",
+        "commitId": "0f822af0445e5348ce7b7bd8ce1204244f31d174",
+        "repo": "https://github.com/wbx-github/uclibc-ng"
+    },
+    {
+        "cveId": "CVE-2020-9760",
+        "commitId": "40ccacb4330a64802b1f1e28ed9a6b6d3ca9197f",
+        "repo": "https://github.com/weechat/weechat"
+    },
+    {
+        "cveId": "CVE-2021-3331",
+        "commitId": "faa96e8144e6925a380f94a97aa382c9427f688d",
+        "repo": "https://github.com/winscp/winscp"
+    },
+    {
+        "cveId": "CVE-2021-38597",
+        "commitId": "f93083be72a3b3d956b52a7ec13f307a27b6e093",
+        "repo": "https://github.com/wolfSSL/wolfssl"
+    },
+    {
+        "cveId": "CVE-2020-9434",
+        "commitId": "a6dc186dd4b6b9e329a93cca3e7e3cfccfdf3cca",
+        "repo": "https://github.com/zhaozg/lua-openssl"
+    },
+    {
+        "cveId": "CVE-2021-39191",
+        "commitId": "03e6bfb446f4e3f27c003d30d6a433e5dd8e2b3d",
+        "repo": "https://github.com/zmartzone/mod_auth_openidc"
+    },
+    {
+        "cveId": "CVE-2021-32791",
+        "commitId": "375407c16c61a70b56fdbe13b0d2c8f11398e92c",
+        "repo": "https://github.com/zmartzone/mod_auth_openidc"
+    },
+    {
+        "cveId": "CVE-2021-41253",
+        "commitId": "55dd08c210722aed81b38132f5fd4a04ec1943b5",
+        "repo": "https://github.com/zyantific/zydis"
+    },
+    {
+        "cveId": "CVE-2022-29859",
+        "commitId": "4b73f58f32914d0081d79a79e53a3215c8c1ea56",
+        "repo": "https://github.com/ambiot/amb1_sdk"
+    },
+    {
+        "cveId": "CVE-2022-0204",
+        "commitId": "591c546c536b42bef696d027f64aa22434f8c3f0",
+        "repo": "https://github.com/bluez/bluez"
+    },
+    {
+        "cveId": "CVE-2022-23606",
+        "commitId": "4b6dd3b53cd5c6d4d4df378a2fc62c1707522b31",
+        "repo": "https://github.com/envoyproxy/envoy"
+    },
+    {
+        "cveId": "CVE-2022-29228",
+        "commitId": "7ffda4e809dec74449ebc330cebb9d2f4ab61360",
+        "repo": "https://github.com/envoyproxy/envoy"
+    },
+    {
+        "cveId": "CVE-2022-45866",
+        "commitId": "ddb312090ebd5794e81bc6fb1dfb4e79eda48761",
+        "repo": "https://github.com/EvgeniyPatlan/qpress"
+    },
+    {
+        "cveId": "CVE-2023-24832",
+        "commitId": "5cae9f72975cf0e5a62b27fdd8b01f103e198708",
+        "repo": "https://github.com/facebook/hermes"
+    },
+    {
+        "cveId": "CVE-2022-40138",
+        "commitId": "6aa825e480d48127b480b08d13adf70033237097",
+        "repo": "https://github.com/facebook/hermes"
+    },
+    {
+        "cveId": "CVE-2023-28081",
+        "commitId": "e6ed9c1a4b02dc219de1648f44cd808a56171b81",
+        "repo": "https://github.com/facebook/hermes"
+    },
+    {
+        "cveId": "CVE-2022-21682",
+        "commitId": "445bddeee657fdc8d2a0a1f0de12975400d4fc1a",
+        "repo": "https://github.com/flatpak/flatpak"
+    },
+    {
+        "cveId": "CVE-2022-39347",
+        "commitId": "027424c2c6c0991cb9c22f9511478229c9b17e5d",
+        "repo": "https://github.com/FreeRDP/FreeRDP"
+    },
+    {
+        "cveId": "CVE-2022-34295",
+        "commitId": "afd8a10a6a21f82a70940d1b43cff48143250399",
+        "repo": "https://github.com/fwdillema/totd"
+    },
+    {
+        "cveId": "CVE-2022-3287",
+        "commitId": "ea676855f2119e36d433fbd2ed604039f53b2091",
+        "repo": "https://github.com/fwupd/fwupd"
+    },
+    {
+        "cveId": "CVE-2022-23308",
+        "commitId": "652dd12a858989b14eed4e84e453059cd3ba340e",
+        "repo": "https://github.com/GNOME/libxml2"
+    },
+    {
+        "cveId": "CVE-2023-0240",
+        "commitId": "1e6fa5216a0e59ef02e8b6b40d553238a3b81d49",
+        "repo": "https://github.com/gregkh/linux"
+    },
+    {
+        "cveId": "CVE-2022-30330",
+        "commitId": "447c1f038a31378ab9589965c098467d9ea6cccc",
+        "repo": "https://github.com/keepkey/keepkey-firmware"
+    },
+    {
+        "cveId": "CVE-2022-21711",
+        "commitId": "c5b0f5a9a24f2451bbeda4751d67633bc375e608",
+        "repo": "https://github.com/liyansong2018/elfspirit"
+    },
+    {
+        "cveId": "CVE-2023-1350",
+        "commitId": "8d8b5b963fa64c7a2122d1bbfbb0bed46e813e59",
+        "repo": "https://github.com/lwindolf/liferea"
+    },
+    {
+        "cveId": "CVE-2022-24300",
+        "commitId": "b5956bde259faa240a81060ff4e598e25ad52dae",
+        "repo": "https://github.com/minetest/minetest"
+    },
+    {
+        "cveId": "CVE-2022-1934",
+        "commitId": "aa7f98dedb68d735a1665d3a289036c88b0c47ce",
+        "repo": "https://github.com/mruby/mruby"
+    },
+    {
+        "cveId": "CVE-2022-3976",
+        "commitId": "10622ba36bb3910c151348f1569f039ecdd8786f",
+        "repo": "https://github.com/mz-automation/libiec61850"
+    },
+    {
+        "cveId": "CVE-2022-43286",
+        "commitId": "2ad0ea24a58d570634e09c2e58c3b314505eaa6a",
+        "repo": "https://github.com/nginx/njs"
+    },
+    {
+        "cveId": "CVE-2022-25139",
+        "commitId": "6a07c2156a07ef307b6dcf3c2ca8571a5f1af7a6",
+        "repo": "https://github.com/nginx/njs"
+    },
+    {
+        "cveId": "CVE-2022-29776",
+        "commitId": "88cf60a3ed4a2b40d71a1c2ced72fa3902a30967",
+        "repo": "https://github.com/ONLYOFFICE/core"
+    },
+    {
+        "cveId": "CVE-2022-25882",
+        "commitId": "f369b0e859024095d721f1d1612da5a8fa38988d",
+        "repo": "https://github.com/onnx/onnx"
+    },
+    {
+        "cveId": "CVE-2023-27601",
+        "commitId": "8f87c7c03da55f9c79bd92e67fa2c94b2a7ce5cf",
+        "repo": "https://github.com/OpenSIPS/opensips"
+    },
+    {
+        "cveId": "CVE-2022-1587",
+        "commitId": "03654e751e7f0700693526b67dfcadda6b42c9d0",
+        "repo": "https://github.com/PCRE2Project/pcre2"
+    },
+    {
+        "cveId": "CVE-2022-24754",
+        "commitId": "d27f79da11df7bc8bb56c2f291d71e54df8d2c47",
+        "repo": "https://github.com/pjsip/pjproject"
+    },
+    {
+        "cveId": "CVE-2023-31470",
+        "commitId": "56d0332bf91104cfc877635f6c82e9348587df04",
+        "repo": "https://github.com/pymumu/smartdns"
+    },
+    {
+        "cveId": "CVE-2023-24607",
+        "commitId": "aaf1381eab6292aa0444a5eadcc24165b6e1c02d",
+        "repo": "https://github.com/qt/qtbase"
+    },
+    {
+        "cveId": "CVE-2022-0476",
+        "commitId": "27fe8031782d3a06c3998eaa94354867864f9f1b",
+        "repo": "https://github.com/radareorg/radare2"
+    },
+    {
+        "cveId": "CVE-2022-0676",
+        "commitId": "c84b7232626badd075caf3ae29661b609164bac6",
+        "repo": "https://github.com/radareorg/radare2"
+    },
+    {
+        "cveId": "CVE-2022-35977",
+        "commitId": "1ec82e6e97e1db06a72ca505f9fbf6b981f31ef7",
+        "repo": "https://github.com/redis/redis"
+    },
+    {
+        "cveId": "CVE-2022-36021",
+        "commitId": "dcbfcb916ca1a269b3feef86ee86835294758f84",
+        "repo": "https://github.com/redis/redis"
+    },
+    {
+        "cveId": "CVE-2023-33974",
+        "commitId": "31c6191f6196f1a05c9765cffeadba868e3b0723",
+        "repo": "https://github.com/RIOT-OS/RIOT"
+    },
+    {
+        "cveId": "CVE-2022-36044",
+        "commitId": "05bbd147caccc60162d6fba9baaaf24befa281cd",
+        "repo": "https://github.com/rizinorg/rizin"
+    },
+    {
+        "cveId": "CVE-2022-4254",
+        "commitId": "a2b9a84460429181f2a4fa7e2bb5ab49fd561274",
+        "repo": "https://github.com/SSSD/sssd"
+    },
+    {
+        "cveId": "CVE-2023-28487",
+        "commitId": "334daf92b31b79ce68ed75e2ee14fca265f029ca",
+        "repo": "https://github.com/sudo-project/sudo"
+    },
+    {
+        "cveId": "CVE-2022-26530",
+        "commitId": "1d1c75b6316d21933069a9d201f966d84099f6ca",
+        "repo": "https://github.com/swaywm/swaylock"
+    },
+    {
+        "cveId": "CVE-2022-41911",
+        "commitId": "1be743703279782a357adbf9b77dcb994fe8b508",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2022-35983",
+        "commitId": "5dd7b86b84a864b834c6fa3d7f9f51c87efa99d4",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2022-23561",
+        "commitId": "6c0b2b70eeee588591680f5b7d5d38175fd7cdf6",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2022-23564",
+        "commitId": "14fea662350e7c26eb5fe1be2ac31704e5682ee6",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2022-35940",
+        "commitId": "37cefa91bee4eace55715eeef43720b958a01192",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2022-23591",
+        "commitId": "448a16182065bd08a202d9057dd8ca541e67996c",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2022-35937",
+        "commitId": "595a65a3e224a0362d7e68c2213acfc2b499a196",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2023-25669",
+        "commitId": "1295ae4dbb52fe06b19733b0257e2340d7b63b8d",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2023-25671",
+        "commitId": "760322a71ac9033e122ef1f4b1c62813021e5938",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2022-23558",
+        "commitId": "a1e1511dde36b3f8aa27a6ec630838e7ea40e091",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2022-29212",
+        "commitId": "a989426ee1346693cc015792f11d715f6944f2b8",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2022-21732",
+        "commitId": "e3749a6d5d1e8d11806d4a2e9cc3123d1a90b75e",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2022-23581",
+        "commitId": "ebc1a2ffe5a7573d905e99bd0ee3568ee07c12c1",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2022-36026",
+        "commitId": "f3f9cb38ecfe5a8a703f2c4a8fead434ef291713",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2022-23559",
+        "commitId": "f19be71717c497723ba0cea0379e84f061a75e01",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2023-1801",
+        "commitId": "7578e1c04ee280dda50c4c2813e7d55f539c6501",
+        "repo": "https://github.com/the-tcpdump-group/tcpdump"
+    },
+    {
+        "cveId": "CVE-2023-2006",
+        "commitId": "3bcd6c7eaa53",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2022-47942",
+        "commitId": "8f0541186e9ad1b62accc9519cc2b7a7240272a7",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2022-40307",
+        "commitId": "9cb636b5f6a8cc6d1b50809ec8f8d33ae0c84c95",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2022-3586",
+        "commitId": "9efd23297cca",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2023-2019",
+        "commitId": "180a6a3ee60a",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2022-3424",
+        "commitId": "643a16a0eb1d6ac23744bb6e90a00fc21148a9dc",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2023-0030",
+        "commitId": "729eba3355674f2d9524629b73683ba1d1cd3f10",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2023-1998",
+        "commitId": "6921ed9049bc7457f66c1596c5b78aec0dae4a9d",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2023-32233",
+        "commitId": "c1592a89942e9678f7d9c8030efa777c0d57edab",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2022-30594",
+        "commitId": "ee1fee900537b5d9560e9f937402de5ddc8412f3",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2022-1852",
+        "commitId": "fee060cd52d69c114b62d1a2948ea9648b5131f9",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2022-34835",
+        "commitId": "8f8c04bf1ebbd2f72f1643e7ad9617dafa6e5409",
+        "repo": "https://github.com/u-boot/u-boot"
+    },
+    {
+        "cveId": "CVE-2022-2287",
+        "commitId": "5e59ea54c0c37c2f84770f068d95280069828774",
+        "repo": "https://github.com/vim/vim"
+    },
+    {
+        "cveId": "CVE-2022-1735",
+        "commitId": "7ce5b2b590256ce53d6af28c1d203fb3bc1d2d97",
+        "repo": "https://github.com/vim/vim"
+    },
+    {
+        "cveId": "CVE-2022-0156",
+        "commitId": "9f1a39a5d1cd7989ada2d1cb32f97d84360e050f",
+        "repo": "https://github.com/vim/vim"
+    },
+    {
+        "cveId": "CVE-2022-2889",
+        "commitId": "91c7cbfe31bbef57d5fcf7d76989fc159f73ef15",
+        "repo": "https://github.com/vim/vim"
+    },
+    {
+        "cveId": "CVE-2022-1897",
+        "commitId": "338f1fc0ee3ca929387448fe464579d6113fa76a",
+        "repo": "https://github.com/vim/vim"
+    },
+    {
+        "cveId": "CVE-2022-3491",
+        "commitId": "3558afe9e9e904cabb8475392d859f2d2fc21041",
+        "repo": "https://github.com/vim/vim"
+    },
+    {
+        "cveId": "CVE-2022-0685",
+        "commitId": "5921aeb5741fc6e84c870d68c7c35b93ad0c9f87",
+        "repo": "https://github.com/vim/vim"
+    },
+    {
+        "cveId": "CVE-2022-1942",
+        "commitId": "71223e2db87c2bf3b09aecb46266b56cda26191d",
+        "repo": "https://github.com/vim/vim"
+    },
+    {
+        "cveId": "CVE-2022-2289",
+        "commitId": "c5274dd12224421f2430b30c53b881b9403d649e",
+        "repo": "https://github.com/vim/vim"
+    },
+    {
+        "cveId": "CVE-2023-0051",
+        "commitId": "c32949b0779106ed5710ae3bffc5053e49083ab4",
+        "repo": "https://github.com/vim/vim"
+    },
+    {
+        "cveId": "CVE-2022-2343",
+        "commitId": "caea66442d86e7bbba3bf3dc202c3c0d549b9853",
+        "repo": "https://github.com/vim/vim"
+    },
+    {
+        "cveId": "CVE-2022-4141",
+        "commitId": "cc762a48d42b579fb7bdec2c614636b830342dd5",
+        "repo": "https://github.com/vim/vim"
+    },
+    {
+        "cveId": "CVE-2023-25824",
+        "commitId": "d7eec4e598158ab6a98bf505354e84352f9715ec",
+        "repo": "https://github.com/airtower-luna/mod_gnutls"
+    },
+    {
+        "cveId": "CVE-2023-27478",
+        "commitId": "48dcc61a",
+        "repo": "https://github.com/awesomized/libmemcached"
+    },
+    {
+        "cveId": "CVE-2022-29967",
+        "commitId": "e3f7245c33897bf9b3a75acfcdb8b7b93974bf11",
+        "repo": "https://github.com/babelouest/glewlwyd"
+    },
+    {
+        "cveId": "CVE-2022-1908",
+        "commitId": "1e0378e6f9e4ae415cedc9eb10850888897c5dba",
+        "repo": "https://github.com/bfabiszewski/libmobi"
+    },
+    {
+        "cveId": "CVE-2022-44789",
+        "commitId": "edb50ad66f7601ca9a3544a0e9045e8a8c60561f",
+        "repo": "https://github.com/ccxvii/mujs"
+    },
+    {
+        "cveId": "CVE-2022-28044",
+        "commitId": "5faf80cd53ecfd16b636d653483144cd12004f46",
+        "repo": "https://github.com/ckolivas/lrzip"
+    },
+    {
+        "cveId": "CVE-2022-38266",
+        "commitId": "f062b42c0ea8dddebdc6a152fd16152de215d614",
+        "repo": "https://github.com/DanBloomberg/leptonica"
+    },
+    {
+        "cveId": "CVE-2022-34299",
+        "commitId": "7ef09e1fc9ba07653dd078edb2408631c7969162",
+        "repo": "https://github.com/davea42/libdwarf-code"
+    },
+    {
+        "cveId": "CVE-2022-32200",
+        "commitId": "8151575a6ace77d005ca5bb5d71c1bfdba3f7069",
+        "repo": "https://github.com/davea42/libdwarf-code"
+    },
+    {
+        "cveId": "CVE-2022-45474",
+        "commitId": "860f025468feb31c43227153d8fb3f34210a522e",
+        "repo": "https://github.com/drachtio/drachtio-server"
+    },
+    {
+        "cveId": "CVE-2022-45909",
+        "commitId": "a63d01854987d9fd846cdc9265af38ee9eb72490",
+        "repo": "https://github.com/drachtio/drachtio-server"
+    },
+    {
+        "cveId": "CVE-2022-29224",
+        "commitId": "9b1c3962172a972bc0359398af6daa3790bb59db",
+        "repo": "https://github.com/envoyproxy/envoy"
+    },
+    {
+        "cveId": "CVE-2022-29225",
+        "commitId": "cb4ef0b09200c720dfdb07e097092dd105450343",
+        "repo": "https://github.com/envoyproxy/envoy"
+    },
+    {
+        "cveId": "CVE-2022-29227",
+        "commitId": "fe7c69c248f4fe5a9080c7ccb35275b5218bb5ab",
+        "repo": "https://github.com/envoyproxy/envoy"
+    },
+    {
+        "cveId": "CVE-2022-25044",
+        "commitId": "e069be2ecc5060ef47391716e4de94999595b260",
+        "repo": "https://github.com/espruino/Espruino"
+    },
+    {
+        "cveId": "CVE-2023-23557",
+        "commitId": "a00d237346894c6067a594983be6634f4168c9ad",
+        "repo": "https://github.com/facebook/hermes"
+    },
+    {
+        "cveId": "CVE-2023-24833",
+        "commitId": "a6dcafe6ded8e61658b40f5699878cd19a481f80",
+        "repo": "https://github.com/facebook/hermes"
+    },
+    {
+        "cveId": "CVE-2022-3341",
+        "commitId": "9cf652cef49d74afe3d454f27d49eb1a1394951e",
+        "repo": "https://github.com/FFmpeg/FFmpeg"
+    },
+    {
+        "cveId": "CVE-2022-24732",
+        "commitId": "7ee6a39c6a1939b376545f030a5efd6f90913583",
+        "repo": "https://github.com/foxcpp/maddy"
+    },
+    {
+        "cveId": "CVE-2022-39319",
+        "commitId": "11555828d2cf289b350baba5ad1f462f10b80b76",
+        "repo": "https://github.com/FreeRDP/FreeRDP"
+    },
+    {
+        "cveId": "CVE-2023-1654",
+        "commitId": "2c055153d401b8c49422971e3a0159869652d3da",
+        "repo": "https://github.com/gpac/gpac"
+    },
+    {
+        "cveId": "CVE-2022-3222",
+        "commitId": "4e7736d7ec7bf64026daa611da951993bb42fdaf",
+        "repo": "https://github.com/gpac/gpac"
+    },
+    {
+        "cveId": "CVE-2023-2837",
+        "commitId": "6f28c4cd607d83ce381f9b4a9f8101ca1e79c611",
+        "repo": "https://github.com/gpac/gpac"
+    },
+    {
+        "cveId": "CVE-2022-2549",
+        "commitId": "0102c5d4db7fdbf08b5b591b2a6264de33867a07",
+        "repo": "https://github.com/gpac/gpac"
+    },
+    {
+        "cveId": "CVE-2022-3957",
+        "commitId": "2191e66aa7df750e8ef01781b1930bea87b713bb",
+        "repo": "https://github.com/gpac/gpac"
+    },
+    {
+        "cveId": "CVE-2022-29340",
+        "commitId": "37592ad86c6ca934d34740012213e467acc4a3b0",
+        "repo": "https://github.com/gpac/gpac"
+    },
+    {
+        "cveId": "CVE-2023-3012",
+        "commitId": "53387aa86c1af1228d0fa57c67f9c7330716d5a7",
+        "repo": "https://github.com/gpac/gpac"
+    },
+    {
+        "cveId": "CVE-2023-23143",
+        "commitId": "af6a5e7a96ee01a139cce6c9e4edfc069aad17a6",
+        "repo": "https://github.com/gpac/gpac"
+    },
+    {
+        "cveId": "CVE-2022-4202",
+        "commitId": "b3d821c4ae9ba62b3a194d9dcb5e99f17bd56908",
+        "repo": "https://github.com/gpac/gpac"
+    },
+    {
+        "cveId": "CVE-2023-0817",
+        "commitId": "be9f8d395bbd196e3812e9cd80708f06bcc206f7",
+        "repo": "https://github.com/gpac/gpac"
+    },
+    {
+        "cveId": "CVE-2023-25563",
+        "commitId": "97c62c6167299028d80765080e74d91dfc99efbd",
+        "repo": "https://github.com/gssapi/gss-ntlmssp"
+    },
+    {
+        "cveId": "CVE-2023-34475",
+        "commitId": "1061db7f80fdc9ef572ac60b55f408f7bab6e1b0",
+        "repo": "https://github.com/ImageMagick/ImageMagick"
+    },
+    {
+        "cveId": "CVE-2022-32545",
+        "commitId": "450949ed017f009b399c937cf362f0058eacc5fa",
+        "repo": "https://github.com/ImageMagick/ImageMagick6"
+    },
+    {
+        "cveId": "CVE-2022-42898",
+        "commitId": "ea92d2f0fcceb54a70910fa32e9a0d7a5afc3583",
+        "repo": "https://github.com/krb5/krb5"
+    },
+    {
+        "cveId": "CVE-2023-29418",
+        "commitId": "aae16d107f804f69000c09cd92027a140968cc9d",
+        "repo": "https://github.com/kspalaiologos/bzip3"
+    },
+    {
+        "cveId": "CVE-2023-29416",
+        "commitId": "bfa5bf82b53715dfedf048e5859a46cf248668ff",
+        "repo": "https://github.com/kspalaiologos/bzip3"
+    },
+    {
+        "cveId": "CVE-2023-2804",
+        "commitId": "9f756bc67a84d4566bf74a0c2432aa55da404021",
+        "repo": "https://github.com/libjpeg-turbo/libjpeg-turbo"
+    },
+    {
+        "cveId": "CVE-2022-27470",
+        "commitId": "db1b41ab8bde6723c24b866e466cad78c2fa0448",
+        "repo": "https://github.com/libsdl-org/SDL_ttf"
+    },
+    {
+        "cveId": "CVE-2022-33099",
+        "commitId": "42d40581dd919fb134c07027ca1ce0844c670daf",
+        "repo": "https://github.com/lua/lua"
+    },
+    {
+        "cveId": "CVE-2022-31624",
+        "commitId": "d627d00b13ab2f2c0954ea7b77202470cb102944",
+        "repo": "https://github.com/MariaDB/server"
+    },
+    {
+        "cveId": "CVE-2022-27114",
+        "commitId": "31f780487e5ddc426888638786cdc47631687275",
+        "repo": "https://github.com/michaelrsweet/htmldoc"
+    },
+    {
+        "cveId": "CVE-2022-0137",
+        "commitId": "71fe87878c9cbc3db429f5e5c70f28e4b3d96e3b",
+        "repo": "https://github.com/michaelrsweet/htmldoc"
+    },
+    {
+        "cveId": "CVE-2022-0534",
+        "commitId": "312f0f9c12f26fbe015cd0e6cefa40e4b99017d9",
+        "repo": "https://github.com/michaelrsweet/htmldoc"
+    },
+    {
+        "cveId": "CVE-2023-24808",
+        "commitId": "4f10021e7ee527c1aa24853e2947e38e154d9ccb",
+        "repo": "https://github.com/michaelrsweet/pdfio"
+    },
+    {
+        "cveId": "CVE-2022-24950",
+        "commitId": "900348bb8bc96e1c7ba4888ac8480f643c43d3c3",
+        "repo": "https://github.com/MisterTea/EternalTerminal"
+    },
+    {
+        "cveId": "CVE-2022-29368",
+        "commitId": "135aa9a4a6a9b49b60aa730ebc3bcc6247d75c45",
+        "repo": "https://github.com/Moddable-OpenSource/moddable"
+    },
+    {
+        "cveId": "CVE-2022-0240",
+        "commitId": "31fa3304049fc406a201a72293cce140f0557dca",
+        "repo": "https://github.com/mruby/mruby"
+    },
+    {
+        "cveId": "CVE-2023-33658",
+        "commitId": "657e6c81c474bdee0e6413483b990e90610030c1",
+        "repo": "https://github.com/nanomq/NanoNNG"
+    },
+    {
+        "cveId": "CVE-2022-32414",
+        "commitId": "31ed93a5623f24ca94e6d47e895ba735d9d97d46",
+        "repo": "https://github.com/nginx/njs"
+    },
+    {
+        "cveId": "CVE-2022-35173",
+        "commitId": "404553896792b8f5f429dc8852d15784a59d8d3e",
+        "repo": "https://github.com/nginx/njs"
+    },
+    {
+        "cveId": "CVE-2022-27008",
+        "commitId": "e673ae41a998d1391bd562edb2ed6d49db7cc716",
+        "repo": "https://github.com/nginx/njs"
+    },
+    {
+        "cveId": "CVE-2022-39264",
+        "commitId": "67bee15a389f9b8a9f6c3a340558d1e2319e7199",
+        "repo": "https://github.com/Nheko-Reborn/nheko"
+    },
+    {
+        "cveId": "CVE-2023-35853",
+        "commitId": "b95bbcc66db526ffcc880eb439dbe8abc87a81da",
+        "repo": "https://github.com/OISF/suricata"
+    },
+    {
+        "cveId": "CVE-2022-3299",
+        "commitId": "724fa568435dae45ef0c3a48b2aabde052afae88",
+        "repo": "https://github.com/open5gs/open5gs"
+    },
+    {
+        "cveId": "CVE-2023-34095",
+        "commitId": "f181bd1f14757c2ae0f17cc76dc20421a40f30b7",
+        "repo": "https://github.com/OpenPrinting/cpdb-libs"
+    },
+    {
+        "cveId": "CVE-2023-24805",
+        "commitId": "8f274035756c04efeb77eb654e9d4c4447287d65",
+        "repo": "https://github.com/OpenPrinting/cups-filters"
+    },
+    {
+        "cveId": "CVE-2023-25136",
+        "commitId": "486c4dc3b83b4b67d663fb0fa62bc24138ec3946",
+        "repo": "https://github.com/openssh/openssh-portable"
+    },
+    {
+        "cveId": "CVE-2022-21504",
+        "commitId": "49c68f5f892d8c2be00e0a89ff2a035422c03b59",
+        "repo": "https://github.com/oracle/linux-uek"
+    },
+    {
+        "cveId": "CVE-2022-24793",
+        "commitId": "9fae8f43accef8ea65d4a8ae9cdf297c46cfe29a",
+        "repo": "https://github.com/pjsip/pjproject"
+    },
+    {
+        "cveId": "CVE-2022-21722",
+        "commitId": "22af44e68a0c7d190ac1e25075e1382f77e9397a",
+        "repo": "https://github.com/pjsip/pjproject"
+    },
+    {
+        "cveId": "CVE-2022-24792",
+        "commitId": "947bc1ee6d05be10204b918df75a503415fd3213",
+        "repo": "https://github.com/pjsip/pjproject"
+    },
+    {
+        "cveId": "CVE-2022-23547",
+        "commitId": "bc4812d31a67d5e2f973fbfaf950d6118226cf36",
+        "repo": "https://github.com/pjsip/pjproject"
+    },
+    {
+        "cveId": "CVE-2022-39244",
+        "commitId": "c4d34984ec92b3d5252a7d5cddd85a1d3a8001ae",
+        "repo": "https://github.com/pjsip/pjproject"
+    },
+    {
+        "cveId": "CVE-2023-27585",
+        "commitId": "d1c5e4da5bae7f220bc30719888bb389c905c0c5",
+        "repo": "https://github.com/pjsip/pjproject"
+    },
+    {
+        "cveId": "CVE-2023-2241",
+        "commitId": "535a786f124b739e3c857529cecc29e4eeb79778",
+        "repo": "https://github.com/podofo/podofo"
+    },
+    {
+        "cveId": "CVE-2022-1237",
+        "commitId": "2d782cdaa2112c10b8dd5e7a93c134b2ada9c1a6",
+        "repo": "https://github.com/radareorg/radare2"
+    },
+    {
+        "cveId": "CVE-2022-0521",
+        "commitId": "6c4428f018d385fc80a33ecddcb37becea685dd5",
+        "repo": "https://github.com/radareorg/radare2"
+    },
+    {
+        "cveId": "CVE-2022-1283",
+        "commitId": "18d1d064bf599a255d55f09fca3104776fc34a67",
+        "repo": "https://github.com/radareorg/radare2"
+    },
+    {
+        "cveId": "CVE-2022-0695",
+        "commitId": "634b886e84a5c568d243e744becc6b3223e089cf",
+        "repo": "https://github.com/radareorg/radare2"
+    },
+    {
+        "cveId": "CVE-2022-1437",
+        "commitId": "669a404b6d98d5db409a5ebadae4e94b34ef5136",
+        "repo": "https://github.com/radareorg/radare2"
+    },
+    {
+        "cveId": "CVE-2022-4843",
+        "commitId": "842f809d4ec6a12af2906f948657281c9ebc8a24",
+        "repo": "https://github.com/radareorg/radare2"
+    },
+    {
+        "cveId": "CVE-2022-1809",
+        "commitId": "919e3ac1a13f753c73e7a8e8d8bb4a143218732d",
+        "repo": "https://github.com/radareorg/radare2"
+    },
+    {
+        "cveId": "CVE-2022-1451",
+        "commitId": "0927ed3ae99444e7b47b84e43118deb10fe37529",
+        "repo": "https://github.com/radareorg/radare2"
+    },
+    {
+        "cveId": "CVE-2023-0302",
+        "commitId": "961f0e723903011d4f54c2396e44efa91fcc74ce",
+        "repo": "https://github.com/radareorg/radare2"
+    },
+    {
+        "cveId": "CVE-2022-0523",
+        "commitId": "35482cb760db10f87a62569e2f8872dbd95e9269",
+        "repo": "https://github.com/radareorg/radare2"
+    },
+    {
+        "cveId": "CVE-2022-1207",
+        "commitId": "605785b65dd356d46d4487faa41dbf90943b8bc1",
+        "repo": "https://github.com/radareorg/radare2"
+    },
+    {
+        "cveId": "CVE-2022-1031",
+        "commitId": "a7ce29647fcb38386d7439696375e16e093d6acb",
+        "repo": "https://github.com/radareorg/radare2"
+    },
+    {
+        "cveId": "CVE-2023-26123",
+        "commitId": "b436c8d7e5346a241b00511a11585936895d959d",
+        "repo": "https://github.com/raysan5/raylib"
+    },
+    {
+        "cveId": "CVE-2023-25155",
+        "commitId": "2a2a582e7cd99ba3b531336b8bd41df2b566e619",
+        "repo": "https://github.com/redis/redis"
+    },
+    {
+        "cveId": "CVE-2023-22458",
+        "commitId": "16f408b1a0121cacd44cbf8aee275d69dc627f02",
+        "repo": "https://github.com/redis/redis"
+    },
+    {
+        "cveId": "CVE-2023-33973",
+        "commitId": "c9d7863e5664a169035038628029bb07e090c5ff",
+        "repo": "https://github.com/RIOT-OS/RIOT"
+    },
+    {
+        "cveId": "CVE-2022-36039",
+        "commitId": "1524f85211445e41506f98180f8f69f7bf115406",
+        "repo": "https://github.com/rizinorg/rizin"
+    },
+    {
+        "cveId": "CVE-2023-27590",
+        "commitId": "d6196703d89c84467b600ba2692534579dc25ed4",
+        "repo": "https://github.com/rizinorg/rizin"
+    },
+    {
+        "cveId": "CVE-2022-29181",
+        "commitId": "db05ba9a1bd4b90aa6c76742cf6102a7c7297267",
+        "repo": "https://github.com/sparklemotion/nokogiri"
+    },
+    {
+        "cveId": "CVE-2022-1253",
+        "commitId": "8e89fe0e175d2870c39486fdd09250b230ec10b8",
+        "repo": "https://github.com/strukturag/libde265"
+    },
+    {
+        "cveId": "CVE-2022-2526",
+        "commitId": "d973d94dec349fb676fdd844f6fe2ada3538f27c",
+        "repo": "https://github.com/systemd/systemd"
+    },
+    {
+        "cveId": "CVE-2022-35968",
+        "commitId": "3a6ac52664c6c095aa2b114e742b0aa17fdce78f",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2023-25668",
+        "commitId": "7b174a0f2e40ff3f3aa957aecddfd5aaae35eccb",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2022-35966",
+        "commitId": "7cdf9d4d2083b739ec81cfdace546b0c99f50622",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2023-25667",
+        "commitId": "8dc723fcdd1a6127d6c970bd2ecb18b019a1a58d",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2022-41896",
+        "commitId": "39ec7eaf1428e90c37787e5b3fbd68ebd3c48860",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2022-35979",
+        "commitId": "49b3824d83af706df0ad07e4e677d88659756d89",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2022-41899",
+        "commitId": "80ff197d03db2a70c6a111f97dcdacad1b0babfa",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2022-29196",
+        "commitId": "174c5096f303d5be7ed2ca2662b08371bff4ab88",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2022-36004",
+        "commitId": "552bfced6ce4809db5f3ca305f60ff80dd40c5a3",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2022-36019",
+        "commitId": "785d67a78a1d533759fcd2f5e8d6ef778de849e0",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2022-21737",
+        "commitId": "7019ce4f68925fd01cdafde26f8d8c938f47e6f9",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2022-35959",
+        "commitId": "9178ac9d6389bdc54638ab913ea0e419234d14eb",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2022-21725",
+        "commitId": "3218043d6d3a019756607643cf65574fbfef5d7a",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2022-23560",
+        "commitId": "6364463d6f5b6254cac3d6aedf999b6a96225038",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2022-41900",
+        "commitId": "216525144ee7c910296f5b05d214ca1327c9ce48",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2022-36027",
+        "commitId": "aa0b852a4588cea4d36b74feb05d93055540b450",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2022-29203",
+        "commitId": "acd56b8bcb72b163c834ae4f18469047b001fadf",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2022-36012",
+        "commitId": "ad069af92392efee1418c48ff561fd3070a03d7b",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2022-36000",
+        "commitId": "aed36912609fc07229b4d0a7b44f3f48efc00fd0",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2022-41898",
+        "commitId": "af4a6a3c8b95022c351edae94560acc61253a1b8",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2022-35939",
+        "commitId": "b4d4b4cb019bd7240a52daa4ba61e3cc814f0384",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2022-35965",
+        "commitId": "bce3717eaef4f769019fd18e990464ca4a2efeea",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2022-35987",
+        "commitId": "bf4c14353c2328636a18bfad1e151052c81d5f43",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2022-29211",
+        "commitId": "e57fd691c7b0fd00ea3bfe43444f30c1969748b5",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2023-25659",
+        "commitId": "ee004b18b976eeb5a758020af8880236cd707d05",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2023-25801",
+        "commitId": "ee50d1e00f81f62a4517453f721c634bbb478307",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2022-36005",
+        "commitId": "f3cf67ac5705f4f04721d15e485e192bb319feed",
+        "repo": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "cveId": "CVE-2022-35938",
+        "commitId": "4142e47e9e31db481781b955ed3ff807a781b494",
+        "repo": "https://github.com/tensorflow/tflite-micro"
+    },
+    {
+        "cveId": "CVE-2022-32978",
+        "commitId": "4746b577931e926a49e50de9720a4946de3069a7",
+        "repo": "https://github.com/thorfdbg/libjpeg"
+    },
+    {
+        "cveId": "CVE-2022-31620",
+        "commitId": "ef4a29a62ab48b8dc235f4af52cfd6319eda9a6a",
+        "repo": "https://github.com/thorfdbg/libjpeg"
+    },
+    {
+        "cveId": "CVE-2022-4399",
+        "commitId": "7a7d737a3929f335b9717ddbd31db91151b69ad2",
+        "repo": "https://github.com/TicklishHoneyBee/nodau"
+    },
+    {
+        "cveId": "CVE-2022-28927",
+        "commitId": "ce8d2bd0f13f05fcbd2ed90755d097f402393dd3",
+        "repo": "https://github.com/tindy2013/subconverter"
+    },
+    {
+        "cveId": "CVE-2022-39189",
+        "commitId": "6cd88243c7e03845a450795e134b488fc2afb736",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2022-27223",
+        "commitId": "7f14c7227f342d9932f9b918893c8814f86d2a0d",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2022-2318",
+        "commitId": "9cc02ede696272c5271a401e4f27c262359bc2f6",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2023-22997",
+        "commitId": "45af1d7aae7d5520d2858f8517a1342646f015db",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2023-2513",
+        "commitId": "67d7d8ad99be",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2022-42896",
+        "commitId": "711f8c3fb3db61897080468586b970c87c61d9e4",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2022-28356",
+        "commitId": "764f4eb6846f5475f1244767d24d25dd86528a4a",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2022-29156",
+        "commitId": "8700af2cc18c919b2a83e74e0479038fd113c15d",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2022-42703",
+        "commitId": "2555283eb40df89945557273121e9393ef9b542b",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2023-3022",
+        "commitId": "a65120bae4b7",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2022-47943",
+        "commitId": "ac60778b87e45576d7bfdbd6f53df902654e6f09",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2023-3439",
+        "commitId": "b561275d633bcd8e0e8055ab86f1a13df75a0269",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2022-28796",
+        "commitId": "cc16eecae687912238ee6efbff71ad31e2bc414e",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2022-1974",
+        "commitId": "da5c0f119203ad9728920456a0f52a6d850c01cd",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2022-27666",
+        "commitId": "ebe48d368e97d007bfeb76fcb065d6cfc4c96645",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2022-24122",
+        "commitId": "f9d87929d451d3e649699d0f1d74f71f77ad38f5",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2023-26545",
+        "commitId": "fda6c89fe3d9aca073495a664e1d5aea28cd4377",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    {
+        "cveId": "CVE-2023-22745",
+        "commitId": "306490c8d848c367faa2d9df81f5e69dab46ffb5",
+        "repo": "https://github.com/tpm2-software/tpm2-tss"
+    },
+    {
+        "cveId": "CVE-2022-2652",
+        "commitId": "e4cd225557486c420f6a34411f98c575effd43dd",
+        "repo": "https://github.com/umlaeute/v4l2loopback"
+    },
+    {
+        "cveId": "CVE-2022-29694",
+        "commitId": "3d3deac5e6d38602b689c4fef5dac004f07a2e63",
+        "repo": "https://github.com/unicorn-engine/unicorn"
+    },
+    {
+        "cveId": "CVE-2023-23457",
+        "commitId": "779b648c5f6aa9b33f4728f79dd4d0efec0bf860",
+        "repo": "https://github.com/upx/upx"
+    },
+    {
+        "cveId": "CVE-2023-23456",
+        "commitId": "510505a85cbe45e51fbd470f1aa8b02157c429d4",
+        "repo": "https://github.com/upx/upx"
+    },
+    {
+        "cveId": "CVE-2022-3297",
+        "commitId": "0ff01835a40f549c5c4a550502f62a2ac9ac447c",
+        "repo": "https://github.com/vim/vim"
+    },
+    {
+        "cveId": "CVE-2022-2598",
+        "commitId": "4e677b9c40ccbc5f090971b31dc2fe07bf05541d",
+        "repo": "https://github.com/vim/vim"
+    },
+    {
+        "cveId": "CVE-2022-3016",
+        "commitId": "6d24a51b94beb1991cddce221f90b455e2d50db7",
+        "repo": "https://github.com/vim/vim"
+    },
+    {
+        "cveId": "CVE-2022-1621",
+        "commitId": "7c824682d2028432ee082703ef0ab399867a089b",
+        "repo": "https://github.com/vim/vim"
+    },
+    {
+        "cveId": "CVE-2022-0443",
+        "commitId": "9b4a80a66544f2782040b641498754bcb5b8d461",
+        "repo": "https://github.com/vim/vim"
+    },
+    {
+        "cveId": "CVE-2022-2345",
+        "commitId": "32acf1f1a72ebb9d8942b9c9d80023bf1bb668ea",
+        "repo": "https://github.com/vim/vim"
+    },
+    {
+        "cveId": "CVE-2022-0417",
+        "commitId": "652dee448618589de5528a9e9a36995803f5557a",
+        "repo": "https://github.com/vim/vim"
+    },
+    {
+        "cveId": "CVE-2022-2874",
+        "commitId": "4875d6ab068f09df88d24d81de40dcd8d56e243d",
+        "repo": "https://github.com/vim/vim"
+    },
+    {
+        "cveId": "CVE-2022-3324",
+        "commitId": "8279af514ca7e5fd3c31cf13b0864163d1a0bfeb",
+        "repo": "https://github.com/vim/vim"
+    },
+    {
+        "cveId": "CVE-2022-1725",
+        "commitId": "b62dc5e7825bc195efe3041d5b3a9f1528359e1c",
+        "repo": "https://github.com/vim/vim"
+    },
+    {
+        "cveId": "CVE-2023-2426",
+        "commitId": "caf642c25de526229264cab9425e7c9979f3509b",
+        "repo": "https://github.com/vim/vim"
+    },
+    {
+        "cveId": "CVE-2022-2208",
+        "commitId": "cd38bb4d83c942c4bad596835c6766cbf32e5195",
+        "repo": "https://github.com/vim/vim"
+    },
+    {
+        "cveId": "CVE-2022-3352",
+        "commitId": "ef976323e770315b5fca544efb6b2faa25674d15",
+        "repo": "https://github.com/vim/vim"
+    },
+    {
+        "cveId": "CVE-2022-2849",
+        "commitId": "f6d39c31d2177549a986d170e192d8351bd571e2",
+        "repo": "https://github.com/vim/vim"
+    },
+    {
+        "cveId": "CVE-2023-35847",
+        "commitId": "eaf166009e44641e6570c576ba071217f100fd99",
+        "repo": "https://github.com/virtualsquare/picotcp"
+    },
+    {
+        "cveId": "CVE-2022-47021",
+        "commitId": "0a4cd796df5b030cb866f3f4a5e41a4b92caddf5",
+        "repo": "https://github.com/xiph/opusfile"
+    },
+    {
+        "cveId": "CVE-2017-2901",
+        "commitId": "829916f4e57a2d1580ff3b625f6bb909b9144a20",
+        "repo": "https://github.com/blender/blender"
+    },
+    {
+        "cveId": "CVE-2019-15961",
+        "commitId": "2399e541ef7d9dc3c154c3a9c951efbb35423866",
+        "repo": "https://github.com/Cisco-Talos/clamav"
+    },
+    {
+        "cveId": "CVE-2019-16884",
+        "commitId": "c2387353d9ce5c50348eca33696d13e1f8909e45",
+        "repo": "https://github.com/containers/crun"
+    },
+    {
+        "cveId": "CVE-2021-22924",
+        "commitId": "5ea3145850ebff1dc2b13d17440300a01ca38161",
+        "repo": "https://github.com/curl/curl"
+    },
+    {
+        "cveId": "CVE-2022-27776",
+        "commitId": "6e659993952aa5f90f48864be84a1bbb047fc258",
+        "repo": "https://github.com/curl/curl"
+    },
+    {
+        "cveId": "CVE-2014-3613",
+        "commitId": "8a75dbeb2305297640453029b7905ef51b87e8dd",
+        "repo": "https://github.com/curl/curl"
+    },
+    {
+        "cveId": "CVE-2022-35252",
+        "commitId": "8dfc93e573ca740544a2d79ebb0ed786592c65c3",
+        "repo": "https://github.com/curl/curl"
+    },
+    {
+        "cveId": "CVE-2016-8625",
+        "commitId": "9c91ec778104ae3b744b39444d544e82d5ee9ece",
+        "repo": "https://github.com/curl/curl"
+    },
+    {
+        "cveId": "CVE-2022-32205",
+        "commitId": "48d7064a49148f03942380967da739dcde1cdc24",
+        "repo": "https://github.com/curl/curl"
+    },
+    {
+        "cveId": "CVE-2012-0036",
+        "commitId": "75ca568fa1c19de4c5358fed246686de8467c238",
+        "repo": "https://github.com/curl/curl"
+    },
+    {
+        "cveId": "CVE-2022-22576",
+        "commitId": "852aa5ad351ea53e5f01d2f44b5b4370c2bf5425",
+        "repo": "https://github.com/curl/curl"
+    },
+    {
+        "cveId": "CVE-2022-27782",
+        "commitId": "1645e9b44505abd5cbaf65da5282c3f33b5924a5",
+        "repo": "https://github.com/curl/curl"
+    },
+    {
+        "cveId": "CVE-2016-0754",
+        "commitId": "3017d8a8d8849ebd4feae4f5eae037cd55736a61",
+        "repo": "https://github.com/curl/curl"
+    },
+    {
+        "cveId": "CVE-2021-22890",
+        "commitId": "b09c8ee15771c614c4bf3ddac893cdb12187c844",
+        "repo": "https://github.com/curl/curl"
+    },
+    {
+        "cveId": "CVE-2013-5919",
+        "commitId": "cd80dcbfd4616582daa39fa56960208ee8e23262",
+        "repo": "https://github.com/OISF/suricata"
+    },
+    {
+        "cveId": "CVE-2012-2800",
+        "commitId": "ae3da0ae5550053583a6f281ea7fd940497ea0d1",
+        "repo": "https://github.com/FFmpeg/FFmpeg"
+    },
+    {
+        "cveId": "CVE-2012-2782",
+        "commitId": "9e696d2e5ffaa763c564682ec18c3b51b3e5fccc",
+        "repo": "https://github.com/FFmpeg/FFmpeg"
+    },
+    {
+        "cveId": "CVE-2011-4577",
+        "commitId": "be71c37296b3ba43c944eaa220ac62413782bad3",
+        "repo": "https://github.com/openssl/openssl"
+    },
+    {
+        "cveId": "CVE-2016-2181",
+        "commitId": "1fb9fdc3027b27d8eb6a1e6a846435b070980770",
+        "repo": "https://github.com/openssl/openssl"
+    },
+    {
+        "cveId": "CVE-2015-1769",
+        "commitId": "cd8e7fa9780417a53ea8cf898383ff7d0f305490",
+        "repo": "https://github.com/reactos/reactos"
+    },
+    {
+        "cveId": "CVE-2020-14375",
+        "commitId": "2d962bb73652149cf3d839212180c69b7c52faf2",
+        "repo": "https://github.com/DPDK/dpdk"
+    },
+    {
+        "cveId": "CVE-2020-10188",
+        "commitId": "5760cb266e0ab04c221c2acdb4b6c4c141130ecd",
+        "repo": "https://github.com/freebsd/freebsd-src"
+    },
+    {
+        "cveId": "CVE-2021-32761",
+        "commitId": "71d452876ebf8456afaadd6b3c27988abadd1148",
+        "repo": "https://github.com/redis/redis"
+    },
+    {
+        "cveId": "CVE-2010-2284",
+        "commitId": "041cd31c9ed1d265b344872278ca1928918e5863",
+        "repo": "https://github.com/wireshark/wireshark"
+    },
+    {
+        "cveId": "CVE-2018-7033",
+        "commitId": "db468895240ad6817628d07054fe54e71273b2fe",
+        "repo": "https://github.com/SchedMD/slurm"
+    },
+    {
+        "cveId": "CVE-2019-12838",
+        "commitId": "afa7d743f407c60a7c8a4bd98a10be32c82988b5",
+        "repo": "https://github.com/SchedMD/slurm"
+    },
+    {
+        "cveId": "CVE-2019-7578",
+        "commitId": "3f19a6d5e85c71df0fb2b4626b943457d38c2031",
+        "repo": "https://github.com/libsdl-org/SDL"
+    },
+    {
+        "cveId": "CVE-2009-3094",
+        "commitId": "8d3f77b70d3c49bd14eb05c423788ec5df65bdad",
+        "repo": "https://github.com/apache/httpd"
+    },
+    {
+        "cveId": "CVE-2014-0118",
+        "commitId": "6346ece4d953e367f08263a5f2a814e2a9f1a946",
+        "repo": "https://github.com/apache/httpd"
+    },
+    {
+        "cveId": "CVE-2013-2249",
+        "commitId": "3eed634c9c382265179381c05181ba683672262f",
+        "repo": "https://github.com/apache/httpd"
+    },
+    {
+        "cveId": "CVE-2013-5704",
+        "commitId": "8cc5e00f9ead2e8f915a567aeb756c5cca357188",
+        "repo": "https://github.com/apache/httpd"
+    },
+    {
+        "cveId": "CVE-2014-0117",
+        "commitId": "bb2749fd6e18dd1682bd1da89b160ca4175c2ec1",
+        "repo": "https://github.com/apache/httpd"
+    },
+    {
+        "cveId": "CVE-2015-3185",
+        "commitId": "db81019ab88734ed35fa70294a0cfa7a19743f73",
+        "repo": "https://github.com/apache/httpd"
+    },
+    {
+        "cveId": "CVE-2010-1623",
+        "commitId": "d814b8320690cb668b158e4d04c1a94c440c5082",
+        "repo": "https://github.com/apache/httpd"
+    },
+    {
+        "cveId": "CVE-2014-0226",
+        "commitId": "b2605d20c42fe882a42f55d059286f64927ac30d",
+        "repo": "https://github.com/apache/httpd"
+    },
+    {
+        "cveId": "CVE-2007-1862",
+        "commitId": "9a29cd5f657671998da41c51e1933d23312ad310",
+        "repo": "https://github.com/apache/httpd"
+    },
+    {
+        "cveId": "CVE-2015-1334",
+        "commitId": "5c3fcae78b63ac9dd56e36075903921bd9461f9e",
+        "repo": "https://github.com/lxc/lxc"
+    },
+    {
+        "cveId": "CVE-2015-1805",
+        "commitId": "882982d88c56bd997b85fe9f0bf4f63fd6eb416b",
+        "repo": "https://github.com/hanwckf/rt-n56u"
+    },
+    {
+        "cveId": "CVE-2018-14653",
+        "commitId": "f5929c1f903b5c174a2f6897bd366da841fdf826",
+        "repo": "https://github.com/gluster/glusterfs"
+    },
+    {
+        "cveId": "CVE-2018-15687",
+        "commitId": "5de6cce58b3e8b79239b6e83653459d91af6e57c",
+        "repo": "https://github.com/systemd/systemd"
+    },
+    {
+        "cveId": "CVE-2018-6954",
+        "commitId": "936f6bdb803c432578e2cdcc5f93f3bfff93aff0",
+        "repo": "https://github.com/systemd/systemd"
+    },
+    {
+        "cveId": "CVE-2018-15686",
+        "commitId": "8948b3415d762245ebf5e19d80b97d4d8cc208c1",
+        "repo": "https://github.com/systemd/systemd"
+    },
+    {
+        "cveId": "CVE-2021-3997",
+        "commitId": "5b1cf7a9be37e20133c0208005274ce4a5b5c6a1",
+        "repo": "https://github.com/systemd/systemd"
+    },
+    {
+        "cveId": "CVE-2018-16864",
+        "commitId": "084eeb865ca63887098e0945fb4e93c852b91b0f",
+        "repo": "https://github.com/systemd/systemd"
+    },
+    {
+        "cveId": "CVE-2019-1387",
+        "commitId": "a8dee3ca610f5a1d403634492136c887f83b59d2",
+        "repo": "https://github.com/git/git"
+    },
+    {
+        "cveId": "CVE-2016-6210",
+        "commitId": "9286875a73b2de7736b5e50692739d314cd8d9dc",
+        "repo": "https://github.com/openssh/openssh-portable"
+    },
+    {
+        "cveId": "CVE-2016-10142",
+        "commitId": "f3785e278eba661407dcf9306ad48cc66d7e0e0f",
+        "repo": "https://github.com/NetBSD/src"
+    },
+    {
+        "cveId": "CVE-2008-0225",
+        "commitId": "a89f96d89cf2d52ae7e6990f31cccdcd518364ca",
+        "repo": "https://github.com/videolan/vlc"
+    },
+    {
+        "cveId": "CVE-2018-8788",
+        "commitId": "d1112c279bd1a327e8e4d0b5f371458bf2579659",
+        "repo": "https://github.com/FreeRDP/FreeRDP"
+    },
+    {
+        "cveId": "CVE-2020-11523",
+        "commitId": "ce21b9d7ecd967e0bc98ed31a6b3757848aa6c9e",
+        "repo": "https://github.com/FreeRDP/FreeRDP"
+    },
+    {
+        "cveId": "CVE-2018-8785",
+        "commitId": "602f4a2e14b41703b5f431de3154cd46a5750a2d",
+        "repo": "https://github.com/FreeRDP/FreeRDP"
+    },
+    {
+        "cveId": "CVE-2020-11522",
+        "commitId": "907640a924fa7a9a99c80a48ac225e9d8e41548b",
+        "repo": "https://github.com/FreeRDP/FreeRDP"
+    },
+    {
+        "cveId": "CVE-2021-42574",
+        "commitId": "51c500269bf53749b107807d84271385fad35628",
+        "repo": "https://github.com/gcc-mirror/gcc"
+    },
+    {
+        "cveId": "CVE-2017-9868",
+        "commitId": "6e7d02ba160c15d087c1741a61c3f9f222834d74",
+        "repo": "https://github.com/eclipse/mosquitto"
+    },
+    {
+        "cveId": "CVE-2018-12546",
+        "commitId": "c40957a7d8f2d866cd919f2d53f4927c785fcef1",
+        "repo": "https://github.com/eclipse/mosquitto"
+    },
+    {
+        "cveId": "CVE-2007-3126",
+        "commitId": "46bcd82800e37b0f5aead76184430ef2fe802748",
+        "repo": "https://github.com/GNOME/gimp"
+    },
+    {
+        "cveId": "CVE-2022-0563",
+        "commitId": "faa5a3a83ad0cb5e2c303edbfd8cd823c9d94c17",
+        "repo": "https://github.com/util-linux/util-linux"
+    },
+    {
+        "cveId": "CVE-2015-5224",
+        "commitId": "bde91c85bdc77975155058276f99d2e0f5eab5a9",
+        "repo": "https://github.com/util-linux/util-linux"
+    },
+    {
+        "cveId": "CVE-2017-0377",
+        "commitId": "665baf5ed5c6186d973c46cdea165c0548027350",
+        "repo": "https://github.com/torproject/tor"
+    },
+    {
+        "cveId": "CVE-2014-0475",
+        "commitId": "4e8f95a0df7c2300b830ec12c0ae1e161bc8a8a3",
+        "repo": "https://github.com/lattera/glibc"
+    },
+    {
+        "cveId": "CVE-2014-5119",
+        "commitId": "a1a6a401ab0a3c9f15fb7eaebbdcee24192254e8",
+        "repo": "https://github.com/lattera/glibc"
+    },
+    {
+        "cveId": "CVE-2012-4424",
+        "commitId": "141f3a77fe4f1b59b0afa9bf6909cd2000448883",
+        "repo": "https://github.com/lattera/glibc"
+    },
+    {
+        "cveId": "CVE-2018-17456",
+        "commitId": "c8ca3caef68f31d553c131b471223ff934bb3cff",
+        "repo": "https://github.com/libgit2/libgit2"
+    },
+    {
+        "cveId": "CVE-2015-7358",
+        "commitId": "c94f8c9b63edc756aa05ec85ed8da84ab799205c",
+        "repo": "https://github.com/veracrypt/VeraCrypt"
+    },
+    {
+        "cveId": "CVE-2020-25696",
+        "commitId": "a2bfda31b157b5acfe9ffefc4b8b079277bf5dd7",
+        "repo": "https://github.com/yugabyte/yugabyte-db"
+    },
+    {
+        "cveId": "CVE-2021-32027",
+        "commitId": "e9ff4ede88eedc95dc791090ccc7f3dbbd0657b0",
+        "repo": "https://github.com/yugabyte/yugabyte-db"
+    },
+    {
+        "cveId": "CVE-2015-7392",
+        "commitId": "26bed941b36b71cf6b128faad0da5e0cd714afb9",
+        "repo": "https://github.com/signalwire/freeswitch"
+    },
+    {
+        "cveId": "CVE-2012-3505",
+        "commitId": "5779ba8697f16afa2b8fe042a409f192161b7706",
+        "repo": "https://github.com/tinyproxy/tinyproxy"
+    },
+    {
+        "cveId": "CVE-2015-8400",
+        "commitId": "4aa0eb97e4c90490a9c84a0d8bd57cd22572c37a",
+        "repo": "https://github.com/shellinabox/shellinabox"
+    },
+    {
+        "cveId": "CVE-2017-2908",
+        "commitId": "07aed404cfb2759f97c60b9f64d8a9392dabaf1a",
+        "repo": "https://github.com/blender/blender"
+    },
+    {
+        "cveId": "CVE-2009-3850",
+        "commitId": "11305bd688fa7306d9d2c9eac2525df35ed31196",
+        "repo": "https://github.com/blender/blender"
+    },
+    {
+        "cveId": "CVE-2017-5226",
+        "commitId": "06a7f31fe4a035443e25c00ecea1a3c48d77ddc1",
+        "repo": "https://github.com/containers/bubblewrap"
+    },
+    {
+        "cveId": "CVE-2020-8231",
+        "commitId": "3c9e021f86872baae412a427e807fbfa2f3e8a22",
+        "repo": "https://github.com/curl/curl"
+    },
+    {
+        "cveId": "CVE-2022-32208",
+        "commitId": "6ecdf5136b52af747e7bda08db9a748256b1cd09",
+        "repo": "https://github.com/curl/curl"
+    },
+    {
+        "cveId": "CVE-2016-3739",
+        "commitId": "6efd2fa529a189bf41736a610f6184cd8ad94b4d",
+        "repo": "https://github.com/curl/curl"
+    },
+    {
+        "cveId": "CVE-2021-22947",
+        "commitId": "8ef147c43646e91fdaad5d0e7b60351f842e5c68",
+        "repo": "https://github.com/curl/curl"
+    },
+    {
+        "cveId": "CVE-2015-0219",
+        "commitId": "9fd4d605cb7859632af7cc0f93b9a512510be66b",
+        "repo": "https://github.com/jonashaag/bjoern"
+    },
+    {
+        "cveId": "CVE-2017-7468",
+        "commitId": "33cfcfd9f0378625d3bddbd2c8ac5aad4b646f26",
+        "repo": "https://github.com/curl/curl"
+    },
+    {
+        "cveId": "CVE-2016-8622",
+        "commitId": "53e71e47d6b81650d26ec33a58d0dca24c7ffb2c",
+        "repo": "https://github.com/curl/curl"
+    },
+    {
+        "cveId": "CVE-2016-5419",
+        "commitId": "247d890da88f9ee817079e246c59f3d7d12fde5f",
+        "repo": "https://github.com/curl/curl"
+    },
+    {
+        "cveId": "CVE-2021-22946",
+        "commitId": "364f174724ef115c63d5e5dc1d3342c8a43b1cca",
+        "repo": "https://github.com/curl/curl"
+    },
+    {
+        "cveId": "CVE-2020-8177",
+        "commitId": "8236aba58542c5f89f1d41ca09d84579efb05e22",
+        "repo": "https://github.com/curl/curl"
+    },
+    {
+        "cveId": "CVE-2018-1000120",
+        "commitId": "535432c0adb62fe167ec09621500470b6fa4eb0f",
+        "repo": "https://github.com/curl/curl"
+    },
+    {
+        "cveId": "CVE-2021-4022",
+        "commitId": "21584e416cdcef2fa7d855c5aabf592a965f0e8d",
+        "repo": "https://github.com/rizinorg/rizin"
+    },
+    {
+        "cveId": "CVE-2019-13103",
+        "commitId": "232e2f4fd9a24bf08215ddc8c53ccadffc841fb5",
+        "repo": "https://github.com/u-boot/u-boot"
+    },
+    {
+        "cveId": "CVE-2010-3429",
+        "commitId": "6e73cef6e3b536fbccdb82bd9260440d836b3f03",
+        "repo": "https://github.com/FFmpeg/FFmpeg"
+    },
+    {
+        "cveId": "CVE-2012-2779",
+        "commitId": "891918431db628db17885ed947ee387b29826a64",
+        "repo": "https://github.com/FFmpeg/FFmpeg"
+    },
+    {
+        "cveId": "CVE-2020-22021",
+        "commitId": "7971f62120a55c141ec437aa3f0bacc1c1a3526b",
+        "repo": "https://github.com/FFmpeg/FFmpeg"
+    },
+    {
+        "cveId": "CVE-2012-2799",
+        "commitId": "d65d8347314b645051e336aed141aaf32a6c0d02",
+        "repo": "https://github.com/FFmpeg/FFmpeg"
+    },
+    {
+        "cveId": "CVE-2011-4352",
+        "commitId": "8b94df0f2047e9728cb872adc9e64557b7a5152f",
+        "repo": "https://github.com/FFmpeg/FFmpeg"
+    },
+    {
+        "cveId": "CVE-2014-9604",
+        "commitId": "0ce3a0f9d9523a9bcad4c6d451ca5bbd7a4f420d",
+        "repo": "https://github.com/FFmpeg/FFmpeg"
+    },
+    {
+        "cveId": "CVE-2014-3505",
+        "commitId": "bff1ce4e6a1c57c3d0a5f9e4f85ba6385fccfe8b",
+        "repo": "https://github.com/openssl/openssl"
+    },
+    {
+        "cveId": "CVE-2015-0291",
+        "commitId": "34e3edbf3a10953cb407288101fd56a629af22f9",
+        "repo": "https://github.com/openssl/openssl"
+    },
+    {
+        "cveId": "CVE-2022-3358",
+        "commitId": "25d47cccf203c3b71171e78865e48ea061a039a8",
+        "repo": "https://github.com/openssl/openssl"
+    },
+    {
+        "cveId": "CVE-2011-4619",
+        "commitId": "d0dc991c6228564212ace119440a9ac5f21578bc",
+        "repo": "https://github.com/openssl/openssl"
+    },
+    {
+        "cveId": "CVE-2006-2940",
+        "commitId": "5e3225cc44ebdce3a88d04a627e975b3e76a6f9a",
+        "repo": "https://github.com/openssl/openssl"
+    },
+    {
+        "cveId": "CVE-2014-3568",
+        "commitId": "62f45cc27d07187b59551e4fad3db4e52ea73f2c",
+        "repo": "https://github.com/openssl/openssl"
+    },
+    {
+        "cveId": "CVE-2011-3207",
+        "commitId": "0486cce653b62d26a8ca37ac12f69f1a6b998844",
+        "repo": "https://github.com/openssl/openssl"
+    },
+    {
+        "cveId": "CVE-2012-0027",
+        "commitId": "6bf896d9b1693916d9e8d303f9e3cc04959632b2",
+        "repo": "https://github.com/openssl/openssl"
+    },
+    {
+        "cveId": "CVE-2015-0204",
+        "commitId": "ce325c60c74b0fa784f5872404b722e120e5cab0",
+        "repo": "https://github.com/openssl/openssl"
+    },
+    {
+        "cveId": "CVE-2017-8779",
+        "commitId": "6808e7d25b8262f70011e53f3dc46db7aa0813fa",
+        "repo": "https://github.com/reactos/reactos"
+    },
+    {
+        "cveId": "CVE-2020-14350",
+        "commitId": "afa358786bde70d9cccc0e32f6fad45afe62c3e5",
+        "repo": "https://github.com/ApsaraDB/PolarDB-for-PostgreSQL"
+    },
+    {
+        "cveId": "CVE-2021-45958",
+        "commitId": "61dd6f19e83ed0dc8ce58a2389759a10267a86de",
+        "repo": "https://github.com/ultrajson/ultrajson"
+    },
+    {
+        "cveId": "CVE-2014-4732",
+        "commitId": "c272a5cd9cc6c9ba420a2743a395f5ae12633d1f",
+        "repo": "https://github.com/FreeRADIUS/freeradius-server"
+    },
+    {
+        "cveId": "CVE-2002-1623",
+        "commitId": "76c330e74b4a1e03df6d608db297b0201b0d76d4",
+        "repo": "https://github.com/SoftEtherVPN/SoftEtherVPN"
+    },
+    {
+        "cveId": "CVE-2020-27745",
+        "commitId": "c3142dd87e06621ff148791c3d2f298b5c0b3a81",
+        "repo": "https://github.com/SchedMD/slurm"
+    },
+    {
+        "cveId": "CVE-2017-13083",
+        "commitId": "c3c39f7f8a11f612c4ebf7affce25ec6928eb1cb",
+        "repo": "https://github.com/pbatard/rufus"
+    },
+    {
+        "cveId": "CVE-2021-22918",
+        "commitId": "b7466e31e4bee160d82a68fca11b1f61d46debae",
+        "repo": "https://github.com/libuv/libuv"
+    },
+    {
+        "cveId": "CVE-2011-4317",
+        "commitId": "14fef5ae8528914791df2dd5041cb804c1c7b793",
+        "repo": "https://github.com/apache/httpd"
+    },
+    {
+        "cveId": "CVE-2013-1896",
+        "commitId": "87367647decd3415021f9654958f3a987f245fd1",
+        "repo": "https://github.com/apache/httpd"
+    },
+    {
+        "cveId": "CVE-2014-8109",
+        "commitId": "38535f55b12814315ba5ded4a6180e11e821134e",
+        "repo": "https://github.com/apache/httpd"
+    },
+    {
+        "cveId": "CVE-2010-1452",
+        "commitId": "ad53d4dcbdacc1e9bd35f0348d20416d08e18566",
+        "repo": "https://github.com/apache/httpd"
+    },
+    {
+        "cveId": "CVE-2012-3052",
+        "commitId": "4cf751dbb992d73c70687e93ba38335121c4194b",
+        "repo": "https://github.com/apache/httpd"
+    },
+    {
+        "cveId": "CVE-2012-0031",
+        "commitId": "65718cf0f5980f1e5e2e9a2335a0cfb599b30cda",
+        "repo": "https://github.com/apache/httpd"
+    },
+    {
+        "cveId": "CVE-2019-10092",
+        "commitId": "c0ce3a729218279a6b4b03aab7a71bb8ae9d6259",
+        "repo": "https://github.com/apache/httpd"
+    },
+    {
+        "cveId": "CVE-2016-8740",
+        "commitId": "c671673db96e286e2321d5babf05c767cb76a1ef",
+        "repo": "https://github.com/apache/httpd"
+    },
+    {
+        "cveId": "CVE-2018-1071",
+        "commitId": "679b71ec4d852037fe5f73d35bf557b0f406c8d4",
+        "repo": "https://github.com/zsh-users/zsh"
+    },
+    {
+        "cveId": "CVE-2014-4943",
+        "commitId": "6ac6d35066dfcff6f7ec4933f9cad7fff7412ef5",
+        "repo": "https://github.com/hanwckf/rt-n56u"
+    },
+    {
+        "cveId": "CVE-2015-8543",
+        "commitId": "61fe16e596c34fba21e266d093732c281956804c",
+        "repo": "https://github.com/hanwckf/rt-n56u"
+    },
+    {
+        "cveId": "CVE-2018-14660",
+        "commitId": "c1559c49ef699cd69fe489ffad642023dcf11915",
+        "repo": "https://github.com/gluster/glusterfs"
+    },
+    {
+        "cveId": "CVE-2018-14654",
+        "commitId": "2109ec7d2856b7abae01bb81b1879412764fc433",
+        "repo": "https://github.com/gluster/glusterfs"
+    },
+    {
+        "cveId": "CVE-2019-1349",
+        "commitId": "0060fd1511b94c918928fa3708f69a3f33895a4a",
+        "repo": "https://github.com/git/git"
+    },
+    {
+        "cveId": "CVE-2013-1667",
+        "commitId": "31c123d4d0cfcbb567a6408f2ed834ad6884fe4b",
+        "repo": "https://github.com/NetBSD/src"
+    },
+    {
+        "cveId": "CVE-2007-1536",
+        "commitId": "8743e97b9d3dde9bd38406e812f834a27aec68a8",
+        "repo": "https://github.com/NetBSD/src"
+    },
+    {
+        "cveId": "CVE-2015-8605",
+        "commitId": "b4e2b63915f513b76fc044a8aa14753d8973493c",
+        "repo": "https://github.com/NetBSD/src"
+    },
+    {
+        "cveId": "CVE-2010-3907",
+        "commitId": "6568965770f906d34d4aef83237842a5376adb55",
+        "repo": "https://github.com/videolan/vlc"
+    },
+    {
+        "cveId": "CVE-2019-14970",
+        "commitId": "51450a0f3c5c6a0fefc5ae25f35fe34ef3484af0",
+        "repo": "https://github.com/videolan/vlc"
+    },
+    {
+        "cveId": "CVE-2019-14498",
+        "commitId": "56b21668e8d9384386cb037f3eb0b13dd6dae5b5",
+        "repo": "https://github.com/videolan/vlc"
+    },
+    {
+        "cveId": "CVE-2008-0073",
+        "commitId": "f351efa7d22645625d20204f86a44b194fde8352",
+        "repo": "https://github.com/videolan/vlc"
+    },
+    {
+        "cveId": "CVE-2020-35498",
+        "commitId": "79349cbab0b2a755140eedb91833ad2760520a83",
+        "repo": "https://github.com/openvswitch/ovs"
+    },
+    {
+        "cveId": "CVE-2020-11521",
+        "commitId": "17f547ae11835bb11baa3d045245dc1694866845",
+        "repo": "https://github.com/FreeRDP/FreeRDP"
+    },
+    {
+        "cveId": "CVE-2020-11041",
+        "commitId": "2215fef975b963b3995356c3583f0e87cd08ac6b",
+        "repo": "https://github.com/FreeRDP/FreeRDP"
+    },
+    {
+        "cveId": "CVE-2020-11525",
+        "commitId": "0b6b92a25a77d533b8a92d6acc840a81e103684e",
+        "repo": "https://github.com/FreeRDP/FreeRDP"
+    },
+    {
+        "cveId": "CVE-2020-11039",
+        "commitId": "52dd312e11b7376db62eabda244b481386d28c86",
+        "repo": "https://github.com/FreeRDP/FreeRDP"
+    },
+    {
+        "cveId": "CVE-2013-2236",
+        "commitId": "c51443f4aa6b7f0b0d6ad5409ad7d4b215092443",
+        "repo": "https://github.com/FRRouting/frr"
+    },
+    {
+        "cveId": "CVE-2021-27926",
+        "commitId": "ede477ea652b3b24c9333c909515fe5d29ade257",
+        "repo": "https://github.com/espressif/esp-idf"
+    },
+    {
+        "cveId": "CVE-2013-1428",
+        "commitId": "258bf7ea0fe69bae395a084843ba59b9770199f1",
+        "repo": "https://github.com/gsliepen/tinc"
+    },
+    {
+        "cveId": "CVE-2016-4994",
+        "commitId": "6d804bf9ae77bc86a0a97f9b944a129844df9395",
+        "repo": "https://github.com/GNOME/gimp"
+    },
+    {
+        "cveId": "CVE-2017-17785",
+        "commitId": "edb251a7ef1602d20a5afcbf23f24afb163de63b",
+        "repo": "https://github.com/GNOME/gimp"
+    },
+    {
+        "cveId": "CVE-2012-3403",
+        "commitId": "b772d1b84c9272bb46ab9a21db4390e6263c9892",
+        "repo": "https://github.com/GNOME/gimp"
+    },
+    {
+        "cveId": "CVE-2007-0822",
+        "commitId": "d392c8ed08f472eb5d49e8b99e430265041a2a60",
+        "repo": "https://github.com/util-linux/util-linux"
+    },
+    {
+        "cveId": "CVE-2016-1254",
+        "commitId": "d978216dea6b21ac38230a59d172139185a68dbd",
+        "repo": "https://github.com/torproject/tor"
+    },
+    {
+        "cveId": "CVE-2013-4237",
+        "commitId": "91ce40854d0b7f865cf5024ef95a8026b76096f3",
+        "repo": "https://github.com/lattera/glibc"
+    },
+    {
+        "cveId": "CVE-2015-5180",
+        "commitId": "fc82b0a2dfe7dbd35671c10510a8da1043d746a5",
+        "repo": "https://github.com/lattera/glibc"
+    },
+    {
+        "cveId": "CVE-2019-12937",
+        "commitId": "7fdaca463fe6ce86939ea77ac08faa886f624444",
+        "repo": "https://github.com/klange/toaruos"
+    },
+    {
+        "cveId": "CVE-2017-12894",
+        "commitId": "730fc35968c5433b9e2a829779057f4f9495dc51",
+        "repo": "https://github.com/the-tcpdump-group/tcpdump"
+    },
+    {
+        "cveId": "CVE-2017-12897",
+        "commitId": "1dcd10aceabbc03bf571ea32b892c522cbe923de",
+        "repo": "https://github.com/the-tcpdump-group/tcpdump"
+    },
+    {
+        "cveId": "CVE-2017-12898",
+        "commitId": "19d25dd8781620cd41bf178a5e2e27fc1cf242d0",
+        "repo": "https://github.com/the-tcpdump-group/tcpdump"
+    },
+    {
+        "cveId": "CVE-2017-12985",
+        "commitId": "66df248b49095c261138b5a5e34d341a6bf9ac7f",
+        "repo": "https://github.com/the-tcpdump-group/tcpdump"
+    },
+    {
+        "cveId": "CVE-2017-12990",
+        "commitId": "c2ef693866beae071a24b45c49f9674af1df4028",
+        "repo": "https://github.com/the-tcpdump-group/tcpdump"
+    },
+    {
+        "cveId": "CVE-2017-12993",
+        "commitId": "b534e304568585707c4a92422aeca25cf908ff02",
+        "repo": "https://github.com/the-tcpdump-group/tcpdump"
+    },
+    {
+        "cveId": "CVE-2017-13003",
+        "commitId": "a25211918f2e790c67d859d20ccf8dbb81da1598",
+        "repo": "https://github.com/the-tcpdump-group/tcpdump"
+    },
+    {
+        "cveId": "CVE-2017-13006",
+        "commitId": "cc4a7391c616be7a64ed65742ef9ed3f106eb165",
+        "repo": "https://github.com/the-tcpdump-group/tcpdump"
+    },
+    {
+        "cveId": "CVE-2017-13010",
+        "commitId": "877b66b398518d9501513e0860c9f3a8acc70892",
+        "repo": "https://github.com/the-tcpdump-group/tcpdump"
+    },
+    {
+        "cveId": "CVE-2017-13013",
+        "commitId": "13ab8d18617d616c7d343530f8a842e7143fb5cc",
+        "repo": "https://github.com/the-tcpdump-group/tcpdump"
+    },
+    {
+        "cveId": "CVE-2017-13014",
+        "commitId": "cc356512f512e7fa423b3674db4bb31dbe40ffec",
+        "repo": "https://github.com/the-tcpdump-group/tcpdump"
+    },
+    {
+        "cveId": "CVE-2017-13022",
+        "commitId": "eee0b04bcfdae319c242b0b8fc3d07029ee65b8c",
+        "repo": "https://github.com/the-tcpdump-group/tcpdump"
+    },
+    {
+        "cveId": "CVE-2017-13030",
+        "commitId": "5dc1860d8267b1e0cb78c9ffa2a40bea2fdb3ddc",
+        "repo": "https://github.com/the-tcpdump-group/tcpdump"
+    },
+    {
+        "cveId": "CVE-2017-13037",
+        "commitId": "2c2cfbd2b771ac888bc5c4a6d922f749d3822538",
+        "repo": "https://github.com/the-tcpdump-group/tcpdump"
+    },
+    {
+        "cveId": "CVE-2017-13039",
+        "commitId": "e0a5a02b0fc1900a69d6c37ed0aab36fb8494e6d",
+        "repo": "https://github.com/the-tcpdump-group/tcpdump"
+    },
+    {
+        "cveId": "CVE-2017-13040",
+        "commitId": "4c3aee4bb0294c232d56b6d34e9eeb74f630fe8c",
+        "repo": "https://github.com/the-tcpdump-group/tcpdump"
+    },
+    {
+        "cveId": "CVE-2017-13050",
+        "commitId": "83c64fce3a5226b080e535f5131a8a318f30e79b",
+        "repo": "https://github.com/the-tcpdump-group/tcpdump"
+    },
+    {
+        "cveId": "CVE-2017-13052",
+        "commitId": "5d340a5ca6e420a70297cdbdf777333f18bfdab7",
+        "repo": "https://github.com/the-tcpdump-group/tcpdump"
+    },
+    {
+        "cveId": "CVE-2017-13690",
+        "commitId": "8dca25d26c7ca2caf6138267f6f17111212c156e",
+        "repo": "https://github.com/the-tcpdump-group/tcpdump"
+    },
+    {
+        "cveId": "CVE-2018-16300",
+        "commitId": "756d0a1356a49efbd1a9f461f478913cb8163b23",
+        "repo": "https://github.com/the-tcpdump-group/tcpdump"
+    },
+    {
+        "cveId": "CVE-2016-7923",
+        "commitId": "64f6392084ec0768b8afc04612eac0a458bc5e0d",
+        "repo": "https://github.com/the-tcpdump-group/tcpdump"
+    },
+    {
+        "cveId": "CVE-2016-7934",
+        "commitId": "cb922d07cce6574874b954555ebad4338748087b",
+        "repo": "https://github.com/the-tcpdump-group/tcpdump"
+    },
+    {
+        "cveId": "CVE-2016-7939",
+        "commitId": "237efcf593ee369519e9dfdc9166702219dabfec",
+        "repo": "https://github.com/the-tcpdump-group/tcpdump"
+    },
+    {
+        "cveId": "CVE-2016-7940",
+        "commitId": "968776fbf5cd65c7ea2168912bd9f4379727eb11",
+        "repo": "https://github.com/the-tcpdump-group/tcpdump"
+    },
+    {
+        "cveId": "CVE-2016-7983",
+        "commitId": "7bf069c2517690262aacbddc437731af991b31a7",
+        "repo": "https://github.com/the-tcpdump-group/tcpdump"
+    },
+    {
+        "cveId": "CVE-2016-7992",
+        "commitId": "4ef024c8e94459e3ab9afae90e1948406e1d04db",
+        "repo": "https://github.com/the-tcpdump-group/tcpdump"
+    },
+    {
+        "cveId": "CVE-2016-7993",
+        "commitId": "d07e352f5a8a9cbf7e8f3ed49a316ed906353fd8",
+        "repo": "https://github.com/the-tcpdump-group/tcpdump"
+    },
+    {
+        "cveId": "CVE-2017-5342",
+        "commitId": "0db4dcafe5ae38201d3869c96a96cb714d82ff35",
+        "repo": "https://github.com/the-tcpdump-group/tcpdump"
+    },
+    {
+        "cveId": "CVE-2017-5484",
+        "commitId": "5d214e36eed3565fbdc0f9b527bbc33a6bb63972",
+        "repo": "https://github.com/the-tcpdump-group/tcpdump"
+    },
+    {
+        "cveId": "CVE-2017-7521",
+        "commitId": "2d032c7fcdfd692c851ea2fa858b4c2d9ea7d52d",
+        "repo": "https://github.com/OpenVPN/openvpn"
+    },
+    {
+        "cveId": "CVE-2016-3706",
+        "commitId": "4ab2ab03d4351914ee53248dc5aef4a8c88ff8b9",
+        "repo": "https://github.com/lattera/glibc"
+    },
+    {
+        "cveId": "CVE-2016-1234",
+        "commitId": "5171f3079f2cc53e0548fc4967361f4d1ce9d7ea",
+        "repo": "https://github.com/lattera/glibc"
+    },
+    {
+        "cveId": "CVE-2016-8615",
+        "commitId": "cff89bc088b7884098ea0c5378bbda3d49c437bc",
+        "repo": "https://github.com/curl/curl"
+    },
+    {
+        "cveId": "CVE-2016-8623",
+        "commitId": "c5be3d7267c725dbd093ff3a883e07ee8cf2a1d5",
+        "repo": "https://github.com/curl/curl"
+    },
+    {
+        "cveId": "CVE-2017-7479",
+        "commitId": "e498cb0ea8d3a451b39eaf6f9b6a7488f18250b8",
+        "repo": "https://github.com/OpenVPN/openvpn"
+    },
+    {
+        "cveId": "CVE-2017-3731",
+        "commitId": "2198b3a55de681e1f3c23edb0586afe13f438051",
+        "repo": "https://github.com/openssl/openssl"
+    },
+    {
+        "cveId": "CVE-2019-1549",
+        "commitId": "849529257c9979c7ca0d28e8b80a47bc4a36d4f2",
+        "repo": "https://github.com/openssl/openssl"
+    },
+    {
+        "cveId": "CVE-2019-1563",
+        "commitId": "0ae7bae487df98e77da13963066cff2e934b3561",
+        "repo": "https://github.com/NetBSD/src"
+    },
+    {
+        "cveId": "CVE-2015-3195",
+        "commitId": "5280233330d90736333859831f435e1207b176bf",
+        "repo": "https://github.com/NetBSD/src"
+    },
+    {
+        "cveId": "CVE-2016-0799",
+        "commitId": "9cb177301fdab492e4cfef376b28339afe3ef663",
+        "repo": "https://github.com/openssl/openssl"
+    },
+    {
+        "cveId": "CVE-2016-0797",
+        "commitId": "99ba9fd02fd481eb971023a3a0a251a37eb87e4c",
+        "repo": "https://github.com/openssl/openssl"
+    },
+    {
+        "cveId": "CVE-2016-0798",
+        "commitId": "380f18ed5f140e0ae1b68f3ab8f4f7c395658d9e",
+        "repo": "https://github.com/openssl/openssl"
+    },
+    {
+        "cveId": "CVE-2016-0800",
+        "commitId": "15876de6fbce47f920d5349f492c08f4eadeff5b",
+        "repo": "https://github.com/SoftEtherVPN/SoftEtherVPN"
+    },
+    {
+        "cveId": "CVE-2021-22897",
+        "commitId": "bbb71507b7bab52002f9b1e0880bed6a32834511",
+        "repo": "https://github.com/curl/curl"
+    },
+    {
+        "cveId": "CVE-2019-14563",
+        "commitId": "322ac05f8bbc1bce066af1dabd1b70ccdbe28891",
+        "repo": "https://github.com/tianocore/edk2"
+    },
+    {
+        "cveId": "CVE-2019-14587",
+        "commitId": "e36d5ac7d10a6ff5becb0f52fdfd69a1752b0d14",
+        "repo": "https://github.com/tianocore/edk2"
+    },
+    {
+        "cveId": "CVE-2019-14559",
+        "commitId": "578bcdc2605e3438b9cbdac4e68339f90f5bf8af",
+        "repo": "https://github.com/tianocore/edk2"
+    },
+    {
+        "cveId": "CVE-2022-28199",
+        "commitId": "60b254e3923d007bcadbb8d410f95ad89a2f13fa",
+        "repo": "https://github.com/DPDK/dpdk"
+    },
+    {
+        "cveId": "CVE-2012-1667",
+        "commitId": "4ca673f3df5d9679d1d3bdb337a97b8ceec3e666",
+        "repo": "https://github.com/NetBSD/src"
+    },
+    {
+        "cveId": "CVE-2019-13225",
+        "commitId": "c509265c5f6ae7264f7b8a8aae1cfa5fc59d108c",
+        "repo": "https://github.com/kkos/oniguruma"
+    },
+    {
+        "cveId": "CVE-2019-11135",
+        "commitId": "e3721601771396c5e731920d2a716b8a7cbbe176",
+        "repo": "https://github.com/freebsd/freebsd-src"
+    },
+    {
+        "cveId": "CVE-2018-10876",
+        "commitId": "8844618d8aa7a9973e7b527d038a2a589665002c",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2018-10882",
+        "commitId": "c37e9e013469521d9adb932d17a1795c139b36db",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2017-7518",
+        "commitId": "c8401dda2f0a00cd25c0af6a95ed50e478d25de4",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2020-26145",
+        "commitId": "65c415a144ad8132b6a6d97d4a1919ffc728e2d1",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2019-15031",
+        "commitId": "a8318c13e79badb92bc6640704a64cc022a6eb97",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2015-6937",
+        "commitId": "8c7188b23474cca017b3ef354c4a58456f68303a",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2013-0160",
+        "commitId": "b0de59b5733d18b0d1974a060860a8b5c1b36a2e",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2018-19985",
+        "commitId": "5146f95df782b0ac61abde36567e718692725c89",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2013-2850",
+        "commitId": "cea4dcfdad926a27a18e188720efe0f2c9403456",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2016-7039",
+        "commitId": "fcd91dd449867c6bfe56a81cabba76b829fd05cd",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2018-1120",
+        "commitId": "7f7ccc2ccc2e70c6054685f5e3522efa81556830",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2017-2583",
+        "commitId": "33ab91103b3415e12457e3104f0e4517ce12d0f3",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2021-28691",
+        "commitId": "107866a8eb0b664675a260f1ba0655010fac1e08",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2012-1179",
+        "commitId": "1a5a9906d4e8d1976b701f889d8f35d54b928f25",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2004-1073",
+        "commitId": "1fb844961818ce94e782acf6a96b92dc2303553b",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2010-2492",
+        "commitId": "a6f80fb7b5986fda663d94079d3bba0937a6b6ff",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2015-5157",
+        "commitId": "37868fe113ff2ba814b3b4eb12df214df555f8dc",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2022-23042",
+        "commitId": "dea18aef2021022a568f4d385a1386f51a9df6ff",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2022-33742",
+        "commitId": "6d0a9127279a4533815202e30ad1b3a39f560ba3",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2018-1128",
+        "commitId": "6daca13d2e72bedaaacfc08f873114c9307d5aea",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2014-3646",
+        "commitId": "a642fc305053cc1c6e47e4f4df327895747ab485",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2014-0077",
+        "commitId": "d8316f3991d207fe32881a9ac20241be8fa2bad0",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2012-4398",
+        "commitId": "786235eeba0e1e85e5cbbb9f97d1087ad03dfa21",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2006-4145",
+        "commitId": "00a2b0f6dd2372842df73de72d51621b539fea44",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2006-3745",
+        "commitId": "c164a9ba0a8870c5c9d353f63085319931d69f23",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2016-8405",
+        "commitId": "2dc705a9930b4806250fbf5a76e55266e59389f2",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2009-2903",
+        "commitId": "ffcfb8db540ff879c2a85bf7e404954281443414",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2018-14633",
+        "commitId": "1816494330a83f2a064499d8ed2797045641f92c",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2006-6058",
+        "commitId": "f44ec6f3f89889a469773b1fd894f8fcc07c29cf",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2007-4567",
+        "commitId": "2570a4f5428bcdb1077622342181755741e7fa60",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2016-3137",
+        "commitId": "c55aee1bf0e6b6feec8b2927b43f7a09a6d5f754",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2019-15098",
+        "commitId": "39d170b3cb62ba98567f5c4f40c27b5864b304e5",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2015-1593",
+        "commitId": "4e7c22d447bb6d7e37bfe39ff658486ae78e8d77",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2022-2586",
+        "commitId": "faafd9286f1355c76fe9ac3021c280297213330e",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2005-2709",
+        "commitId": "330d57fb98a916fa8e1363846540dd420e99499a",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2021-29657",
+        "commitId": "a58d9166a756a0f4a6618e4f593232593d6df134",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2014-3534",
+        "commitId": "dab6cf55f81a6e16b8147aed9a843e1691dcd318",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2021-22543",
+        "commitId": "f8be156be163a052a067306417cd0ff679068c97",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2017-7558",
+        "commitId": "ee6c88bb754e3d363e568da78086adfedb692447",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2017-2584",
+        "commitId": "129a72a0d3c8e139a04512325384fe5ac119e74d",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2015-7513",
+        "commitId": "0185604c2d82c560dab2f2933a18f797e74ab5a8",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2017-5123",
+        "commitId": "96ca579a1ecc943b75beba58bebb0356f6cc4b51",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2010-2962",
+        "commitId": "ce9d419dbecc292cc3e06e8b1d6d123d3fa813a4",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2015-1350",
+        "commitId": "030b533c4fd4d2ec3402363323de4bb2983c9cee",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2018-16880",
+        "commitId": "b46a0bf78ad7b150ef5910da83859f7f5a514ffd",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2018-1000200",
+        "commitId": "27ae357fa82be5ab73b2ef8d39dcb8ca2563483a",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2021-23134",
+        "commitId": "c61760e6940dd4039a7f5e84a6afc9cdbf4d82b6",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2015-8104",
+        "commitId": "cbdb967af3d54993f5814f1cee0ed311a055377d",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2021-42327",
+        "commitId": "3f4e54bd312d3dafb59daf2b97ffa08abebe60f5",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2015-7799",
+        "commitId": "4ab42d78e37a294ac7bc56901d563c642e03c4ae",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2017-7979",
+        "commitId": "e0535ce58b92d7baf0b33284a6c4f8f0338f943e",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2017-16996",
+        "commitId": "0c17d1d2c61936401f4702e1846e2c19b200f958",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2016-3857",
+        "commitId": "7de249964f5578e67b99699c5f0b405738d820a2",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2020-27820",
+        "commitId": "c3d06f6067bf4a6bb3e988251e1b718a295bb60b",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2022-23039",
+        "commitId": "f06e3edaeac1942c4ff42072e3d98ee8c762c5fa",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2009-0787",
+        "commitId": "8faece5f906725c10e7a1f6caf84452abadbdc7b",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2014-5207",
+        "commitId": "380cf5ba6b0a0b307f4afb62b186ca801defb203",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2022-0435",
+        "commitId": "1f1788616157b0222b0c2153828b475d95e374a7",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2022-33741",
+        "commitId": "ed3cfc690675d852c3416aedb271e0e7d179bf49",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2010-3698",
+        "commitId": "9581d442b9058d3699b4be568b6e5eae38a41493",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2013-2851",
+        "commitId": "ffc8b30866879ed9ba62bd0a86fecdbd51cd3d19",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2020-25656",
+        "commitId": "82e61c3909db51d91b9d3e2071557b6435018b80",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2013-2895",
+        "commitId": "297502abb32e225fb23801fcdb0e4f6f8e17099a",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2019-11833",
+        "commitId": "592acbf16821288ecdc4192c47e3774a4c48bb64",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2016-8632",
+        "commitId": "3de81b758853f0b29c61e246679d20b513c4cfec",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2018-10853",
+        "commitId": "3c9fa24ca7c9c47605672916491f79e8ccacb9e6",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2018-11412",
+        "commitId": "eb9b5f01c33adebc31cbc236c02695f605b0e417",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2017-7482",
+        "commitId": "5f2f97656ada8d811d3c1bef503ced266fcd53a0",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2018-1000004",
+        "commitId": "7bd80091567789f1c0cb70eb4737aac8bcd2b6b9",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2010-3080",
+        "commitId": "27f7ad53829f79e799a253285318bff79ece15bd",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2006-1527",
+        "commitId": "e17df688f7064dae1417ce425dd1e4b71d24d63b",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2006-0039",
+        "commitId": "2c8ac66bb2ff89e759f0d632a27cc64205e9ddd9",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2014-3610",
+        "commitId": "854e8bb1aa06c578c2c9145fa6bfe3680ef63b23",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2015-2150",
+        "commitId": "af6fc858a35b90e89ea7a7ee58e66628c55c776b",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2014-4171",
+        "commitId": "8e205f779d1443a94b5ae81aa359cb535dd3021e",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2016-6162",
+        "commitId": "a612769774a30e4fc143c4cb6395c12573415660",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2013-4299",
+        "commitId": "e9c6a182649f4259db704ae15a91ac820e63b0ca",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2022-33744",
+        "commitId": "9f83c8f6ab14bbf4311b70bf1b7290d131059101",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2018-1093",
+        "commitId": "7dac4a1726a9c64a517d595c40e95e2d0d135f6f",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2009-4538",
+        "commitId": "b94b50289622e816adc9f94111cfc2679c80177c",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2016-9603",
+        "commitId": "50628d3479e4f9aa97e323506856e394fe7ad7a6",
+        "repo": "https://github.com/qemu/qemu"
+    },
+    {
+        "cveId": "CVE-2014-3471",
+        "commitId": "554f802da3f8b09b16b9a84ad5847b2eb0e9ad2b",
+        "repo": "https://github.com/qemu/qemu"
+    },
+    {
+        "cveId": "CVE-2018-16872",
+        "commitId": "bab9df35ce73d1c8e19a37e2737717ea1c984dc1",
+        "repo": "https://github.com/qemu/qemu"
+    },
+    {
+        "cveId": "CVE-2018-17963",
+        "commitId": "25c01bd19d0e4b66f357618aeefda1ef7a41e21a",
+        "repo": "https://github.com/qemu/qemu"
+    },
+    {
+        "cveId": "CVE-2012-3515",
+        "commitId": "3eea5498ca501922520b3447ba94815bfc109743",
+        "repo": "https://github.com/qemu/qemu"
+    },
+    {
+        "cveId": "CVE-2013-2007",
+        "commitId": "c689b4f1bac352dcfd6ecb9a1d45337de0f1de67",
+        "repo": "https://github.com/qemu/qemu"
+    },
+    {
+        "cveId": "CVE-2016-9381",
+        "commitId": "b85f9dfdb156ae2a2a52f39a36e9f1f270614cd2",
+        "repo": "https://github.com/qemu/qemu"
+    },
+    {
+        "cveId": "CVE-2013-4532",
+        "commitId": "2e1198672759eda6e122ff38fcf6df06f27e0fe2",
+        "repo": "https://github.com/qemu/qemu"
+    },
+    {
+        "cveId": "CVE-2021-3930",
+        "commitId": "b3af7fdf9cc537f8f0dd3e2423d83f5c99a457e8",
+        "repo": "https://github.com/qemu/qemu"
+    },
+    {
+        "cveId": "CVE-2021-20263",
+        "commitId": "e586edcb410543768ef009eaa22a2d9dd4a53846",
+        "repo": "https://github.com/qemu/qemu"
+    },
+    {
+        "cveId": "CVE-2016-1981",
+        "commitId": "dd793a74882477ca38d49e191110c17dfee51dcc",
+        "repo": "https://github.com/qemu/qemu"
+    },
+    {
+        "cveId": "CVE-2017-9503",
+        "commitId": "87e459a810d7b1ec1638085b5a80ea3d9b43119a",
+        "repo": "https://github.com/qemu/qemu"
+    },
+    {
+        "cveId": "CVE-2016-4952",
+        "commitId": "3e831b40e015ba34dfb55ff11f767001839425ff",
+        "repo": "https://github.com/qemu/qemu"
+    },
+    {
+        "cveId": "CVE-2015-2756",
+        "commitId": "81b23ef82cd1be29ca3d69ab7e98b5b5e55926ce",
+        "repo": "https://github.com/qemu/qemu"
+    },
+    {
+        "cveId": "CVE-2021-3392",
+        "commitId": "3791642c8d60029adf9b00bcb4e34d7d8a1aea4d",
+        "repo": "https://github.com/qemu/qemu"
+    },
+    {
+        "cveId": "CVE-2013-4534",
+        "commitId": "73d963c0a75cb99c6aaa3f6f25e427aa0b35a02e",
+        "repo": "https://github.com/qemu/qemu"
+    },
+    {
+        "cveId": "CVE-2015-0289",
+        "commitId": "c225c3cf9bd67297fb0c297768d69cbc03fbdab7",
+        "repo": "https://github.com/openssl/openssl"
+    },
+    {
+        "cveId": "CVE-2006-0553",
+        "commitId": "226a980bb0dfaaa4cee3650889218483aa9ec632",
+        "repo": "https://github.com/greenplum-db/gpdb"
+    },
+    {
+        "cveId": "CVE-2014-0062",
+        "commitId": "5f173040e324f6c2eebb90d86cf1b0cdb5890f0a",
+        "repo": "https://github.com/greenplum-db/gpdb"
+    },
+    {
+        "cveId": "CVE-2014-0064",
+        "commitId": "31400a673325147e1205326008e32135a78b4d8a",
+        "repo": "https://github.com/greenplum-db/gpdb"
+    },
+    {
+        "cveId": "CVE-2013-1901",
+        "commitId": "ce9ab88981495d975aade8fc664f99f68fc18e2b",
+        "repo": "https://github.com/greenplum-db/gpdb"
+    },
+    {
+        "cveId": "CVE-2014-0061",
+        "commitId": "537cbd35c893e67a63c59bc636c3e888bd228bc7",
+        "repo": "https://github.com/greenplum-db/gpdb"
+    },
+    {
+        "cveId": "CVE-2012-0867",
+        "commitId": "077711c2e3e86384d19d833233bd35e05b921cfc",
+        "repo": "https://github.com/greenplum-db/gpdb"
+    },
+    {
+        "cveId": "CVE-2016-3065",
+        "commitId": "3e1338475ffc2eac25de60a9de9ce689b763aced",
+        "repo": "https://github.com/greenplum-db/gpdb"
+    },
+    {
+        "cveId": "CVE-2007-6601",
+        "commitId": "919c9f6cceeae8468672462a23eab470e18ceda0",
+        "repo": "https://github.com/greenplum-db/gpdb"
+    },
+    {
+        "cveId": "CVE-2007-0556",
+        "commitId": "5413eef8dcd2dbf2cc46eed4f9fe4024987b8a38",
+        "repo": "https://github.com/greenplum-db/gpdb"
+    },
+    {
+        "cveId": "CVE-2014-0063",
+        "commitId": "4318daecc959886d001a6e79c6ea853e8b1dfb4b",
+        "repo": "https://github.com/greenplum-db/gpdb"
+    },
+    {
+        "cveId": "CVE-2007-6600",
+        "commitId": "eedb068c0a7474fb11d67d03b0a9e1ded5df82c4",
+        "repo": "https://github.com/greenplum-db/gpdb"
+    },
+    {
+        "cveId": "CVE-2017-15099",
+        "commitId": "87b2ebd352c4afe1ded0841604b59a3afbae97d1",
+        "repo": "https://github.com/greenplum-db/gpdb"
+    },
+    {
+        "cveId": "CVE-2010-2632",
+        "commitId": "daab0b01edd8f0175b355f02e5f1481b2f7898f9",
+        "repo": "https://github.com/freebsd/freebsd-src"
+    },
+    {
+        "cveId": "CVE-2015-7236",
+        "commitId": "066c492a77015b0e8236d3d2cdfc733024e2e6c3",
+        "repo": "https://github.com/freebsd/freebsd-src"
+    },
+    {
+        "cveId": "CVE-2018-12207",
+        "commitId": "c08973d09c95f7459bedf22fe212beb3f5107227",
+        "repo": "https://github.com/freebsd/freebsd-src"
+    },
+    {
+        "cveId": "CVE-2018-17160",
+        "commitId": "39040a9ec437810b350fe349adc0480ce9a94311",
+        "repo": "https://github.com/freebsd/freebsd-src"
+    },
+    {
+        "cveId": "CVE-2016-0777",
+        "commitId": "1026c03c2854427858e94b89c4c8559371fbc5c6",
+        "repo": "https://github.com/freebsd/freebsd-src"
+    },
+    {
+        "cveId": "CVE-2019-5599",
+        "commitId": "5e02b277a4fac9fa5046d81e7cb9a5df54e25895",
+        "repo": "https://github.com/freebsd/freebsd-src"
+    },
+    {
+        "cveId": "CVE-2013-3077",
+        "commitId": "acde2476c4c9fd94d8d9ac0c79d355ef24e6a6c6",
+        "repo": "https://github.com/freebsd/freebsd-src"
+    },
+    {
+        "cveId": "CVE-2014-8613",
+        "commitId": "6a58f0e913cac177649f9732c47fa0c3f6de9f67",
+        "repo": "https://github.com/freebsd/freebsd-src"
+    },
+    {
+        "cveId": "CVE-2019-5608",
+        "commitId": "7f8c266da570727b937c70054dd07592e29ae762",
+        "repo": "https://github.com/freebsd/freebsd-src"
+    },
+    {
+        "cveId": "CVE-2020-25577",
+        "commitId": "f2fb8af155226583c50c1d836b83e21a3d40832c",
+        "repo": "https://github.com/freebsd/freebsd-src"
+    },
+    {
+        "cveId": "CVE-2011-2895",
+        "commitId": "a06534c3c2587eca911a202d556fa656694f0218",
+        "repo": "https://github.com/freebsd/freebsd-src"
+    },
+    {
+        "cveId": "CVE-2020-7450",
+        "commitId": "6fb3f9944faefa41b322b5e1bc0d280b4005ca44",
+        "repo": "https://github.com/freebsd/freebsd-src"
+    },
+    {
+        "cveId": "CVE-2019-5602",
+        "commitId": "fc795c25d40545d022b5e3d2918ae480aeb765a1",
+        "repo": "https://github.com/freebsd/freebsd-src"
+    },
+    {
+        "cveId": "CVE-2016-1883",
+        "commitId": "669414e4fb7463aa46811636ad6b6b66834dd6fd",
+        "repo": "https://github.com/freebsd/freebsd-src"
+    },
+    {
+        "cveId": "CVE-2017-1088",
+        "commitId": "edb01d11f89618f0bfb1db67682effb1dd9fa781",
+        "repo": "https://github.com/freebsd/freebsd-src"
+    },
+    {
+        "cveId": "CVE-2011-3210",
+        "commitId": "dfdd3320563293af72effba0ea2826a1a934106e",
+        "repo": "https://github.com/freebsd/freebsd-src"
+    },
+    {
+        "cveId": "CVE-2019-5612",
+        "commitId": "35fd0fc40918d04d5d86573839ff2f36dd780545",
+        "repo": "https://github.com/freebsd/freebsd-src"
+    },
+    {
+        "cveId": "CVE-2020-24718",
+        "commitId": "09860d44e4f52ea4b77051fb988bcffa221d0a59",
+        "repo": "https://github.com/freebsd/freebsd-src"
+    },
+    {
+        "cveId": "CVE-2007-4995",
+        "commitId": "a0ddfe4e7233d81e88a86217b7653708db2720fa",
+        "repo": "https://github.com/freebsd/freebsd-src"
+    },
+    {
+        "cveId": "CVE-2014-3953",
+        "commitId": "e432298ade8c0f7cc2bc0969c318086dc12ce86a",
+        "repo": "https://github.com/freebsd/freebsd-src"
+    },
+    {
+        "cveId": "CVE-2019-14745",
+        "commitId": "5411543a310a470b1257fb93273cdd6e8dfcb3af",
+        "repo": "https://github.com/freebsd/freebsd-src"
+    },
+    {
+        "cveId": "CVE-2014-4699",
+        "commitId": "fd815c0b8dad8a7d9d74bfc09217943bda0f03a9",
+        "repo": "https://github.com/freebsd/freebsd-src"
+    },
+    {
+        "cveId": "CVE-2013-2028",
+        "commitId": "6a8e32347b151ac766bf8c33d6df770e0040e602",
+        "repo": "https://github.com/nginx/nginx-releases"
+    },
+    {
+        "cveId": "CVE-2006-4339",
+        "commitId": "b79aa05e3babdbab92c6356f6e51f7bb43c41576",
+        "repo": "https://github.com/openssl/openssl"
+    },
+    {
+        "cveId": "CVE-2017-11108",
+        "commitId": "d9e65de3d94698ec90dbca42962a30dd2f0680e1",
+        "repo": "https://github.com/the-tcpdump-group/tcpdump"
+    },
+    {
+        "cveId": "CVE-2014-3508",
+        "commitId": "0042fb5fd1c9d257d713b15a1f45da05cf5c1c87",
+        "repo": "https://github.com/openssl/openssl"
+    },
+    {
+        "cveId": "CVE-2020-12888",
+        "commitId": "abafbc551fddede3e0a08dee1dcde08fc0eb8476",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2014-0196",
+        "commitId": "2d2deadc7d1b94232e948c5b11e53782bcb6a676",
+        "repo": "https://github.com/hanwckf/rt-n56u"
+    },
+    {
+        "cveId": "CVE-2022-2625",
+        "commitId": "782b169922760d0cf46b1ffd86507e4425e0743c",
+        "repo": "https://github.com/greenplum-db/gpdb"
+    },
+    {
+        "cveId": "CVE-2012-0884",
+        "commitId": "146b52edd122f55e2b2bfeb486dae8dbe96f739e",
+        "repo": "https://github.com/openssl/openssl"
+    },
+    {
+        "cveId": "CVE-2018-0739",
+        "commitId": "4cabbb9f485ba7d1edcfbbd2aa8610159f94543e",
+        "repo": "https://github.com/openssl/openssl"
+    },
+    {
+        "cveId": "CVE-2019-18934",
+        "commitId": "09845779d5f2c96e3064ff398cad65c08357cfbf",
+        "repo": "https://github.com/NLnetLabs/unbound"
+    },
+    {
+        "cveId": "CVE-2015-0206",
+        "commitId": "103b171d8fc282ef435f8de9afbf7782e312961f",
+        "repo": "https://github.com/openssl/openssl"
+    },
+    {
+        "cveId": "CVE-2018-3665",
+        "commitId": "fc3e80c322e7b6ee8bb7abdb8c4be23a062c1ccc",
+        "repo": "https://github.com/freebsd/freebsd-src"
+    },
+    {
+        "cveId": "CVE-2009-3736",
+        "commitId": "2cad9720366770980cdd8b8d056e1e5249c790b0",
+        "repo": "https://github.com/FreeRADIUS/freeradius-server"
+    },
+    {
+        "cveId": "CVE-2014-4014",
+        "commitId": "23adbe12ef7d3d4195e80800ab36b37bee28cd03",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2017-8379",
+        "commitId": "fa18f36a461984eae50ab957e47ec78dae3c14fc",
+        "repo": "https://github.com/qemu/qemu"
+    },
+    {
+        "cveId": "CVE-2014-8275",
+        "commitId": "684400ce192dac51df3d3e92b61830a6ef90be3e",
+        "repo": "https://github.com/openssl/openssl"
+    },
+    {
+        "cveId": "CVE-2009-3245",
+        "commitId": "2d9dcd4ff0923347fab727ac90e8526dd65e4e07",
+        "repo": "https://github.com/openssl/openssl"
+    },
+    {
+        "cveId": "CVE-2014-3507",
+        "commitId": "d0a4b7d1a2948fce38515b8d862f43e7ba0ebf74",
+        "repo": "https://github.com/openssl/openssl"
+    },
+    {
+        "cveId": "CVE-2020-25695",
+        "commitId": "14f8ba7603e187be045543c8ad60a961e0041bd6",
+        "repo": "https://github.com/greenplum-db/gpdb"
+    },
+    {
+        "cveId": "CVE-2017-7508",
+        "commitId": "c3f47077a7756de5929094569421a95aa66f2022",
+        "repo": "https://github.com/OpenVPN/openvpn"
+    },
+    {
+        "cveId": "CVE-2015-5307",
+        "commitId": "54a20552e1eae07aa240fa370a0293e006b5faed",
+        "repo": "https://github.com/spotify/linux"
+    },
+    {
+        "cveId": "CVE-2014-3506",
+        "commitId": "1250f12613b61758675848f6600ebd914ccd7636",
+        "repo": "https://github.com/openssl/openssl"
+    },
+    {
+        "cveId": "CVE-2014-0088",
+        "commitId": "6df21ff8de361e7a9beb7cfd09945378b00b90e2",
+        "repo": "https://github.com/alibaba/tengine"
+    },
+    {
+        "cveId": "CVE-2016-2107",
+        "commitId": "70428eada9bc4cf31424d723d1f992baffeb0dfb",
+        "repo": "https://github.com/openssl/openssl"
+    },
+    {
+        "cveId": "CVE-2013-0166",
+        "commitId": "b48310627d1fdc58f64ccf208ac82c732e654dca",
+        "repo": "https://github.com/openssl/openssl"
+    },
+    {
+        "cveId": "CVE-2014-3616",
+        "commitId": "ecfab06cb20959219c9aadc2ef59507488e4fa99",
+        "repo": "https://github.com/nginx/nginx"
+    },
+    {
+        "cveId": "CVE-2012-2110",
+        "commitId": "d9a9d10f4f8d4ed051f2488a90b012dceb7ec885",
+        "repo": "https://github.com/openssl/openssl"
+    },
+    {
+        "cveId": "CVE-2021-23840",
+        "commitId": "c9fb704cf3af5524eb8e79961e31b60eee8c3c47",
+        "repo": "https://github.com/openssl/openssl"
+    },
+    {
+        "cveId": "CVE-2012-2333",
+        "commitId": "c46ecc3a55bcbbe4ff31da3864d015e343b0189f",
+        "repo": "https://github.com/openssl/openssl"
+    },
+    {
+        "cveId": "CVE-2005-3352",
+        "commitId": "90521799bdb923df031e975021b7ce1d093fc4eb",
+        "repo": "https://github.com/apache/httpd"
+    },
+    {
+        "cveId": "CVE-2014-6272",
+        "commitId": "841ecbd96105c84ac2e7c9594aeadbcc6fb38bc4",
+        "repo": "https://github.com/libevent/libevent"
+    }
+]
