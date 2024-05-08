@@ -29,7 +29,7 @@ This page lists the supplementary materiales including the dataset, source code 
 
 ### Source code
 
-Our code can be download [here](https://github.com/vmud20/vmud20.github.io/tree/main/vmud), The code is divided into two directories: *signatureGeneration* and *VMDetector*. To generate signatures, execute the Python script named ***gen_fingerprint_multi_org.py* or *gen_fingerprint_multi_rep.py***. Besides, to conduct VM detection for a specific project, run the Python script ***Detector.py*** to obtain the detection results."
+Our code can be download [here](https://github.com/vmud20/vmud20.github.io/tree/main/vmud), The code is divided into two directories: *signatureGeneration* and *VMDetector*. To generate signatures, execute the Python script named ***gen_fingerprint_multi_org.py* or *gen_fingerprint_multi_rep.py***. Besides, to conduct VM detection for a specific project, run the Python script ***Detector.py*** to obtain the detection results.
 
 ##### VM Signature generation
 
