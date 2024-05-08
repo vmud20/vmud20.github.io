@@ -185,9 +185,9 @@ The evaluation contains RQ1, RQ2, RQ3, RQ4 and RQ5, the data and code can downlo
 
     As for **V1scan**, We just run V1scan using docker following the [instructions](https://github.com/WOOSEUNGHOON/V1SCAN-public/blob/main/README.md),  obtaining the [results](evaluation/RQ1/results/results_v1scan.txt), then we conducted manual validation of all positive results by the authors to confirm the presence of VM, and then get the confirmed [results](evaluation/RQ1/results/results_v1scan.csv).
 
-    As for **VMUD**, we run our tool to detect all [projects](https://github.com/vmud20/vmud20.github.io/tree/main/dataset/projects.json), obtaining the [results](evaluation/RQ1/results/results_vmud.txt), then we conducted manual validation of all positive results by the authors to confirm the presence of VM, and then get the confirmed [results](evaluation/RQ1/results/results_vmud.csv).
+    As for **VMUD**, we run our tool to detect all [projects](https://github.com/vmud20/vmud20.github.io/tree/main/dataset/projects.json), obtaining the [results](evaluation/RQ1/results/results_vmud.txt), then we conducted manual validation of all positive results by the authors to confirm the presence of VM, and then get the confirmed [results](evaluation/RQ1/results/results_vmud.xlsx).
 
-    After that, we merge all positive results and get the [Groundtruth](evaluation/RQ1/datas/GT.csv). 
+    After that, we merge all positive results and get the [Groundtruth](evaluation/RQ1/results/GT.csv). 
 
     Above all, we get the results of **matching-one-function-in-all approach**. To get the results of  **matching-all-functions approach**, we analyzed the results file and removed all positive results where there was not a complete match with all modified methods in the patch. Then we get the results shown in Table 4.
 
@@ -236,11 +236,11 @@ The evaluation contains RQ1, RQ2, RQ3, RQ4 and RQ5, the data and code can downlo
 
 - **RQ4: threshold Sensitivity.**
 
-  We conducted a sensitivity analysis to assess the impact of various thresholds (*th_pr* , *th_syn_V*, *th_sem_V*, *th_syn_P* , *th_sem_P*, *th_ce*) on VMud’s performance. Just modify the corresponding configurations in ***config.json*** and proceed to detect all [projects](https://github.com/vmud20/vmud20.github.io/tree/main/dataset/projects.json). Then we will get the [results](https://github.com/vmud20/vmud20.github.io/tree/main/evaluation/RQ4/datas) depends on the [Groundtruth](evaluation/RQ1/datas/GT.csv). To get [Figure 7](https://github.com/vmud20/vmud20.github.io/tree/main/evaluation/RQ4/figs) in our paper, please run the python script ***RQ4_sensitivity.py***.
+  We conducted a sensitivity analysis to assess the impact of various thresholds (*th_pr* , *th_syn_V*, *th_sem_V*, *th_syn_P* , *th_sem_P*, *th_ce*) on VMud’s performance. Just modify the corresponding configurations in ***config.json*** and proceed to detect all [projects](https://github.com/vmud20/vmud20.github.io/tree/main/dataset/projects.json). Then we will get the [results](https://github.com/vmud20/vmud20.github.io/tree/main/evaluation/RQ4/datas) depends on the [Groundtruth](evaluation/RQ1/results/GT.csv). To get [Figure 7](https://github.com/vmud20/vmud20.github.io/tree/main/evaluation/RQ4/figs) in our paper, please run the python script ***RQ4_sensitivity.py***.
 
 - **RQ5: performance Evaluation.**
 
-  The the time cost of VMud will output in the log file which you configured in the *config.json* when you detect the project using vmud. As for our evaluation for RQ5, we extract the cost time into [result_vmudTime.json](evaluation/RQ5/result_vmudTime.json). 
+  The the time cost of VMud will output in the log file which you configured in the *config.json* when you detect the project using vmud. As for our evaluation for RQ5, we extract the cost time into [result_vmudTime.json](evaluation/RQ5/data/result_vmudTime.json). 
 
   Besides, as for Vuddy, MVP, Movery and V1scan, we can also extract the cost time from their log file. The cost time of detector using every tool is shown [here](https://github.com/vmud20/vmud20.github.io/tree/main/evaluation/RQ5/data).
 
