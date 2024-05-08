@@ -11,6 +11,8 @@ import copy
 import xml.dom.minidom
 import subprocess
 from datetime import datetime
+import pagerank
+import getMacros
 
 encoding_format = "ISO-8859-1"
 removedMacros = ["__FILE__", "__LINE__", "__DATE__", "__TIME__", "__STDC__", "__STDC_VERSION__", 
@@ -21,17 +23,174 @@ info = json.load(file)
 work_dir = info["work_path"]
 signature_path = info["signature_path"]
 macros_path = info["macros"]
+saga_dir = info["saga_path"]
 file.close()
 
-def format_and_del_comment(src):
-    with open(src, 'r', encoding=encoding_format) as f:
-        file_contents = f.read()
-    c_regex = re.compile(
-        r'(?P<comment>//.*?$|[{}]+)|(?P<multilinecomment>/\*.*?\*/)|(?P<noncomment>\'(\\.|[^\\\'])*\'|"(\\.|[^\\"])*"|.[^/\'"]*)',
-        re.DOTALL | re.MULTILINE)
-    with open(src,'w',encoding=encoding_format) as f:
-        f.write(''.join([c.group('noncomment') for c in c_regex.finditer(file_contents) if c.group('noncomment')]))
+
+def format_and_del_comment_usegcc(src, repoName, hash):
     with open(src, "r", encoding=encoding_format) as f:
+        file_contents = f.readlines()
+        i = 0
+        while i < len(file_contents):
+            file_pure_contents = file_contents[i].strip().replace(" ","")
+            if file_pure_contents.startswith("#if0"):
+                j = i
+                while j < len(file_contents):
+                    file_pure_contents_in = file_contents[j].strip().replace(" ","")
+                    if file_pure_contents_in.startswith("#else") or file_pure_contents_in.startswith("#endif"):
+                        break
+                    else:
+                        file_contents[j] = "\n"
+                    j += 1
+                i = j  
+            if file_pure_contents.startswith("#if") or file_pure_contents.startswith("#elif") or file_pure_contents.startswith("#else") or file_pure_contents.startswith("#ifdef") or file_pure_contents.startswith("#ifndef") or file_pure_contents.startswith("#endif"):
+                if file_contents[i].strip().replace(" ","").endswith("\\"):
+                    file_contents[i] = "\n"
+                    j = i + 1  
+                    while j < len(file_contents):
+                        if file_contents[j].strip().replace(" ","").endswith("\\"):
+                            file_contents[j] = "\n"
+                        else:
+                            file_contents[j] = "\n"
+                            break
+                        j += 1
+                    i = j
+                else:
+                    file_contents[i] = "\n"
+            if file_contents[i].strip().startswith("#define") and not file_contents[i].strip().replace(" ","").endswith("\\") and len(file_contents[i].lstrip().replace("\t"," ").split(" ")) <= 2:
+                file_contents[i] = "\n"
+                
+            for macro in removedMacros:
+                file_contents[i] = file_contents[i].replace(macro, "\"{0}\"".format(macro))
+            if file_contents[i].lstrip().replace(" ","").startswith("#error"):
+                file_contents[i] = "\n"
+            i += 1
+        with open(src, "w", encoding=encoding_format) as fp:
+            fp.write("".join(file_contents))
+    cmd = "gcc -E -w -include {5}{0}/macro_{1}_{2}.h {3} -o {4}".format(repoName, hash, src.split("/")[-1], src, src.replace(".c", "_gcc.c"), macros_path)
+    relines = []
+    with open("{3}{0}/macro_{1}_{2}.h".format(repoName, hash, src.split("/")[-1], macros_path)) as f:
+        lines = f.readlines()
+        i = 0
+        while i < len(lines):
+            if lines[i].strip().startswith("#define") and not lines[i].strip().replace(" ","").endswith("\\") and len(lines[i].lstrip().replace("\t"," ").split(" ")) <= 2:
+                lines[i] = "\n"
+            relines.append(lines[i])
+            i += 1
+    with open("{3}{0}/macro_{1}_{2}.h".format(repoName, hash, src.split("/")[-1],macros_path), "w") as f:
+        f.writelines(relines)
+    gcc_finish = False
+    preMsg = ""
+    first_try = False
+    
+    while not gcc_finish:
+        try:
+            subprocess.check_output(cmd, stderr=subprocess.STDOUT, shell=True).decode(errors='replace')
+            gcc_finish = True
+        except subprocess.CalledProcessError as e:
+            err_msg = e.output.decode()
+            if preMsg == err_msg:
+                if first_try:
+                    format_and_del_comment(src)
+                    return
+                else:
+                    with open("{3}{0}/macro_{1}_{2}.h".format(repoName, hash, src.split("/")[-1],macros_path), "r", encoding=encoding_format) as f:
+                        file_contents = f.readlines()
+                        i = 0
+                        while i < len(file_contents):
+                            if file_contents[i].strip().replace(" ","").startswith("#include"):
+                                file_contents[i] = "\n"
+                            i += 1
+                        fp = open("{3}{0}/macro_{1}_{2}.h".format(repoName, hash, src.split("/")[-1],macros_path), "w")
+                        fp.writelines(file_contents)
+                    first_try = True
+            else:
+                preMsg = err_msg
+            msgs = err_msg.split("\n")
+            i = 0
+            while i < len(msgs):
+                msg = msgs[i]
+                pattern1 = r'requires (\d+) arguments, but only (\d+) given'
+                pattern2 = r'fatal error: ([^:]+): No such file or directory'
+                pattern3 = r'passed (\d+) arguments, but takes just (\d+)'
+                pattern4 = r'error: missing binary operator before token "\("'
+                pattern5 = r'error: #endif without #if'
+                pattern6 = r'error: #else without #if'
+                pattern7 = r'error: ' 
+                match = re.search(pattern1, msg)
+                match2 = re.search(pattern2, msg)
+                match3 = re.search(pattern3, msg)
+                match4 = re.search(pattern4, msg)
+                match5 = re.search(pattern5, msg)
+                match6 = re.search(pattern6, msg)
+                match7 = re.search(pattern7, msg)
+                if match:
+                    info = msgs[i+4]
+                    fileName = info.split(":")[0].strip()
+                    if not (macros_path not in fileName or pure_fileName not in fileName):
+                        i += 1
+                        continue
+                    lineNumber = info.split(":")[1].strip()
+                    f = open(fileName, 'r', encoding='utf-8', errors='replace')
+                    lines = f.readlines()
+                    lines[int(lineNumber)-1] = "\n"
+                    f.close()
+                    fp = open(fileName, 'w', encoding='utf-8', errors='replace')
+                    fp.writelines(lines)
+                    fp.close()
+                    i += 6
+                elif match2:
+                    info = msg
+                    fileName = info.split(":")[0].strip()
+                    if not (macros_path not in fileName or pure_fileName not in fileName):
+                        i += 1
+                        continue
+                    lineNumber = info.split(":")[1].strip()
+                    f = open(fileName, 'r', encoding='utf-8', errors='replace')
+                    lines = f.readlines()
+                    lines[int(lineNumber)-1] = "\n"
+                    f.close()
+                    fp = open(fileName, 'w', encoding='utf-8', errors='replace')
+                    fp.writelines(lines)
+                    fp.close()
+                    i+=1
+                elif match3:
+                    if len(msgs[i+4].split(":")) > 1:
+                        info = msgs[i+4]
+                        i += 6
+                    else:
+                        info = msg
+                        i += 1
+                    fileName = info.split(":")[0].strip()
+                    if not (macros_path not in fileName or pure_fileName not in fileName):
+                        i += 1
+                        continue
+                    lineNumber = info.split(":")[1].strip()
+                    f = open(fileName, 'r', encoding='utf-8', errors='replace')
+                    lines = f.readlines()
+                    lines[int(lineNumber)-1] = "\n"
+                    f.close()
+                    fp = open(fileName, 'w', encoding='utf-8', errors='replace')
+                    fp.writelines(lines)
+                    fp.close()
+                elif match4 or match5 or match6 or match7:
+                    info = msg
+                    fileName = info.split(":")[0].strip()
+                    if not (macros_path not in fileName or pure_fileName not in fileName):
+                        i += 1
+                        continue
+                    lineNumber = info.split(":")[1].strip()
+                    f = open(fileName, 'r', encoding='utf-8', errors='replace')
+                    lines = f.readlines()
+                    lines[int(lineNumber)-1] = "\n"
+                    f.close()
+                    fp = open(fileName, 'w', encoding='utf-8', errors='replace')
+                    fp.writelines(lines)
+                    fp.close()
+                    i+=1
+                else:
+                    i += 1
+    with open(src.replace(".c", "_gcc.c"), "r", encoding=encoding_format) as f:
         lines = f.readlines()
         i = 0
         while i < len(lines):
@@ -52,22 +211,58 @@ def format_and_del_comment(src):
         f.writelines(lines)
     with open(src, "r", encoding=encoding_format) as f:
         lines = f.readlines()
-        for i in range(len(lines)):
-            if lines[i].startswith("#"):
+        i = 0
+        while i < len(lines):
+            if lines[i].startswith("# "):
+                while src not in lines[i]:
+                    lines[i] = "\n"
+                    i += 1
                 lines[i] = "\n"
+            i += 1
     with open(src, "w", encoding=encoding_format) as f:
         f.writelines(lines)
     with open(src, "r", encoding=encoding_format) as f:
         lines = f.readlines()
         i = 0
+        preTemp = 0
         while i < len(lines):
-            if lines[i].strip() == "\n" or lines[i].strip() == "\r\n" or lines[i].strip() == "":
+            if (
+                lines[i].strip() == "\n"
+                or lines[i].strip() == "\r\n"
+                or lines[i].strip() == ""
+            ):
                 i += 1
+            elif lines[i].strip() == ";":
+                if lines[preTemp].strip().endswith("{"):
+                    lines[preTemp] = lines[preTemp][:-2] + ";\n"
+                    lines[i] = "\n"
+                    j = i
+                    while j < len(lines) and not lines[j].strip()=="}":
+                        j += 1
+                    lines[j] = "\n"
+                    i = j+1
+                else:
+                    lines[preTemp] = lines[preTemp].strip() + ";\n"
+                    lines[i] = "\n"
+            elif lines[i].strip().startswith("||") or lines[i].strip().startswith("&&") or lines[i].strip().startswith(")") or (lines[i].strip().startswith("(") and not lines[preTemp].strip().endswith("{") and not (lines[preTemp].strip().endswith(";") and not lines[preTemp].strip().startswith("for"))):
+                lines[preTemp] = lines[preTemp].strip() + lines[i].lstrip()
+                lines[i] = "\n"
+                i = preTemp
+            elif lines[i].lstrip().startswith("else") and lines[preTemp].strip().replace(" ","") == "}":
+                lines[preTemp] = lines[preTemp].strip() + lines[i].lstrip()
+                lines[i] = "\n"
+                i = preTemp
             else:
                 temp = i
-                while i < len(lines) and not lines[i].strip().endswith(";") and not lines[i].strip().endswith("{") and not lines[i].strip().endswith(
-                        ")") and not \
-                        lines[i].strip().endswith("}") and not lines[i].strip().endswith(":") and not lines[i].strip().startswith("#"):
+                preTemp = i
+                while (
+                    i < len(lines)
+                    and not lines[i].strip().endswith(";")
+                    and not lines[i].strip().endswith("{")
+                    and not (lines[i].strip().endswith(")") and (lines[i].strip().startswith("if") or lines[temp].strip().startswith("if")))
+                    and not lines[i].strip().endswith("}")
+                    and not lines[i].strip().startswith("#")
+                ):
                     i += 1
                 if temp != i:
                     lines[temp] = lines[temp][:-1]
@@ -79,9 +274,50 @@ def format_and_del_comment(src):
                     lines[j] = "\n"
                 if temp == i:
                     i += 1
+        i = 0
+        while i < len(lines):
+            lines[i] = lines[i].replace("_U_", "") 
+            lines[i] = lines[i].replace("IN ", "")
+            lines[i] = lines[i].replace("EFIAPI", "") 
+            lines[i] = lines[i].replace("UNUSED_PARAM", "") 
+            lines[i] = lines[i].replace("NULL", "((void *)0)") 
+            lines[i] = lines[i].replace("(((void *)0))", "((void *)0)") 
+            lines[i] = lines[i].replace("false", "0").replace("true", "1") 
+            lines[i] = lines[i].replace("__declspec(dllexport) mrb_value","")
+            lines[i] = lines[i].replace("extern \"C\"","")
+            lines[i] = lines[i].replace("!!","")  
+
+            if src in lines[i]:
+                j = lines[i].replace(" ","").find(src)
+                if lines[i].replace(" ","")[j + len(src)+1]=="," and lines[i].replace(" ","")[j + len(src)+2].isdigit():
+                    k = lines[i].replace(" ","")[j + len(src)+2:].find(",")
+                    if k != -1:
+                        digit = lines[i].replace(" ","")[j + len(src)+2:j + len(src)+2+k]
+                    else:
+                        k = lines[i].replace(" ","")[j + len(src)+2:].find(")")
+                        digit = lines[i].replace(" ","")[j + len(src)+2:j + len(src)+2+k]
+                    lines[i] = lines[i].replace(src + ",","").replace(digit + ",", "").replace(src,"").replace(digit,"")
+
+            if "&(*" in lines[i] or "*(&" in lines[i]:
+                k = lines[i].find("&(*")
+                if k == -1:
+                    k = lines[i].find("*(&")
+                if k == -1:
+                    i += 1
+                    continue
+                bracket_count = 1
+                for j in range(k + 3, len(lines[i])):
+                    if lines[i][j] == "(":
+                        bracket_count += 1
+                    elif lines[i][j] == ")":
+                        if bracket_count == 1:
+                            lines[i] = lines[i][0:j] + lines[i][j+1:]
+                            break
+                        bracket_count -= 1
+                lines[i] = lines[i].replace("&(*","").replace("*(&","")
+            i += 1
     with open(src, "w", encoding=encoding_format) as f:
         f.writelines(lines)
-
 
 def readCommit(location, git_repo_location, work_dir):
     method_info = []
@@ -129,8 +365,8 @@ def parseFile(file, method_info, git_repo_location, work_dir, hash):
     os.chdir(git_repo_location)
     os.system("git show " + info["oldCommit"] + " > " + work_dir + "temp/" + old_name)
     os.system("git show " + info["newCommit"] + " > " + work_dir + "temp/" + new_name)
-    format_and_del_comment(work_dir + "temp/" + old_name)
-    format_and_del_comment(work_dir + "temp/" + new_name)
+    format_and_del_comment_usegcc(work_dir + "temp/" + old_name, git_repo_location.strip().split("/")[-1], hash + "~1")
+    format_and_del_comment_usegcc(work_dir + "temp/" + new_name, git_repo_location.strip().split("/")[-1], hash)
     os.system(
         "git diff -w "
         + work_dir
@@ -682,7 +918,7 @@ def entropy_selection(vul_syn,add_line,delete_line,indirect_vul_syn,old_file,old
     with open("./temp/"+old_file,"r",encoding=encoding_format) as f:
         lines=f.readlines()
     for line in vul_syn:
-        stmt_list.append(lines[line-1].replace(" ", "").replace("{", "").replace("}", "").replace("\t", "").replace("\n", ""))
+        stmt_list.append(lines[line-1].replace(" ", "").replace("{", "").replace("}", "").replace("\t", "").replace("\n", "").replace("(", "").replace(")",""))
     temp_set=set(stmt_list)
     entropy=len(temp_set)
     while entropy > threshold and len(indirect_vul_syn)!=0:
@@ -706,7 +942,7 @@ def entropy_selection(vul_syn,add_line,delete_line,indirect_vul_syn,old_file,old
             if temp_dis>max_dis:
                 max_dis=temp_dis
                 stmt=indirect
-        stmt_list.remove(lines[stmt-1].replace(" ", "").replace("{", "").replace("}", "").replace("\t", "").replace("\n", ""))
+        stmt_list.remove(lines[stmt-1].replace(" ", "").replace("{", "").replace("}", "").replace("\t", "").replace("\n", "").replace("(", "").replace(")",""))
         if old_new_map[stmt] in new_slicing_set:
             new_slicing_set.remove(old_new_map[stmt])
         vul_syn.remove(stmt)
@@ -827,6 +1063,8 @@ def signature_generate_vul_patch(
                 .replace("}", "")
                 .replace("\t", "")
                 .replace("\n", "")
+                .replace("(","")
+                .replace(")","")
             )
             if signature_dict["deleteLines"][i] != "":
                 m = hashlib.md5()
@@ -841,6 +1079,8 @@ def signature_generate_vul_patch(
                 .replace("}", "")
                 .replace("\t", "")
                 .replace("\n", "")
+                .replace("(","")
+                .replace(")","")
             )
             if vul_syn[i] != "":
                 m = hashlib.md5()
@@ -856,6 +1096,8 @@ def signature_generate_vul_patch(
                 .replace("}", "")
                 .replace("\t", "")
                 .replace("\n", "")
+                .replace("(","")
+                .replace(")","")
             )
             tuple1[1] = (
                 lines[tuple1[1] - 1]
@@ -864,6 +1106,8 @@ def signature_generate_vul_patch(
                 .replace("}", "")
                 .replace("\t", "")
                 .replace("\n", "")
+                .replace("(","")
+                .replace(")","")
             )
             if tuple1[0] != "" and tuple1[1] != "":
                 tuple2 = []
@@ -888,6 +1132,8 @@ def signature_generate_vul_patch(
                 .replace("}", "")
                 .replace("\t", "")
                 .replace("\n", "")
+                .replace("(","")
+                .replace(")","")
             )
             if pat_syn[i] != "":
                 m = hashlib.md5()
@@ -903,6 +1149,8 @@ def signature_generate_vul_patch(
                 .replace("}", "")
                 .replace("\t", "")
                 .replace("\n", "")
+                .replace("(","")
+                .replace(")","")
 
             )
             tuple1[1] = (
@@ -912,6 +1160,8 @@ def signature_generate_vul_patch(
                 .replace("}", "")
                 .replace("\t", "")
                 .replace("\n", "")
+                .replace("(","")
+                .replace(")","")
             )
             if tuple1[0] != "" and tuple1[1] != "":
                 tuple2 = []
@@ -969,7 +1219,7 @@ def signature_generate_function(
         lines = f.readlines()
         signature_dict["syn"] = {}
         for i in range(method_line_number_start + 1, method_line_number_end + 1):
-            syn_line=lines[i - 1].replace(" ", "").replace("{", "").replace("}", "").replace("\t", "").replace("\n", "")
+            syn_line=lines[i - 1].replace(" ", "").replace("{", "").replace("}", "").replace("\t", "").replace("\n", "").replace("(","").replace(")","")
             if syn_line!="":
                 m=hashlib.md5()
                 m.update(syn_line.encode("utf8"))
@@ -1038,8 +1288,8 @@ def signature_generate_function(
         if i in cdg_map.keys():
             for j in cdg_map[i]:
                 if i != j and j != method_line_number_start:
-                    sem_line1=lines[i-1].replace(" ", "").replace("{", "").replace("}", "").replace("\t", "").replace("\n", "")
-                    sem_line2=lines[j-1].replace(" ", "").replace("{", "").replace("}", "").replace("\t", "").replace("\n", "")
+                    sem_line1=lines[i-1].replace(" ", "").replace("{", "").replace("}", "").replace("\t", "").replace("\n", "").replace("(","").replace(")","")
+                    sem_line2=lines[j-1].replace(" ", "").replace("{", "").replace("}", "").replace("\t", "").replace("\n", "").replace("(","").replace(")","")
                     if sem_line1!="" and sem_line2!="":
                         tuple1=[]
                         m=hashlib.md5()
@@ -1057,8 +1307,8 @@ def signature_generate_function(
         if i in ddg_map.keys():
             for j in ddg_map[i]:
                 if i != j and j != method_line_number_start:
-                    sem_line1=lines[i-1].replace(" ", "").replace("{", "").replace("}", "").replace("\t", "").replace("\n", "")
-                    sem_line2=lines[j-1].replace(" ", "").replace("{", "").replace("}", "").replace("\t", "").replace("\n", "")
+                    sem_line1=lines[i-1].replace(" ", "").replace("{", "").replace("}", "").replace("\t", "").replace("\n", "").replace("(","").replace(")","")
+                    sem_line2=lines[j-1].replace(" ", "").replace("{", "").replace("}", "").replace("\t", "").replace("\n", "").replace("(","").replace(")","")
                     if sem_line1!="" and sem_line2!="":
                         tuple1=[]
                         m=hashlib.md5()
@@ -1129,6 +1379,93 @@ def gen_fingerprint(
             for method in ele["deleteMethod"]:
                 print("normalize!")
                 os.system(
+                    './joern --script get_conditions.sc --params cpgFile=cpg_' + ele["oldFile"] + '.bin,line='
+                    + ele["deleteMethod"][method][0].__str__()
+                )
+                NT_coor_list_old = []
+                with open("conditions.json", "r", encoding="utf8") as f:
+                    NT_coor_list_old = json.load(f)
+                GT_coor_list_old = []
+                LT_coor_list_old = []
+                with open("GET.json", "r", encoding="utf8") as f:
+                    GT_coor_list_old = json.load(f)
+                with open("LET.json", "r", encoding="utf8") as f:
+                    LT_coor_list_old = json.load(f)
+                with open("normalized/" + ele["oldFile"], "r", encoding=encoding_format) as f:
+                    fp = f.readlines()
+                    already = set()
+                    for condition in NT_coor_list_old:
+                        for key in condition.keys():
+                            if key in already:
+                                continue
+                            k = key.find("!")
+                            if k != -1 and key[k+1]=='!':
+                                stmt = key[k+2:]
+                                fp[condition[key]-1] = fp[condition[key]-1].replace(key, stmt)
+                                already.add(key[k+1:])
+                                continue
+                            if "&&" in key or "||" in key or "=" in key:
+                                continue
+                            if "!" in key[k+1:]:
+                                continue
+                            stmt = key[k+1:] + "==0"
+                            fp[condition[key]-1] = fp[condition[key]-1].replace(key, stmt)
+                    for GT in GT_coor_list_old:
+                        for key in GT:
+                            Larg = key.split(">=")[0]
+                            Rarg = key.split(">=")[1]
+                            stmt = "{0}>{1}||{0}=={1}".format(Larg,Rarg)
+                            fp[GT[key]-1] = fp[GT[key]-1].replace(key,stmt)
+                    for LT in LT_coor_list_old:
+                        for key in LT:
+                            Larg = key.split("<=")[0]
+                            Rarg = key.split("<=")[1]
+                            stmt = "{0}<{1}||{0}=={1}".format(Larg,Rarg)
+                            fp[LT[key]-1] = fp[LT[key]-1].replace(key,stmt)
+                with open("normalized/" + ele["oldFile"], "w", encoding=encoding_format) as f:
+                    f.writelines(fp)
+                replaced = False
+                with open("temp/" + ele["oldFile"], "r", encoding=encoding_format) as f:
+                    fp = f.readlines()                    
+                    already = set()
+                    for condition in NT_coor_list_old:
+                        for key in condition.keys():
+                            if key in already:
+                                continue
+                            k = key.find("!")
+                            if k != -1 and key[k+1]=='!':                                
+                                stmt = key[k+2:]
+                                fp[condition[key]-1] = fp[condition[key]-1].replace(key, stmt)
+                                already.add(key[k+1:])
+                                continue                            
+                            if "&&" in key or "||" in key or "=" in key:
+                                continue
+                            if "!" in key[k+1:]:
+                                continue
+                            stmt = key[k+1:] + "==0"
+                            fp[condition[key]-1] = fp[condition[key]-1].replace(key, stmt)
+                            replaced = True
+                    for GT in GT_coor_list_old:
+                        for key in GT:
+                            Larg = key.split(">=")[0]
+                            Rarg = key.split(">=")[1]
+                            stmt = "{0}>{1}||{0}=={1}".format(Larg,Rarg)
+                            fp[GT[key]-1] = fp[GT[key]-1].replace(key,stmt)
+                            replaced = True
+                    for LT in LT_coor_list_old:
+                        for key in LT:
+                            Larg = key.split("<=")[0]
+                            Rarg = key.split("<=")[1]
+                            stmt = "{0}<{1}||{0}=={1}".format(Larg,Rarg)
+                            fp[LT[key]-1] = fp[LT[key]-1].replace(key,stmt)
+                            replaced = True
+                with open("temp/" + ele["oldFile"], "w", encoding=encoding_format) as f:
+                    f.writelines(fp)
+                if replaced:
+                    os.system("rm cpg_{0}.bin".format(ele["oldFile"]))
+                    os.system("./joern-parse " + work_dir + "temp/" + ele["oldFile"])
+                    os.system("mv cpg.bin cpg_{0}.bin".format(ele["oldFile"]))
+                os.system(
                     './joern --script normalize.sc --params cpgFile=cpg_' + ele["oldFile"] + '.bin,line='
                     + ele["deleteMethod"][method][0].__str__()
                 )
@@ -1146,6 +1483,101 @@ def gen_fingerprint(
                 + ele["newFile"]
             )
             for method in ele["addMethod"]:
+                os.system(
+                    './joern --script get_conditions.sc --params cpgFile=cpg_' + ele["newFile"] + '.bin,line='
+                    + ele["addMethod"][method][0].__str__()
+                )
+                NT_coor_list = []
+                replaced = False
+                with open("conditions.json", "r", encoding="utf8") as f:
+                    NT_coor_list = json.load(f)
+                GT_coor_list = []
+                LT_coor_list = []
+                with open("GET.json", "r", encoding="utf8") as f:
+                    GT_coor_list = json.load(f)
+                with open("LET.json", "r", encoding="utf8") as f:
+                    LT_coor_list = json.load(f)
+                with open("normalized/" + ele["newFile"], "r", encoding=encoding_format) as f:
+                    fp = f.readlines()
+                    already = set()
+                    for condition in NT_coor_list:
+                        for key in condition.keys():
+                            if key in already:
+                                continue
+                            k = key.find("!")
+                            if k != -1 and key[k+1]=='!':
+                                
+                                stmt = key[k+2:]
+
+                                fp[condition[key]-1] = fp[condition[key]-1].replace(key, stmt)
+
+                                already.add(key[k+1:])
+                                continue
+                            
+                            if "&&" in key or "||" in key or "=" in key:
+                                continue
+                            if "!" in key[k+1:]:
+                                continue
+                            stmt = key[k+1:] + "==0"
+                            fp[condition[key]-1] = fp[condition[key]-1].replace(key, stmt)
+                    for GT in GT_coor_list:
+                        for key in GT:
+                            Larg = key.split(">=")[0]
+                            Rarg = key.split(">=")[1]
+                            stmt = "{0}>{1}||{0}=={1}".format(Larg,Rarg)
+                            fp[GT[key]-1] = fp[GT[key]-1].replace(key,stmt)
+                    for LT in LT_coor_list:
+                        for key in LT:
+                            Larg = key.split("<=")[0]
+                            Rarg = key.split("<=")[1]
+                            stmt = "{0}<{1}||{0}=={1}".format(Larg,Rarg)
+                            fp[LT[key]-1] = fp[LT[key]-1].replace(key,stmt)
+                with open("normalized/" + ele["newFile"], "w", encoding=encoding_format) as f:
+                    f.writelines(fp)
+                with open("temp/" + ele["newFile"], "r", encoding=encoding_format) as f:
+                    fp = f.readlines()
+                    already = set()
+                    for condition in NT_coor_list:
+                        for key in condition.keys():
+                            if key in already:
+                                continue
+                            k = key.find("!")
+                            if k != -1 and key[k+1]=='!':
+                                
+                                stmt = key[k+2:]
+
+                                fp[condition[key]-1] = fp[condition[key]-1].replace(key, stmt)
+
+                                already.add(key[k+1:])
+                                continue
+                            
+                            if "&&" in key or "||" in key or "=" in key:
+                                continue
+                            if "!" in key[k+1:]:
+                                continue
+                            stmt = key[k+1:] + "==0"
+                            fp[condition[key]-1] = fp[condition[key]-1].replace(key, stmt)
+                            replaced = True
+                    for GT in GT_coor_list:
+                        for key in GT:
+                            Larg = key.split(">=")[0]
+                            Rarg = key.split(">=")[1]
+                            stmt = "{0}>{1}||{0}=={1}".format(Larg,Rarg)
+                            fp[GT[key]-1] = fp[GT[key]-1].replace(key,stmt)
+                            replaced = True
+                    for LT in LT_coor_list:
+                        for key in LT:
+                            Larg = key.split("<=")[0]
+                            Rarg = key.split("<=")[1]
+                            stmt = "{0}<{1}||{0}=={1}".format(Larg,Rarg)
+                            fp[LT[key]-1] = fp[LT[key]-1].replace(key,stmt)
+                            replaced = True
+                with open("temp/" + ele["newFile"], "w", encoding=encoding_format) as f:
+                    f.writelines(fp)
+                if replaced:
+                    os.system("rm cpg_{0}.bin".format(ele["newFile"]))
+                    os.system("./joern-parse " + work_dir + "temp/" + ele["newFile"])
+                    os.system("mv cpg.bin cpg_{0}.bin".format(ele["newFile"]))
                 os.system(
                     './joern --script normalize.sc --params cpgFile=cpg_' + ele["newFile"] + '.bin,line='
                     + ele["addMethod"][method][0].__str__()
@@ -1235,6 +1667,127 @@ def gen_fingerprint(
             + "\n"
         )
 
+def get_vul_file(work_dir, commit_file_location, git_repo_location):
+    extension = ["c", "cpp", "c++", "cc", "C"]
+    commit_file = commit_file_location
+    repo_location = git_repo_location
+    with open(commit_file, "r", encoding=encoding_format) as f:
+        commit_lines = f.readlines()
+    for i in range(len(commit_lines)):
+        if commit_lines[i].startswith("diff --git"):
+            old_file_name = commit_lines[i].split(" ")[2]
+            new_file_name = commit_lines[i].split(" ")[3][:-1]
+            old_extension = old_file_name.split(".")[-1]
+            new_extension = new_file_name.split(".")[-1]
+            if old_extension not in extension or new_extension not in extension:
+                continue
+            if not commit_lines[i + 1].startswith("index"):
+                continue
+            old_commit = commit_lines[i + 1].split(" ")[1].split("..")[0]
+            os.chdir(repo_location)
+            os.system(
+                "git show "
+                + old_commit
+                + " > "
+                + work_dir
+                + "vulFileMulti/"
+                + old_commit
+                + "."
+                + old_extension
+            )
+            os.chdir(work_dir)
+
+def get_method_line_multi(
+    CVE_ID, commit_file_location, git_repo_location, work_dir
+):
+    os.chdir(git_repo_location)
+    with open(commit_file_location, "r") as f:
+        lines = f.readlines()
+        commit_id = lines[0].split(" ")[1]
+    # os.system("git reset --hard " + commit_id)
+    readCommit(commit_file_location, git_repo_location, work_dir)
+    os.chdir(work_dir)
+    cnt = 0
+    with open("method_info.json", "r", encoding="utf8") as f:
+        json_obj = json.load(f)
+        for ele in json_obj:
+            for method_name in ele["deleteMethod"].keys():
+                if method_name in ele["addMethod"].keys():
+                    cnt += 1
+            cnt += len(ele["change_method_map"].keys())
+            if "pureDeleteMethod" in ele.keys():
+                cnt += len(ele["pureDeleteMethod"])
+    with open("lineMulti.json", "a") as f:
+        f.write(CVE_ID + " " + cnt.__str__() + "\n")
+    with open("method_info.json", "r", encoding="utf8") as f:
+        json_obj = json.load(f)
+        for ele in json_obj:
+            old_file_name = ele["oldFile"]
+            old_commit = old_file_name.split("-")[0]
+            for key in ele["deleteMethod"].keys():
+                if key in ele["addMethod"].keys():
+                    line_number = ele["deleteMethod"][key][0]
+                    with open("lineMulti.json", "a") as f:
+                        f.write(
+                            old_commit.__str__() + " " + line_number.__str__() + "\n"
+                        )
+            for key in ele["change_method_map"].keys():
+                with open("lineMulti.json", "a", encoding="utf8") as f:
+                    f.write(
+                        old_commit.__str__()
+                        + " "
+                        + ele["deleteMethod"][key][0].__str__()
+                        + "\n"
+                    )
+            if "pureDeleteMethod" in ele.keys():
+                for method in ele["pureDeleteMethod"]:
+                    for key in method.keys():
+                        with open("lineMulti.json", "a", encoding="utf8") as f:
+                            f.write(
+                                old_commit.__str__()
+                                + " "
+                                + method[key][0].__str__()
+                                + "\n"
+                            )
+
+def get_saga_line():
+    os.chdir(saga_dir)
+    os.system("rm -rf tokenData/")
+    os.system("java -jar SAGACloneDetector-small.jar " + work_dir + "vulFileMulti/")
+    with open(
+        "./result/MeasureIndex.csv",
+        "r",
+        encoding="utf8",
+    ) as f:
+        lines = f.readlines()
+    saga_dict = {}
+    for line in lines:
+        index = line.split(",")[0]
+        file_name = line.split(",")[1]
+        start_line = line.split(",")[2]
+        file_hash = file_name.split("/")[-1].split(".")[0]
+        if file_hash not in saga_dict.keys():
+            saga_dict[file_hash] = []
+        saga_dict[file_hash].append(int(start_line))
+    write_str = ""
+    # print(saga_dict["40b53d4c684"])
+    with open("lineMulti.json", "r", encoding="utf8") as f1:
+        lines1 = f1.readlines()
+        for line1 in lines1:
+            if line1.startswith("CVE-"):
+                write_str += line1
+            else:
+                if line1.split(" ")[0] not in saga_dict.keys():
+                    continue
+                line_number_list = saga_dict[line1.split(" ")[0]]
+                for line_number in line_number_list:
+                    if line_number >= int(line1.split(" ")[1].replace("\n", "")):
+                        write_str += (
+                            line1.split(" ")[0] + " " + line_number.__str__() + "\n"
+                        )
+                        break
+    with open("sagaMulti.json", "w") as f:
+        f.write(write_str)
 
 
 if __name__ == "__main__":
@@ -1242,4 +1795,9 @@ if __name__ == "__main__":
     commit_file_location = sys.argv[2]
     git_repo_location = sys.argv[3]
     gen_fingerprint(CVE_ID, commit_file_location, git_repo_location, work_dir)
+    get_vul_file(work_dir, commit_file_location, git_repo_location)
+    get_method_line_multi(CVE_ID, commit_file_location, git_repo_location, work_dir)
+    get_saga_line()
+    pagerank.pageranMain(CVE_ID, commit_file_location, git_repo_location)
+    getMacros.macrosMain(commit_file_location, git_repo_location)
     

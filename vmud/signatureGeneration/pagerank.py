@@ -826,6 +826,15 @@ def pagerank_algorithm(CVEID, nodes, edges, modified_function_vertices):
         json.dump(write_dict, f)
 
 
+def pageranMain(CVE_ID, commit_file_location, git_repo_location):
+    get_callgraph_sig(CVE_ID, commit_file_location, git_repo_location)
+    with open(config.no_define_location_prefix + CVE_ID + ".json", "r") as f:
+        json_obj = json.load(f)
+    nodes = json_obj["vertices"]
+    edges = json_obj["edges"]
+    modified_function_vertices = json_obj["modified_function_vertices"]
+    pagerank_algorithm(CVE_ID, nodes, edges, modified_function_vertices)
+
 if __name__ == "__main__":
     CVE_ID = sys.argv[1]
     commit_file_location = sys.argv[2]

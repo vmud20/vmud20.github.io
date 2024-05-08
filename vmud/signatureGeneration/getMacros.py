@@ -260,6 +260,21 @@ def getIncludeFiles(fileName, prefix, level):
 				file = line.replace("#include","").replace("\"","").replace("<","").replace(">"," ").strip().split(" ")[0]
 				includeFiles.append((file, prefix, level))
 
+def macrosMain(commit_file_location, git_repo_location):
+    current_working_directory = os.getcwd()
+    inputRepo = git_repo_location.split("/")[-1].strip()
+    os.chdir(git_repo_location)
+    commit_id = commit_file_location.split("/")[-1].strip().replace("commit-","").replace(".txt","")
+    os.system("git checkout -f %s"%commit_id)
+    os.chdir(current_working_directory)
+    readCommit(commit_file_location, git_repo_location, current_working_directory + "/", True)
+    os.chdir(git_repo_location)
+    os.system("git checkout -f %s~1"%commit_id)
+    analysizedFiles1 = analysizedFiles
+    analysizedFiles.clear()
+    os.chdir(current_working_directory)
+    readCommit(commit_file_location, git_repo_location, current_working_directory + "/", False)
+
 if __name__ == '__main__':
     CVE_ID = sys.argv[1]
     commit_file_location = sys.argv[2]
