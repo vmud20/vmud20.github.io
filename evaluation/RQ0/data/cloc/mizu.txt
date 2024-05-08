@@ -1,0 +1,3 @@
+     100 files     136 text files.
+classified 136 filesDuplicate file check 136 files (134 known unique)Unique:      100 files                                               136 unique files.                              
+Counting:  100     138 files ignored.

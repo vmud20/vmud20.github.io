@@ -1,0 +1,779 @@
+Found CVE-2020-8231 in kbengine !
+Match! Method  "curl_socket_t Curl_getconnectinfo which may in ['/kbe/src/lib/dependencies/curl/lib/connect.c\n'] is homologous with CVE-2020-8231
+Match! Method  "static int conn_is_conn which may in ['/kbe/src/lib/dependencies/curl/lib/connect.c\n'] is homologous with CVE-2020-8231
+Match! Method  "curl_socket_t Curl_getconnectinfo which may in ['/kbe/src/lib/dependencies/curl/lib/connect.c\n'] is homologous with CVE-2020-8231
+Match! Method  "static int conn_is_conn which may in ['/kbe/src/lib/dependencies/curl/lib/connect.c\n'] is homologous with CVE-2020-8231
+Found CVE-2022-32208 in kbengine !
+Match! Method  "krb5_decode which may in ['/kbe/src/lib/dependencies/curl/lib/krb5.c\n'] is homologous with CVE-2022-32208
+Match! Method  "krb5_decode which may in ['/kbe/src/lib/dependencies/curl/lib/krb5.c\n'] is homologous with CVE-2022-32208
+Found CVE-2017-7468 in kbengine !
+Match! Method  "static CURLcode connect_prep which may in ['/kbe/src/lib/dependencies/curl/lib/vtls/axtls.c\n'] is homologous with CVE-2017-7468
+Match! Method  "gtls_connect_step3 which may in ['/kbe/src/lib/dependencies/curl/lib/vtls/gtls.c\n'] is homologous with CVE-2017-7468
+Match! Method  "CURLcode Curl_ssl_addsessionid which may in ['/kbe/src/lib/dependencies/curl/lib/vtls/vtls.c\n'] is homologous with CVE-2017-7468
+Match! Method  "gtls_connect_step3 which may in ['/kbe/src/lib/dependencies/curl/lib/vtls/gtls.c\n'] is homologous with CVE-2017-7468
+Match! Method  "static CURLcode connect_prep which may in ['/kbe/src/lib/dependencies/curl/lib/vtls/axtls.c\n'] is homologous with CVE-2017-7468
+Match! Method  "CURLcode Curl_ssl_addsessionid which may in ['/kbe/src/lib/dependencies/curl/lib/vtls/vtls.c\n'] is homologous with CVE-2017-7468
+Found CVE-2018-1000120 in kbengine !
+Match! Method  "static CURLcode ftp_done which may in ['/kbe/src/lib/dependencies/curl/lib/ftp.c\n'] is homologous with CVE-2018-1000120
+Match! Method  "static CURLcode ftp_done which may in ['/kbe/src/lib/dependencies/curl/lib/ftp.c\n'] is homologous with CVE-2018-1000120
+Found CVE-2021-22890 in kbengine !
+Match! Method  "gtls_connect_step3 which may in ['/kbe/src/lib/dependencies/curl/lib/vtls/gtls.c\n'] is homologous with CVE-2021-22890
+Match! Method  "mbed_connect_step1 which may in ['/kbe/src/lib/dependencies/curl/lib/vtls/mbedtls.c\n'] is homologous with CVE-2021-22890
+Match! Method  "static CURLcode darwinssl_connect_step1 which may in ['/kbe/src/lib/dependencies/curl/lib/vtls/darwinssl.c\n'] is homologous with CVE-2021-22890
+Match! Method  "cyassl_connect_step1 which may in ['/kbe/src/lib/dependencies/curl/lib/vtls/cyassl.c\n'] is homologous with CVE-2021-22890
+Match! Method  "mbed_connect_step1 which may in ['/kbe/src/lib/dependencies/curl/lib/vtls/mbedtls.c\n'] is homologous with CVE-2021-22890
+Match! Method  "gtls_connect_step3 which may in ['/kbe/src/lib/dependencies/curl/lib/vtls/gtls.c\n'] is homologous with CVE-2021-22890
+Match! Method  "cyassl_connect_step1 which may in ['/kbe/src/lib/dependencies/curl/lib/vtls/cyassl.c\n'] is homologous with CVE-2021-22890
+Match! Method  "static CURLcode darwinssl_connect_step1 which may in ['/kbe/src/lib/dependencies/curl/lib/vtls/darwinssl.c\n'] is homologous with CVE-2021-22890
+Found CVE-2016-8623 in kbengine !
+Match! Method  "CURLcode Curl_http which may in ['/kbe/src/lib/dependencies/curl/lib/http.c\n'] is homologous with CVE-2016-8623
+Match! Method  "CURLcode Curl_http which may in ['/kbe/src/lib/dependencies/curl/lib/http.c\n'] is homologous with CVE-2016-8623
+Found CVE-2016-0797 in kbengine !
+Match! Method  "int BN_hex2bn which may in ['/kbe/src/lib/dependencies/vsopenssl/crypto/bn/bn_print.c\n'] is homologous with CVE-2016-0797
+Match! Method  "int BN_dec2bn which may in ['/kbe/src/lib/dependencies/vsopenssl/crypto/bn/bn_print.c\n'] is homologous with CVE-2016-0797
+Found CVE-2016-0799 in kbengine !
+Match! Method  "fmtint which may in ['/kbe/src/lib/dependencies/vsopenssl/crypto/bio/b_print.c\n'] is homologous with CVE-2016-0799
+Match! Method  "fmtstr which may in ['/kbe/src/lib/dependencies/vsopenssl/crypto/bio/b_print.c\n'] is homologous with CVE-2016-0799
+Match! Method  "int BIO_vsnprintf which may in ['/kbe/src/lib/dependencies/vsopenssl/crypto/bio/b_print.c\n'] is homologous with CVE-2016-0799
+Match! Method  "fmtfp which may in ['/kbe/src/lib/dependencies/vsopenssl/crypto/bio/b_print.c\n'] is homologous with CVE-2016-0799
+Found CVE-2016-0798 in kbengine !
+Match! Method  "static int MS_CALLBACK ssl_srp_server_param_cb which may in ['/kbe/src/lib/dependencies/vsopenssl/apps/s_server.c\n'] is homologous with CVE-2016-0798
+Match! Method  "static void SRP_user_pwd_free which may in ['/kbe/src/lib/dependencies/vsopenssl/crypto/srp/srp_vfy.c\n'] is homologous with CVE-2016-0798
+Found CVE-2014-6272 in ravynos !
+Match! Method  "evbuffer_add which may in ['/contrib/libevent/buffer.c'] is homologous with CVE-2014-6272
+Match! Method  "evbuffer_expand_singlechain which may in ['/contrib/libevent/buffer.c'] is homologous with CVE-2014-6272
+Found CVE-2023-1801 in ravynos !
+Match! Method  "smb_fdata1 which may in ['/contrib/tcpdump/smbutil.c\n'] is homologous with CVE-2023-1801
+Found CVE-2022-33099 in ravynos !
+Match! Method  "void luaV_concat  which may in ['/contrib/lua/src/lvm.c'] is homologous with CVE-2022-33099
+Match! Method  "l_noret luaG_runerror  which may in ['/contrib/lua/src/ldebug.c'] is homologous with CVE-2022-33099
+Found CVE-2020-15888 in ravynos !
+Match! Method  "void luaT_getvarargs  which may in ['/contrib/lua/src/ltm.c\n'] is homologous with CVE-2020-15888
+Found CVE-2020-15945 in ravynos !
+Match! Method  "LUA_API int lua_sethook  which may in ['/sys/contrib/openzfs/module/lua/ldebug.c\n'] is homologous with CVE-2020-15945
+Found CVE-2020-24370 in ravynos !
+Match! Method  "const char *luaG_findlocal  which may in ['/contrib/lua/src/ldebug.c'] is homologous with CVE-2020-24370
+Found CVE-2021-33657 in simplest_ffmpeg_mobile !
+Match! Method  "Map1to1 which may in ['/simplest_sdl_android_helloworld/jni/src/video/SDL_pixels.c\n'] is homologous with CVE-2021-33657
+Match! Method  "Map1to1 which may in ['/simplest_sdl_android_helloworld/jni/src/video/SDL_pixels.c\n'] is homologous with CVE-2021-33657
+Found CVE-2019-7578 in simplest_ffmpeg_mobile !
+Match! Method  "InitIMA_ADPCM which may in ['/simplest_sdl_android_helloworld/jni/src/audio/SDL_wave.c\n'] is homologous with CVE-2019-7578
+Match! Method  "InitIMA_ADPCM which may in ['/simplest_sdl_android_helloworld/jni/src/audio/SDL_wave.c\n'] is homologous with CVE-2019-7578
+Found CVE-2020-36279 in tess-two !
+Match! Method  "pixFillMapHoles which may in ['/tess-two/jni/com_googlecode_leptonica_android/src/src/adaptmap.c\n'] is homologous with CVE-2020-36279
+Found CVE-2022-38266 in tess-two !
+Match! Method  "pixBlockconvGrayUnnormalized which may in ['/tess-two/jni/com_googlecode_leptonica_android/src/src/convolve.c\n'] is homologous with CVE-2022-38266
+Match! Method  "pixBlockconv which may in ['/tess-two/jni/com_googlecode_leptonica_android/src/src/convolve.c\n'] is homologous with CVE-2022-38266
+Match! Method  "pixBlockconvGrayTile which may in ['/tess-two/jni/com_googlecode_leptonica_android/src/src/convolve.c\n'] is homologous with CVE-2022-38266
+Found CVE-2022-0156 in vim.js !
+Match! Method  "ga_init2 which may in ['/src/misc2.c\n'] is homologous with CVE-2022-0156
+Found CVE-2022-2849 in vim.js !
+Match! Method  "dbcs_ptr2len which may in ['/src/mbyte.c\n'] is homologous with CVE-2022-2849
+Found CVE-2015-5224 in android_bootable_recovery !
+Match! Method  "int main which may in ['/libblkid/lib/fileutils.c\n'] is homologous with CVE-2015-5224
+Found CVE-2023-1801 in PF_RING !
+Match! Method  "ahcp_time_print which may in ['/userland/tcpdump-4.99.1/print-ahcp.c\n'] is homologous with CVE-2023-1801
+Match! Method  "MakeFilename which may in ['/userland/tcpdump-4.99.1/tcpdump.c\n'] is homologous with CVE-2023-1801
+Match! Method  "ts_date_hmsfrac_print which may in ['/userland/tcpdump-4.99.1/util-print.c\n'] is homologous with CVE-2023-1801
+Found CVE-2016-0797 in minix !
+Match! Method  "int BN_hex2bn which may in ['/crypto/external/bsd/openssl/dist/crypto/bn/bn_print.c\n'] is homologous with CVE-2016-0797
+Match! Method  "int BN_dec2bn which may in ['/crypto/external/bsd/openssl/dist/crypto/bn/bn_print.c\n'] is homologous with CVE-2016-0797
+Found CVE-2016-0799 in minix !
+Match! Method  "int BIO_vsnprintf which may in ['/crypto/external/bsd/openssl/dist/crypto/bio/b_print.c\n'] is homologous with CVE-2016-0799
+Match! Method  "fmtfp which may in ['/crypto/external/bsd/openssl/dist/crypto/bio/b_print.c\n'] is homologous with CVE-2016-0799
+Match! Method  "fmtint which may in ['/crypto/external/bsd/openssl/dist/crypto/bio/b_print.c\n'] is homologous with CVE-2016-0799
+Match! Method  "fmtstr which may in ['/crypto/external/bsd/openssl/dist/crypto/bio/b_print.c\n'] is homologous with CVE-2016-0799
+Found CVE-2016-0798 in minix !
+Match! Method  "static int MS_CALLBACK ssl_srp_server_param_cb which may in ['/crypto/external/bsd/openssl/dist/apps/s_server.c\n'] is homologous with CVE-2016-0798
+Match! Method  "static void SRP_user_pwd_free which may in ['/crypto/external/bsd/openssl/dist/crypto/srp/srp_vfy.c\n'] is homologous with CVE-2016-0798
+Found CVE-2022-33099 in darktable !
+Match! Method  "void luaV_concat  which may in ['/src/external/lua/src/lvm.c\n'] is homologous with CVE-2022-33099
+Match! Method  "l_noret luaG_runerror  which may in ['/src/external/lua/src/ldebug.c\n'] is homologous with CVE-2022-33099
+Found CVE-2021-32134 in gpac !
+Match! Method  "GF_Box *mp4s_box_new which may in ['/src/isomedia/box_code_base.c\n'] is homologous with CVE-2021-32134
+Match! Method  "GF_Box *encs_box_new which may in ['/src/isomedia/box_code_base.c\n'] is homologous with CVE-2021-32134
+Match! Method  "GF_Box *mp4s_box_new which may in ['/src/isomedia/box_code_base.c\n'] is homologous with CVE-2021-32134
+Match! Method  "GF_Box *encs_box_new which may in ['/src/isomedia/box_code_base.c\n'] is homologous with CVE-2021-32134
+Found CVE-2023-1654 in gpac !
+Match! Method  "static GF_Err gf_filter_pid_merge_properties_internal which may in ['/src/filter_core/filter_pid.c\n'] is homologous with CVE-2023-1654
+Found CVE-2021-31262 in gpac !
+Match! Method  "static GF_AV1Config* AV1_DuplicateConfig which may in ['/src/isomedia/avc_ext.c\n'] is homologous with CVE-2021-31262
+Found CVE-2020-8231 in AliOS-Things !
+Match! Method  "curl_socket_t Curl_getconnectinfo which may in ['/components/curl/lib/connect.c\n'] is homologous with CVE-2020-8231
+Match! Method  "static int conn_is_conn which may in ['/components/curl/lib/connect.c\n'] is homologous with CVE-2020-8231
+Match! Method  "CURLMcode curl_multi_remove_handle which may in ['/components/curl/lib/multi.c\n'] is homologous with CVE-2020-8231
+Match! Method  "CURLMcode curl_multi_remove_handle which may in ['/components/curl/lib/multi.c\n'] is homologous with CVE-2020-8231
+Match! Method  "curl_socket_t Curl_getconnectinfo which may in ['/components/curl/lib/connect.c\n'] is homologous with CVE-2020-8231
+Match! Method  "static int conn_is_conn which may in ['/components/curl/lib/connect.c\n'] is homologous with CVE-2020-8231
+Found CVE-2022-32208 in AliOS-Things !
+Match! Method  "krb5_decode which may in ['/components/curl/lib/krb5.c\n'] is homologous with CVE-2022-32208
+Match! Method  "krb5_decode which may in ['/components/curl/lib/krb5.c\n'] is homologous with CVE-2022-32208
+Found CVE-2017-7468 in AliOS-Things !
+Match! Method  "gtls_connect_step3 which may in ['/components/curl/lib/vtls/gtls.c\n'] is homologous with CVE-2017-7468
+Match! Method  "CURLcode Curl_ssl_addsessionid which may in ['/components/curl/lib/vtls/vtls.c\n'] is homologous with CVE-2017-7468
+Match! Method  "gtls_connect_step3 which may in ['/components/curl/lib/vtls/gtls.c\n'] is homologous with CVE-2017-7468
+Match! Method  "CURLcode Curl_ssl_addsessionid which may in ['/components/curl/lib/vtls/vtls.c\n'] is homologous with CVE-2017-7468
+Found CVE-2021-22924 in AliOS-Things !
+Match! Method  "static CURLcode create_conn which may in ['/components/curl/lib/url.c\n'] is homologous with CVE-2021-22924
+Match! Method  "static CURLcode servercert which may in ['/components/curl/lib/vtls/openssl.c\n'] is homologous with CVE-2021-22924
+Match! Method  "static CURLcode servercert which may in ['/components/curl/lib/vtls/openssl.c\n'] is homologous with CVE-2021-22924
+Match! Method  "static CURLcode create_conn which may in ['/components/curl/lib/url.c\n'] is homologous with CVE-2021-22924
+Found CVE-2021-22901 in AliOS-Things !
+Match! Method  "static void detach_connnection which may in ['/components/curl/lib/multi.c\n'] is homologous with CVE-2021-22901
+Match! Method  "static void detach_connnection which may in ['/components/curl/lib/multi.c\n'] is homologous with CVE-2021-22901
+Found CVE-2022-22576 in AliOS-Things !
+Match! Method  "ConnectionExists which may in ['/components/curl/lib/url.c\n'] is homologous with CVE-2022-22576
+Match! Method  "ConnectionExists which may in ['/components/curl/lib/url.c\n'] is homologous with CVE-2022-22576
+Found CVE-2021-22890 in AliOS-Things !
+Match! Method  "gtls_connect_step3 which may in ['/components/curl/lib/vtls/gtls.c\n'] is homologous with CVE-2021-22890
+Match! Method  "mbed_connect_step3 which may in ['/components/curl/lib/vtls/mbedtls.c\n'] is homologous with CVE-2021-22890
+Match! Method  "static int ossl_get_ssl_sockindex_index which may in ['/components/curl/lib/vtls/openssl.c\n'] is homologous with CVE-2021-22890
+Match! Method  "schannel_connect_step3 which may in ['/components/curl/lib/vtls/schannel.c\n'] is homologous with CVE-2021-22890
+Match! Method  "cyassl_connect_step1 which may in ['/components/curl/lib/vtls/cyassl.c\n'] is homologous with CVE-2021-22890
+Match! Method  "mbed_connect_step3 which may in ['/components/curl/lib/vtls/mbedtls.c\n'] is homologous with CVE-2021-22890
+Match! Method  "gtls_connect_step3 which may in ['/components/curl/lib/vtls/gtls.c\n'] is homologous with CVE-2021-22890
+Match! Method  "cyassl_connect_step1 which may in ['/components/curl/lib/vtls/cyassl.c\n'] is homologous with CVE-2021-22890
+Match! Method  "schannel_connect_step3 which may in ['/components/curl/lib/vtls/schannel.c\n'] is homologous with CVE-2021-22890
+Match! Method  "static int ossl_get_ssl_sockindex_index which may in ['/components/curl/lib/vtls/openssl.c\n'] is homologous with CVE-2021-22890
+Found CVE-2016-8615 in AliOS-Things !
+Match! Method  "struct CookieInfo *Curl_cookie_init which may in ['/components/curl/lib/cookie.c\n'] is homologous with CVE-2016-8615
+Match! Method  "struct CookieInfo *Curl_cookie_init which may in ['/components/curl/lib/cookie.c\n'] is homologous with CVE-2016-8615
+Found CVE-2022-23558 in AliOS-Things !
+Match! Method  "TfLiteIntArray* TfLiteIntArrayCreate which may in ['/components/ai_agent/src/engine/tflite-micro/tensorflow/lite/c/common.c\n'] is homologous with CVE-2022-23558
+Found CVE-2021-33657 in AliOS-Things !
+Match! Method  "Map1to1 which may in ['/components/SDL2/src/video/SDL_pixels.c\n'] is homologous with CVE-2021-33657
+Match! Method  "Map1to1 which may in ['/components/SDL2/src/video/SDL_pixels.c\n'] is homologous with CVE-2021-33657
+Found CVE-2021-32020 in Arduino_STM32 !
+Match! Method  "void *pvPortMalloc which may in ['/STM32F1/libraries/FreeRTOS701/utility/heap_2.c\n'] is homologous with CVE-2021-32020
+Match! Method  "void *pvPortMalloc which may in ['/STM32F1/libraries/FreeRTOS900/utility/MemMang/heap_2.c'] is homologous with CVE-2021-32020
+Found CVE-2014-6272 in proxydroid !
+Match! Method  "evbuffer_add which may in ['/app/src/main/cpp/libevent/buffer.c\n'] is homologous with CVE-2014-6272
+Match! Method  "evbuffer_read which may in ['/app/src/main/cpp/libevent/buffer.c\n'] is homologous with CVE-2014-6272
+Match! Method  "evbuffer_ptr_memcmp which may in ['/app/src/main/cpp/libevent/buffer.c\n'] is homologous with CVE-2014-6272
+Match! Method  "evbuffer_expand_singlechain which may in ['/app/src/main/cpp/libevent/buffer.c\n'] is homologous with CVE-2014-6272
+Match! Method  "evbuffer_chain_new which may in ['/app/src/main/cpp/libevent/buffer.c\n'] is homologous with CVE-2014-6272
+Match! Method  "evbuffer_chain_new which may in ['/app/src/main/cpp/libevent/buffer.c\n'] is homologous with CVE-2014-6272
+Match! Method  "evbuffer_add which may in ['/app/src/main/cpp/libevent/buffer.c\n'] is homologous with CVE-2014-6272
+Match! Method  "evbuffer_expand_singlechain which may in ['/app/src/main/cpp/libevent/buffer.c\n'] is homologous with CVE-2014-6272
+Match! Method  "evbuffer_ptr_memcmp which may in ['/app/src/main/cpp/libevent/buffer.c\n'] is homologous with CVE-2014-6272
+Match! Method  "evbuffer_read which may in ['/app/src/main/cpp/libevent/buffer.c\n'] is homologous with CVE-2014-6272
+Found CVE-2012-3505 in proxychains-ng !
+Match! Method  "int htab_insert which may in ['/src/daemon/hsearch.c\n'] is homologous with CVE-2012-3505
+Match! Method  "static htab_entry *htab_find_item which may in ['/src/daemon/hsearch.c\n'] is homologous with CVE-2012-3505
+Found CVE-2018-16872 in panda !
+Match! Method  "static MTPData *usb_mtp_get_object which may in ['/hw/usb/dev-mtp.c\n'] is homologous with CVE-2018-16872
+Match! Method  "static void usb_mtp_object_readdir which may in ['/hw/usb/dev-mtp.c\n'] is homologous with CVE-2018-16872
+Found CVE-2017-9503 in panda !
+Match! Method  "static int megasas_pd_get_info_submit which may in ['/hw/scsi/megasas.c\n'] is homologous with CVE-2017-9503
+Match! Method  "static int megasas_ld_get_info_submit which may in ['/hw/scsi/megasas.c\n'] is homologous with CVE-2017-9503
+Match! Method  "static void megasas_command_complete which may in ['/hw/scsi/megasas.c\n'] is homologous with CVE-2017-9503
+Found CVE-2018-17963 in panda !
+Match! Method  "ssize_t qemu_sendv_packet_async which may in ['/net/net.c\n'] is homologous with CVE-2018-17963
+Found CVE-2021-3392 in panda !
+Match! Method  "static int mptsas_process_scsi_io_request which may in ['/hw/scsi/mptsas.c\n'] is homologous with CVE-2021-3392
+Match! Method  "static void mptsas_free_request which may in ['/hw/scsi/mptsas.c\n'] is homologous with CVE-2021-3392
+Found CVE-2020-8231 in premake-core !
+Match! Method  "static int conn_is_conn which may in ['/contrib/curl/lib/connect.c\n'] is homologous with CVE-2020-8231
+Match! Method  "static int conn_is_conn which may in ['/contrib/curl/lib/connect.c\n'] is homologous with CVE-2020-8231
+Found CVE-2022-32208 in premake-core !
+Match! Method  "krb5_decode which may in ['/contrib/curl/lib/krb5.c\n'] is homologous with CVE-2022-32208
+Match! Method  "krb5_decode which may in ['/contrib/curl/lib/krb5.c\n'] is homologous with CVE-2022-32208
+Found CVE-2017-7468 in premake-core !
+Match! Method  "CURLcode Curl_init_userdefined which may in ['/contrib/curl/lib/url.c\n'] is homologous with CVE-2017-7468
+Match! Method  "static CURLcode connect_finish which may in ['/contrib/curl/lib/vtls/axtls.c\n'] is homologous with CVE-2017-7468
+Match! Method  "cyassl_connect_step1 which may in ['/contrib/curl/lib/vtls/cyassl.c\n'] is homologous with CVE-2017-7468
+Match! Method  "cyassl_connect_step3 which may in ['/contrib/curl/lib/vtls/cyassl.c\n'] is homologous with CVE-2017-7468
+Match! Method  "mbed_connect_step3 which may in ['/contrib/curl/lib/vtls/mbedtls.c\n'] is homologous with CVE-2017-7468
+Match! Method  "static CURLcode nss_setup_connect which may in ['/contrib/curl/lib/vtls/nss.c\n'] is homologous with CVE-2017-7468
+Match! Method  "static CURLcode ossl_connect_step3 which may in ['/contrib/curl/lib/vtls/openssl.c\n'] is homologous with CVE-2017-7468
+Match! Method  "schannel_connect_step3 which may in ['/contrib/curl/lib/vtls/schannel.c\n'] is homologous with CVE-2017-7468
+Match! Method  "schannel_connect_step1 which may in ['/contrib/curl/lib/vtls/schannel.c\n'] is homologous with CVE-2017-7468
+Match! Method  "bool Curl_ssl_getsessionid which may in ['/contrib/curl/lib/vtls/vtls.c\n'] is homologous with CVE-2017-7468
+Match! Method  "CURLcode Curl_ssl_addsessionid which may in ['/contrib/curl/lib/vtls/vtls.c\n'] is homologous with CVE-2017-7468
+Match! Method  "cyassl_connect_step3 which may in ['/contrib/curl/lib/vtls/cyassl.c\n'] is homologous with CVE-2017-7468
+Match! Method  "CURLcode Curl_init_userdefined which may in ['/contrib/curl/lib/url.c\n'] is homologous with CVE-2017-7468
+Match! Method  "mbed_connect_step3 which may in ['/contrib/curl/lib/vtls/mbedtls.c\n'] is homologous with CVE-2017-7468
+Match! Method  "schannel_connect_step1 which may in ['/contrib/curl/lib/vtls/schannel.c\n'] is homologous with CVE-2017-7468
+Match! Method  "static CURLcode connect_finish which may in ['/contrib/curl/lib/vtls/axtls.c\n'] is homologous with CVE-2017-7468
+Match! Method  "static CURLcode ossl_connect_step3 which may in ['/contrib/curl/lib/vtls/openssl.c\n'] is homologous with CVE-2017-7468
+Match! Method  "schannel_connect_step3 which may in ['/contrib/curl/lib/vtls/schannel.c\n'] is homologous with CVE-2017-7468
+Match! Method  "cyassl_connect_step1 which may in ['/contrib/curl/lib/vtls/cyassl.c\n'] is homologous with CVE-2017-7468
+Match! Method  "CURLcode Curl_ssl_addsessionid which may in ['/contrib/curl/lib/vtls/vtls.c\n'] is homologous with CVE-2017-7468
+Match! Method  "static CURLcode nss_setup_connect which may in ['/contrib/curl/lib/vtls/nss.c\n'] is homologous with CVE-2017-7468
+Match! Method  "bool Curl_ssl_getsessionid which may in ['/contrib/curl/lib/vtls/vtls.c\n'] is homologous with CVE-2017-7468
+Found CVE-2018-1000120 in premake-core !
+Match! Method  "static CURLcode ftp_done which may in ['/contrib/curl/lib/ftp.c\n'] is homologous with CVE-2018-1000120
+Match! Method  "static CURLcode ftp_done which may in ['/contrib/curl/lib/ftp.c\n'] is homologous with CVE-2018-1000120
+Found CVE-2016-8615 in premake-core !
+Match! Method  "struct CookieInfo *Curl_cookie_init which may in ['/contrib/curl/lib/cookie.c\n'] is homologous with CVE-2016-8615
+Match! Method  "struct CookieInfo *Curl_cookie_init which may in ['/contrib/curl/lib/cookie.c\n'] is homologous with CVE-2016-8615
+Found CVE-2016-8623 in premake-core !
+Match! Method  "void Curl_cookie_cleanup which may in ['/contrib/curl/lib/cookie.c\n'] is homologous with CVE-2016-8623
+Match! Method  "void Curl_cookie_clearall which may in ['/contrib/curl/lib/cookie.c\n'] is homologous with CVE-2016-8623
+Match! Method  "CURLcode Curl_http which may in ['/contrib/curl/lib/http.c\n'] is homologous with CVE-2016-8623
+Match! Method  "void Curl_cookie_clearall which may in ['/contrib/curl/lib/cookie.c\n'] is homologous with CVE-2016-8623
+Match! Method  "CURLcode Curl_http which may in ['/contrib/curl/lib/http.c\n'] is homologous with CVE-2016-8623
+Match! Method  "void Curl_cookie_cleanup which may in ['/contrib/curl/lib/cookie.c\n'] is homologous with CVE-2016-8623
+Found CVE-2020-11724 in tengine !
+Match! Method  "ngx_http_lua_copy_request_headers which may in ['/modules/ngx_http_lua_module/src/ngx_http_lua_subrequest.c\n'] is homologous with CVE-2020-11724
+Match! Method  "ngx_http_lua_adjust_subrequest which may in ['/modules/ngx_http_lua_module/src/ngx_http_lua_subrequest.c\n'] is homologous with CVE-2020-11724
+Match! Method  "ngx_http_lua_set_content_length_header which may in ['/modules/ngx_http_lua_module/src/ngx_http_lua_subrequest.c\n'] is homologous with CVE-2020-11724
+Found CVE-2021-43523 in rt-n56u !
+Match! Method  "libc_hidden_def which may in ['/trunk/libc/uClibc-ng-1.0.32/libc/inet/resolv.c\n'] is homologous with CVE-2021-43523
+Match! Method  "int __dns_lookup which may in ['/trunk/libc/uClibc-ng-1.0.32/libc/inet/resolv.c\n'] is homologous with CVE-2021-43523
+Found CVE-2011-4352 in rt-n56u !
+Match! Method  "static void render_slice which may in ['/trunk/libs/libav/ffmpeg-0.6.x/libavcodec/vp3.c\n'] is homologous with CVE-2011-4352
+Match! Method  "static void render_slice which may in ['/trunk/libs/libav/ffmpeg-0.11.x/libavcodec/vp3.c\n'] is homologous with CVE-2011-4352
+Found CVE-2012-2779 in rt-n56u !
+Match! Method  "static int decode_pic_hdr which may in ['/trunk/libs/libav/ffmpeg-0.6.x/libavcodec/indeo5.c\n'] is homologous with CVE-2012-2779
+Found CVE-2012-2800 in rt-n56u !
+Match! Method  "void ff_ivi_process_empty_tile which may in ['/trunk/libs/libav/ffmpeg-0.6.x/libavcodec/ivi_common.c\n'] is homologous with CVE-2012-2800
+Found CVE-2020-12652 in rt-n56u !
+Match! Method  "mptctl_eventquery  which may in ['/trunk/linux-3.4.x/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "compat_mptfwxfer_ioctl which may in ['/trunk/linux-3.4.x/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "compat_mpt_command which may in ['/trunk/linux-3.4.x/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "__mptctl_ioctl which may in ['/trunk/linux-3.4.x/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_mpt_command  which may in ['/trunk/linux-3.4.x/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_eventenable  which may in ['/trunk/linux-3.4.x/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_fw_download which may in ['/trunk/linux-3.4.x/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_do_mpt_command  which may in ['/trunk/linux-3.4.x/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_do_fw_download which may in ['/trunk/linux-3.4.x/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_gettargetinfo  which may in ['/trunk/linux-3.4.x/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_readtest  which may in ['/trunk/linux-3.4.x/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_eventreport  which may in ['/trunk/linux-3.4.x/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "static int mptctl_do_reset which may in ['/trunk/linux-3.4.x/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_hp_targetinfo which may in ['/trunk/linux-3.4.x/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "__mptctl_ioctl which may in ['/trunk/linux-3.4.x/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_eventreport  which may in ['/trunk/linux-3.4.x/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_do_fw_download which may in ['/trunk/linux-3.4.x/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_gettargetinfo  which may in ['/trunk/linux-3.4.x/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_gettargetinfo  which may in ['/trunk/linux-3.4.x/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_eventquery  which may in ['/trunk/linux-3.4.x/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "compat_mpt_command which may in ['/trunk/linux-3.4.x/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_fw_download which may in ['/trunk/linux-3.4.x/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_eventenable  which may in ['/trunk/linux-3.4.x/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_mpt_command  which may in ['/trunk/linux-3.4.x/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_eventreport  which may in ['/trunk/linux-3.4.x/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "compat_mptfwxfer_ioctl which may in ['/trunk/linux-3.4.x/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_fw_download which may in ['/trunk/linux-3.4.x/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "__mptctl_ioctl which may in ['/trunk/linux-3.4.x/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "compat_mptfwxfer_ioctl which may in ['/trunk/linux-3.4.x/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_hp_targetinfo which may in ['/trunk/linux-3.4.x/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_eventenable  which may in ['/trunk/linux-3.4.x/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "static int mptctl_do_reset which may in ['/trunk/linux-3.4.x/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_do_fw_download which may in ['/trunk/linux-3.4.x/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "compat_mpt_command which may in ['/trunk/linux-3.4.x/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "static int mptctl_do_reset which may in ['/trunk/linux-3.4.x/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_mpt_command  which may in ['/trunk/linux-3.4.x/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_readtest  which may in ['/trunk/linux-3.4.x/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_readtest  which may in ['/trunk/linux-3.4.x/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_do_mpt_command  which may in ['/trunk/linux-3.4.x/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_eventquery  which may in ['/trunk/linux-3.4.x/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Found CVE-2020-25669 in rt-n56u !
+Match! Method  "static irqreturn_t sunkbd_interrupt which may in ['/trunk/linux-3.4.x/drivers/input/keyboard/sunkbd.c\n'] is homologous with CVE-2020-25669
+Match! Method  "static void sunkbd_reinit which may in ['/trunk/linux-3.4.x/drivers/input/keyboard/sunkbd.c\n'] is homologous with CVE-2020-25669
+Match! Method  "static irqreturn_t sunkbd_interrupt which may in ['/trunk/linux-3.4.x/drivers/input/keyboard/sunkbd.c\n'] is homologous with CVE-2020-25669
+Match! Method  "static void sunkbd_reinit which may in ['/trunk/linux-3.4.x/drivers/input/keyboard/sunkbd.c\n'] is homologous with CVE-2020-25669
+Match! Method  "static void sunkbd_reinit which may in ['/trunk/linux-3.4.x/drivers/input/keyboard/sunkbd.c\n'] is homologous with CVE-2020-25669
+Match! Method  "static irqreturn_t sunkbd_interrupt which may in ['/trunk/linux-3.4.x/drivers/input/keyboard/sunkbd.c\n'] is homologous with CVE-2020-25669
+Found CVE-2021-3640 in rt-n56u !
+Match! Method  "static int sco_sock_sendmsg which may in ['/trunk/linux-3.4.x/net/bluetooth/sco.c\n'] is homologous with CVE-2021-3640
+Match! Method  "static int sco_sock_sendmsg which may in ['/trunk/linux-3.4.x/net/bluetooth/sco.c\n'] is homologous with CVE-2021-3640
+Match! Method  "static int sco_sock_sendmsg which may in ['/trunk/linux-3.4.x/net/bluetooth/sco.c\n'] is homologous with CVE-2021-3640
+Found CVE-2020-11609 in rt-n56u !
+Match! Method  "static int stv06xx_isoc_init which may in ['/trunk/linux-3.4.x/drivers/media/video/gspca/stv06xx/stv06xx.c\n'] is homologous with CVE-2020-11609
+Match! Method  "static int stv06xx_isoc_init which may in ['/trunk/linux-3.4.x/drivers/media/video/gspca/stv06xx/stv06xx.c\n'] is homologous with CVE-2020-11609
+Match! Method  "static int stv06xx_isoc_init which may in ['/trunk/linux-3.4.x/drivers/media/video/gspca/stv06xx/stv06xx.c\n'] is homologous with CVE-2020-11609
+Found CVE-2020-28097 in rt-n56u !
+Match! Method  "static int vgacon_scroll which may in ['/trunk/linux-3.4.x/drivers/video/console/vgacon.c\n'] is homologous with CVE-2020-28097
+Match! Method  "static int vgacon_scroll which may in ['/trunk/linux-3.4.x/drivers/video/console/vgacon.c\n'] is homologous with CVE-2020-28097
+Found CVE-2022-3586 in rt-n56u !
+Match! Method  "static void decrement_qlen which may in ['/trunk/linux-3.4.x/net/sched/sch_sfb.c\n'] is homologous with CVE-2022-3586
+Match! Method  "static void increment_qlen which may in ['/trunk/linux-3.4.x/net/sched/sch_sfb.c\n'] is homologous with CVE-2022-3586
+Match! Method  "static void decrement_qlen which may in ['/trunk/linux-3.4.x/net/sched/sch_sfb.c\n'] is homologous with CVE-2022-3586
+Match! Method  "static void increment_qlen which may in ['/trunk/linux-3.4.x/net/sched/sch_sfb.c\n'] is homologous with CVE-2022-3586
+Match! Method  "static void decrement_qlen which may in ['/trunk/linux-3.4.x/net/sched/sch_sfb.c\n'] is homologous with CVE-2022-3586
+Match! Method  "static void increment_qlen which may in ['/trunk/linux-3.4.x/net/sched/sch_sfb.c\n'] is homologous with CVE-2022-3586
+Found CVE-2022-36123 in rt-n56u !
+Match! Method  "static void __init clear_bss which may in ['/trunk/linux-3.4.x/arch/x86/kernel/head64.c\n'] is homologous with CVE-2022-36123
+Match! Method  "static void __init clear_bss which may in ['/trunk/linux-3.4.x/arch/x86/kernel/head64.c\n'] is homologous with CVE-2022-36123
+Match! Method  "static void __init clear_bss which may in ['/trunk/linux-3.4.x/arch/x86/kernel/head64.c\n'] is homologous with CVE-2022-36123
+Found CVE-2022-3424 in rt-n56u !
+Match! Method  "int gru_set_context_option which may in ['/trunk/linux-3.4.x/drivers/misc/sgi-gru/grufault.c\n'] is homologous with CVE-2022-3424
+Match! Method  "int gru_handle_user_call_os which may in ['/trunk/linux-3.4.x/drivers/misc/sgi-gru/grufault.c\n'] is homologous with CVE-2022-3424
+Match! Method  "void gru_check_context_placement which may in ['/trunk/linux-3.4.x/drivers/misc/sgi-gru/grumain.c\n'] is homologous with CVE-2022-3424
+Match! Method  "void gru_check_context_placement which may in ['/trunk/linux-3.4.x/drivers/misc/sgi-gru/grumain.c\n'] is homologous with CVE-2022-3424
+Match! Method  "void gru_check_context_placement which may in ['/trunk/linux-3.4.x/drivers/misc/sgi-gru/grumain.c\n'] is homologous with CVE-2022-3424
+Match! Method  "int gru_set_context_option which may in ['/trunk/linux-3.4.x/drivers/misc/sgi-gru/grufault.c\n'] is homologous with CVE-2022-3424
+Match! Method  "int gru_handle_user_call_os which may in ['/trunk/linux-3.4.x/drivers/misc/sgi-gru/grufault.c\n'] is homologous with CVE-2022-3424
+Match! Method  "int gru_handle_user_call_os which may in ['/trunk/linux-3.4.x/drivers/misc/sgi-gru/grufault.c\n'] is homologous with CVE-2022-3424
+Found CVE-2022-42703 in rt-n56u !
+Match! Method  "static inline struct anon_vma *anon_vma_alloc which may in ['/trunk/linux-3.4.x/mm/rmap.c\n'] is homologous with CVE-2022-42703
+Match! Method  "static inline struct anon_vma *anon_vma_alloc which may in ['/trunk/linux-3.4.x/mm/rmap.c\n'] is homologous with CVE-2022-42703
+Match! Method  "static inline struct anon_vma *anon_vma_alloc which may in ['/trunk/linux-3.4.x/mm/rmap.c\n'] is homologous with CVE-2022-42703
+Found CVE-2022-1974 in rt-n56u !
+Match! Method  "int nfc_dep_link_down which may in ['/trunk/linux-3.4.x/net/nfc/core.c\n'] is homologous with CVE-2022-1974
+Match! Method  "int nfc_dep_link_down which may in ['/trunk/linux-3.4.x/net/nfc/core.c\n'] is homologous with CVE-2022-1974
+Found CVE-2018-1000004 in rt-n56u !
+Match! Method  "static int snd_seq_client_enqueue_event which may in ['/trunk/linux-3.4.x/sound/core/seq/seq_clientmgr.c\n'] is homologous with CVE-2018-1000004
+Match! Method  "int snd_seq_event_dup which may in ['/trunk/linux-3.4.x/sound/core/seq/seq_memory.c\n'] is homologous with CVE-2018-1000004
+Match! Method  "static int kernel_client_enqueue which may in ['/trunk/linux-3.4.x/sound/core/seq/seq_clientmgr.c\n'] is homologous with CVE-2018-1000004
+Found CVE-2017-7482 in rt-n56u !
+Match! Method  "static int rxrpc_krb5_decode_principal which may in ['/trunk/linux-3.4.x/net/rxrpc/ar-key.c\n'] is homologous with CVE-2017-7482
+Match! Method  "static int rxrpc_krb5_decode_ticket which may in ['/trunk/linux-3.4.x/net/rxrpc/ar-key.c\n'] is homologous with CVE-2017-7482
+Match! Method  "static int rxrpc_krb5_decode_tagged_data which may in ['/trunk/linux-3.4.x/net/rxrpc/ar-key.c\n'] is homologous with CVE-2017-7482
+Found CVE-2012-4398 in rt-n56u !
+Match! Method  "static void create_kthread which may in ['/trunk/linux-3.4.x/kernel/kthread.c\n'] is homologous with CVE-2012-4398
+Match! Method  "struct task_struct *kthread_create_on_node which may in ['/trunk/linux-3.4.x/kernel/kthread.c\n'] is homologous with CVE-2012-4398
+Found CVE-2018-10876 in rt-n56u !
+Match! Method  "static ext4_group_t ext4_has_uninit_itable which may in ['/trunk/linux-3.4.x/fs/ext4/super.c\n'] is homologous with CVE-2018-10876
+Found CVE-2016-3857 in rt-n56u !
+Match! Method  "asmlinkage long sys_oabi_epoll_wait which may in ['/trunk/linux-3.4.x/arch/arm/kernel/sys_oabi-compat.c\n'] is homologous with CVE-2016-3857
+Found CVE-2018-10853 in rt-n56u !
+Match! Method  "static int segmented_read_std which may in ['/trunk/linux-3.4.x/arch/x86/kvm/emulate.c\n'] is homologous with CVE-2018-10853
+Match! Method  "static int kvm_read_guest_virt_system which may in ['/trunk/linux-3.4.x/arch/x86/kvm/x86.c\n'] is homologous with CVE-2018-10853
+Found CVE-2009-0787 in rt-n56u !
+Match! Method  "ecryptfs_write_metadata_to_xattr which may in ['/trunk/linux-3.4.x/fs/ecryptfs/crypto.c\n'] is homologous with CVE-2009-0787
+Found CVE-2016-8405 in rt-n56u !
+Match! Method  "int fb_copy_cmap which may in ['/trunk/linux-3.4.x/drivers/video/fbcmap.c\n'] is homologous with CVE-2016-8405
+Match! Method  "int fb_cmap_to_user which may in ['/trunk/linux-3.4.x/drivers/video/fbcmap.c\n'] is homologous with CVE-2016-8405
+Found CVE-2018-14633 in rt-n56u !
+Match! Method  "static int chap_string_to_hex which may in ['/trunk/linux-3.4.x/drivers/target/iscsi/iscsi_target_auth.c\n'] is homologous with CVE-2018-14633
+Found CVE-2022-33099 in cosmopolitan !
+Match! Method  "void luaV_concat  which may in ['/third_party/lua/lvm.c\n'] is homologous with CVE-2022-33099
+Match! Method  "l_noret luaG_runerror  which may in ['/third_party/lua/ldebug.c\n'] is homologous with CVE-2022-33099
+Found CVE-2021-32020 in IronOS !
+Match! Method  "void * pvPortMalloc which may in ['/source/Core/BSP/Pinecilv2/MemMang/heap_5.c\n'] is homologous with CVE-2021-32020
+Found CVE-2021-33657 in dosbox-x !
+Match! Method  "Map1to1 which may in ['/vs/sdl2/src/video/SDL_pixels.c\n'] is homologous with CVE-2021-33657
+Match! Method  "Map1to1 which may in ['/vs/sdl2/src/video/SDL_pixels.c\n'] is homologous with CVE-2021-33657
+Found CVE-2019-7578 in dosbox-x !
+Match! Method  "InitIMA_ADPCM which may in ['/vs/sdl2/src/audio/SDL_wave.c'] is homologous with CVE-2019-7578
+Match! Method  "SDL_LoadWAV_RW which may in ['/vs/sdl2/src/audio/SDL_wave.c\n'] is homologous with CVE-2019-7578
+Match! Method  "InitIMA_ADPCM which may in ['/vs/sdl2/src/audio/SDL_wave.c'] is homologous with CVE-2019-7578
+Match! Method  "SDL_LoadWAV_RW which may in ['/vs/sdl2/src/audio/SDL_wave.c\n'] is homologous with CVE-2019-7578
+Found CVE-2018-8788 in FreeRDP !
+Match! Method  "static UINT32 nsc_rle_encode which may in ['/libfreerdp/codec/nsc_encode.c\n'] is homologous with CVE-2018-8788
+Found CVE-2022-33099 in vifm !
+Match! Method  "void luaV_concat  which may in ['/src/lua/lua/lvm.c\n'] is homologous with CVE-2022-33099
+Match! Method  "l_noret luaG_runerror  which may in ['/src/lua/lua/ldebug.c\n'] is homologous with CVE-2022-33099
+Found CVE-2015-1792 in CloverBootloader !
+Match! Method  "static void do_free_upto which may in ['/Library/OpensslLib/openssl-1.0.1e/crypto/cms/cms_smime.c\n'] is homologous with CVE-2015-1792
+Found CVE-2015-3194 in CloverBootloader !
+Match! Method  "static RSA_PSS_PARAMS *rsa_pss_decode which may in ['/Library/OpensslLib/openssl-1.0.1e/crypto/rsa/rsa_ameth.c\n'] is homologous with CVE-2015-3194
+Found CVE-2015-0289 in CloverBootloader !
+Match! Method  "int PKCS7_dataFinal which may in ['/Library/OpensslLib/openssl-1.0.1e/crypto/pkcs7/pk7_doit.c\n'] is homologous with CVE-2015-0289
+Found CVE-2014-8275 in CloverBootloader !
+Match! Method  "int ECDSA_verify which may in ['/Library/OpensslLib/openssl-1.0.1e/crypto/ecdsa/ecs_vrf.c\n'] is homologous with CVE-2014-8275
+Match! Method  "int DSA_verify which may in ['/Library/OpensslLib/openssl-1.0.1e/crypto/dsa/dsa_asn1.c\n'] is homologous with CVE-2014-8275
+Found CVE-2015-3195 in CloverBootloader !
+Match! Method  "static int asn1_template_noexp_d2i which may in ['/Library/OpensslLib/openssl-1.0.1e/crypto/asn1/tasn_dec.c\n'] is homologous with CVE-2015-3195
+Found CVE-2016-0797 in CloverBootloader !
+Match! Method  "int BN_hex2bn which may in ['/Library/OpensslLib/openssl-1.0.1e/crypto/bn/bn_print.c\n'] is homologous with CVE-2016-0797
+Match! Method  "int BN_dec2bn which may in ['/Library/OpensslLib/openssl-1.0.1e/crypto/bn/bn_print.c\n'] is homologous with CVE-2016-0797
+Found CVE-2016-0799 in CloverBootloader !
+Match! Method  "fmtint which may in ['/Library/OpensslLib/openssl-1.0.1e/crypto/bio/b_print.c\n'] is homologous with CVE-2016-0799
+Match! Method  "fmtstr which may in ['/Library/OpensslLib/openssl-1.0.1e/crypto/bio/b_print.c\n'] is homologous with CVE-2016-0799
+Match! Method  "int BIO_vsnprintf which may in ['/Library/OpensslLib/openssl-1.0.1e/crypto/bio/b_print.c\n'] is homologous with CVE-2016-0799
+Found CVE-2015-1788 in CloverBootloader !
+Match! Method  "int BN_GF2m_mod_inv which may in ['/Library/OpensslLib/openssl-1.0.1e/crypto/bn/bn_gf2m.c\n'] is homologous with CVE-2015-1788
+Found CVE-2019-14559 in CloverBootloader !
+Match! Method  "Ip4AccpetFrame  which may in ['/NetworkPkg/Ip4Dxe/Ip4Input.c\n'] is homologous with CVE-2019-14559
+Match! Method  "Ip4PreProcessPacket  which may in ['/NetworkPkg/Ip4Dxe/Ip4Input.c\n'] is homologous with CVE-2019-14559
+Found CVE-2015-1789 in CloverBootloader !
+Match! Method  "int X509_cmp_time which may in ['/Library/OpensslLib/openssl-1.0.1e/crypto/x509/x509_vfy.c\n'] is homologous with CVE-2015-1789
+Found CVE-2016-0798 in CloverBootloader !
+Match! Method  "static void SRP_user_pwd_free which may in ['/Library/OpensslLib/openssl-1.0.1e/crypto/srp/srp_vfy.c\n'] is homologous with CVE-2016-0798
+Found CVE-2014-3508 in CloverBootloader !
+Match! Method  "ASN1_OBJECT *c2i_ASN1_OBJECT which may in ['/Library/OpensslLib/openssl-1.0.1e/crypto/asn1/a_object.c\n'] is homologous with CVE-2014-3508
+Match! Method  "int OBJ_obj2txt which may in ['/Library/OpensslLib/openssl-1.0.1e/crypto/objects/obj_dat.c\n'] is homologous with CVE-2014-3508
+Found CVE-2020-22021 in yjPlay !
+Match! Method  "static void filter_edges which may in ['/ffmpeg/src/main/jni/ffmpeg/libavfilter/vf_yadif.c\n'] is homologous with CVE-2020-22021
+Match! Method  "static void filter_edges_16bit which may in ['/ffmpeg/src/main/jni/ffmpeg/libavfilter/vf_yadif.c\n'] is homologous with CVE-2020-22021
+Found CVE-2015-5224 in Team-Win-Recovery-Project !
+Match! Method  "int main which may in ['/libblkid/lib/fileutils.c\n'] is homologous with CVE-2015-5224
+Found CVE-2021-32020 in ElectronBot !
+Match! Method  "void *pvPortMalloc which may in ['/6.Tests/TestDisplayUSB/ElectronBot-fw/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c'] is homologous with CVE-2021-32020
+Found CVE-2013-2236 in LVS !
+Match! Method  "new_msg_lsa_change_notify  which may in ['/tools/quagga/ospfd/ospf_api.c\n'] is homologous with CVE-2013-2236
+Match! Method  "new_msg_originate_request  which may in ['/tools/quagga/ospfd/ospf_api.c\n'] is homologous with CVE-2013-2236
+Found CVE-2020-12652 in LVS !
+Match! Method  "mptctl_eventquery  which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "compat_mptfwxfer_ioctl which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "compat_mpt_command which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "__mptctl_ioctl which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_mpt_command  which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_eventenable  which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_fw_download which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_do_mpt_command  which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_do_fw_download which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_gettargetinfo  which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_readtest  which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_eventreport  which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "static int mptctl_do_reset which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_hp_targetinfo which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "__mptctl_ioctl which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_mpt_command  which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_hp_targetinfo which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_gettargetinfo  which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_eventquery  which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_do_mpt_command  which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_eventenable  which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_readtest  which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "static int mptctl_do_reset which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_eventquery  which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "__mptctl_ioctl which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_eventreport  which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "compat_mpt_command which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "static int mptctl_do_reset which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "compat_mptfwxfer_ioctl which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_gettargetinfo  which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_readtest  which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "compat_mptfwxfer_ioctl which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_fw_download which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_eventenable  which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_mpt_command  which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_fw_download which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_eventreport  which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "compat_mpt_command which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_do_fw_download which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Found CVE-2020-25669 in LVS !
+Match! Method  "static irqreturn_t sunkbd_interrupt which may in ['/kernel/drivers/input/keyboard/sunkbd.c\n'] is homologous with CVE-2020-25669
+Match! Method  "static void sunkbd_reinit which may in ['/kernel/drivers/input/keyboard/sunkbd.c\n'] is homologous with CVE-2020-25669
+Match! Method  "static void sunkbd_reinit which may in ['/kernel/drivers/input/keyboard/sunkbd.c\n'] is homologous with CVE-2020-25669
+Match! Method  "static irqreturn_t sunkbd_interrupt which may in ['/kernel/drivers/input/keyboard/sunkbd.c\n'] is homologous with CVE-2020-25669
+Match! Method  "static irqreturn_t sunkbd_interrupt which may in ['/kernel/drivers/input/keyboard/sunkbd.c\n'] is homologous with CVE-2020-25669
+Match! Method  "static void sunkbd_reinit which may in ['/kernel/drivers/input/keyboard/sunkbd.c\n'] is homologous with CVE-2020-25669
+Found CVE-2021-3640 in LVS !
+Match! Method  "static int sco_sock_sendmsg which may in ['/kernel/net/bluetooth/sco.c\n'] is homologous with CVE-2021-3640
+Match! Method  "static int sco_sock_sendmsg which may in ['/kernel/net/bluetooth/sco.c\n'] is homologous with CVE-2021-3640
+Found CVE-2020-11609 in LVS !
+Match! Method  "static int stv06xx_isoc_init which may in ['/kernel/drivers/media/video/gspca/stv06xx/stv06xx.c\n'] is homologous with CVE-2020-11609
+Match! Method  "static int stv06xx_isoc_init which may in ['/kernel/drivers/media/video/gspca/stv06xx/stv06xx.c\n'] is homologous with CVE-2020-11609
+Found CVE-2020-28097 in LVS !
+Match! Method  "static int vgacon_scroll which may in ['/kernel/drivers/video/console/vgacon.c\n'] is homologous with CVE-2020-28097
+Match! Method  "static int vgacon_scroll which may in ['/kernel/drivers/video/console/vgacon.c\n'] is homologous with CVE-2020-28097
+Found CVE-2022-36123 in LVS !
+Match! Method  "static void __init clear_bss which may in ['/kernel/arch/x86/kernel/head64.c\n'] is homologous with CVE-2022-36123
+Match! Method  "static void __init clear_bss which may in ['/kernel/arch/x86/kernel/head64.c\n'] is homologous with CVE-2022-36123
+Match! Method  "static void __init clear_bss which may in ['/kernel/arch/x86/kernel/head64.c\n'] is homologous with CVE-2022-36123
+Found CVE-2022-3424 in LVS !
+Match! Method  "int gru_set_context_option which may in ['/kernel/drivers/misc/sgi-gru/grufault.c\n'] is homologous with CVE-2022-3424
+Match! Method  "int gru_handle_user_call_os which may in ['/kernel/drivers/misc/sgi-gru/grufault.c\n'] is homologous with CVE-2022-3424
+Match! Method  "void gru_check_context_placement which may in ['/kernel/drivers/misc/sgi-gru/grumain.c\n'] is homologous with CVE-2022-3424
+Match! Method  "int gru_handle_user_call_os which may in ['/kernel/drivers/misc/sgi-gru/grufault.c\n'] is homologous with CVE-2022-3424
+Match! Method  "void gru_check_context_placement which may in ['/kernel/drivers/misc/sgi-gru/grumain.c\n'] is homologous with CVE-2022-3424
+Match! Method  "void gru_check_context_placement which may in ['/kernel/drivers/misc/sgi-gru/grumain.c\n'] is homologous with CVE-2022-3424
+Match! Method  "int gru_handle_user_call_os which may in ['/kernel/drivers/misc/sgi-gru/grufault.c\n'] is homologous with CVE-2022-3424
+Match! Method  "int gru_set_context_option which may in ['/kernel/drivers/misc/sgi-gru/grufault.c\n'] is homologous with CVE-2022-3424
+Found CVE-2023-2513 in LVS !
+Match! Method  "ext4_xattr_ibody_find which may in ['/kernel/fs/ext4/xattr.c\n'] is homologous with CVE-2023-2513
+Match! Method  "ext4_xattr_ibody_find which may in ['/kernel/fs/ext4/xattr.c\n'] is homologous with CVE-2023-2513
+Found CVE-2015-5157 in LVS !
+Match! Method  "static void flush_ldt which may in ['/kernel/arch/x86/kernel/ldt.c\n'] is homologous with CVE-2015-5157
+Match! Method  "unsigned long convert_ip_to_linear which may in ['/kernel/arch/x86/kernel/step.c\n'] is homologous with CVE-2015-5157
+Match! Method  "static int alloc_ldt which may in ['/kernel/arch/x86/kernel/ldt.c\n'] is homologous with CVE-2015-5157
+Match! Method  "static int read_ldt which may in ['/kernel/arch/x86/kernel/ldt.c\n'] is homologous with CVE-2015-5157
+Match! Method  "static inline int copy_ldt which may in ['/kernel/arch/x86/kernel/ldt.c\n'] is homologous with CVE-2015-5157
+Match! Method  "void destroy_context which may in ['/kernel/arch/x86/kernel/ldt.c\n'] is homologous with CVE-2015-5157
+Match! Method  "int init_new_context which may in ['/kernel/arch/x86/kernel/ldt.c\n'] is homologous with CVE-2015-5157
+Found CVE-2015-1593 in LVS !
+Match! Method  "static unsigned long randomize_stack_top which may in ['/kernel/fs/binfmt_elf.c\n'] is homologous with CVE-2015-1593
+Match! Method  "static unsigned int stack_maxrandom_size which may in ['/kernel/arch/x86/mm/mmap.c\n'] is homologous with CVE-2015-1593
+Found CVE-2012-1179 in LVS !
+Match! Method  "static inline int unuse_pmd_range which may in ['/kernel/mm/swapfile.c\n'] is homologous with CVE-2012-1179
+Match! Method  "static inline int check_pmd_range which may in ['/kernel/mm/mempolicy.c\n'] is homologous with CVE-2012-1179
+Found CVE-2018-1000004 in LVS !
+Match! Method  "static int snd_seq_client_enqueue_event which may in ['/kernel/sound/core/seq/seq_clientmgr.c\n'] is homologous with CVE-2018-1000004
+Match! Method  "static int kernel_client_enqueue which may in ['/kernel/sound/core/seq/seq_clientmgr.c\n'] is homologous with CVE-2018-1000004
+Found CVE-2013-4299 in LVS !
+Match! Method  "static int persistent_prepare_exception which may in ['/kernel/drivers/md/dm-snap-persistent.c\n'] is homologous with CVE-2013-4299
+Found CVE-2016-3857 in LVS !
+Match! Method  "asmlinkage long sys_oabi_epoll_wait which may in ['/kernel/arch/arm/kernel/sys_oabi-compat.c\n'] is homologous with CVE-2016-3857
+Found CVE-2015-7799 in LVS !
+Match! Method  "slhc_init which may in ['/kernel/drivers/net/slhc.c\n'] is homologous with CVE-2015-7799
+Found CVE-2013-0160 in LVS !
+Match! Method  "static inline ssize_t do_tty_write which may in ['/kernel/drivers/char/tty_io.c\n'] is homologous with CVE-2013-0160
+Found CVE-2016-8405 in LVS !
+Match! Method  "int fb_copy_cmap which may in ['/kernel/drivers/video/fbcmap.c\n'] is homologous with CVE-2016-8405
+Match! Method  "int fb_cmap_to_user which may in ['/kernel/drivers/video/fbcmap.c\n'] is homologous with CVE-2016-8405
+Found CVE-2009-0787 in LVS !
+Match! Method  "ecryptfs_write_metadata_to_xattr which may in ['/kernel/fs/ecryptfs/crypto.c\n'] is homologous with CVE-2009-0787
+Found CVE-2020-14375 in f-stack !
+Match! Method  "get_data_ptr which may in ['/dpdk/lib/vhost/vhost_crypto.c\n'] is homologous with CVE-2020-14375
+Found CVE-2022-33099 in xLua !
+Match! Method  "l_noret luaG_runerror  which may in ['/build/lua-5.4.1/src/ldebug.c\n'] is homologous with CVE-2022-33099
+Found CVE-2021-32020 in amazon-freertos !
+Match! Method  "void *pvPortMalloc which may in ['/vendors/nordic/nRF5_SDK_15.2.0/external/freertos/source/portable/MemMang/heap_1.c\n'] is homologous with CVE-2021-32020
+Match! Method  "void *pvPortMalloc which may in ['/vendors/nordic/nRF5_SDK_15.2.0/external/freertos/source/portable/MemMang/heap_2.c\n'] is homologous with CVE-2021-32020
+Found CVE-2022-33099 in freebsd-src !
+Match! Method  "void luaV_concat  which may in ['/contrib/lua/src/lvm.c\n'] is homologous with CVE-2022-33099
+Match! Method  "l_noret luaG_runerror  which may in ['/contrib/lua/src/ldebug.c\n'] is homologous with CVE-2022-33099
+Found CVE-2020-12652 in WSL2-Linux-Kernel !
+Match! Method  "compat_mptfwxfer_ioctl which may in ['/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "compat_mpt_command which may in ['/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_do_mpt_command  which may in ['/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_do_fw_download which may in ['/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_hp_targetinfo which may in ['/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_hp_hostinfo which may in ['/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_hp_targetinfo which may in ['/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_hp_hostinfo which may in ['/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_do_mpt_command  which may in ['/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "compat_mpt_command which may in ['/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "compat_mptfwxfer_ioctl which may in ['/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_do_fw_download which may in ['/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Found CVE-2020-28097 in WSL2-Linux-Kernel !
+Match! Method  "static bool vgacon_scroll which may in ['/drivers/video/console/vgacon.c\n'] is homologous with CVE-2020-28097
+Match! Method  "static bool vgacon_scroll which may in ['/drivers/video/console/vgacon.c\n'] is homologous with CVE-2020-28097
+Found CVE-2021-33624 in WSL2-Linux-Kernel !
+Match! Method  "static int check_cond_jmp_op which may in ['/kernel/bpf/verifier.c\n'] is homologous with CVE-2021-33624
+Match! Method  "static int sanitize_ptr_alu which may in ['/kernel/bpf/verifier.c\n'] is homologous with CVE-2021-33624
+Match! Method  "static int check_cond_jmp_op which may in ['/kernel/bpf/verifier.c\n'] is homologous with CVE-2021-33624
+Match! Method  "static int sanitize_ptr_alu which may in ['/kernel/bpf/verifier.c\n'] is homologous with CVE-2021-33624
+Found CVE-2021-38204 in WSL2-Linux-Kernel !
+Match! Method  "max3421_select_and_start_urb which may in ['/drivers/usb/host/max3421-hcd.c\n'] is homologous with CVE-2021-38204
+Match! Method  "max3421_select_and_start_urb which may in ['/drivers/usb/host/max3421-hcd.c\n'] is homologous with CVE-2021-38204
+Found CVE-2021-38206 in WSL2-Linux-Kernel !
+Match! Method  "bool ieee80211_parse_tx_radiotap which may in ['/net/mac80211/tx.c\n'] is homologous with CVE-2021-38206
+Match! Method  "bool ieee80211_parse_tx_radiotap which may in ['/net/mac80211/tx.c\n'] is homologous with CVE-2021-38206
+Found CVE-2023-2006 in WSL2-Linux-Kernel !
+Match! Method  "void rxrpc_put_bundle which may in ['/net/rxrpc/conn_client.c\n'] is homologous with CVE-2023-2006
+Match! Method  "void rxrpc_put_bundle which may in ['/net/rxrpc/conn_client.c\n'] is homologous with CVE-2023-2006
+Found CVE-2022-47942 in WSL2-Linux-Kernel !
+Match! Method  "int smb2_open which may in ['/fs/ksmbd/smb2pdu.c\n'] is homologous with CVE-2022-47942
+Match! Method  "int smb2_open which may in ['/fs/ksmbd/smb2pdu.c\n'] is homologous with CVE-2022-47942
+Found CVE-2022-3586 in WSL2-Linux-Kernel !
+Match! Method  "static void decrement_qlen which may in ['/net/sched/sch_sfb.c\n'] is homologous with CVE-2022-3586
+Match! Method  "static int sfb_enqueue which may in ['/net/sched/sch_sfb.c\n'] is homologous with CVE-2022-3586
+Match! Method  "static void decrement_qlen which may in ['/net/sched/sch_sfb.c\n'] is homologous with CVE-2022-3586
+Match! Method  "static int sfb_enqueue which may in ['/net/sched/sch_sfb.c\n'] is homologous with CVE-2022-3586
+Found CVE-2023-0030 in WSL2-Linux-Kernel !
+Match! Method  "nvkm_vmm_get_locked which may in ['/drivers/gpu/drm/nouveau/nvkm/subdev/mmu/vmm.c\n'] is homologous with CVE-2023-0030
+Match! Method  "nvkm_vmm_get_locked which may in ['/drivers/gpu/drm/nouveau/nvkm/subdev/mmu/vmm.c\n'] is homologous with CVE-2023-0030
+Found CVE-2023-1998 in WSL2-Linux-Kernel !
+Match! Method  "spectre_v2_user_select_mitigation which may in ['/arch/x86/kernel/cpu/bugs.c\n'] is homologous with CVE-2023-1998
+Match! Method  "static char *stibp_state which may in ['/arch/x86/kernel/cpu/bugs.c\n'] is homologous with CVE-2023-1998
+Match! Method  "spectre_v2_user_select_mitigation which may in ['/arch/x86/kernel/cpu/bugs.c\n'] is homologous with CVE-2023-1998
+Match! Method  "static char *stibp_state which may in ['/arch/x86/kernel/cpu/bugs.c\n'] is homologous with CVE-2023-1998
+Found CVE-2022-1852 in WSL2-Linux-Kernel !
+Match! Method  "static bool kvm_vcpu_check_code_breakpoint which may in ['/arch/x86/kvm/x86.c\n'] is homologous with CVE-2022-1852
+Match! Method  "static bool kvm_vcpu_check_code_breakpoint which may in ['/arch/x86/kvm/x86.c\n'] is homologous with CVE-2022-1852
+Match! Method  "static bool kvm_vcpu_check_code_breakpoint which may in ['/arch/x86/kvm/x86.c\n'] is homologous with CVE-2022-1852
+Found CVE-2022-42703 in WSL2-Linux-Kernel !
+Match! Method  "int anon_vma_fork which may in ['/mm/rmap.c\n'] is homologous with CVE-2022-42703
+Match! Method  "int anon_vma_fork which may in ['/mm/rmap.c\n'] is homologous with CVE-2022-42703
+Found CVE-2022-47943 in WSL2-Linux-Kernel !
+Match! Method  "static int smb2_get_data_area_len which may in ['/fs/ksmbd/smb2misc.c\n'] is homologous with CVE-2022-47943
+Match! Method  "static int smb2_get_data_area_len which may in ['/fs/ksmbd/smb2misc.c\n'] is homologous with CVE-2022-47943
+Found CVE-2022-1974 in WSL2-Linux-Kernel !
+Match! Method  "int nfc_deactivate_target which may in ['/net/nfc/core.c\n'] is homologous with CVE-2022-1974
+Match! Method  "int nfc_data_exchange which may in ['/net/nfc/core.c\n'] is homologous with CVE-2022-1974
+Match! Method  "int nfc_deactivate_target which may in ['/net/nfc/core.c\n'] is homologous with CVE-2022-1974
+Match! Method  "int nfc_data_exchange which may in ['/net/nfc/core.c\n'] is homologous with CVE-2022-1974
+Found CVE-2022-44789 in sumatrapdf !
+Match! Method  "static void ToPropertyDescriptor which may in ['/ext/mujs/jsobject.c\n'] is homologous with CVE-2022-44789
+Match! Method  "static void O_getOwnPropertyDescriptor which may in ['/ext/mujs/jsobject.c\n'] is homologous with CVE-2022-44789
+Found CVE-2016-3857 in fastsocket !
+Match! Method  "asmlinkage long sys_oabi_epoll_wait which may in ['/kernel/arch/arm/kernel/sys_oabi-compat.c\n'] is homologous with CVE-2016-3857
+Found CVE-2015-5157 in fastsocket !
+Match! Method  "unsigned long convert_ip_to_linear which may in ['/kernel/arch/x86/kernel/step.c\n'] is homologous with CVE-2015-5157
+Match! Method  "static int alloc_ldt which may in ['/kernel/arch/x86/kernel/ldt.c\n'] is homologous with CVE-2015-5157
+Match! Method  "static int read_ldt which may in ['/kernel/arch/x86/kernel/ldt.c\n'] is homologous with CVE-2015-5157
+Match! Method  "static void flush_ldt which may in ['/kernel/arch/x86/kernel/ldt.c\n'] is homologous with CVE-2015-5157
+Match! Method  "static inline int copy_ldt which may in ['/kernel/arch/x86/kernel/ldt.c\n'] is homologous with CVE-2015-5157
+Match! Method  "void destroy_context which may in ['/kernel/arch/x86/kernel/ldt.c\n'] is homologous with CVE-2015-5157
+Match! Method  "int init_new_context which may in ['/kernel/arch/x86/kernel/ldt.c\n'] is homologous with CVE-2015-5157
+Found CVE-2020-25669 in fastsocket !
+Match! Method  "static void sunkbd_reinit which may in ['/kernel/drivers/input/keyboard/sunkbd.c\n'] is homologous with CVE-2020-25669
+Match! Method  "static irqreturn_t sunkbd_interrupt which may in ['/kernel/drivers/input/keyboard/sunkbd.c\n'] is homologous with CVE-2020-25669
+Found CVE-2015-1805 in fastsocket !
+Match! Method  "pipe_iov_copy_from_user which may in ['/kernel/fs/pipe.c\n'] is homologous with CVE-2015-1805
+Match! Method  "pipe_iov_copy_to_user which may in ['/kernel/fs/pipe.c\n'] is homologous with CVE-2015-1805
+Found CVE-2020-12652 in fastsocket !
+Match! Method  "mptctl_fw_download which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "__mptctl_ioctl which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_eventenable  which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_readtest  which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "static int mptctl_do_reset which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_eventreport  which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_mpt_command  which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "compat_mpt_command which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "compat_mptfwxfer_ioctl which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_eventquery  which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Match! Method  "mptctl_gettargetinfo  which may in ['/kernel/drivers/message/fusion/mptctl.c\n'] is homologous with CVE-2020-12652
+Found CVE-2015-1593 in fastsocket !
+Match! Method  "static unsigned int stack_maxrandom_size which may in ['/kernel/arch/x86/mm/mmap.c\n'] is homologous with CVE-2015-1593
+Match! Method  "static unsigned long randomize_stack_top which may in ['/kernel/fs/binfmt_elf.c\n'] is homologous with CVE-2015-1593
+Found CVE-2022-3424 in fastsocket !
+Match! Method  "void gru_check_context_placement which may in ['/kernel/drivers/misc/sgi-gru/grumain.c\n'] is homologous with CVE-2022-3424
+Match! Method  "int gru_handle_user_call_os which may in ['/kernel/drivers/misc/sgi-gru/grufault.c\n'] is homologous with CVE-2022-3424
+Found CVE-2018-1000004 in fastsocket !
+Match! Method  "static int kernel_client_enqueue which may in ['/kernel/sound/core/seq/seq_clientmgr.c\n'] is homologous with CVE-2018-1000004
+Match! Method  "static int snd_seq_client_enqueue_event which may in ['/kernel/sound/core/seq/seq_clientmgr.c\n'] is homologous with CVE-2018-1000004
+Found CVE-2016-8405 in fastsocket !
+Match! Method  "int fb_copy_cmap which may in ['/kernel/drivers/video/fbcmap.c\n'] is homologous with CVE-2016-8405
+Match! Method  "int fb_cmap_to_user which may in ['/kernel/drivers/video/fbcmap.c\n'] is homologous with CVE-2016-8405
+Found CVE-2009-0787 in fastsocket !
+Match! Method  "ecryptfs_write_metadata_to_xattr which may in ['/kernel/fs/ecryptfs/crypto.c\n'] is homologous with CVE-2009-0787
+Found CVE-2015-7799 in fastsocket !
+Match! Method  "slhc_init which may in ['/kernel/drivers/net/slhc.c\n'] is homologous with CVE-2015-7799
+Found CVE-2013-0160 in fastsocket !
+Match! Method  "static inline ssize_t do_tty_write which may in ['/kernel/drivers/char/tty_io.c\n'] is homologous with CVE-2013-0160
+Found CVE-2018-10876 in fastsocket !
+Match! Method  "static ext4_group_t ext4_has_uninit_itable which may in ['/kernel/fs/ext4/super.c\n'] is homologous with CVE-2018-10876
+Found CVE-2022-36123 in fastsocket !
+Match! Method  "static void __init clear_bss which may in ['/kernel/arch/x86/kernel/head64.c\n'] is homologous with CVE-2022-36123
+Found CVE-2021-32020 in EasyLogger !
+Match! Method  "void *pvPortMalloc which may in ['/demo/os/cube-freertos/nucleo-g070rb/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c\n'] is homologous with CVE-2021-32020
+Found CVE-2021-33657 in awtk !
+Match! Method  "Map1to1 which may in ['/3rd/SDL/src/video/SDL_pixels.c\n'] is homologous with CVE-2021-33657
+Match! Method  "Map1to1 which may in ['/3rd/SDL/src/video/SDL_pixels.c\n'] is homologous with CVE-2021-33657
+Found CVE-2019-7578 in awtk !
+Match! Method  "InitIMA_ADPCM which may in ['/3rd/SDL/src/audio/SDL_wave.c\n'] is homologous with CVE-2019-7578
+Match! Method  "SDL_LoadWAV_RW which may in ['/3rd/SDL/src/audio/SDL_wave.c\n'] is homologous with CVE-2019-7578
+Match! Method  "SDL_LoadWAV_RW which may in ['/3rd/SDL/src/audio/SDL_wave.c\n'] is homologous with CVE-2019-7578
+Match! Method  "InitIMA_ADPCM which may in ['/3rd/SDL/src/audio/SDL_wave.c\n'] is homologous with CVE-2019-7578
+Found CVE-2023-31470 in smartdns !
+Match! Method  "int dns_HTTPS_add_ipv4hint which may in ['/src/dns.c\n'] is homologous with CVE-2023-31470
+Match! Method  "int dns_add_rr_nested_memcpy which may in ['/src/dns.c\n'] is homologous with CVE-2023-31470
+Match! Method  "int dns_HTTPS_add_ipv6hint which may in ['/src/dns.c\n'] is homologous with CVE-2023-31470
+Found CVE-2022-23308 in mobile-ffmpeg !
+Match! Method  "xmlAddRef which may in ['/src/libxml2/valid.c\n'] is homologous with CVE-2022-23308
+Match! Method  "xmlValidNormalizeAttributeValue which may in ['/src/libxml2/valid.c\n'] is homologous with CVE-2022-23308
+Match! Method  "xmlValidCtxtNormalizeAttributeValue which may in ['/src/libxml2/valid.c\n'] is homologous with CVE-2022-23308
+Match! Method  "xmlAddID which may in ['/src/libxml2/valid.c\n'] is homologous with CVE-2022-23308
+Match! Method  "xmlAddID which may in ['/src/libxml2/valid.c\n'] is homologous with CVE-2022-23308
+Match! Method  "xmlValidCtxtNormalizeAttributeValue which may in ['/src/libxml2/valid.c\n'] is homologous with CVE-2022-23308
+Match! Method  "xmlAddRef which may in ['/src/libxml2/valid.c\n'] is homologous with CVE-2022-23308
+Match! Method  "xmlValidNormalizeAttributeValue which may in ['/src/libxml2/valid.c\n'] is homologous with CVE-2022-23308
+Found CVE-2021-46822 in mobile-ffmpeg !
+Match! Method  "get_word_rgb_row which may in ['/src/jpeg/rdppm.c\n'] is homologous with CVE-2021-46822
+Found CVE-2022-38266 in mobile-ffmpeg !
+Match! Method  "pixBlockconv which may in ['/src/leptonica/src/convolve.c\n'] is homologous with CVE-2022-38266
+Match! Method  "pixBlockconvTiled which may in ['/src/leptonica/src/convolve.c\n'] is homologous with CVE-2022-38266
+Match! Method  "pixBlockconvGrayUnnormalized which may in ['/src/leptonica/src/convolve.c\n'] is homologous with CVE-2022-38266
+Match! Method  "pixBlockconvGrayTile which may in ['/src/leptonica/src/convolve.c\n'] is homologous with CVE-2022-38266
+Found CVE-2020-36279 in mobile-ffmpeg !
+Match! Method  "pixFillMapHoles which may in ['/src/leptonica/src/adaptmap.c\n'] is homologous with CVE-2020-36279
+Match! Method  "int main which may in ['/src/leptonica/prog/adaptmap_reg.c\n'] is homologous with CVE-2020-36279
+Found CVE-2021-33657 in mobile-ffmpeg !
+Match! Method  "Map1to1 which may in ['/src/sdl/src/video/SDL_pixels.c\n'] is homologous with CVE-2021-33657
+Match! Method  "Map1to1 which may in ['/src/sdl/src/video/SDL_pixels.c\n'] is homologous with CVE-2021-33657
+Found CVE-2019-7578 in mobile-ffmpeg !
+Match! Method  "InitIMA_ADPCM which may in ['/src/sdl/src/audio/SDL_wave.c\n'] is homologous with CVE-2019-7578
+Match! Method  "SDL_LoadWAV_RW which may in ['/src/sdl/src/audio/SDL_wave.c\n'] is homologous with CVE-2019-7578
+Match! Method  "InitIMA_ADPCM which may in ['/src/sdl/src/audio/SDL_wave.c\n'] is homologous with CVE-2019-7578
+Match! Method  "SDL_LoadWAV_RW which may in ['/src/sdl/src/audio/SDL_wave.c\n'] is homologous with CVE-2019-7578
+Found CVE-2014-3616 in nginx-releases !
+Match! Method  "ngx_ssl_session_cache which may in ['/src/event/ngx_event_openssl.c\n'] is homologous with CVE-2014-3616
+Found CVE-2020-22021 in Telegram-iOS !
+Match! Method  "static void filter_edges which may in ['/submodules/ffmpeg/Sources/FFMpeg/ffmpeg-4.1/libavfilter/vf_yadif.c\n'] is homologous with CVE-2020-22021
+Match! Method  "static void filter_edges_16bit which may in ['/submodules/ffmpeg/Sources/FFMpeg/ffmpeg-4.1/libavfilter/vf_yadif.c\n'] is homologous with CVE-2020-22021
+Found CVE-2021-46822 in Telegram-iOS !
+Match! Method  "get_word_rgb_row which may in ['/third-party/mozjpeg/mozjpeg/rdppm.c\n'] is homologous with CVE-2021-46822
+Found CVE-2021-33657 in permafrost-engine !
+Match! Method  "Map1to1 which may in ['/deps/SDL2/src/video/SDL_pixels.c\n'] is homologous with CVE-2021-33657
+Match! Method  "Map1to1 which may in ['/deps/SDL2/src/video/SDL_pixels.c\n'] is homologous with CVE-2021-33657
+Found CVE-2020-11724 in reading-code-of-nginx-1.9.2 !
+Match! Method  "ngx_http_lua_copy_request_headers which may in ['/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_subrequest.c\n'] is homologous with CVE-2020-11724
+Match! Method  "ngx_http_lua_adjust_subrequest which may in ['/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_subrequest.c\n'] is homologous with CVE-2020-11724
+Match! Method  "ngx_http_lua_set_content_length_header which may in ['/nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_subrequest.c\n'] is homologous with CVE-2020-11724
+Found CVE-2014-3616 in reading-code-of-nginx-1.9.2 !
+Match! Method  "ngx_ssl_session_cache which may in ['/nginx-1.9.2/src/event/ngx_event_openssl.c\n'] is homologous with CVE-2014-3616
+Found CVE-2021-32020 in Dummy-Robot !
+Match! Method  "void *pvPortMalloc which may in ['/2.Firmware/Core-STM32F4-fw/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c\n'] is homologous with CVE-2021-32020
+Found CVE-2022-33099 in nmap !
+Match! Method  "void luaV_concat  which may in ['/liblua/lvm.c\n'] is homologous with CVE-2022-33099
+Match! Method  "l_noret luaG_runerror  which may in ['/liblua/ldebug.c\n'] is homologous with CVE-2022-33099
+Found CVE-2022-0156 in macvim !
+Match! Method  "ga_init2 which may in ['/src/misc2.c\n'] is homologous with CVE-2022-0156
+Found CVE-2022-2849 in macvim !
+Match! Method  "dbcs_ptr2len which may in ['/src/mbyte.c\n'] is homologous with CVE-2022-2849
+Found CVE-2017-12897 in nexmon !
+Match! Method  "juniper_mfr_print which may in ['/utilities/tcpdump/print-juniper.c\n'] is homologous with CVE-2017-12897
+Match! Method  "juniper_mfr_print which may in ['/utilities/tcpdump/print-juniper.c\n'] is homologous with CVE-2017-12897
+Found CVE-2017-12898 in nexmon !
+Match! Method  "interp_reply which may in ['/utilities/tcpdump/print-nfs.c\n'] is homologous with CVE-2017-12898
+Match! Method  "nfsreq_print_noaddr which may in ['/utilities/tcpdump/print-nfs.c\n'] is homologous with CVE-2017-12898
+Match! Method  "interp_reply which may in ['/utilities/tcpdump/print-nfs.c\n'] is homologous with CVE-2017-12898
+Match! Method  "nfsreq_print_noaddr which may in ['/utilities/tcpdump/print-nfs.c\n'] is homologous with CVE-2017-12898
+Found CVE-2017-12990 in nexmon !
+Match! Method  "ikev2_n_print which may in ['/utilities/tcpdump/print-isakmp.c\n'] is homologous with CVE-2017-12990
+Match! Method  "ikev2_n_print which may in ['/utilities/tcpdump/print-isakmp.c\n'] is homologous with CVE-2017-12990
+Found CVE-2017-13022 in nexmon !
+Match! Method  "ip_optprint which may in ['/utilities/tcpdump/print-ip.c\n'] is homologous with CVE-2017-13022
+Match! Method  "ip_optprint which may in ['/utilities/tcpdump/print-ip.c\n'] is homologous with CVE-2017-13022
+Found CVE-2017-13039 in nexmon !
+Match! Method  "ikev1_n_print which may in ['/utilities/tcpdump/print-isakmp.c\n'] is homologous with CVE-2017-13039
+Match! Method  "ikev1_n_print which may in ['/utilities/tcpdump/print-isakmp.c\n'] is homologous with CVE-2017-13039
+Found CVE-2017-13040 in nexmon !
+Match! Method  "mp_capable_print which may in ['/utilities/tcpdump/print-mptcp.c\n'] is homologous with CVE-2017-13040
+Match! Method  "mp_capable_print which may in ['/utilities/tcpdump/print-mptcp.c\n'] is homologous with CVE-2017-13040
+Found CVE-2017-13690 in nexmon !
+Match! Method  "ikev2_sa_print which may in ['/utilities/tcpdump/print-isakmp.c\n'] is homologous with CVE-2017-13690
+Match! Method  "ikev2_p_print which may in ['/utilities/tcpdump/print-isakmp.c\n'] is homologous with CVE-2017-13690
+Match! Method  "ikev2_sub_print which may in ['/utilities/tcpdump/print-isakmp.c\n'] is homologous with CVE-2017-13690
+Match! Method  "ikev1_sub_print which may in ['/utilities/tcpdump/print-isakmp.c\n'] is homologous with CVE-2017-13690
+Match! Method  "ikev2_sub_print which may in ['/utilities/tcpdump/print-isakmp.c\n'] is homologous with CVE-2017-13690
+Match! Method  "ikev1_sub_print which may in ['/utilities/tcpdump/print-isakmp.c\n'] is homologous with CVE-2017-13690
+Match! Method  "ikev2_sa_print which may in ['/utilities/tcpdump/print-isakmp.c\n'] is homologous with CVE-2017-13690
+Match! Method  "ikev2_sa_print which may in ['/utilities/tcpdump/print-isakmp.c\n'] is homologous with CVE-2017-13690
+Match! Method  "ikev2_sub_print which may in ['/utilities/tcpdump/print-isakmp.c\n'] is homologous with CVE-2017-13690
+Match! Method  "ikev1_sub_print which may in ['/utilities/tcpdump/print-isakmp.c\n'] is homologous with CVE-2017-13690
+Match! Method  "ikev2_sub_print which may in ['/utilities/tcpdump/print-isakmp.c\n'] is homologous with CVE-2017-13690
+Match! Method  "ikev1_sub_print which may in ['/utilities/tcpdump/print-isakmp.c\n'] is homologous with CVE-2017-13690
+Match! Method  "ikev2_sub_print which may in ['/utilities/tcpdump/print-isakmp.c\n'] is homologous with CVE-2017-13690
+Match! Method  "ikev1_sub_print which may in ['/utilities/tcpdump/print-isakmp.c\n'] is homologous with CVE-2017-13690
+Match! Method  "ikev2_p_print which may in ['/utilities/tcpdump/print-isakmp.c\n'] is homologous with CVE-2017-13690
+Match! Method  "ikev2_p_print which may in ['/utilities/tcpdump/print-isakmp.c\n'] is homologous with CVE-2017-13690
+Match! Method  "ikev2_sub_print which may in ['/utilities/tcpdump/print-isakmp.c\n'] is homologous with CVE-2017-13690
+Match! Method  "ikev1_sub_print which may in ['/utilities/tcpdump/print-isakmp.c\n'] is homologous with CVE-2017-13690
+Found CVE-2016-7934 in nexmon !
+Match! Method  "udp_print which may in ['/utilities/tcpdump/print-udp.c\n'] is homologous with CVE-2016-7934
+Match! Method  "udp_print which may in ['/utilities/tcpdump/print-udp.c\n'] is homologous with CVE-2016-7934
+Found CVE-2016-7993 in nexmon !
+Match! Method  "pimv1_print which may in ['/utilities/tcpdump/print-pim.c\n'] is homologous with CVE-2016-7993
+Match! Method  "pimv1_print which may in ['/utilities/tcpdump/print-pim.c\n'] is homologous with CVE-2016-7993
+Found CVE-2022-23308 in nexmon !
+Match! Method  "xmlAddRef which may in ['/utilities/gettext/gettext-tools/gnulib-lib/libxml/valid.c'] is homologous with CVE-2022-23308
+Match! Method  "xmlValidNormalizeAttributeValue which may in ['/utilities/gettext/gettext-tools/gnulib-lib/libxml/valid.c'] is homologous with CVE-2022-23308
+Match! Method  "xmlValidCtxtNormalizeAttributeValue which may in ['/utilities/gettext/gettext-tools/gnulib-lib/libxml/valid.c'] is homologous with CVE-2022-23308
+Match! Method  "xmlAddID which may in ['/utilities/gettext/gettext-tools/gnulib-lib/libxml/valid.c'] is homologous with CVE-2022-23308
+Match! Method  "xmlValidCtxtNormalizeAttributeValue which may in ['/utilities/gettext/gettext-tools/gnulib-lib/libxml/valid.c'] is homologous with CVE-2022-23308
+Match! Method  "xmlValidNormalizeAttributeValue which may in ['/utilities/gettext/gettext-tools/gnulib-lib/libxml/valid.c'] is homologous with CVE-2022-23308
+Match! Method  "xmlAddID which may in ['/utilities/gettext/gettext-tools/gnulib-lib/libxml/valid.c'] is homologous with CVE-2022-23308
+Match! Method  "xmlAddRef which may in ['/utilities/gettext/gettext-tools/gnulib-lib/libxml/valid.c'] is homologous with CVE-2022-23308
+Found CVE-2022-33099 in civetweb !
+Match! Method  "void luaV_concat  which may in ['/src/third_party/lua-5.4.3/src/lvm.c\n'] is homologous with CVE-2022-33099
+Match! Method  "l_noret luaG_runerror  which may in ['/src/third_party/lua-5.4.3/src/ldebug.c\n'] is homologous with CVE-2022-33099
+Found CVE-2011-4577 in sl4a !
+Match! Method  "static void extract_min_max which may in ['/python-build/openssl/crypto/x509v3/v3_addr.c\n'] is homologous with CVE-2011-4577
+Match! Method  "static int addr_contains which may in ['/python-build/openssl/crypto/x509v3/v3_addr.c\n'] is homologous with CVE-2011-4577
+Match! Method  "static void addr_expand which may in ['/python-build/openssl/crypto/x509v3/v3_addr.c\n'] is homologous with CVE-2011-4577
+Match! Method  "int v3_addr_get_range which may in ['/python-build/openssl/crypto/x509v3/v3_addr.c\n'] is homologous with CVE-2011-4577
+Found CVE-2012-2110 in sl4a !
+Match! Method  "static int asn1_d2i_read_bio which may in ['/python-build/openssl/crypto/asn1/a_d2i_fp.c\n'] is homologous with CVE-2012-2110
+Found CVE-2016-0797 in sl4a !
+Match! Method  "int BN_hex2bn which may in ['/python-build/openssl/crypto/bn/bn_print.c\n'] is homologous with CVE-2016-0797
+Match! Method  "int BN_dec2bn which may in ['/python-build/openssl/crypto/bn/bn_print.c\n'] is homologous with CVE-2016-0797
+Found CVE-2016-0799 in sl4a !
+Match! Method  "fmtint which may in ['/python-build/openssl/crypto/bio/b_print.c\n'] is homologous with CVE-2016-0799
+Match! Method  "fmtstr which may in ['/python-build/openssl/crypto/bio/b_print.c\n'] is homologous with CVE-2016-0799
+Match! Method  "int BIO_vsnprintf which may in ['/python-build/openssl/crypto/bio/b_print.c\n'] is homologous with CVE-2016-0799
+Found CVE-2014-8275 in sl4a !
+Match! Method  "int ECDSA_verify which may in ['/python-build/openssl/crypto/ecdsa/ecs_vrf.c\n'] is homologous with CVE-2014-8275
+Found CVE-2020-13112 in pyrebox !
+Match! Method  "exif_mnote_data_canon_load  which may in ['/sleuthkit/framework/modules/c_LibExifModule/libexif-0.6.20/libexif/canon/exif-mnote-data-canon.c\n'] is homologous with CVE-2020-13112
+Match! Method  "exif_mnote_data_fuji_load  which may in ['/sleuthkit/framework/modules/c_LibExifModule/libexif-0.6.20/libexif/fuji/exif-mnote-data-fuji.c\n'] is homologous with CVE-2020-13112
+Match! Method  "exif_mnote_data_olympus_load  which may in ['/sleuthkit/framework/modules/c_LibExifModule/libexif-0.6.20/libexif/olympus/exif-mnote-data-olympus.c\n'] is homologous with CVE-2020-13112
+Match! Method  "exif_mnote_data_olympus_load  which may in ['/sleuthkit/framework/modules/c_LibExifModule/libexif-0.6.20/libexif/olympus/exif-mnote-data-olympus.c\n'] is homologous with CVE-2020-13112
+Match! Method  "exif_mnote_data_fuji_load  which may in ['/sleuthkit/framework/modules/c_LibExifModule/libexif-0.6.20/libexif/fuji/exif-mnote-data-fuji.c\n'] is homologous with CVE-2020-13112
+Match! Method  "exif_mnote_data_canon_load  which may in ['/sleuthkit/framework/modules/c_LibExifModule/libexif-0.6.20/libexif/canon/exif-mnote-data-canon.c\n'] is homologous with CVE-2020-13112
+Found CVE-2021-3392 in pyrebox !
+Match! Method  "static void mptsas_free_request which may in ['/qemu/hw/scsi/mptsas.c\n'] is homologous with CVE-2021-3392
+Match! Method  "static int mptsas_process_scsi_io_request which may in ['/qemu/hw/scsi/mptsas.c\n'] is homologous with CVE-2021-3392
+Match! Method  "static void mptsas_scsi_realize which may in ['/qemu/hw/scsi/mptsas.c\n'] is homologous with CVE-2021-3392
+Found CVE-2021-29605 in Espruino !
+Match! Method  "TfLiteIntArray* TfLiteIntArrayCreate which may in ['/libs/tensorflow/tensorflow/lite/c/common.c\n'] is homologous with CVE-2021-29605
+Found CVE-2021-45958 in catboost !
+Match! Method  "void Buffer_Realloc which may in ['/contrib/python/pandas/py2/pandas/_libs/src/ujson/lib/ultrajsonenc.c'] is homologous with CVE-2021-45958

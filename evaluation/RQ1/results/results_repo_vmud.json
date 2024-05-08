@@ -1,0 +1,1138 @@
+{
+    "kbengine": {
+        "TP": 8,
+        "FP": 1,
+        "FN": 0,
+        "precision": 0.8888888888888888,
+        "recall": 1.0,
+        "f1score": 0.9411764705882353
+    },
+    "rt-n56u": {
+        "TP": 25,
+        "FP": 2,
+        "FN": 4,
+        "precision": 0.9259259259259259,
+        "recall": 0.8620689655172413,
+        "f1score": 0.8928571428571429
+    },
+    "ravynos": {
+        "TP": 4,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "wcc": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "minix": {
+        "TP": 26,
+        "FP": 2,
+        "FN": 5,
+        "precision": 0.9285714285714286,
+        "recall": 0.8387096774193549,
+        "f1score": 0.8813559322033899
+    },
+    "flatpak": {
+        "TP": 0,
+        "FP": 1,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "AdAway": {
+        "TP": 17,
+        "FP": 0,
+        "FN": 4,
+        "precision": 1.0,
+        "recall": 0.8095238095238095,
+        "f1score": 0.8947368421052632
+    },
+    "WSL2-Linux-Kernel": {
+        "TP": 0,
+        "FP": 8,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "nexmon": {
+        "TP": 4,
+        "FP": 0,
+        "FN": 2,
+        "precision": 1.0,
+        "recall": 0.6,
+        "f1score": 0.7499999999999999
+    },
+    "catboost": {
+        "TP": 2,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "tengine": {
+        "TP": 1,
+        "FP": 1,
+        "FN": 0,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1score": 0.6666666666666666
+    },
+    "fastsocket": {
+        "TP": 20,
+        "FP": 1,
+        "FN": 7,
+        "precision": 0.9523809523809523,
+        "recall": 0.7407407407407407,
+        "f1score": 0.8333333333333334
+    },
+    "panda": {
+        "TP": 4,
+        "FP": 0,
+        "FN": 1,
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1score": 0.888888888888889
+    },
+    "clink": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "gpac": {
+        "TP": 2,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "mobile-ffmpeg": {
+        "TP": 6,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "linux": {
+        "TP": 0,
+        "FP": 8,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "emscripten": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "premake-core": {
+        "TP": 3,
+        "FP": 1,
+        "FN": 1,
+        "precision": 0.75,
+        "recall": 0.75,
+        "f1score": 0.75
+    },
+    "Tiny": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "redis-3.0-annotated": {
+        "TP": 2,
+        "FP": 0,
+        "FN": 3,
+        "precision": 1.0,
+        "recall": 0.4,
+        "f1score": 0.571428
+    },
+    "open62541": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "magma": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "ossec-hids": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "pipelinedb": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "hyperkit": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "curl": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "civetweb": {
+        "TP": 3,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "sqlite": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "proxmark3": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "mongoose": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "proxydroid": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "LVS": {
+        "TP": 23,
+        "FP": 1,
+        "FN": 4,
+        "precision": 0.9583333333333334,
+        "recall": 0.8518518518518519,
+        "f1score": 0.9019607843137256
+    },
+    "reading-code-of-nginx-1.9.2": {
+        "TP": 2,
+        "FP": 0,
+        "FN": 1,
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1score": 0.8
+    },
+    "freebsd-src": {
+        "TP": 4,
+        "FP": 1,
+        "FN": 0,
+        "precision": 0.8,
+        "recall": 1.0,
+        "f1score": 0.888888888888889
+    },
+    "f-stack": {
+        "TP": 8,
+        "FP": 1,
+        "FN": 0,
+        "precision": 0.8888888888888888,
+        "recall": 1.0,
+        "f1score": 0.9411764705882353
+    },
+    "CloverBootloader": {
+        "TP": 8,
+        "FP": 0,
+        "FN": 3,
+        "precision": 1.0,
+        "recall": 0.7272727272727273,
+        "f1score": 0.8421052631578948
+    },
+    "sl4a": {
+        "TP": 10,
+        "FP": 1,
+        "FN": 6,
+        "precision": 0.9090909090909091,
+        "recall": 0.625,
+        "f1score": 0.7407407407407406
+    },
+    "wrk": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "dosbox-x": {
+        "TP": 3,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "annotated_redis_source": {
+        "TP": 2,
+        "FP": 0,
+        "FN": 3,
+        "precision": 1.0,
+        "recall": 0.4,
+        "f1score": 0.571428
+    },
+    "redis": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "TencentOS-tiny": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "src": {
+        "TP": 2,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "SUDO_KILLER": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "xemu": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "AliOS-Things": {
+        "TP": 5,
+        "FP": 1,
+        "FN": 5,
+        "precision": 0.8333333333333334,
+        "recall": 0.5,
+        "f1score": 0.625
+    },
+    "sdlpal": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "macvim": {
+        "TP": 0,
+        "FP": 1,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "VeraCrypt": {
+        "TP": 0,
+        "FP": 1,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "zfs": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "disque": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "PureDarwin": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "rizin": {
+        "TP": 6,
+        "FP": 0,
+        "FN": 1,
+        "precision": 1.0,
+        "recall": 0.8571428571428571,
+        "f1score": 0.923076923076923
+    },
+    "reactos": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "gnucash": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "CMake": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "NetHack": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "darwin-xnu": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "qemu": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "open-gpu-kernel-modules": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "yugabyte-db": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "zimg": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "webdis": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "FreeRDP": {
+        "TP": 0,
+        "FP": 4,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "radare2": {
+        "TP": 2,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "PolarDB-for-PostgreSQL": {
+        "TP": 2,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "sway": {
+        "TP": 0,
+        "FP": 3,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "awtk": {
+        "TP": 2,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "sumatrapdf": {
+        "TP": 2,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "smartdns": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "mjolnir": {
+        "TP": 1,
+        "FP": 1,
+        "FN": 0,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1score": 0.6666666666666666
+    },
+    "gpdb": {
+        "TP": 0,
+        "FP": 1,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "wine": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "nginx-releases": {
+        "TP": 0,
+        "FP": 1,
+        "FN": 1,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "systemd": {
+        "TP": 0,
+        "FP": 1,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "RediSearch": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "ultrajson": {
+        "TP": 0,
+        "FP": 1,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "nchan": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "ImageMagick": {
+        "TP": 1,
+        "FP": 1,
+        "FN": 0,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1score": 0.67
+    },
+    "MLN": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "ElectronBot": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "timescaledb": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "nodemcu-firmware": {
+        "TP": 2,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "UVCCamera": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "RetroArch": {
+        "TP": 1,
+        "FP": 1,
+        "FN": 0,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1score": 0.6666666666666666
+    },
+    "wireshark": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "Telegram-iOS": {
+        "TP": 4,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "dpdk": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "httpd": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "xLua": {
+        "TP": 1,
+        "FP": 1,
+        "FN": 0,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1score": 0.6666666666666666
+    },
+    "ejoy2d": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "BizHawk": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "rspamd": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "gimp": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "pyrebox": {
+        "TP": 3,
+        "FP": 0,
+        "FN": 1,
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1score": 0.8571428571428571
+    },
+    "fontforge": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "cosmopolitan": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "amazon-freertos": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "Tasmota": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "flipperzero-firmware": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "bcrypt-ruby": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "nmap": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "yjPlay": {
+        "TP": 2,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "tcpdump": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "hiredis": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "Arduino_STM32": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "esp-homekit-devices": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "tess-two": {
+        "TP": 3,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "RedisGraph": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "proxychains-ng": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "permafrost-engine": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "zephyr": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "suricata": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "darktable": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "sds": {
+        "TP": 0,
+        "FP": 1,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "openssl": {
+        "TP": 0,
+        "FP": 1,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "FreeRTOS": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "simplest_ffmpeg_mobile": {
+        "TP": 2,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "small-video-record": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "ESP8266_RTOS_SDK": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "write-ups-2016": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "nginx": {
+        "TP": 0,
+        "FP": 1,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "AndroidUSBCamera": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "Dummy-Robot": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "php-src": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "PF_RING": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "h2o": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "qemu-t8030": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "viabtc_exchange_server": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "EasyLogger": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "IronOS": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "gear-lib": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 1,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "android_bootable_recovery": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "Team-Win-Recovery-Project": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "Espruino": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "uwsgi": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "vim.js": {
+        "TP": 0,
+        "FP": 1,
+        "FN": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "vifm": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "sudo-touchid": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 1,
+        "precision": 0,
+        "recall": 0,
+        "f1score": 0
+    },
+    "micropython": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    },
+    "InfiniTime": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1score": 1.0
+    }
+}

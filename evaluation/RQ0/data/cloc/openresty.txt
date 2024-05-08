@@ -1,0 +1,3 @@
+     100 files     200 files     300 files     400 files     500 files     600 files     700 files     715 text files.
+classified 715 filesDuplicate file check 715 files (196 known unique)Unique:      100 files                                               589 unique files.                              
+Counting:  100Counting:  200Counting:  300Counting:  400Counting:  500     716 files ignored.

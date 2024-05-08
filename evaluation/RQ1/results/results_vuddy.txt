@@ -1,0 +1,2704 @@
+Total CVE numbers of activate-linux detected: 0
+
+Total CVE numbers of nanopb detected: 0
+
+Total CVE numbers of LDD-LinuxDeviceDrivers detected: 0
+
+Total CVE numbers of passivedns detected: 0
+
+Total CVE numbers of tor detected: 0
+
+Total CVE numbers of pifs detected: 0
+
+Total CVE numbers of sleuthkit detected: 0
+
+Total CVE numbers of nanos detected: 0
+
+Total CVE numbers of tools detected: 0
+
+Total CVE numbers of Entware detected: 0
+
+Total CVE numbers of gifsicle detected: 0
+
+Total CVE numbers of CTF-All-In-One detected: 0
+
+Total CVE numbers of ctftool detected: 0
+
+Found CVE-2020-10188 in ravynos !
+Match! Method netclear in file crypto/heimdal/appl/telnet/telnetd/utility.c is homologous with CVE-2020-10188
+Match! Method nextitem in file crypto/heimdal/appl/telnet/telnetd/utility.c is homologous with CVE-2020-10188
+Match! Method nextitem in file contrib/telnet/telnet/telnet.c is homologous with CVE-2020-10188
+Found CVE-2022-33099 in ravynos !
+Match! Method luaV_concat in file contrib/lua/src/lvm.c is homologous with CVE-2022-33099
+Match! Method luaG_runerror in file contrib/lua/src/ldebug.c is homologous with CVE-2022-33099
+Total CVE numbers of ravynos detected: 4
+
+Total CVE numbers of libjpeg-turbo detected: 0
+
+Total CVE numbers of ly detected: 0
+
+Total CVE numbers of linux-kernel-exploits detected: 0
+
+Total CVE numbers of pico-sdk detected: 0
+
+Found CVE-2016-4952 in qemu !
+Match! Method pvscsi_ring_init_data in file hw/scsi/vmw_pvscsi.c is homologous with CVE-2016-4952
+Total CVE numbers of qemu detected: 1
+
+Total CVE numbers of coz detected: 0
+
+Total CVE numbers of clink detected: 0
+
+Total CVE numbers of fastdfs detected: 0
+
+Total CVE numbers of pspg detected: 0
+
+Found CVE-2015-5224 in android_bootable_recovery !
+Match! Method main in file libblkid/lib/fileutils.c is homologous with CVE-2015-5224
+Total CVE numbers of android_bootable_recovery detected: 1
+
+Total CVE numbers of NNPACK detected: 0
+
+Total CVE numbers of citus detected: 0
+
+Found CVE-2023-1801 in PF_RING !
+Match! Method MakeFilename in file userland/tcpdump-4.99.1/tcpdump.c is homologous with CVE-2023-1801
+Match! Method DATEOUT in file userland/tcpdump-4.99.1/print-rx.c is homologous with CVE-2023-1801
+Match! Method ts_date_hmsfrac_print in file userland/tcpdump-4.99.1/util-print.c is homologous with CVE-2023-1801
+Match! Method ahcp_time_print in file userland/tcpdump-4.99.1/print-ahcp.c is homologous with CVE-2023-1801
+Total CVE numbers of PF_RING detected: 4
+
+Total CVE numbers of git detected: 0
+
+Total CVE numbers of openwrt-passwall detected: 0
+
+Total CVE numbers of quadsort detected: 0
+
+Total CVE numbers of EasyFlash detected: 0
+
+Total CVE numbers of espeak-ng detected: 0
+
+Found CVE-2021-33657 in permafrost-engine !
+Match! Method Map1to1 in file deps/SDL2/src/video/SDL_pixels.c is homologous with CVE-2021-33657
+Total CVE numbers of permafrost-engine detected: 1
+
+Total CVE numbers of Quake-III-Arena detected: 0
+
+Found CVE-2013-1667 in sl4a !
+Match! Method Perl_hv_common in file perl/src/hv.c is homologous with CVE-2013-1667
+Match! Method S_hsplit in file perl/src/hv.c is homologous with CVE-2013-1667
+Found CVE-2011-3210 in sl4a !
+Match! Method ssl3_send_server_key_exchange in file python-build/openssl/ssl/s3_srvr.c is homologous with CVE-2011-3210
+Match! Method ssl3_get_client_key_exchange in file python-build/openssl/ssl/s3_srvr.c is homologous with CVE-2011-3210
+Match! Method ssl3_clear in file python-build/openssl/ssl/s3_lib.c is homologous with CVE-2011-3210
+Match! Method ssl3_check_client_hello in file python-build/openssl/ssl/s3_srvr.c is homologous with CVE-2011-3210
+Found CVE-2011-4577 in sl4a !
+Match! Method extract_min_max in file python-build/openssl/crypto/x509v3/v3_addr.c is homologous with CVE-2011-4577
+Match! Method v3_addr_get_range in file python-build/openssl/crypto/x509v3/v3_addr.c is homologous with CVE-2011-4577
+Match! Method addr_contains in file python-build/openssl/crypto/x509v3/v3_addr.c is homologous with CVE-2011-4577
+Match! Method addr_expand in file python-build/openssl/crypto/x509v3/v3_addr.c is homologous with CVE-2011-4577
+Found CVE-2014-8275 in sl4a !
+Match! Method ECDSA_verify in file python-build/openssl/crypto/ecdsa/ecs_vrf.c is homologous with CVE-2014-8275
+Match! Method ECDSA_verify in file python-build/openssl/crypto/ecdsa/ecs_vrf.c is homologous with CVE-2014-8275
+Found CVE-2016-0799 in sl4a !
+Match! Method fmtint in file python-build/openssl/crypto/bio/b_print.c is homologous with CVE-2016-0799
+Match! Method BIO_vsnprintf in file python-build/openssl/crypto/bio/b_print.c is homologous with CVE-2016-0799
+Match! Method fmtstr in file python-build/openssl/crypto/bio/b_print.c is homologous with CVE-2016-0799
+Found CVE-2015-0289 in sl4a !
+Match! Method PKCS7_dataVerify in file python-build/openssl/crypto/pkcs7/pk7_doit.c is homologous with CVE-2015-0289
+Match! Method PKCS7_get_signer_info in file python-build/openssl/crypto/pkcs7/pk7_lib.c is homologous with CVE-2015-0289
+Found CVE-2012-2110 in sl4a !
+Match! Method asn1_d2i_read_bio in file python-build/openssl/crypto/asn1/a_d2i_fp.c is homologous with CVE-2012-2110
+Total CVE numbers of sl4a detected: 18
+
+Total CVE numbers of collapseos detected: 0
+
+Total CVE numbers of nDPI detected: 0
+
+Total CVE numbers of OpenSC detected: 0
+
+Total CVE numbers of hexchat detected: 0
+
+Total CVE numbers of yajl detected: 0
+
+Total CVE numbers of OpenCorePkg detected: 0
+
+Total CVE numbers of cava detected: 0
+
+Total CVE numbers of eddystone detected: 0
+
+Total CVE numbers of netcode detected: 0
+
+Total CVE numbers of blurhash detected: 0
+
+Total CVE numbers of litetree detected: 0
+
+Total CVE numbers of xdp-tutorial detected: 0
+
+Total CVE numbers of kore detected: 0
+
+Total CVE numbers of raygui detected: 0
+
+Total CVE numbers of mimalloc detected: 0
+
+Total CVE numbers of dustcloud detected: 0
+
+Total CVE numbers of flecs detected: 0
+
+Total CVE numbers of UVCCamera detected: 0
+
+Total CVE numbers of sqlite detected: 0
+
+Total CVE numbers of compton detected: 0
+
+Found CVE-2022-23308 in nexmon !
+Match! Method xmlValidNormalizeAttributeValue in file utilities/gettext/gettext-tools/gnulib-lib/libxml/valid.c is homologous with CVE-2022-23308
+Match! Method xmlValidNormalizeAttributeValue in file utilities/gettext/gnulib-local/lib/libxml/valid.c is homologous with CVE-2022-23308
+Match! Method xmlAddRef in file utilities/gettext/gettext-tools/gnulib-lib/libxml/valid.c is homologous with CVE-2022-23308
+Match! Method xmlAddRef in file utilities/gettext/gnulib-local/lib/libxml/valid.c is homologous with CVE-2022-23308
+Match! Method xmlAddID in file utilities/gettext/gettext-tools/gnulib-lib/libxml/valid.c is homologous with CVE-2022-23308
+Match! Method xmlAddID in file utilities/gettext/gnulib-local/lib/libxml/valid.c is homologous with CVE-2022-23308
+Match! Method xmlValidCtxtNormalizeAttributeValue in file utilities/gettext/gettext-tools/gnulib-lib/libxml/valid.c is homologous with CVE-2022-23308
+Match! Method xmlValidCtxtNormalizeAttributeValue in file utilities/gettext/gnulib-local/lib/libxml/valid.c is homologous with CVE-2022-23308
+Found CVE-2020-14147 in nexmon !
+Match! Method getnum in file utilities/wireshark/epan/wslua/wslua_struct.c is homologous with CVE-2020-14147
+Total CVE numbers of nexmon detected: 5
+
+Found CVE-2020-25669 in rt-n56u !
+Match! Method sunkbd_interrupt in file trunk/linux-3.4.x/drivers/input/keyboard/sunkbd.c is homologous with CVE-2020-25669
+Match! Method sunkbd_reinit in file trunk/linux-3.4.x/drivers/input/keyboard/sunkbd.c is homologous with CVE-2020-25669
+Match! Method sunkbd_enable in file trunk/linux-3.4.x/drivers/input/keyboard/sunkbd.c is homologous with CVE-2020-25669
+Found CVE-2012-2800 in rt-n56u !
+Match! Method ff_ivi_process_empty_tile in file trunk/libs/libav/ffmpeg-0.6.x/libavcodec/ivi_common.c is homologous with CVE-2012-2800
+Found CVE-2022-3424 in rt-n56u !
+Match! Method gru_handle_user_call_os in file trunk/linux-3.4.x/drivers/misc/sgi-gru/grufault.c is homologous with CVE-2022-3424
+Match! Method gru_check_context_placement in file trunk/linux-3.4.x/drivers/misc/sgi-gru/grumain.c is homologous with CVE-2022-3424
+Found CVE-2011-4352 in rt-n56u !
+Match! Method render_slice in file trunk/libs/libav/ffmpeg-0.11.x/libavcodec/vp3.c is homologous with CVE-2011-4352
+Found CVE-2014-9604 in rt-n56u !
+Match! Method restore_median in file trunk/libs/libav/ffmpeg-0.11.x/libavcodec/utvideo.c is homologous with CVE-2014-9604
+Match! Method restore_median_il in file trunk/libs/libav/ffmpeg-0.11.x/libavcodec/utvideo.c is homologous with CVE-2014-9604
+Found CVE-2016-3857 in rt-n56u !
+Match! Method sys_oabi_epoll_wait in file trunk/linux-3.4.x/arch/arm/kernel/sys_oabi-compat.c is homologous with CVE-2016-3857
+Match! Method sys_oabi_semtimedop in file trunk/linux-3.4.x/arch/arm/kernel/sys_oabi-compat.c is homologous with CVE-2016-3857
+Found CVE-2022-3586 in rt-n56u !
+Match! Method increment_qlen in file trunk/linux-3.4.x/net/sched/sch_sfb.c is homologous with CVE-2022-3586
+Match! Method decrement_qlen in file trunk/linux-3.4.x/net/sched/sch_sfb.c is homologous with CVE-2022-3586
+Found CVE-2018-10853 in rt-n56u !
+Match! Method segmented_read_std in file trunk/linux-3.4.x/arch/x86/kvm/emulate.c is homologous with CVE-2018-10853
+Match! Method kvm_read_guest_virt_system in file trunk/linux-3.4.x/arch/x86/kvm/x86.c is homologous with CVE-2018-10853
+Found CVE-2017-7482 in rt-n56u !
+Match! Method rxrpc_krb5_decode_ticket in file trunk/linux-3.4.x/net/rxrpc/ar-key.c is homologous with CVE-2017-7482
+Match! Method rxrpc_krb5_decode_principal in file trunk/linux-3.4.x/net/rxrpc/ar-key.c is homologous with CVE-2017-7482
+Match! Method rxrpc_krb5_decode_tagged_data in file trunk/linux-3.4.x/net/rxrpc/ar-key.c is homologous with CVE-2017-7482
+Found CVE-2018-10876 in rt-n56u !
+Match! Method ext4_has_uninit_itable in file trunk/linux-3.4.x/fs/ext4/super.c is homologous with CVE-2018-10876
+Found CVE-2016-8405 in rt-n56u !
+Match! Method fb_cmap_to_user in file trunk/linux-3.4.x/drivers/video/fbcmap.c is homologous with CVE-2016-8405
+Match! Method fb_copy_cmap in file trunk/linux-3.4.x/drivers/video/fbcmap.c is homologous with CVE-2016-8405
+Found CVE-2020-12652 in rt-n56u !
+Match! Method mptctl_eventreport in file trunk/linux-3.4.x/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method compat_mpt_command in file trunk/linux-3.4.x/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method mptctl_readtest in file trunk/linux-3.4.x/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method mptctl_do_reset in file trunk/linux-3.4.x/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method mptctl_do_fw_download in file trunk/linux-3.4.x/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method mptctl_mpt_command in file trunk/linux-3.4.x/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method mptctl_eventenable in file trunk/linux-3.4.x/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method compat_mptfwxfer_ioctl in file trunk/linux-3.4.x/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method mptctl_eventquery in file trunk/linux-3.4.x/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method mptctl_fw_download in file trunk/linux-3.4.x/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method __mptctl_ioctl in file trunk/linux-3.4.x/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method mptctl_gettargetinfo in file trunk/linux-3.4.x/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Found CVE-2018-1000004 in rt-n56u !
+Match! Method snd_seq_event_dup in file trunk/linux-3.4.x/sound/core/seq/seq_memory.c is homologous with CVE-2018-1000004
+Match! Method kernel_client_enqueue in file trunk/linux-3.4.x/sound/core/seq/seq_clientmgr.c is homologous with CVE-2018-1000004
+Match! Method snd_seq_client_enqueue_event in file trunk/linux-3.4.x/sound/core/seq/seq_clientmgr.c is homologous with CVE-2018-1000004
+Found CVE-2020-25656 in rt-n56u !
+Match! Method k_fn in file trunk/linux-3.4.x/drivers/tty/vt/keyboard.c is homologous with CVE-2020-25656
+Found CVE-2020-11668 in rt-n56u !
+Match! Method cit_get_packet_size in file trunk/linux-3.4.x/drivers/media/video/gspca/xirlink_cit.c is homologous with CVE-2020-11668
+Found CVE-2015-7236 in rt-n56u !
+Match! Method netbufdup in file trunk/user/rpcbind/rpcbind-91973cc/src/rpcb_svc_com.c is homologous with CVE-2015-7236
+Found CVE-2022-42703 in rt-n56u !
+Match! Method anon_vma_alloc in file trunk/linux-3.4.x/mm/rmap.c is homologous with CVE-2022-42703
+Found CVE-2021-3640 in rt-n56u !
+Match! Method sco_sock_sendmsg in file trunk/linux-3.4.x/net/bluetooth/sco.c is homologous with CVE-2021-3640
+Found CVE-2012-2779 in rt-n56u !
+Match! Method decode_pic_hdr in file trunk/libs/libav/ffmpeg-0.6.x/libavcodec/indeo5.c is homologous with CVE-2012-2779
+Found CVE-2021-43523 in rt-n56u !
+Match! Method gethostbyaddr_r in file trunk/libc/uClibc-ng-1.0.32/libc/inet/resolv.c is homologous with CVE-2021-43523
+Match! Method __dns_lookup in file trunk/libc/uClibc-ng-1.0.32/libc/inet/resolv.c is homologous with CVE-2021-43523
+Found CVE-2014-7817 in rt-n56u !
+Match! Method parse_dquote in file trunk/libc/uClibc-ng-1.0.32/libc/misc/wordexp/wordexp.c is homologous with CVE-2014-7817
+Found CVE-2020-11609 in rt-n56u !
+Match! Method stv06xx_isoc_init in file trunk/linux-3.4.x/drivers/media/video/gspca/stv06xx/stv06xx.c is homologous with CVE-2020-11609
+Found CVE-2012-4398 in rt-n56u !
+Match! Method kthread_create_on_node in file trunk/linux-3.4.x/kernel/kthread.c is homologous with CVE-2012-4398
+Match! Method create_kthread in file trunk/linux-3.4.x/kernel/kthread.c is homologous with CVE-2012-4398
+Total CVE numbers of rt-n56u detected: 47
+
+Total CVE numbers of Windows-driver-samples detected: 0
+
+Total CVE numbers of way-cooler detected: 0
+
+Total CVE numbers of varnish-cache detected: 0
+
+Total CVE numbers of common detected: 0
+
+Total CVE numbers of fsearch detected: 0
+
+Total CVE numbers of TheFatRat detected: 0
+
+Total CVE numbers of iotjs detected: 0
+
+Total CVE numbers of facil.io detected: 0
+
+Total CVE numbers of Adafruit-GFX-Library detected: 0
+
+Total CVE numbers of openwrt detected: 0
+
+Total CVE numbers of xmrig detected: 0
+
+Total CVE numbers of sway detected: 0
+
+Total CVE numbers of pthreads detected: 0
+
+Total CVE numbers of goxel detected: 0
+
+Total CVE numbers of tcpdump detected: 0
+
+Total CVE numbers of small-video-record detected: 0
+
+Total CVE numbers of openmv detected: 0
+
+Total CVE numbers of v4l2loopback detected: 0
+
+Total CVE numbers of monyhar-lite detected: 0
+
+Total CVE numbers of kcp detected: 0
+
+Total CVE numbers of kcat detected: 0
+
+Total CVE numbers of ffmpeg-kit detected: 0
+
+Total CVE numbers of UACME detected: 0
+
+Total CVE numbers of ATC_MiThermometer detected: 0
+
+Total CVE numbers of Nintendo_Switch_Reverse_Engineering detected: 0
+
+Found CVE-2022-33099 in vifm !
+Match! Method luaV_concat in file src/lua/lua/lvm.c is homologous with CVE-2022-33099
+Match! Method luaG_runerror in file src/lua/lua/ldebug.c is homologous with CVE-2022-33099
+Total CVE numbers of vifm detected: 2
+
+Total CVE numbers of libpcap detected: 0
+
+Total CVE numbers of ios-twitter-image-pipeline detected: 0
+
+Total CVE numbers of libfreenect detected: 0
+
+Found CVE-2020-22021 in Telegram-iOS !
+Match! Method filter_edges_16bit in file submodules/ffmpeg/Sources/FFMpeg/ffmpeg-4.1/libavfilter/vf_yadif.c is homologous with CVE-2020-22021
+Match! Method filter_edges in file submodules/ffmpeg/Sources/FFMpeg/ffmpeg-4.1/libavfilter/vf_yadif.c is homologous with CVE-2020-22021
+Found CVE-2022-47021 in Telegram-iOS !
+Match! Method op_open1 in file third-party/opusfile/Sources/opusfile.c is homologous with CVE-2022-47021
+Match! Method op_get_data in file third-party/opusfile/Sources/opusfile.c is homologous with CVE-2022-47021
+Found CVE-2021-46822 in Telegram-iOS !
+Match! Method get_word_rgb_row in file third-party/mozjpeg/mozjpeg/rdppm.c is homologous with CVE-2021-46822
+Total CVE numbers of Telegram-iOS detected: 5
+
+Found CVE-2020-36279 in tess-two !
+Match! Method pixFillMapHoles in file tess-two/jni/com_googlecode_leptonica_android/src/src/adaptmap.c is homologous with CVE-2020-36279
+Found CVE-2022-38266 in tess-two !
+Match! Method pixBlockconvGrayTile in file tess-two/jni/com_googlecode_leptonica_android/src/src/convolve.c is homologous with CVE-2022-38266
+Match! Method pixBlockconv in file tess-two/jni/com_googlecode_leptonica_android/src/src/convolve.c is homologous with CVE-2022-38266
+Match! Method pixBlockconvGrayUnnormalized in file tess-two/jni/com_googlecode_leptonica_android/src/src/convolve.c is homologous with CVE-2022-38266
+Match! Method pixBlockconvTiled in file tess-two/jni/com_googlecode_leptonica_android/src/src/convolve.c is homologous with CVE-2022-38266
+Total CVE numbers of tess-two detected: 5
+
+Total CVE numbers of lua-nginx-module detected: 0
+
+Total CVE numbers of wiredtiger detected: 0
+
+Total CVE numbers of BlackHole detected: 0
+
+Found CVE-2020-10188 in freebsd-src !
+Match! Method netclear in file crypto/heimdal/appl/telnet/telnetd/utility.c is homologous with CVE-2020-10188
+Match! Method nextitem in file crypto/heimdal/appl/telnet/telnetd/utility.c is homologous with CVE-2020-10188
+Match! Method nextitem in file contrib/telnet/telnet/telnet.c is homologous with CVE-2020-10188
+Found CVE-2022-33099 in freebsd-src !
+Match! Method luaV_concat in file contrib/lua/src/lvm.c is homologous with CVE-2022-33099
+Match! Method luaG_runerror in file contrib/lua/src/ldebug.c is homologous with CVE-2022-33099
+Total CVE numbers of freebsd-src detected: 4
+
+Total CVE numbers of source detected: 0
+
+Total CVE numbers of flipperzero-firmware detected: 0
+
+Total CVE numbers of esp8266-oled-ssd1306 detected: 0
+
+Total CVE numbers of noise-suppression-for-voice detected: 0
+
+Total CVE numbers of zephyr detected: 0
+
+Total CVE numbers of open-gpu-kernel-modules detected: 0
+
+Total CVE numbers of PainterEngine detected: 0
+
+Found CVE-2022-33099 in RetroArch !
+Match! Method luaG_runerror in file deps/lua/src/ldebug.c is homologous with CVE-2022-33099
+Total CVE numbers of RetroArch detected: 1
+
+Total CVE numbers of scrcpy detected: 0
+
+Total CVE numbers of nng detected: 0
+
+Total CVE numbers of INTANG detected: 0
+
+Total CVE numbers of FidelityFX-FSR detected: 0
+
+Total CVE numbers of log.c detected: 0
+
+Found CVE-2020-25696 in PolarDB-for-PostgreSQL !
+Match! Method StoreQueryTuple in file src/bin/psql/common.c is homologous with CVE-2020-25696
+Total CVE numbers of PolarDB-for-PostgreSQL detected: 1
+
+Total CVE numbers of wuffs detected: 0
+
+Total CVE numbers of EasyHook detected: 0
+
+Total CVE numbers of cuda-samples detected: 0
+
+Total CVE numbers of libgit2 detected: 0
+
+Found CVE-2021-33657 in simplest_ffmpeg_mobile !
+Match! Method Map1to1 in file simplest_sdl_android_helloworld/jni/src/video/SDL_pixels.c is homologous with CVE-2021-33657
+Found CVE-2019-7578 in simplest_ffmpeg_mobile !
+Match! Method InitIMA_ADPCM in file simplest_sdl_android_helloworld/jni/src/audio/SDL_wave.c is homologous with CVE-2019-7578
+Total CVE numbers of simplest_ffmpeg_mobile detected: 2
+
+Total CVE numbers of json-c detected: 0
+
+Total CVE numbers of pycryptodome detected: 0
+
+Total CVE numbers of miniz detected: 0
+
+Total CVE numbers of Validity90 detected: 0
+
+Total CVE numbers of hstr detected: 0
+
+Total CVE numbers of neural-redis detected: 0
+
+Total CVE numbers of redsocks detected: 0
+
+Total CVE numbers of iperf detected: 0
+
+Total CVE numbers of pelikan detected: 0
+
+Total CVE numbers of RMStore detected: 0
+
+Total CVE numbers of darknet detected: 0
+
+Total CVE numbers of hashcat detected: 0
+
+Total CVE numbers of yara detected: 0
+
+Total CVE numbers of xHook detected: 0
+
+Total CVE numbers of gamemode detected: 0
+
+Total CVE numbers of GmSSL detected: 0
+
+Total CVE numbers of xrdp detected: 0
+
+Total CVE numbers of solo1 detected: 0
+
+Total CVE numbers of wrk2 detected: 0
+
+Found CVE-2021-33657 in mobile-ffmpeg !
+Match! Method Map1to1 in file src/sdl/src/video/SDL_pixels.c is homologous with CVE-2021-33657
+Found CVE-2022-23308 in mobile-ffmpeg !
+Match! Method xmlValidNormalizeAttributeValue in file src/libxml2/valid.c is homologous with CVE-2022-23308
+Match! Method xmlAddRef in file src/libxml2/valid.c is homologous with CVE-2022-23308
+Match! Method xmlAddID in file src/libxml2/valid.c is homologous with CVE-2022-23308
+Match! Method xmlRemoveID in file src/libxml2/valid.c is homologous with CVE-2022-23308
+Match! Method xmlValidCtxtNormalizeAttributeValue in file src/libxml2/valid.c is homologous with CVE-2022-23308
+Found CVE-2019-7578 in mobile-ffmpeg !
+Match! Method SDL_LoadWAV_RW in file src/sdl/src/audio/SDL_wave.c is homologous with CVE-2019-7578
+Match! Method InitIMA_ADPCM in file src/sdl/src/audio/SDL_wave.c is homologous with CVE-2019-7578
+Found CVE-2021-46822 in mobile-ffmpeg !
+Match! Method get_word_rgb_row in file src/jpeg/rdppm.c is homologous with CVE-2021-46822
+Found CVE-2020-36279 in mobile-ffmpeg !
+Match! Method main in file src/leptonica/prog/adaptmap_reg.c is homologous with CVE-2020-36279
+Match! Method pixFillMapHoles in file src/leptonica/src/adaptmap.c is homologous with CVE-2020-36279
+Found CVE-2022-38266 in mobile-ffmpeg !
+Match! Method pixBlockconvGrayTile in file src/leptonica/src/convolve.c is homologous with CVE-2022-38266
+Match! Method pixBlockconv in file src/leptonica/src/convolve.c is homologous with CVE-2022-38266
+Match! Method pixBlockconvGrayUnnormalized in file src/leptonica/src/convolve.c is homologous with CVE-2022-38266
+Match! Method pixBlockconvTiled in file src/leptonica/src/convolve.c is homologous with CVE-2022-38266
+Total CVE numbers of mobile-ffmpeg detected: 15
+
+Found CVE-2021-27926 in ESP8266_RTOS_SDK !
+Match! Method esp_partition_table_basic_verify in file components/bootloader_support/src/flash_partitions.c is homologous with CVE-2021-27926
+Total CVE numbers of ESP8266_RTOS_SDK detected: 1
+
+Total CVE numbers of irssi detected: 0
+
+Total CVE numbers of OSCPRepo detected: 0
+
+Total CVE numbers of CVE-2021-4034 detected: 0
+
+Total CVE numbers of openresty detected: 0
+
+Total CVE numbers of contiki detected: 0
+
+Total CVE numbers of SQLiteCpp detected: 0
+
+Total CVE numbers of pianobar detected: 0
+
+Total CVE numbers of vgpu_unlock detected: 0
+
+Total CVE numbers of lvgl detected: 0
+
+Total CVE numbers of reactos detected: 0
+
+Total CVE numbers of stellar-core detected: 0
+
+Total CVE numbers of c4 detected: 0
+
+Total CVE numbers of AI-on-the-edge-device detected: 0
+
+Total CVE numbers of openssl detected: 0
+
+Total CVE numbers of Mirai-Source-Code detected: 0
+
+Total CVE numbers of blender detected: 0
+
+Total CVE numbers of kphp-kdb detected: 0
+
+Total CVE numbers of curl detected: 0
+
+Total CVE numbers of raspberry-pi-os detected: 0
+
+Total CVE numbers of libsixel detected: 0
+
+Found CVE-2023-28100 in bubblewrap !
+Match! Method main in file tests/try-syscall.c is homologous with CVE-2023-28100
+Total CVE numbers of bubblewrap detected: 1
+
+Total CVE numbers of Logan detected: 0
+
+Total CVE numbers of FUZIX detected: 0
+
+Total CVE numbers of sqlcipher detected: 0
+
+Total CVE numbers of ltp detected: 0
+
+Total CVE numbers of Collections-C detected: 0
+
+Total CVE numbers of lmdb detected: 0
+
+Total CVE numbers of toxcore detected: 0
+
+Total CVE numbers of Tesseract-OCR-iOS detected: 0
+
+Total CVE numbers of DAPLink detected: 0
+
+Total CVE numbers of open62541 detected: 0
+
+Total CVE numbers of poco detected: 0
+
+Total CVE numbers of mtcp detected: 0
+
+Total CVE numbers of zstd detected: 0
+
+Total CVE numbers of http-parser detected: 0
+
+Total CVE numbers of Broadway detected: 0
+
+Total CVE numbers of ck detected: 0
+
+Total CVE numbers of phptrace detected: 0
+
+Total CVE numbers of gb-studio detected: 0
+
+Total CVE numbers of bottledwater-pg detected: 0
+
+Total CVE numbers of dSYMTools detected: 0
+
+Total CVE numbers of AppImageKit detected: 0
+
+Total CVE numbers of flatpak detected: 0
+
+Found CVE-2021-3618 in nginx-releases !
+Match! Method ngx_mail_core_merge_srv_conf in file src/mail/ngx_mail_core_module.c is homologous with CVE-2021-3618
+Match! Method ngx_mail_core_create_srv_conf in file src/mail/ngx_mail_core_module.c is homologous with CVE-2021-3618
+Found CVE-2014-3616 in nginx-releases !
+Match! Method ngx_ssl_session_cache in file src/event/ngx_event_openssl.c is homologous with CVE-2014-3616
+Total CVE numbers of nginx-releases detected: 3
+
+Total CVE numbers of ExpressLRS detected: 0
+
+Total CVE numbers of zsh detected: 0
+
+Total CVE numbers of secp256k1 detected: 0
+
+Total CVE numbers of mbedtls detected: 0
+
+Total CVE numbers of VeraCrypt detected: 0
+
+Total CVE numbers of ossec-hids detected: 0
+
+Total CVE numbers of C detected: 0
+
+Total CVE numbers of TIC-80 detected: 0
+
+Total CVE numbers of mosquitto detected: 0
+
+Total CVE numbers of hitch detected: 0
+
+Total CVE numbers of tini detected: 0
+
+Found CVE-2022-33099 in darktable !
+Match! Method luaV_concat in file src/external/lua/src/lvm.c is homologous with CVE-2022-33099
+Match! Method luaG_runerror in file src/external/lua/src/ldebug.c is homologous with CVE-2022-33099
+Total CVE numbers of darktable detected: 2
+
+Total CVE numbers of p2pvc detected: 0
+
+Total CVE numbers of unbound detected: 0
+
+Total CVE numbers of hiredis detected: 0
+
+Total CVE numbers of jsmn detected: 0
+
+Total CVE numbers of ish detected: 0
+
+Total CVE numbers of janet detected: 0
+
+Total CVE numbers of rosenbridge detected: 0
+
+Total CVE numbers of john detected: 0
+
+Total CVE numbers of LiteOS detected: 0
+
+Total CVE numbers of iodine detected: 0
+
+Total CVE numbers of xcape detected: 0
+
+Total CVE numbers of mpv detected: 0
+
+Total CVE numbers of tig detected: 0
+
+Total CVE numbers of japronto detected: 0
+
+Total CVE numbers of AirConnect detected: 0
+
+Total CVE numbers of n2n detected: 0
+
+Total CVE numbers of httpserver.h detected: 0
+
+Total CVE numbers of Arduino_Core_STM32 detected: 0
+
+Total CVE numbers of ios-webkit-debug-proxy detected: 0
+
+Total CVE numbers of uftrace detected: 0
+
+Total CVE numbers of siege detected: 0
+
+Total CVE numbers of firejail detected: 0
+
+Total CVE numbers of lab detected: 0
+
+Total CVE numbers of ompi detected: 0
+
+Total CVE numbers of cc65 detected: 0
+
+Total CVE numbers of ctags detected: 0
+
+Total CVE numbers of util-linux detected: 0
+
+Total CVE numbers of stlink detected: 0
+
+Total CVE numbers of keen detected: 0
+
+Total CVE numbers of DungeonRush detected: 0
+
+Total CVE numbers of SUDO_KILLER detected: 0
+
+Total CVE numbers of noah detected: 0
+
+Total CVE numbers of sslscan detected: 0
+
+Total CVE numbers of PureDarwin detected: 0
+
+Found CVE-2020-10188 in src !
+Match! Method nextitem in file usr.bin/telnet/telnet.c is homologous with CVE-2020-10188
+Total CVE numbers of src detected: 1
+
+Total CVE numbers of wcc detected: 0
+
+Found CVE-2021-21309 in webdis !
+Match! Method sdsMakeRoomFor in file src/hiredis/sds.c is homologous with CVE-2021-21309
+Total CVE numbers of webdis detected: 1
+
+Total CVE numbers of Linux-NetSpeed detected: 0
+
+Total CVE numbers of coder-kung-fu detected: 0
+
+Total CVE numbers of qmk_firmware detected: 0
+
+Total CVE numbers of odyssey detected: 0
+
+Found CVE-2022-33099 in premake-core !
+Match! Method luaG_runerror in file contrib/lua/src/ldebug.c is homologous with CVE-2022-33099
+Found CVE-2020-8231 in premake-core !
+Match! Method conn_is_conn in file contrib/curl/lib/connect.c is homologous with CVE-2020-8231
+Found CVE-2017-7468 in premake-core !
+Match! Method Curl_init_userdefined in file contrib/curl/lib/url.c is homologous with CVE-2017-7468
+Match! Method Curl_ssl_addsessionid in file contrib/curl/lib/vtls/vtls.c is homologous with CVE-2017-7468
+Match! Method ossl_connect_step3 in file contrib/curl/lib/vtls/openssl.c is homologous with CVE-2017-7468
+Match! Method cyassl_connect_step3 in file contrib/curl/lib/vtls/cyassl.c is homologous with CVE-2017-7468
+Match! Method connect_finish in file contrib/curl/lib/vtls/axtls.c is homologous with CVE-2017-7468
+Match! Method Curl_ssl_getsessionid in file contrib/curl/lib/vtls/vtls.c is homologous with CVE-2017-7468
+Total CVE numbers of premake-core detected: 8
+
+Total CVE numbers of httrack detected: 0
+
+Found CVE-2023-32233 in linux !
+Match! Method nf_tables_deactivate_set in file net/netfilter/nf_tables_api.c is homologous with CVE-2023-32233
+Found CVE-2023-26545 in linux !
+Match! Method mpls_dev_sysctl_register in file net/mpls/af_mpls.c is homologous with CVE-2023-26545
+Match! Method mpls_dev_sysctl_unregister in file net/mpls/af_mpls.c is homologous with CVE-2023-26545
+Found CVE-2022-3586 in linux !
+Match! Method decrement_qlen in file net/sched/sch_sfb.c is homologous with CVE-2022-3586
+Total CVE numbers of linux detected: 4
+
+Total CVE numbers of coroutine detected: 0
+
+Found CVE-2022-33099 in xLua !
+Match! Method luaV_concat in file build/lua-5.4.1/src/lvm.c is homologous with CVE-2022-33099
+Match! Method luaG_runerror in file build/lua-5.3.5/src/ldebug.c is homologous with CVE-2022-33099
+Match! Method luaG_runerror in file build/lua-5.4.1/src/ldebug.c is homologous with CVE-2022-33099
+Match! Method luaG_runerror in file build/lua-5.3.4/src/ldebug.c is homologous with CVE-2022-33099
+Total CVE numbers of xLua detected: 2
+
+Total CVE numbers of sxhkd detected: 0
+
+Total CVE numbers of glb-director detected: 0
+
+Total CVE numbers of Reader detected: 0
+
+Found CVE-2017-13030 in AdAway !
+Match! Method cisco_autorp_print in file tcpdump/jni/tcpdump/print-pim.c is homologous with CVE-2017-13030
+Match! Method pimv1_join_prune_print in file tcpdump/jni/tcpdump/print-pim.c is homologous with CVE-2017-13030
+Match! Method pim_print in file tcpdump/jni/tcpdump/print-pim.c is homologous with CVE-2017-13030
+Found CVE-2017-12993 in AdAway !
+Match! Method juniper_ggsn_print in file tcpdump/jni/tcpdump/print-juniper.c is homologous with CVE-2017-12993
+Found CVE-2017-12897 in AdAway !
+Match! Method isoclns_print in file tcpdump/jni/tcpdump/print-isoclns.c is homologous with CVE-2017-12897
+Match! Method juniper_mlppp_print in file tcpdump/jni/tcpdump/print-juniper.c is homologous with CVE-2017-12897
+Match! Method juniper_mlfr_print in file tcpdump/jni/tcpdump/print-juniper.c is homologous with CVE-2017-12897
+Match! Method handle_ppp in file tcpdump/jni/tcpdump/print-ppp.c is homologous with CVE-2017-12897
+Found CVE-2017-13022 in AdAway !
+Match! Method ip_printroute in file tcpdump/jni/tcpdump/print-ip.c is homologous with CVE-2017-13022
+Match! Method ip_optprint in file tcpdump/jni/tcpdump/print-ip.c is homologous with CVE-2017-13022
+Found CVE-2017-13010 in AdAway !
+Match! Method beep_print in file tcpdump/jni/tcpdump/print-beep.c is homologous with CVE-2017-13010
+Match! Method l_strnstart in file tcpdump/jni/tcpdump/print-beep.c is homologous with CVE-2017-13010
+Found CVE-2016-7940 in AdAway !
+Match! Method stp_print_mstp_bpdu in file tcpdump/jni/tcpdump/print-stp.c is homologous with CVE-2016-7940
+Match! Method stp_print_spb_bpdu in file tcpdump/jni/tcpdump/print-stp.c is homologous with CVE-2016-7940
+Match! Method stp_print in file tcpdump/jni/tcpdump/print-stp.c is homologous with CVE-2016-7940
+Match! Method stp_print_config_bpdu in file tcpdump/jni/tcpdump/print-stp.c is homologous with CVE-2016-7940
+Found CVE-2017-13006 in AdAway !
+Match! Method l2tp_call_errors_print in file tcpdump/jni/tcpdump/print-l2tp.c is homologous with CVE-2017-13006
+Match! Method l2tp_q931_cc_print in file tcpdump/jni/tcpdump/print-l2tp.c is homologous with CVE-2017-13006
+Match! Method l2tp_proxy_auth_id_print in file tcpdump/jni/tcpdump/print-l2tp.c is homologous with CVE-2017-13006
+Match! Method l2tp_proxy_auth_type_print in file tcpdump/jni/tcpdump/print-l2tp.c is homologous with CVE-2017-13006
+Match! Method l2tp_msgtype_print in file tcpdump/jni/tcpdump/print-l2tp.c is homologous with CVE-2017-13006
+Match! Method l2tp_accm_print in file tcpdump/jni/tcpdump/print-l2tp.c is homologous with CVE-2017-13006
+Match! Method l2tp_avp_print in file tcpdump/jni/tcpdump/print-l2tp.c is homologous with CVE-2017-13006
+Match! Method l2tp_framing_type_print in file tcpdump/jni/tcpdump/print-l2tp.c is homologous with CVE-2017-13006
+Match! Method l2tp_bearer_cap_print in file tcpdump/jni/tcpdump/print-l2tp.c is homologous with CVE-2017-13006
+Match! Method l2tp_bearer_type_print in file tcpdump/jni/tcpdump/print-l2tp.c is homologous with CVE-2017-13006
+Match! Method l2tp_framing_cap_print in file tcpdump/jni/tcpdump/print-l2tp.c is homologous with CVE-2017-13006
+Match! Method l2tp_result_code_print in file tcpdump/jni/tcpdump/print-l2tp.c is homologous with CVE-2017-13006
+Found CVE-2017-13014 in AdAway !
+Match! Method wb_print in file tcpdump/jni/tcpdump/print-wb.c is homologous with CVE-2017-13014
+Found CVE-2017-5484 in AdAway !
+Match! Method atm_print in file tcpdump/jni/tcpdump/print-atm.c is homologous with CVE-2017-5484
+Match! Method sig_print in file tcpdump/jni/tcpdump/print-atm.c is homologous with CVE-2017-5484
+Found CVE-2016-7923 in AdAway !
+Match! Method arp_print in file tcpdump/jni/tcpdump/print-arp.c is homologous with CVE-2016-7923
+Found CVE-2016-7983 in AdAway !
+Match! Method bootp_print in file tcpdump/jni/tcpdump/print-bootp.c is homologous with CVE-2016-7983
+Found CVE-2017-13040 in AdAway !
+Match! Method mp_join_print in file tcpdump/jni/tcpdump/print-mptcp.c is homologous with CVE-2017-13040
+Match! Method mp_capable_print in file tcpdump/jni/tcpdump/print-mptcp.c is homologous with CVE-2017-13040
+Match! Method mp_dss_print in file tcpdump/jni/tcpdump/print-mptcp.c is homologous with CVE-2017-13040
+Found CVE-2016-7934 in AdAway !
+Match! Method rtcp_print in file tcpdump/jni/tcpdump/print-udp.c is homologous with CVE-2016-7934
+Found CVE-2017-13037 in AdAway !
+Match! Method ip_printts in file tcpdump/jni/tcpdump/print-ip.c is homologous with CVE-2017-13037
+Found CVE-2016-7939 in AdAway !
+Match! Method gre_print in file tcpdump/jni/tcpdump/print-gre.c is homologous with CVE-2016-7939
+Match! Method gre_sre_asn_print in file tcpdump/jni/tcpdump/print-gre.c is homologous with CVE-2016-7939
+Match! Method gre_sre_print in file tcpdump/jni/tcpdump/print-gre.c is homologous with CVE-2016-7939
+Match! Method gre_print_1 in file tcpdump/jni/tcpdump/print-gre.c is homologous with CVE-2016-7939
+Match! Method gre_print_0 in file tcpdump/jni/tcpdump/print-gre.c is homologous with CVE-2016-7939
+Found CVE-2017-13013 in AdAway !
+Match! Method atmarp_print in file tcpdump/jni/tcpdump/print-arp.c is homologous with CVE-2017-13013
+Total CVE numbers of AdAway detected: 44
+
+Total CVE numbers of twemproxy detected: 0
+
+Total CVE numbers of profilo detected: 0
+
+Total CVE numbers of zlib detected: 0
+
+Total CVE numbers of pipelinedb detected: 0
+
+Total CVE numbers of libhv detected: 0
+
+Total CVE numbers of lk detected: 0
+
+Total CVE numbers of ZipArchive detected: 0
+
+Total CVE numbers of tmk_keyboard detected: 0
+
+Total CVE numbers of libmill detected: 0
+
+Total CVE numbers of GoodbyeDPI detected: 0
+
+Total CVE numbers of chia-plotter detected: 0
+
+Total CVE numbers of collectd detected: 0
+
+Found CVE-2022-33099 in BizHawk !
+Match! Method luaG_runerror in file waterbox/tic80/vendor/lua/ldebug.c is homologous with CVE-2022-33099
+Total CVE numbers of BizHawk detected: 1
+
+Total CVE numbers of react-native-code-push detected: 0
+
+Total CVE numbers of kamailio detected: 0
+
+Total CVE numbers of phc-winner-argon2 detected: 0
+
+Total CVE numbers of mc detected: 0
+
+Total CVE numbers of rpmalloc detected: 0
+
+Total CVE numbers of nokogiri detected: 0
+
+Total CVE numbers of inih detected: 0
+
+Total CVE numbers of mpc detected: 0
+
+Total CVE numbers of httpd detected: 0
+
+Total CVE numbers of libevent detected: 0
+
+Total CVE numbers of mimikatz detected: 0
+
+Total CVE numbers of nuster detected: 0
+
+Total CVE numbers of cmatrix detected: 0
+
+Total CVE numbers of rpi_ws281x detected: 0
+
+Total CVE numbers of patchelf detected: 0
+
+Total CVE numbers of strace detected: 0
+
+Found CVE-2020-22021 in yjPlay !
+Match! Method filter_edges_16bit in file ffmpeg/src/main/jni/ffmpeg/libavfilter/vf_yadif.c is homologous with CVE-2020-22021
+Match! Method filter_edges in file ffmpeg/src/main/jni/ffmpeg/libavfilter/vf_yadif.c is homologous with CVE-2020-22021
+Total CVE numbers of yjPlay detected: 2
+
+Total CVE numbers of ostep-code detected: 0
+
+Total CVE numbers of chibicc detected: 0
+
+Total CVE numbers of mac-dictionary-kit detected: 0
+
+Total CVE numbers of yaf detected: 0
+
+Total CVE numbers of clib detected: 0
+
+Total CVE numbers of VoxelSpace detected: 0
+
+Found CVE-2021-21309 in disque !
+Match! Method zmalloc in file src/zmalloc.c is homologous with CVE-2021-21309
+Match! Method zcalloc in file src/zmalloc.c is homologous with CVE-2021-21309
+Match! Method sdsMakeRoomFor in file src/sds.c is homologous with CVE-2021-21309
+Match! Method sdsMakeRoomFor in file deps/hiredis/sds.c is homologous with CVE-2021-21309
+Total CVE numbers of disque detected: 3
+
+Total CVE numbers of cmus detected: 0
+
+Total CVE numbers of php-ext-xlswriter detected: 0
+
+Total CVE numbers of zmap detected: 0
+
+Total CVE numbers of micropython detected: 0
+
+Total CVE numbers of uthash detected: 0
+
+Total CVE numbers of memreduct detected: 0
+
+Total CVE numbers of licecap detected: 0
+
+Total CVE numbers of ccv detected: 0
+
+Total CVE numbers of pafish detected: 0
+
+Found CVE-2021-32020 in Arduino_STM32 !
+Match! Method pvPortMalloc in file STM32F1/libraries/FreeRTOS900/utility/MemMang/heap_2.c is homologous with CVE-2021-32020
+Match! Method pvPortMalloc in file STM32F1/libraries/FreeRTOS821/utility/MemMang/heap_2.c is homologous with CVE-2021-32020
+Total CVE numbers of Arduino_STM32 detected: 1
+
+Total CVE numbers of Quake detected: 0
+
+Total CVE numbers of keepalived detected: 0
+
+Total CVE numbers of mizu detected: 0
+
+Total CVE numbers of FDcommit detected: 0
+
+Total CVE numbers of dqlite detected: 0
+
+Total CVE numbers of tinyvm detected: 0
+
+Total CVE numbers of unit detected: 0
+
+Total CVE numbers of fontforge detected: 0
+
+Total CVE numbers of pushdeer detected: 0
+
+Total CVE numbers of openwebrtc detected: 0
+
+Total CVE numbers of sanitizers detected: 0
+
+Total CVE numbers of send-my detected: 0
+
+Total CVE numbers of sokol detected: 0
+
+Total CVE numbers of toaruos detected: 0
+
+Total CVE numbers of quickjs detected: 0
+
+Total CVE numbers of toybox detected: 0
+
+Total CVE numbers of json-tutorial detected: 0
+
+Total CVE numbers of skynet detected: 0
+
+Total CVE numbers of fluent-bit detected: 0
+
+Total CVE numbers of Chipmunk2D detected: 0
+
+Total CVE numbers of dynomite detected: 0
+
+Total CVE numbers of os-tutorial detected: 0
+
+Total CVE numbers of mjpg-streamer detected: 0
+
+Total CVE numbers of cups detected: 0
+
+Total CVE numbers of bytehound detected: 0
+
+Total CVE numbers of WizQTClient detected: 0
+
+Total CVE numbers of anypixel detected: 0
+
+Total CVE numbers of getCommit.sh detected: 0
+
+Total CVE numbers of rsyslog detected: 0
+
+Total CVE numbers of Remotery detected: 0
+
+Total CVE numbers of minhook detected: 0
+
+Total CVE numbers of uhubctl detected: 0
+
+Total CVE numbers of tmux detected: 0
+
+Total CVE numbers of spdk detected: 0
+
+Total CVE numbers of ProjectNorthStar detected: 0
+
+Total CVE numbers of Unity detected: 0
+
+Total CVE numbers of tmate detected: 0
+
+Found CVE-2014-6272 in proxydroid !
+Match! Method _evbuffer_expand_fast in file app/src/main/cpp/libevent/buffer.c is homologous with CVE-2014-6272
+Match! Method evbuffer_prepend in file app/src/main/cpp/libevent/buffer.c is homologous with CVE-2014-6272
+Match! Method evbuffer_add_vprintf in file app/src/main/cpp/libevent/buffer.c is homologous with CVE-2014-6272
+Match! Method evbuffer_expand_singlechain in file app/src/main/cpp/libevent/buffer.c is homologous with CVE-2014-6272
+Total CVE numbers of proxydroid detected: 4
+
+Found CVE-2021-32020 in amazon-freertos !
+Match! Method pvPortMalloc in file vendors/nordic/nRF5_SDK_15.2.0/external/freertos/source/portable/MemMang/heap_2.c is homologous with CVE-2021-32020
+Total CVE numbers of amazon-freertos detected: 1
+
+Total CVE numbers of microui detected: 0
+
+Total CVE numbers of sc detected: 0
+
+Found CVE-2022-36021 in f-stack !
+Match! Method stringmatchlen in file app/redis-6.2.6/src/util.c is homologous with CVE-2022-36021
+Found CVE-2022-35977 in f-stack !
+Match! Method appendCommand in file app/redis-6.2.6/src/t_string.c is homologous with CVE-2022-35977
+Match! Method setrangeCommand in file app/redis-6.2.6/src/t_string.c is homologous with CVE-2022-35977
+Found CVE-2023-22458 in f-stack !
+Match! Method hrandfieldCommand in file app/redis-6.2.6/src/t_hash.c is homologous with CVE-2023-22458
+Match! Method zrandmemberCommand in file app/redis-6.2.6/src/t_zset.c is homologous with CVE-2023-22458
+Found CVE-2020-25705 in f-stack !
+Match! Method badport_bandlim in file freebsd/netinet/ip_icmp.c is homologous with CVE-2020-25705
+Total CVE numbers of f-stack detected: 6
+
+Total CVE numbers of libfaketime detected: 0
+
+Total CVE numbers of jerryscript detected: 0
+
+Total CVE numbers of bcrypt-ruby detected: 0
+
+Total CVE numbers of esp-link detected: 0
+
+Total CVE numbers of flinux detected: 0
+
+Total CVE numbers of libffi detected: 0
+
+Total CVE numbers of qoi detected: 0
+
+Total CVE numbers of mruby detected: 0
+
+Total CVE numbers of suricata detected: 0
+
+Total CVE numbers of tpotce detected: 0
+
+Total CVE numbers of enet detected: 0
+
+Total CVE numbers of lz4 detected: 0
+
+Found CVE-2022-3586 in WSL2-Linux-Kernel !
+Match! Method decrement_qlen in file net/sched/sch_sfb.c is homologous with CVE-2022-3586
+Total CVE numbers of WSL2-Linux-Kernel detected: 1
+
+Total CVE numbers of i3blocks detected: 0
+
+Total CVE numbers of MemoryModule detected: 0
+
+Total CVE numbers of FFmpegMediaMetadataRetriever detected: 0
+
+Total CVE numbers of capstone detected: 0
+
+Total CVE numbers of L-ink_Card detected: 0
+
+Total CVE numbers of Lilu detected: 0
+
+Total CVE numbers of OpenMower detected: 0
+
+Total CVE numbers of Il2CppInspector detected: 0
+
+Total CVE numbers of mongoose-os detected: 0
+
+Total CVE numbers of EpMedia detected: 0
+
+Total CVE numbers of sysbench detected: 0
+
+Total CVE numbers of wsltty detected: 0
+
+Total CVE numbers of xxHash detected: 0
+
+Total CVE numbers of shairport detected: 0
+
+Total CVE numbers of tinc detected: 0
+
+Total CVE numbers of simplewall detected: 0
+
+Found CVE-2021-21309 in h2o !
+Match! Method sdsMakeRoomFor in file deps/hiredis/sds.c is homologous with CVE-2021-21309
+Total CVE numbers of h2o detected: 1
+
+Total CVE numbers of openvas-scanner detected: 0
+
+Total CVE numbers of Learn-Algorithms detected: 0
+
+Total CVE numbers of libsodium detected: 0
+
+Total CVE numbers of sl detected: 0
+
+Total CVE numbers of ProcDump-for-Linux detected: 0
+
+Total CVE numbers of cgdb detected: 0
+
+Total CVE numbers of motion detected: 0
+
+Found CVE-2021-21309 in RediSearch !
+Match! Method sdsMakeRoomFor in file deps/rmutil/sds.c is homologous with CVE-2021-21309
+Total CVE numbers of RediSearch detected: 1
+
+Total CVE numbers of gnucash detected: 0
+
+Total CVE numbers of opengles3-book detected: 0
+
+Total CVE numbers of GCanvas detected: 0
+
+Total CVE numbers of SoftEtherVPN detected: 0
+
+Total CVE numbers of tinyproxy detected: 0
+
+Total CVE numbers of fzy detected: 0
+
+Total CVE numbers of gimp detected: 0
+
+Total CVE numbers of emojicode detected: 0
+
+Total CVE numbers of HDMI-PI detected: 0
+
+Total CVE numbers of katran detected: 0
+
+Total CVE numbers of gps-sdr-sim detected: 0
+
+Total CVE numbers of shadowsocksr-native detected: 0
+
+Total CVE numbers of windows-kernel-exploits detected: 0
+
+Total CVE numbers of sqlitestudio detected: 0
+
+Total CVE numbers of Sandboxie detected: 0
+
+Total CVE numbers of surge detected: 0
+
+Total CVE numbers of colmap detected: 0
+
+Total CVE numbers of libusb detected: 0
+
+Total CVE numbers of krackattacks-scripts detected: 0
+
+Total CVE numbers of systeminformer detected: 0
+
+Total CVE numbers of nanomsg detected: 0
+
+Total CVE numbers of dunst detected: 0
+
+Total CVE numbers of npcap detected: 0
+
+Total CVE numbers of lzfse detected: 0
+
+Total CVE numbers of WindowsInternals detected: 0
+
+Total CVE numbers of esp32-snippets detected: 0
+
+Total CVE numbers of renderer detected: 0
+
+Total CVE numbers of hashcat-legacy detected: 0
+
+Total CVE numbers of NetHack detected: 0
+
+Total CVE numbers of write-a-C-interpreter detected: 0
+
+Total CVE numbers of sqlean detected: 0
+
+Total CVE numbers of Swift detected: 0
+
+Total CVE numbers of AFL detected: 0
+
+Total CVE numbers of meltdown detected: 0
+
+Total CVE numbers of mujoco detected: 0
+
+Total CVE numbers of emscripten detected: 0
+
+Total CVE numbers of athame detected: 0
+
+Total CVE numbers of SDL detected: 0
+
+Total CVE numbers of PINRemoteImage detected: 0
+
+Total CVE numbers of psycopg2 detected: 0
+
+Found CVE-2019-14563 in CloverBootloader !
+Match! Method S3BootScriptSaveIoWrite in file MdeModulePkg/Library/PiDxeS3BootScriptLib/BootScriptSave.c is homologous with CVE-2019-14563
+Match! Method S3BootScriptSavePciCfgWrite in file MdeModulePkg/Library/PiDxeS3BootScriptLib/BootScriptSave.c is homologous with CVE-2019-14563
+Match! Method S3BootScriptSaveMemWrite in file MdeModulePkg/Library/PiDxeS3BootScriptLib/BootScriptSave.c is homologous with CVE-2019-14563
+Match! Method S3BootScriptSavePciCfg2Write in file MdeModulePkg/Library/PiDxeS3BootScriptLib/BootScriptSave.c is homologous with CVE-2019-14563
+Found CVE-2014-3508 in CloverBootloader !
+Match! Method c2i_ASN1_OBJECT in file Library/OpensslLib/openssl-1.0.1e/crypto/asn1/a_object.c is homologous with CVE-2014-3508
+Match! Method OBJ_obj2txt in file Library/OpensslLib/openssl-1.0.1e/crypto/objects/obj_dat.c is homologous with CVE-2014-3508
+Found CVE-2019-14559 in CloverBootloader !
+Match! Method Ip4AccpetFrame in file NetworkPkg/Ip4Dxe/Ip4Input.c is homologous with CVE-2019-14559
+Match! Method Ip4PreProcessPacket in file NetworkPkg/Ip4Dxe/Ip4Input.c is homologous with CVE-2019-14559
+Found CVE-2014-8275 in CloverBootloader !
+Match! Method DSA_verify in file Library/OpensslLib/openssl-1.0.1e/crypto/dsa/dsa_asn1.c is homologous with CVE-2014-8275
+Match! Method ECDSA_verify in file Library/OpensslLib/openssl-1.0.1e/crypto/ecdsa/ecs_vrf.c is homologous with CVE-2014-8275
+Match! Method DSA_verify in file Library/OpensslLib/openssl-1.0.1e/crypto/dsa/dsa_asn1.c is homologous with CVE-2014-8275
+Match! Method ECDSA_verify in file Library/OpensslLib/openssl-1.0.1e/crypto/ecdsa/ecs_vrf.c is homologous with CVE-2014-8275
+Found CVE-2015-1789 in CloverBootloader !
+Match! Method X509_cmp_time in file Library/OpensslLib/openssl-1.0.1e/crypto/x509/x509_vfy.c is homologous with CVE-2015-1789
+Found CVE-2016-0799 in CloverBootloader !
+Match! Method fmtint in file Library/OpensslLib/openssl-1.0.1e/crypto/bio/b_print.c is homologous with CVE-2016-0799
+Match! Method BIO_vsnprintf in file Library/OpensslLib/openssl-1.0.1e/crypto/bio/b_print.c is homologous with CVE-2016-0799
+Match! Method fmtstr in file Library/OpensslLib/openssl-1.0.1e/crypto/bio/b_print.c is homologous with CVE-2016-0799
+Found CVE-2015-3194 in CloverBootloader !
+Match! Method rsa_pss_decode in file Library/OpensslLib/openssl-1.0.1e/crypto/rsa/rsa_ameth.c is homologous with CVE-2015-3194
+Found CVE-2015-3195 in CloverBootloader !
+Match! Method asn1_template_noexp_d2i in file Library/OpensslLib/openssl-1.0.1e/crypto/asn1/tasn_dec.c is homologous with CVE-2015-3195
+Found CVE-2015-1792 in CloverBootloader !
+Match! Method do_free_upto in file Library/OpensslLib/openssl-1.0.1e/crypto/cms/cms_smime.c is homologous with CVE-2015-1792
+Found CVE-2019-14587 in CloverBootloader !
+Match! Method BuildAdmaDescTable in file MdeModulePkg/Bus/Pci/SdMmcPciHcDxe/SdMmcPciHci.c is homologous with CVE-2019-14587
+Found CVE-2015-0289 in CloverBootloader !
+Match! Method PKCS7_dataInit in file Library/OpensslLib/openssl-1.0.1e/crypto/pkcs7/pk7_doit.c is homologous with CVE-2015-0289
+Match! Method PKCS7_dataVerify in file Library/OpensslLib/openssl-1.0.1e/crypto/pkcs7/pk7_doit.c is homologous with CVE-2015-0289
+Match! Method PKCS7_dataFinal in file Library/OpensslLib/openssl-1.0.1e/crypto/pkcs7/pk7_doit.c is homologous with CVE-2015-0289
+Match! Method PKCS7_get_signer_info in file Library/OpensslLib/openssl-1.0.1e/crypto/pkcs7/pk7_lib.c is homologous with CVE-2015-0289
+Found CVE-2015-1788 in CloverBootloader !
+Match! Method BN_GF2m_mod_inv in file Library/OpensslLib/openssl-1.0.1e/crypto/bn/bn_gf2m.c is homologous with CVE-2015-1788
+Total CVE numbers of CloverBootloader detected: 23
+
+Total CVE numbers of luna detected: 0
+
+Total CVE numbers of betaflight detected: 0
+
+Total CVE numbers of makeDataset.py detected: 0
+
+Total CVE numbers of Luma3DS detected: 0
+
+Total CVE numbers of libfuse detected: 0
+
+Total CVE numbers of wasm-micro-runtime detected: 0
+
+Total CVE numbers of coturn detected: 0
+
+Total CVE numbers of sslsplit detected: 0
+
+Total CVE numbers of sudo-touchid detected: 0
+
+Total CVE numbers of bplustree detected: 0
+
+Total CVE numbers of moonlight-android detected: 0
+
+Total CVE numbers of go-sdl2 detected: 0
+
+Total CVE numbers of Nuklear detected: 0
+
+Total CVE numbers of nuklear detected: 0
+
+Total CVE numbers of immortalwrt detected: 0
+
+Total CVE numbers of silk-v3-decoder detected: 0
+
+Total CVE numbers of Divert detected: 0
+
+Total CVE numbers of mongoose detected: 0
+
+Total CVE numbers of py-webrtcvad detected: 0
+
+Total CVE numbers of gobpf detected: 0
+
+Total CVE numbers of crun detected: 0
+
+Total CVE numbers of mini3d detected: 0
+
+Total CVE numbers of xdotool detected: 0
+
+Found CVE-2021-29605 in Tasmota !
+Match! Method TfLiteFloatArrayCreate in file lib/libesp32_ml/tf_lite_esp32/src/tensorflow/lite/c/common.cpp is homologous with CVE-2021-29605
+Found CVE-2022-47021 in Tasmota !
+Match! Method op_open1 in file lib/lib_audio/ESP8266Audio/src/opusfile/opusfile.c is homologous with CVE-2022-47021
+Match! Method op_get_data in file lib/lib_audio/ESP8266Audio/src/opusfile/opusfile.c is homologous with CVE-2022-47021
+Total CVE numbers of Tasmota detected: 3
+
+Total CVE numbers of nginx-rtmp-module detected: 0
+
+Total CVE numbers of glusterfs detected: 0
+
+Total CVE numbers of notcurses detected: 0
+
+Total CVE numbers of libsoundio detected: 0
+
+Found CVE-2022-44789 in sumatrapdf !
+Match! Method O_getOwnPropertyDescriptor in file ext/mujs/jsobject.c is homologous with CVE-2022-44789
+Match! Method ToPropertyDescriptor in file ext/mujs/jsobject.c is homologous with CVE-2022-44789
+Found CVE-2021-45931 in sumatrapdf !
+Match! Method hb_buffer_clear_contents in file ext/harfbuzz/src/hb-buffer.cc is homologous with CVE-2021-45931
+Total CVE numbers of sumatrapdf detected: 3
+
+Total CVE numbers of OpenLara detected: 0
+
+Total CVE numbers of osmc detected: 0
+
+Total CVE numbers of gear-lib detected: 0
+
+Total CVE numbers of wine detected: 0
+
+Total CVE numbers of FFmpegAndroid detected: 0
+
+Total CVE numbers of os detected: 0
+
+Total CVE numbers of fdupes detected: 0
+
+Total CVE numbers of streem detected: 0
+
+Total CVE numbers of vmtouch detected: 0
+
+Total CVE numbers of ZQCNN detected: 0
+
+Total CVE numbers of frr detected: 0
+
+Total CVE numbers of NyuziProcessor detected: 0
+
+Total CVE numbers of study detected: 0
+
+Total CVE numbers of openssh-portable detected: 0
+
+Total CVE numbers of chafa detected: 0
+
+Total CVE numbers of ShiYanLou detected: 0
+
+Total CVE numbers of darkforestGo detected: 0
+
+Total CVE numbers of clamav detected: 0
+
+Total CVE numbers of DOOM detected: 0
+
+Total CVE numbers of minisign detected: 0
+
+Total CVE numbers of riscv-gnu-toolchain detected: 0
+
+Total CVE numbers of rspamd detected: 0
+
+Total CVE numbers of bitwise detected: 0
+
+Total CVE numbers of sm64 detected: 0
+
+Total CVE numbers of HelloWord-Keyboard detected: 0
+
+Total CVE numbers of SmartAppUpdates detected: 0
+
+Total CVE numbers of klib detected: 0
+
+Found CVE-2016-4952 in xemu !
+Match! Method pvscsi_ring_init_data in file hw/scsi/vmw_pvscsi.c is homologous with CVE-2016-4952
+Total CVE numbers of xemu detected: 1
+
+Total CVE numbers of ics-openvpn detected: 0
+
+Total CVE numbers of ovs detected: 0
+
+Total CVE numbers of libmodbus detected: 0
+
+Total CVE numbers of qira detected: 0
+
+Total CVE numbers of WebBench detected: 0
+
+Total CVE numbers of cleanflight detected: 0
+
+Total CVE numbers of c-jwt-cracker detected: 0
+
+Found CVE-2021-32628 in annotated_redis_source !
+Match! Method ziplistResize in file src/ziplist.c is homologous with CVE-2021-32628
+Found CVE-2021-32687 in annotated_redis_source !
+Match! Method intsetResize in file src/intset.c is homologous with CVE-2021-32687
+Found CVE-2021-21309 in annotated_redis_source !
+Match! Method zmalloc in file src/zmalloc.c is homologous with CVE-2021-21309
+Match! Method zcalloc in file src/zmalloc.c is homologous with CVE-2021-21309
+Found CVE-2020-14147 in annotated_redis_source !
+Match! Method getnum in file deps/lua/src/lua_struct.c is homologous with CVE-2020-14147
+Total CVE numbers of annotated_redis_source detected: 5
+
+Total CVE numbers of ctypes.sh detected: 0
+
+Total CVE numbers of memcached detected: 0
+
+Total CVE numbers of thc-tips-tricks-hacks-cheat-sheet detected: 0
+
+Total CVE numbers of HIT-OSLab detected: 0
+
+Total CVE numbers of sshfs detected: 0
+
+Total CVE numbers of libvips detected: 0
+
+Total CVE numbers of no-more-secrets detected: 0
+
+Total CVE numbers of syslog-ng detected: 0
+
+Total CVE numbers of FreeDVDBoot detected: 0
+
+Total CVE numbers of hackrf detected: 0
+
+Found CVE-2020-14147 in wireshark !
+Match! Method getnum in file epan/wslua/wslua_struct.c is homologous with CVE-2020-14147
+Total CVE numbers of wireshark detected: 1
+
+Total CVE numbers of julius detected: 0
+
+Total CVE numbers of reptyr detected: 0
+
+Total CVE numbers of WindTerm detected: 0
+
+Total CVE numbers of pbc detected: 0
+
+Total CVE numbers of bspwm detected: 0
+
+Total CVE numbers of BGAQRCode-Android detected: 0
+
+Total CVE numbers of sandboxie detected: 0
+
+Total CVE numbers of redcarpet detected: 0
+
+Total CVE numbers of honggfuzz detected: 0
+
+Total CVE numbers of axel detected: 0
+
+Total CVE numbers of FreeRTOS detected: 0
+
+Total CVE numbers of f3 detected: 0
+
+Total CVE numbers of MobileNet-Yolo detected: 0
+
+Found CVE-2022-33099 in civetweb !
+Match! Method luaV_concat in file src/third_party/lua-5.4.3/src/lvm.c is homologous with CVE-2022-33099
+Match! Method luaG_runerror in file src/third_party/lua-5.3.6/src/ldebug.c is homologous with CVE-2022-33099
+Match! Method luaG_runerror in file src/third_party/lua-5.4.3/src/ldebug.c is homologous with CVE-2022-33099
+Found CVE-2020-14147 in civetweb !
+Match! Method controloptions in file src/third_party/lua_struct.c is homologous with CVE-2020-14147
+Match! Method getnum in file src/third_party/lua_struct.c is homologous with CVE-2020-14147
+Match! Method optsize in file src/third_party/lua_struct.c is homologous with CVE-2020-14147
+Total CVE numbers of civetweb detected: 5
+
+Total CVE numbers of SwiftLaTeX detected: 0
+
+Total CVE numbers of LoRaMac-node detected: 0
+
+Total CVE numbers of polipo detected: 0
+
+Total CVE numbers of tizonia-openmax-il detected: 0
+
+Total CVE numbers of zfs detected: 0
+
+Total CVE numbers of lwip detected: 0
+
+Total CVE numbers of libtree detected: 0
+
+Total CVE numbers of tcpkali detected: 0
+
+Total CVE numbers of acl detected: 0
+
+Total CVE numbers of LuaJIT detected: 0
+
+Total CVE numbers of test.sh detected: 0
+
+Total CVE numbers of HID detected: 0
+
+Found CVE-2023-27590 in radare2 !
+Match! Method __io_maps in file libr/debug/p/debug_io.c is homologous with CVE-2023-27590
+Total CVE numbers of radare2 detected: 1
+
+Total CVE numbers of can-utils detected: 0
+
+Total CVE numbers of Yolo-Fastest detected: 0
+
+Total CVE numbers of distcc detected: 0
+
+Found CVE-2021-45958 in catboost !
+Match! Method Buffer_Realloc in file contrib/python/pandas/py2/pandas/_libs/src/ujson/lib/ultrajsonenc.c is homologous with CVE-2021-45958
+Match! Method Buffer_Realloc in file contrib/python/pandas/py3/pandas/_libs/src/ujson/lib/ultrajsonenc.c is homologous with CVE-2021-45958
+Total CVE numbers of catboost detected: 1
+
+Total CVE numbers of Down detected: 0
+
+Total CVE numbers of desmume detected: 0
+
+Total CVE numbers of wazuh detected: 0
+
+Total CVE numbers of tectonic detected: 0
+
+Total CVE numbers of myhtml detected: 0
+
+Total CVE numbers of muon detected: 0
+
+Total CVE numbers of linenoise detected: 0
+
+Found CVE-2021-32134 in gpac !
+Match! Method encs_box_new in file src/isomedia/box_code_base.c is homologous with CVE-2021-32134
+Match! Method mp4s_box_new in file src/isomedia/box_code_base.c is homologous with CVE-2021-32134
+Total CVE numbers of gpac detected: 2
+
+Total CVE numbers of xmake detected: 0
+
+Total CVE numbers of termbox detected: 0
+
+Total CVE numbers of write-ups-2016 detected: 0
+
+Total CVE numbers of dump1090 detected: 0
+
+Total CVE numbers of skhd detected: 0
+
+Total CVE numbers of CMake detected: 0
+
+Total CVE numbers of rlwrap detected: 0
+
+Total CVE numbers of phpredis detected: 0
+
+Total CVE numbers of strongswan detected: 0
+
+Total CVE numbers of rediSQL detected: 0
+
+Total CVE numbers of WidescreenFixesPack detected: 0
+
+Found CVE-2021-21309 in sds !
+Match! Method sdsnewlen in file sds.c is homologous with CVE-2021-21309
+Total CVE numbers of sds detected: 1
+
+Total CVE numbers of rugged detected: 0
+
+Total CVE numbers of TFT_eSPI detected: 0
+
+Total CVE numbers of Reptile detected: 0
+
+Total CVE numbers of VulkanMemoryAllocator detected: 0
+
+Total CVE numbers of msquic detected: 0
+
+Total CVE numbers of netmap detected: 0
+
+Total CVE numbers of unicorn detected: 0
+
+Total CVE numbers of displayplacer detected: 0
+
+Total CVE numbers of pngquant detected: 0
+
+Total CVE numbers of ponyc detected: 0
+
+Total CVE numbers of retro detected: 0
+
+Found CVE-2016-4952 in panda !
+Match! Method pvscsi_ring_init_data in file hw/scsi/vmw_pvscsi.c is homologous with CVE-2016-4952
+Found CVE-2021-3930 in panda !
+Match! Method mode_sense_page in file hw/scsi/scsi-disk.c is homologous with CVE-2021-3930
+Found CVE-2017-9503 in panda !
+Match! Method megasas_ld_get_info_submit in file hw/scsi/megasas.c is homologous with CVE-2017-9503
+Match! Method megasas_pd_get_info_submit in file hw/scsi/megasas.c is homologous with CVE-2017-9503
+Match! Method megasas_command_complete in file hw/scsi/megasas.c is homologous with CVE-2017-9503
+Found CVE-2021-3392 in panda !
+Match! Method mptsas_free_request in file hw/scsi/mptsas.c is homologous with CVE-2021-3392
+Match! Method mptsas_process_scsi_io_request in file hw/scsi/mptsas.c is homologous with CVE-2021-3392
+Found CVE-2018-16872 in panda !
+Match! Method usb_mtp_object_readdir in file hw/usb/dev-mtp.c is homologous with CVE-2018-16872
+Match! Method usb_mtp_get_object in file hw/usb/dev-mtp.c is homologous with CVE-2018-16872
+Found CVE-2018-17963 in panda !
+Match! Method qemu_sendv_packet_async in file net/net.c is homologous with CVE-2018-17963
+Total CVE numbers of panda detected: 10
+
+Total CVE numbers of redis detected: 0
+
+Found CVE-2016-4952 in qemu-t8030 !
+Match! Method pvscsi_ring_init_data in file hw/scsi/vmw_pvscsi.c is homologous with CVE-2016-4952
+Total CVE numbers of qemu-t8030 detected: 1
+
+Total CVE numbers of pcileech detected: 0
+
+Total CVE numbers of tbox detected: 0
+
+Total CVE numbers of neomutt detected: 0
+
+Total CVE numbers of rtl_433 detected: 0
+
+Total CVE numbers of pwnat detected: 0
+
+Total CVE numbers of Tiny detected: 0
+
+Total CVE numbers of 9cc detected: 0
+
+Total CVE numbers of level-ip detected: 0
+
+Total CVE numbers of icmptunnel detected: 0
+
+Total CVE numbers of herebedragons detected: 0
+
+Found CVE-2012-3505 in proxychains-ng !
+Match! Method htab_find_item in file src/daemon/hsearch.c is homologous with CVE-2012-3505
+Match! Method htab_create in file src/daemon/hsearch.c is homologous with CVE-2012-3505
+Match! Method htab_insert in file src/daemon/hsearch.c is homologous with CVE-2012-3505
+Total CVE numbers of proxychains-ng detected: 3
+
+Total CVE numbers of DBProxy detected: 0
+
+Found CVE-2021-32628 in redis-3.0-annotated !
+Match! Method ziplistResize in file src/ziplist.c is homologous with CVE-2021-32628
+Found CVE-2021-32687 in redis-3.0-annotated !
+Match! Method intsetResize in file src/intset.c is homologous with CVE-2021-32687
+Found CVE-2021-21309 in redis-3.0-annotated !
+Match! Method zmalloc in file src/zmalloc.c is homologous with CVE-2021-21309
+Match! Method zcalloc in file src/zmalloc.c is homologous with CVE-2021-21309
+Found CVE-2020-14147 in redis-3.0-annotated !
+Match! Method controloptions in file deps/lua/src/lua_struct.c is homologous with CVE-2020-14147
+Match! Method getnum in file deps/lua/src/lua_struct.c is homologous with CVE-2020-14147
+Match! Method optsize in file deps/lua/src/lua_struct.c is homologous with CVE-2020-14147
+Total CVE numbers of redis-3.0-annotated detected: 7
+
+Total CVE numbers of MangoHud detected: 0
+
+Total CVE numbers of rtty detected: 0
+
+Total CVE numbers of X-TRACK detected: 0
+
+Total CVE numbers of sysstat detected: 0
+
+Total CVE numbers of audacity detected: 0
+
+Total CVE numbers of MemProcFS detected: 0
+
+Total CVE numbers of awk detected: 0
+
+Total CVE numbers of HandBrake detected: 0
+
+Total CVE numbers of ZBar detected: 0
+
+Total CVE numbers of melonDS detected: 0
+
+Total CVE numbers of php-xhprof-extension detected: 0
+
+Total CVE numbers of mozjpeg detected: 0
+
+Total CVE numbers of ImageMagick detected: 0
+
+Total CVE numbers of GodMode9 detected: 0
+
+Total CVE numbers of bcc detected: 0
+
+Total CVE numbers of ReflectiveDLLInjection detected: 0
+
+Total CVE numbers of vlmcsd detected: 0
+
+Total CVE numbers of s2n-tls detected: 0
+
+Total CVE numbers of lua detected: 0
+
+Total CVE numbers of gravity detected: 0
+
+Total CVE numbers of CreepyCodeCollection detected: 0
+
+Total CVE numbers of opus detected: 0
+
+Total CVE numbers of io detected: 0
+
+Total CVE numbers of yyjson detected: 0
+
+Total CVE numbers of EDRs detected: 0
+
+Total CVE numbers of yugabyte-db detected: 0
+
+Found CVE-2013-5704 in uwsgi !
+Match! Method ap_proxy_make_fake_req in file apache2/mod_proxy_uwsgi.c is homologous with CVE-2013-5704
+Total CVE numbers of uwsgi detected: 1
+
+Total CVE numbers of Criterion detected: 0
+
+Total CVE numbers of SQLAdvisor detected: 0
+
+Total CVE numbers of GTAO_Booster_PoC detected: 0
+
+Found CVE-2016-4952 in pyrebox !
+Match! Method pvscsi_ring_init_data in file qemu/hw/scsi/vmw_pvscsi.c is homologous with CVE-2016-4952
+Found CVE-2021-3930 in pyrebox !
+Match! Method mode_sense_page in file qemu/hw/scsi/scsi-disk.c is homologous with CVE-2021-3930
+Found CVE-2021-3392 in pyrebox !
+Match! Method mptsas_free_request in file qemu/hw/scsi/mptsas.c is homologous with CVE-2021-3392
+Match! Method mptsas_process_scsi_io_request in file qemu/hw/scsi/mptsas.c is homologous with CVE-2021-3392
+Match! Method mptsas_scsi_realize in file qemu/hw/scsi/mptsas.c is homologous with CVE-2021-3392
+Total CVE numbers of pyrebox detected: 5
+
+Found CVE-2020-11724 in tengine !
+Match! Method ngx_http_lua_adjust_subrequest in file modules/ngx_http_lua_module/src/ngx_http_lua_subrequest.c is homologous with CVE-2020-11724
+Match! Method ngx_http_lua_copy_request_headers in file modules/ngx_http_lua_module/src/ngx_http_lua_subrequest.c is homologous with CVE-2020-11724
+Total CVE numbers of tengine detected: 2
+
+Total CVE numbers of GameNetworkingResources detected: 0
+
+Total CVE numbers of OpenSimpleLidar detected: 0
+
+Total CVE numbers of open-vm-tools detected: 0
+
+Total CVE numbers of HP-Socket detected: 0
+
+Total CVE numbers of ExplorerPatcher detected: 0
+
+Total CVE numbers of nginx detected: 0
+
+Total CVE numbers of ubertooth detected: 0
+
+Total CVE numbers of gitClone.sh detected: 0
+
+Total CVE numbers of dumpdecrypted detected: 0
+
+Total CVE numbers of htop detected: 0
+
+Total CVE numbers of mydumper detected: 0
+
+Total CVE numbers of libimobiledevice detected: 0
+
+Total CVE numbers of crown detected: 0
+
+Total CVE numbers of littlefs detected: 0
+
+Total CVE numbers of net-speeder detected: 0
+
+Total CVE numbers of ttygif detected: 0
+
+Total CVE numbers of netdata detected: 0
+
+Total CVE numbers of btrfs detected: 0
+
+Total CVE numbers of xv6-riscv detected: 0
+
+Total CVE numbers of unqlite detected: 0
+
+Total CVE numbers of fwupd detected: 0
+
+Total CVE numbers of Main_MiSTer detected: 0
+
+Total CVE numbers of rawdrawandroid detected: 0
+
+Total CVE numbers of simple-obfs detected: 0
+
+Found CVE-2015-8543 in LVS !
+Match! Method irda_create in file kernel/net/irda/af_irda.c is homologous with CVE-2015-8543
+Found CVE-2020-25669 in LVS !
+Match! Method sunkbd_interrupt in file kernel/drivers/input/keyboard/sunkbd.c is homologous with CVE-2020-25669
+Match! Method sunkbd_reinit in file kernel/drivers/input/keyboard/sunkbd.c is homologous with CVE-2020-25669
+Match! Method sunkbd_enable in file kernel/drivers/input/keyboard/sunkbd.c is homologous with CVE-2020-25669
+Found CVE-2018-1000004 in LVS !
+Match! Method snd_seq_event_dup in file kernel/sound/core/seq/seq_memory.c is homologous with CVE-2018-1000004
+Match! Method kernel_client_enqueue in file kernel/sound/core/seq/seq_clientmgr.c is homologous with CVE-2018-1000004
+Match! Method snd_seq_client_enqueue_event in file kernel/sound/core/seq/seq_clientmgr.c is homologous with CVE-2018-1000004
+Found CVE-2015-5157 in LVS !
+Match! Method destroy_context in file kernel/arch/x86/kernel/ldt.c is homologous with CVE-2015-5157
+Match! Method convert_ip_to_linear in file kernel/arch/x86/kernel/step.c is homologous with CVE-2015-5157
+Match! Method init_new_context in file kernel/arch/x86/kernel/ldt.c is homologous with CVE-2015-5157
+Match! Method read_ldt in file kernel/arch/x86/kernel/ldt.c is homologous with CVE-2015-5157
+Found CVE-2015-7799 in LVS !
+Match! Method slhc_init in file kernel/drivers/net/slhc.c is homologous with CVE-2015-7799
+Found CVE-2014-0196 in LVS !
+Match! Method n_tty_write in file kernel/drivers/char/n_tty.c is homologous with CVE-2014-0196
+Found CVE-2022-3424 in LVS !
+Match! Method gru_handle_user_call_os in file kernel/drivers/misc/sgi-gru/grufault.c is homologous with CVE-2022-3424
+Match! Method gru_check_context_placement in file kernel/drivers/misc/sgi-gru/grumain.c is homologous with CVE-2022-3424
+Found CVE-2015-1805 in LVS !
+Match! Method pipe_iov_copy_from_user in file kernel/fs/pipe.c is homologous with CVE-2015-1805
+Match! Method pipe_iov_copy_to_user in file kernel/fs/pipe.c is homologous with CVE-2015-1805
+Found CVE-2013-0160 in LVS !
+Match! Method do_tty_write in file kernel/drivers/char/tty_io.c is homologous with CVE-2013-0160
+Found CVE-2012-1179 in LVS !
+Match! Method mark_screen_rdonly in file kernel/arch/x86/kernel/vm86_32.c is homologous with CVE-2012-1179
+Match! Method unuse_pmd_range in file kernel/mm/swapfile.c is homologous with CVE-2012-1179
+Found CVE-2013-2236 in LVS !
+Match! Method new_msg_originate_request in file tools/quagga/ospfd/ospf_api.c is homologous with CVE-2013-2236
+Match! Method new_msg_register_event in file tools/quagga/ospfd/ospf_api.c is homologous with CVE-2013-2236
+Match! Method new_msg_sync_lsdb in file tools/quagga/ospfd/ospf_api.c is homologous with CVE-2013-2236
+Match! Method new_msg_lsa_change_notify in file tools/quagga/ospfd/ospf_api.c is homologous with CVE-2013-2236
+Found CVE-2016-8405 in LVS !
+Match! Method fb_cmap_to_user in file kernel/drivers/video/fbcmap.c is homologous with CVE-2016-8405
+Match! Method fb_copy_cmap in file kernel/drivers/video/fbcmap.c is homologous with CVE-2016-8405
+Found CVE-2020-12652 in LVS !
+Match! Method mptctl_eventreport in file kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method compat_mpt_command in file kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method mptctl_readtest in file kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method mptctl_do_reset in file kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method mptctl_mpt_command in file kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method mptctl_eventenable in file kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method compat_mptfwxfer_ioctl in file kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method mptctl_eventquery in file kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method mptctl_fw_download in file kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method __mptctl_ioctl in file kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method mptctl_gettargetinfo in file kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Found CVE-2015-1593 in LVS !
+Match! Method stack_maxrandom_size in file kernel/arch/x86/mm/mmap.c is homologous with CVE-2015-1593
+Match! Method randomize_stack_top in file kernel/fs/binfmt_elf.c is homologous with CVE-2015-1593
+Found CVE-2013-4299 in LVS !
+Match! Method persistent_prepare_exception in file kernel/drivers/md/dm-snap-persistent.c is homologous with CVE-2013-4299
+Found CVE-2016-3857 in LVS !
+Match! Method sys_oabi_epoll_wait in file kernel/arch/arm/kernel/sys_oabi-compat.c is homologous with CVE-2016-3857
+Total CVE numbers of LVS detected: 41
+
+Total CVE numbers of rofi detected: 0
+
+Total CVE numbers of libsql detected: 0
+
+Total CVE numbers of miniaudio detected: 0
+
+Total CVE numbers of edk2 detected: 0
+
+Total CVE numbers of mgba detected: 0
+
+Total CVE numbers of lcc detected: 0
+
+Total CVE numbers of sniproxy detected: 0
+
+Total CVE numbers of liburing detected: 0
+
+Total CVE numbers of mdp detected: 0
+
+Total CVE numbers of mbed-os detected: 0
+
+Total CVE numbers of nanovg detected: 0
+
+Total CVE numbers of winfsp detected: 0
+
+Total CVE numbers of mpitutorial detected: 0
+
+Total CVE numbers of esp-homekit-devices detected: 0
+
+Total CVE numbers of nginx-module-vts detected: 0
+
+Total CVE numbers of libwebp detected: 0
+
+Found CVE-2022-3297 in vim.js !
+Match! Method validate_cursor in file src/move.c is homologous with CVE-2022-3297
+Total CVE numbers of vim.js detected: 1
+
+Total CVE numbers of xv6-public detected: 0
+
+Total CVE numbers of cockpit detected: 0
+
+Total CVE numbers of CPython-Internals detected: 0
+
+Total CVE numbers of naxsi detected: 0
+
+Found CVE-2023-0302 in rizin !
+Match! Method rz_cons_hud_file in file librz/cons/hud.c is homologous with CVE-2023-0302
+Found CVE-2021-32613 in rizin !
+Match! Method get_none_object in file librz/bin/format/pyc/marshal.c is homologous with CVE-2021-32613
+Total CVE numbers of rizin detected: 2
+
+Total CVE numbers of Corange detected: 0
+
+Total CVE numbers of LearnOpenGLES detected: 0
+
+Total CVE numbers of OpenGL detected: 0
+
+Total CVE numbers of clumsy detected: 0
+
+Total CVE numbers of UEFITool detected: 0
+
+Total CVE numbers of ldd3 detected: 0
+
+Total CVE numbers of dpvs detected: 0
+
+Total CVE numbers of HyperDbg detected: 0
+
+Total CVE numbers of ostep-projects detected: 0
+
+Total CVE numbers of webview detected: 0
+
+Total CVE numbers of ext-ds detected: 0
+
+Total CVE numbers of badvpn detected: 0
+
+Total CVE numbers of janus-gateway detected: 0
+
+Total CVE numbers of yabai detected: 0
+
+Total CVE numbers of ServerStatus-Hotaru detected: 0
+
+Total CVE numbers of leetcode detected: 0
+
+Total CVE numbers of lastpass-cli detected: 0
+
+Found CVE-2022-33099 in nmap !
+Match! Method luaV_concat in file liblua/lvm.c is homologous with CVE-2022-33099
+Match! Method luaG_runerror in file liblua/ldebug.c is homologous with CVE-2022-33099
+Total CVE numbers of nmap detected: 2
+
+Total CVE numbers of cjdns detected: 0
+
+Total CVE numbers of zapret detected: 0
+
+Total CVE numbers of cJSON detected: 0
+
+Total CVE numbers of inav detected: 0
+
+Total CVE numbers of userland detected: 0
+
+Total CVE numbers of eaphammer detected: 0
+
+Total CVE numbers of nginx_tcp_proxy_module detected: 0
+
+Found CVE-2021-21309 in nchan !
+Match! Method sdsMakeRoomFor in file src/store/redis/hiredis/sds.c is homologous with CVE-2021-21309
+Total CVE numbers of nchan detected: 1
+
+Total CVE numbers of word2vec detected: 0
+
+Total CVE numbers of android-gpuimage-plus detected: 0
+
+Total CVE numbers of sophia detected: 0
+
+Total CVE numbers of Tinyhttpd detected: 0
+
+Total CVE numbers of TDengine detected: 0
+
+Total CVE numbers of getCommit.log detected: 0
+
+Total CVE numbers of libphenom detected: 0
+
+Total CVE numbers of guacamole-server detected: 0
+
+Found CVE-2022-33099 in nodemcu-firmware !
+Match! Method luaG_runerror in file app/lua53/ldebug.c is homologous with CVE-2022-33099
+Found CVE-2020-14147 in nodemcu-firmware !
+Match! Method controloptions in file app/modules/struct.c is homologous with CVE-2020-14147
+Match! Method getnum in file app/modules/struct.c is homologous with CVE-2020-14147
+Total CVE numbers of nodemcu-firmware detected: 3
+
+Total CVE numbers of sensible-side-buttons detected: 0
+
+Total CVE numbers of lightning detected: 0
+
+Total CVE numbers of checkedc detected: 0
+
+Total CVE numbers of tinyusb detected: 0
+
+Total CVE numbers of GloVe detected: 0
+
+Total CVE numbers of darling detected: 0
+
+Total CVE numbers of InfiniTime detected: 0
+
+Total CVE numbers of arduino-esp32 detected: 0
+
+Total CVE numbers of sshfs-win detected: 0
+
+Total CVE numbers of mimipenguin detected: 0
+
+Total CVE numbers of neuralcoref detected: 0
+
+Total CVE numbers of wax detected: 0
+
+Found CVE-2022-33099 in cosmopolitan !
+Match! Method luaV_concat in file third_party/lua/lvm.c is homologous with CVE-2022-33099
+Match! Method luaG_runerror in file third_party/lua/ldebug.c is homologous with CVE-2022-33099
+Total CVE numbers of cosmopolitan detected: 2
+
+Total CVE numbers of inception detected: 0
+
+Total CVE numbers of u2f-zero detected: 0
+
+Total CVE numbers of obs-ndi detected: 0
+
+Total CVE numbers of timescaledb detected: 0
+
+Total CVE numbers of linked-list-good-taste detected: 0
+
+Total CVE numbers of simde detected: 0
+
+Total CVE numbers of librdkafka detected: 0
+
+Total CVE numbers of HomeKitADK detected: 0
+
+Total CVE numbers of tinn detected: 0
+
+Total CVE numbers of playerctl detected: 0
+
+Total CVE numbers of donut detected: 0
+
+Total CVE numbers of Craft detected: 0
+
+Total CVE numbers of nginx-upsync-module detected: 0
+
+Total CVE numbers of RTKLIB detected: 0
+
+Total CVE numbers of brotli detected: 0
+
+Total CVE numbers of haxm detected: 0
+
+Total CVE numbers of MTProxy detected: 0
+
+Found CVE-2020-11724 in reading-code-of-nginx-1.9.2 !
+Match! Method ngx_http_lua_adjust_subrequest in file nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_subrequest.c is homologous with CVE-2020-11724
+Match! Method ngx_http_lua_copy_request_headers in file nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_subrequest.c is homologous with CVE-2020-11724
+Found CVE-2021-3618 in reading-code-of-nginx-1.9.2 !
+Match! Method ngx_mail_core_merge_srv_conf in file nginx-1.9.2/src/mail/ngx_mail_core_module.c is homologous with CVE-2021-3618
+Match! Method ngx_mail_core_create_srv_conf in file nginx-1.9.2/src/mail/ngx_mail_core_module.c is homologous with CVE-2021-3618
+Found CVE-2014-3616 in reading-code-of-nginx-1.9.2 !
+Match! Method ngx_ssl_session_cache in file nginx-1.9.2/src/event/ngx_event_openssl.c is homologous with CVE-2014-3616
+Total CVE numbers of reading-code-of-nginx-1.9.2 detected: 5
+
+Total CVE numbers of openvpn detected: 0
+
+Total CVE numbers of CSAPP-Labs detected: 0
+
+Total CVE numbers of magspoof detected: 0
+
+Total CVE numbers of How-to-Make-a-Computer-Operating-System detected: 0
+
+Total CVE numbers of nq detected: 0
+
+Total CVE numbers of 30dayMakeOS detected: 0
+
+Total CVE numbers of proxychains detected: 0
+
+Total CVE numbers of arrange.sh detected: 0
+
+Total CVE numbers of shellinabox detected: 0
+
+Total CVE numbers of klipper detected: 0
+
+Total CVE numbers of raylib detected: 0
+
+Total CVE numbers of glew detected: 0
+
+Total CVE numbers of post-exploitation detected: 0
+
+Total CVE numbers of dokany detected: 0
+
+Total CVE numbers of pygame detected: 0
+
+Total CVE numbers of libqrencode detected: 0
+
+Total CVE numbers of mir detected: 0
+
+Total CVE numbers of Cello detected: 0
+
+Total CVE numbers of ijkplayer detected: 0
+
+Total CVE numbers of LearningVideo detected: 0
+
+Total CVE numbers of swift-corelibs-libdispatch detected: 0
+
+Total CVE numbers of pdf-tools detected: 0
+
+Total CVE numbers of proxmark3 detected: 0
+
+Total CVE numbers of zimg detected: 0
+
+Total CVE numbers of viabtc_exchange_server detected: 0
+
+Total CVE numbers of fio detected: 0
+
+Total CVE numbers of Undecimus detected: 0
+
+Total CVE numbers of rpi4-osdev detected: 0
+
+Total CVE numbers of minecraft-weekend detected: 0
+
+Total CVE numbers of tg detected: 0
+
+Total CVE numbers of rnnoise detected: 0
+
+Found CVE-2021-32020 in ElectronBot !
+Match! Method pvPortMalloc in file 6.Tests/TestDisplayUSB/ElectronBot-fw/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c is homologous with CVE-2021-32020
+Match! Method pvPortMalloc in file 2.Firmware/ElectronBot-fw/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c is homologous with CVE-2021-32020
+Total CVE numbers of ElectronBot detected: 1
+
+Total CVE numbers of hekate detected: 0
+
+Total CVE numbers of nvtop detected: 0
+
+Total CVE numbers of aircrack-ng detected: 0
+
+Total CVE numbers of alpr-unconstrained detected: 0
+
+Total CVE numbers of freeradius-server detected: 0
+
+Total CVE numbers of gcc detected: 0
+
+Total CVE numbers of Skill-Tree detected: 0
+
+Total CVE numbers of tidy-html5 detected: 0
+
+Total CVE numbers of Atlas detected: 0
+
+Found CVE-2015-5224 in Team-Win-Recovery-Project !
+Match! Method main in file libblkid/lib/fileutils.c is homologous with CVE-2015-5224
+Total CVE numbers of Team-Win-Recovery-Project detected: 1
+
+Total CVE numbers of osv detected: 0
+
+Total CVE numbers of wireguard-monolithic-historical detected: 0
+
+Total CVE numbers of aubio detected: 0
+
+Total CVE numbers of packr detected: 0
+
+Total CVE numbers of exploitdb detected: 0
+
+Total CVE numbers of webgl-noise detected: 0
+
+Total CVE numbers of libpostal detected: 0
+
+Total CVE numbers of redshift detected: 0
+
+Total CVE numbers of jansson detected: 0
+
+Total CVE numbers of bdwgc detected: 0
+
+Total CVE numbers of QuickJS detected: 0
+
+Total CVE numbers of AFLplusplus detected: 0
+
+Total CVE numbers of glfw detected: 0
+
+Total CVE numbers of the_silver_searcher detected: 0
+
+Total CVE numbers of printf-tac-toe detected: 0
+
+Total CVE numbers of Goldleaf detected: 0
+
+Found CVE-2022-3297 in macvim !
+Match! Method validate_cursor in file src/move.c is homologous with CVE-2022-3297
+Total CVE numbers of macvim detected: 1
+
+Total CVE numbers of esp_wifi_repeater detected: 0
+
+Total CVE numbers of jo detected: 0
+
+Total CVE numbers of h3 detected: 0
+
+Total CVE numbers of Ventoy detected: 0
+
+Total CVE numbers of rt-thread detected: 0
+
+Total CVE numbers of HarmonyOS detected: 0
+
+Total CVE numbers of cstore_fdw detected: 0
+
+Total CVE numbers of xhyve detected: 0
+
+Total CVE numbers of The-Art-Of-Programming-By-July detected: 0
+
+Total CVE numbers of fbtft detected: 0
+
+Total CVE numbers of Data-Structure detected: 0
+
+Total CVE numbers of rubinius detected: 0
+
+Total CVE numbers of TrustKit detected: 0
+
+Total CVE numbers of esp-idf detected: 0
+
+Total CVE numbers of vis detected: 0
+
+Total CVE numbers of printf detected: 0
+
+Found CVE-2020-10188 in minix !
+Match! Method netclear in file libexec/telnetd/utility.c is homologous with CVE-2020-10188
+Match! Method nextitem in file usr.bin/telnet/telnet.c is homologous with CVE-2020-10188
+Match! Method nextitem in file libexec/telnetd/utility.c is homologous with CVE-2020-10188
+Found CVE-2016-7940 in minix !
+Match! Method stp_print_mstp_bpdu in file external/bsd/tcpdump/dist/print-stp.c is homologous with CVE-2016-7940
+Match! Method stp_print_spb_bpdu in file external/bsd/tcpdump/dist/print-stp.c is homologous with CVE-2016-7940
+Match! Method stp_print in file external/bsd/tcpdump/dist/print-stp.c is homologous with CVE-2016-7940
+Match! Method stp_print_config_bpdu in file external/bsd/tcpdump/dist/print-stp.c is homologous with CVE-2016-7940
+Found CVE-2015-7236 in minix !
+Match! Method xprt_set_caller in file tests/fs/nfs/nfsservice/rpcbind/rpcb_svc_com.c is homologous with CVE-2015-7236
+Found CVE-2017-5484 in minix !
+Match! Method atm_print in file external/bsd/tcpdump/dist/print-atm.c is homologous with CVE-2017-5484
+Match! Method sig_print in file external/bsd/tcpdump/dist/print-atm.c is homologous with CVE-2017-5484
+Found CVE-2016-7923 in minix !
+Match! Method arp_print in file external/bsd/tcpdump/dist/print-arp.c is homologous with CVE-2016-7923
+Found CVE-2017-12993 in minix !
+Match! Method juniper_ggsn_print in file external/bsd/tcpdump/dist/print-juniper.c is homologous with CVE-2017-12993
+Found CVE-2017-12897 in minix !
+Match! Method isoclns_print in file external/bsd/tcpdump/dist/print-isoclns.c is homologous with CVE-2017-12897
+Match! Method juniper_mlppp_print in file external/bsd/tcpdump/dist/print-juniper.c is homologous with CVE-2017-12897
+Match! Method juniper_mlfr_print in file external/bsd/tcpdump/dist/print-juniper.c is homologous with CVE-2017-12897
+Match! Method handle_ppp in file external/bsd/tcpdump/dist/print-ppp.c is homologous with CVE-2017-12897
+Found CVE-2017-13022 in minix !
+Match! Method ip_printroute in file external/bsd/tcpdump/dist/print-ip.c is homologous with CVE-2017-13022
+Match! Method ip_optprint in file external/bsd/tcpdump/dist/print-ip.c is homologous with CVE-2017-13022
+Found CVE-2017-13006 in minix !
+Match! Method l2tp_call_errors_print in file external/bsd/tcpdump/dist/print-l2tp.c is homologous with CVE-2017-13006
+Match! Method l2tp_q931_cc_print in file external/bsd/tcpdump/dist/print-l2tp.c is homologous with CVE-2017-13006
+Match! Method l2tp_proxy_auth_id_print in file external/bsd/tcpdump/dist/print-l2tp.c is homologous with CVE-2017-13006
+Match! Method l2tp_proxy_auth_type_print in file external/bsd/tcpdump/dist/print-l2tp.c is homologous with CVE-2017-13006
+Match! Method l2tp_msgtype_print in file external/bsd/tcpdump/dist/print-l2tp.c is homologous with CVE-2017-13006
+Match! Method l2tp_accm_print in file external/bsd/tcpdump/dist/print-l2tp.c is homologous with CVE-2017-13006
+Match! Method l2tp_avp_print in file external/bsd/tcpdump/dist/print-l2tp.c is homologous with CVE-2017-13006
+Match! Method l2tp_framing_type_print in file external/bsd/tcpdump/dist/print-l2tp.c is homologous with CVE-2017-13006
+Match! Method l2tp_bearer_cap_print in file external/bsd/tcpdump/dist/print-l2tp.c is homologous with CVE-2017-13006
+Match! Method l2tp_bearer_type_print in file external/bsd/tcpdump/dist/print-l2tp.c is homologous with CVE-2017-13006
+Match! Method l2tp_framing_cap_print in file external/bsd/tcpdump/dist/print-l2tp.c is homologous with CVE-2017-13006
+Match! Method l2tp_result_code_print in file external/bsd/tcpdump/dist/print-l2tp.c is homologous with CVE-2017-13006
+Found CVE-2016-7983 in minix !
+Match! Method bootp_print in file external/bsd/tcpdump/dist/print-bootp.c is homologous with CVE-2016-7983
+Found CVE-2017-13040 in minix !
+Match! Method mp_join_print in file external/bsd/tcpdump/dist/print-mptcp.c is homologous with CVE-2017-13040
+Match! Method mp_capable_print in file external/bsd/tcpdump/dist/print-mptcp.c is homologous with CVE-2017-13040
+Match! Method mp_dss_print in file external/bsd/tcpdump/dist/print-mptcp.c is homologous with CVE-2017-13040
+Found CVE-2015-3194 in minix !
+Match! Method rsa_pss_decode in file crypto/external/bsd/openssl/dist/crypto/rsa/rsa_ameth.c is homologous with CVE-2015-3194
+Found CVE-2015-3195 in minix !
+Match! Method asn1_template_noexp_d2i in file crypto/external/bsd/openssl/dist/crypto/asn1/tasn_dec.c is homologous with CVE-2015-3195
+Found CVE-2016-7934 in minix !
+Match! Method rtcp_print in file external/bsd/tcpdump/dist/print-udp.c is homologous with CVE-2016-7934
+Found CVE-2016-7939 in minix !
+Match! Method gre_print in file external/bsd/tcpdump/dist/print-gre.c is homologous with CVE-2016-7939
+Match! Method gre_sre_asn_print in file external/bsd/tcpdump/dist/print-gre.c is homologous with CVE-2016-7939
+Match! Method gre_sre_print in file external/bsd/tcpdump/dist/print-gre.c is homologous with CVE-2016-7939
+Match! Method gre_print_1 in file external/bsd/tcpdump/dist/print-gre.c is homologous with CVE-2016-7939
+Match! Method gre_print_0 in file external/bsd/tcpdump/dist/print-gre.c is homologous with CVE-2016-7939
+Found CVE-2017-13030 in minix !
+Match! Method cisco_autorp_print in file external/bsd/tcpdump/dist/print-pim.c is homologous with CVE-2017-13030
+Match! Method pimv1_join_prune_print in file external/bsd/tcpdump/dist/print-pim.c is homologous with CVE-2017-13030
+Match! Method pim_print in file external/bsd/tcpdump/dist/print-pim.c is homologous with CVE-2017-13030
+Found CVE-2017-13037 in minix !
+Match! Method ip_printts in file external/bsd/tcpdump/dist/print-ip.c is homologous with CVE-2017-13037
+Found CVE-2017-13010 in minix !
+Match! Method beep_print in file external/bsd/tcpdump/dist/print-beep.c is homologous with CVE-2017-13010
+Match! Method l_strnstart in file external/bsd/tcpdump/dist/print-beep.c is homologous with CVE-2017-13010
+Found CVE-2017-13013 in minix !
+Match! Method atmarp_print in file external/bsd/tcpdump/dist/print-arp.c is homologous with CVE-2017-13013
+Found CVE-2017-13014 in minix !
+Match! Method wb_print in file external/bsd/tcpdump/dist/print-wb.c is homologous with CVE-2017-13014
+Found CVE-2016-0798 in minix !
+Match! Method ssl_srp_server_param_cb in file crypto/external/bsd/openssl/dist/apps/s_server.c is homologous with CVE-2016-0798
+Found CVE-2016-0799 in minix !
+Match! Method fmtint in file crypto/external/bsd/openssl/dist/crypto/bio/b_print.c is homologous with CVE-2016-0799
+Match! Method BIO_vsnprintf in file crypto/external/bsd/openssl/dist/crypto/bio/b_print.c is homologous with CVE-2016-0799
+Match! Method fmtfp in file crypto/external/bsd/openssl/dist/crypto/bio/b_print.c is homologous with CVE-2016-0799
+Match! Method fmtstr in file crypto/external/bsd/openssl/dist/crypto/bio/b_print.c is homologous with CVE-2016-0799
+Found CVE-2016-0797 in minix !
+Match! Method BN_dec2bn in file crypto/external/bsd/openssl/dist/crypto/bn/bn_print.c is homologous with CVE-2016-0797
+Match! Method BN_hex2bn in file crypto/external/bsd/openssl/dist/crypto/bn/bn_print.c is homologous with CVE-2016-0797
+Total CVE numbers of minix detected: 56
+
+Total CVE numbers of ultrajson detected: 0
+
+Total CVE numbers of fftw3 detected: 0
+
+Total CVE numbers of bfgminer detected: 0
+
+Total CVE numbers of legacy-cc detected: 0
+
+Total CVE numbers of u8g2 detected: 0
+
+Total CVE numbers of LCUI detected: 0
+
+Total CVE numbers of tvheadend detected: 0
+
+Total CVE numbers of firmware detected: 0
+
+Total CVE numbers of arcore-android-sdk detected: 0
+
+Total CVE numbers of FreeRDP detected: 0
+
+Total CVE numbers of nnn detected: 0
+
+Total CVE numbers of nginx-http-flv-module detected: 0
+
+Total CVE numbers of pocketsphinx detected: 0
+
+Total CVE numbers of u-boot detected: 0
+
+Total CVE numbers of flex detected: 0
+
+Total CVE numbers of earth-reverse-engineering detected: 0
+
+Total CVE numbers of vlc detected: 0
+
+Total CVE numbers of thc-hydra detected: 0
+
+Total CVE numbers of sslh detected: 0
+
+Found CVE-2022-47021 in sdlpal !
+Match! Method op_open1 in file libopusfile/src/opusfile.c is homologous with CVE-2022-47021
+Match! Method op_get_data in file libopusfile/src/opusfile.c is homologous with CVE-2022-47021
+Total CVE numbers of sdlpal detected: 2
+
+Total CVE numbers of libaco detected: 0
+
+Total CVE numbers of wcdb detected: 0
+
+Found CVE-2016-0798 in kbengine !
+Match! Method ssl_srp_server_param_cb in file kbe/src/lib/dependencies/vsopenssl/apps/s_server.c is homologous with CVE-2016-0798
+Found CVE-2016-0799 in kbengine !
+Match! Method fmtint in file kbe/src/lib/dependencies/vsopenssl/crypto/bio/b_print.c is homologous with CVE-2016-0799
+Match! Method BIO_vsnprintf in file kbe/src/lib/dependencies/vsopenssl/crypto/bio/b_print.c is homologous with CVE-2016-0799
+Match! Method fmtfp in file kbe/src/lib/dependencies/vsopenssl/crypto/bio/b_print.c is homologous with CVE-2016-0799
+Match! Method fmtstr in file kbe/src/lib/dependencies/vsopenssl/crypto/bio/b_print.c is homologous with CVE-2016-0799
+Found CVE-2020-1916 in kbengine !
+Match! Method BF_crypt in file kbe/src/lib/dependencies/apr-util/crypto/crypt_blowfish.c is homologous with CVE-2020-1916
+Found CVE-2020-8231 in kbengine !
+Match! Method conn_is_conn in file kbe/src/lib/dependencies/curl/lib/connect.c is homologous with CVE-2020-8231
+Match! Method Curl_getconnectinfo in file kbe/src/lib/dependencies/curl/lib/connect.c is homologous with CVE-2020-8231
+Found CVE-2016-0797 in kbengine !
+Match! Method BN_dec2bn in file kbe/src/lib/dependencies/vsopenssl/crypto/bn/bn_print.c is homologous with CVE-2016-0797
+Match! Method BN_hex2bn in file kbe/src/lib/dependencies/vsopenssl/crypto/bn/bn_print.c is homologous with CVE-2016-0797
+Total CVE numbers of kbengine detected: 10
+
+Total CVE numbers of yasea detected: 0
+
+Total CVE numbers of wlroots detected: 0
+
+Total CVE numbers of go-sqlite3 detected: 0
+
+Total CVE numbers of tiny-AES-c detected: 0
+
+Total CVE numbers of raspi3-tutorial detected: 0
+
+Total CVE numbers of winevdm detected: 0
+
+Total CVE numbers of lede detected: 0
+
+Found CVE-2021-32020 in EasyLogger !
+Match! Method pvPortMalloc in file demo/os/cube-freertos/nucleo-g070rb/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c is homologous with CVE-2021-32020
+Total CVE numbers of EasyLogger detected: 1
+
+Total CVE numbers of wasm3 detected: 0
+
+Total CVE numbers of sc-im detected: 0
+
+Total CVE numbers of stm32f429 detected: 0
+
+Total CVE numbers of tcpcopy detected: 0
+
+Total CVE numbers of nginx-vod-module detected: 0
+
+Total CVE numbers of php-beast detected: 0
+
+Total CVE numbers of msysgit detected: 0
+
+Found CVE-2021-32020 in Dummy-Robot !
+Match! Method pvPortMalloc in file 2.Firmware/Core-STM32F4-fw/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c is homologous with CVE-2021-32020
+Total CVE numbers of Dummy-Robot detected: 1
+
+Total CVE numbers of lwan detected: 0
+
+Total CVE numbers of gpdb detected: 0
+
+Total CVE numbers of themis detected: 0
+
+Total CVE numbers of beanstalkd detected: 0
+
+Total CVE numbers of Open-Golf detected: 0
+
+Total CVE numbers of i3 detected: 0
+
+Total CVE numbers of progress detected: 0
+
+Total CVE numbers of oniguruma detected: 0
+
+Total CVE numbers of glibc detected: 0
+
+Total CVE numbers of massdns detected: 0
+
+Total CVE numbers of mac-precision-touchpad detected: 0
+
+Total CVE numbers of goaccess detected: 0
+
+Total CVE numbers of statsite detected: 0
+
+Total CVE numbers of TencentOS-tiny detected: 0
+
+Found CVE-2015-8543 in fastsocket !
+Match! Method irda_create in file kernel/net/irda/af_irda.c is homologous with CVE-2015-8543
+Found CVE-2020-25669 in fastsocket !
+Match! Method sunkbd_interrupt in file kernel/drivers/input/keyboard/sunkbd.c is homologous with CVE-2020-25669
+Match! Method sunkbd_reinit in file kernel/drivers/input/keyboard/sunkbd.c is homologous with CVE-2020-25669
+Match! Method sunkbd_enable in file kernel/drivers/input/keyboard/sunkbd.c is homologous with CVE-2020-25669
+Found CVE-2018-1000004 in fastsocket !
+Match! Method snd_seq_event_dup in file kernel/sound/core/seq/seq_memory.c is homologous with CVE-2018-1000004
+Match! Method kernel_client_enqueue in file kernel/sound/core/seq/seq_clientmgr.c is homologous with CVE-2018-1000004
+Match! Method snd_seq_client_enqueue_event in file kernel/sound/core/seq/seq_clientmgr.c is homologous with CVE-2018-1000004
+Found CVE-2015-5157 in fastsocket !
+Match! Method destroy_context in file kernel/arch/x86/kernel/ldt.c is homologous with CVE-2015-5157
+Match! Method convert_ip_to_linear in file kernel/arch/x86/kernel/step.c is homologous with CVE-2015-5157
+Match! Method init_new_context in file kernel/arch/x86/kernel/ldt.c is homologous with CVE-2015-5157
+Match! Method read_ldt in file kernel/arch/x86/kernel/ldt.c is homologous with CVE-2015-5157
+Found CVE-2015-7799 in fastsocket !
+Match! Method slhc_init in file kernel/drivers/net/slhc.c is homologous with CVE-2015-7799
+Found CVE-2014-0196 in fastsocket !
+Match! Method n_tty_write in file kernel/drivers/char/n_tty.c is homologous with CVE-2014-0196
+Found CVE-2022-3424 in fastsocket !
+Match! Method gru_handle_user_call_os in file kernel/drivers/misc/sgi-gru/grufault.c is homologous with CVE-2022-3424
+Match! Method gru_check_context_placement in file kernel/drivers/misc/sgi-gru/grumain.c is homologous with CVE-2022-3424
+Found CVE-2012-1179 in fastsocket !
+Match! Method gather_pte_stats in file kernel/fs/proc/task_mmu.c is homologous with CVE-2012-1179
+Found CVE-2015-1805 in fastsocket !
+Match! Method pipe_iov_copy_from_user in file kernel/fs/pipe.c is homologous with CVE-2015-1805
+Match! Method pipe_iov_copy_to_user in file kernel/fs/pipe.c is homologous with CVE-2015-1805
+Found CVE-2013-0160 in fastsocket !
+Match! Method do_tty_write in file kernel/drivers/char/tty_io.c is homologous with CVE-2013-0160
+Found CVE-2018-10876 in fastsocket !
+Match! Method ext4_has_uninit_itable in file kernel/fs/ext4/super.c is homologous with CVE-2018-10876
+Found CVE-2016-8405 in fastsocket !
+Match! Method fb_cmap_to_user in file kernel/drivers/video/fbcmap.c is homologous with CVE-2016-8405
+Match! Method fb_copy_cmap in file kernel/drivers/video/fbcmap.c is homologous with CVE-2016-8405
+Found CVE-2020-12652 in fastsocket !
+Match! Method mptctl_eventreport in file kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method compat_mpt_command in file kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method mptctl_readtest in file kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method mptctl_do_reset in file kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method mptctl_mpt_command in file kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method mptctl_eventenable in file kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method compat_mptfwxfer_ioctl in file kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method mptctl_eventquery in file kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method mptctl_fw_download in file kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method __mptctl_ioctl in file kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method mptctl_gettargetinfo in file kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Found CVE-2015-1593 in fastsocket !
+Match! Method stack_maxrandom_size in file kernel/arch/x86/mm/mmap.c is homologous with CVE-2015-1593
+Match! Method randomize_stack_top in file kernel/fs/binfmt_elf.c is homologous with CVE-2015-1593
+Found CVE-2016-3857 in fastsocket !
+Match! Method sys_oabi_epoll_wait in file kernel/arch/arm/kernel/sys_oabi-compat.c is homologous with CVE-2016-3857
+Total CVE numbers of fastsocket detected: 36
+
+Total CVE numbers of openwifi detected: 0
+
+Total CVE numbers of tsar detected: 0
+
+Total CVE numbers of MLN detected: 0
+
+Total CVE numbers of acwj detected: 0
+
+Total CVE numbers of switch-lan-play detected: 0
+
+Total CVE numbers of ddcctl detected: 0
+
+Total CVE numbers of miraclecast detected: 0
+
+Found CVE-2021-21309 in magma !
+Match! Method sdsMakeRoomFor in file src/providers/dime/sds/sds.c is homologous with CVE-2021-21309
+Total CVE numbers of magma detected: 1
+
+Total CVE numbers of Quake-2 detected: 0
+
+Total CVE numbers of ecapture detected: 0
+
+Total CVE numbers of libui detected: 0
+
+Total CVE numbers of camerakit-android detected: 0
+
+Total CVE numbers of waifu2x-ncnn-vulkan detected: 0
+
+Total CVE numbers of PongoOS detected: 0
+
+Total CVE numbers of blackmagic detected: 0
+
+Total CVE numbers of dpdk detected: 0
+
+Total CVE numbers of endlessh detected: 0
+
+Total CVE numbers of 8cc detected: 0
+
+Total CVE numbers of dynamorio detected: 0
+
+Found CVE-2021-29605 in Espruino !
+Match! Method TfLiteIntArrayCreate in file libs/tensorflow/tensorflow/lite/c/common.c is homologous with CVE-2021-29605
+Match! Method TfLiteFloatArrayCreate in file libs/tensorflow/tensorflow/lite/c/common.c is homologous with CVE-2021-29605
+Found CVE-2021-37681 in Espruino !
+Match! Method GetVariableInput in file libs/tensorflow/tensorflow/lite/kernels/kernel_util.cc is homologous with CVE-2021-37681
+Total CVE numbers of Espruino detected: 2
+
+Total CVE numbers of starrtc-server detected: 0
+
+Total CVE numbers of oot detected: 0
+
+Total CVE numbers of picohttpparser detected: 0
+
+Total CVE numbers of pulseaudio-modules-bt detected: 0
+
+Total CVE numbers of libarchive detected: 0
+
+Total CVE numbers of libopencm3 detected: 0
+
+Total CVE numbers of dsvpn detected: 0
+
+Total CVE numbers of Movery detected: 0
+
+Total CVE numbers of esp8266_deauther detected: 0
+
+Total CVE numbers of nohup.out detected: 0
+
+Total CVE numbers of jsmpeg-vnc detected: 0
+
+Total CVE numbers of box86 detected: 0
+
+Total CVE numbers of mtr detected: 0
+
+Total CVE numbers of WiringPi detected: 0
+
+Total CVE numbers of rufus detected: 0
+
+Total CVE numbers of darwin-xnu detected: 0
+
+Total CVE numbers of sod detected: 0
+
+Total CVE numbers of systemd detected: 0
+
+Total CVE numbers of RIOT detected: 0
+
+Total CVE numbers of pslab-firmware detected: 0
+
+Total CVE numbers of coreboot detected: 0
+
+Total CVE numbers of oj detected: 0
+
+Total CVE numbers of zydis detected: 0
+
+Total CVE numbers of helloworld detected: 0
+
+Total CVE numbers of 7-Zip-zstd detected: 0
+
+Total CVE numbers of ffmpeg-libav-tutorial detected: 0
+
+Total CVE numbers of libdill detected: 0
+
+Total CVE numbers of uvbook detected: 0
+
+Total CVE numbers of php-src detected: 0
+
+Total CVE numbers of jemalloc detected: 0
+
+Total CVE numbers of robotjs detected: 0
+
+Total CVE numbers of cute_headers detected: 0
+
+Total CVE numbers of db_tutorial detected: 0
+
+Total CVE numbers of kilo detected: 0
+
+Found CVE-2021-33657 in AliOS-Things !
+Match! Method Map1to1 in file components/SDL2/src/video/SDL_pixels.c is homologous with CVE-2021-33657
+Found CVE-2021-29605 in AliOS-Things !
+Match! Method TfLiteFloatArrayCreate in file components/ai_agent/src/engine/tflite-micro/tensorflow/lite/c/common.c is homologous with CVE-2021-29605
+Found CVE-2021-22901 in AliOS-Things !
+Match! Method detach_connnection in file components/curl/lib/multi.c is homologous with CVE-2021-22901
+Found CVE-2021-37681 in AliOS-Things !
+Match! Method GetVariableInput in file components/ai_agent/src/engine/tflite-micro/tensorflow/lite/kernels/kernel_util.cc is homologous with CVE-2021-37681
+Found CVE-2022-29859 in AliOS-Things !
+Match! Method dhcps_initialize_message in file components/lwip/lwip2.0.0/apps/dhcpd/dhcps.c is homologous with CVE-2022-29859
+Match! Method dhcps_initialize_message in file hardware/chip/rtl872xd/sdk/component/common/network/dhcp/dhcps.c is homologous with CVE-2022-29859
+Found CVE-2022-35938 in AliOS-Things !
+Match! Method GatherNd in file components/ai_agent/src/engine/tflite-micro/tensorflow/lite/micro/kernels/gather_nd.cc is homologous with CVE-2022-35938
+Match! Method EvalGatherNd in file components/ai_agent/src/engine/tflite-micro/tensorflow/lite/micro/kernels/gather_nd.cc is homologous with CVE-2022-35938
+Found CVE-2022-32205 in AliOS-Things !
+Match! Method Curl_cookie_getlist in file components/curl/lib/cookie.c is homologous with CVE-2022-32205
+Found CVE-2020-8231 in AliOS-Things !
+Match! Method conn_is_conn in file components/curl/lib/connect.c is homologous with CVE-2020-8231
+Match! Method Curl_getconnectinfo in file components/curl/lib/connect.c is homologous with CVE-2020-8231
+Total CVE numbers of AliOS-Things detected: 10
+
+Total CVE numbers of shad0w detected: 0
+
+Total CVE numbers of grbl detected: 0
+
+Total CVE numbers of sxiv detected: 0
+
+Total CVE numbers of ettercap detected: 0
+
+Total CVE numbers of libratbag detected: 0
+
+Total CVE numbers of pgbouncer detected: 0
+
+Total CVE numbers of weechat detected: 0
+
+Total CVE numbers of AndroidUSBCamera detected: 0
+
+Total CVE numbers of entr detected: 0
+
+Total CVE numbers of lxc detected: 0
+
+Total CVE numbers of pg_cron detected: 0
+
+Total CVE numbers of 3proxy detected: 0
+
+Total CVE numbers of seafile detected: 0
+
+Total CVE numbers of libwebsockets detected: 0
+
+Total CVE numbers of hidapi detected: 0
+
+Total CVE numbers of Mailspring detected: 0
+
+Total CVE numbers of OpenBLAS detected: 0
+
+Total CVE numbers of picom detected: 0
+
+Total CVE numbers of seL4 detected: 0
+
+Total CVE numbers of Remmina detected: 0
+
+Found CVE-2018-17160 in hyperkit !
+Match! Method fwctl_request_data in file src/lib/fwctl.c is homologous with CVE-2018-17160
+Total CVE numbers of hyperkit detected: 1
+
+Total CVE numbers of orbital detected: 0
+
+Total CVE numbers of litex detected: 0
+
+Total CVE numbers of winfile detected: 0
+
+Total CVE numbers of bjoern detected: 0
+
+Total CVE numbers of mpc-hc detected: 0
+
+Total CVE numbers of winafl detected: 0
+
+Total CVE numbers of yojimbo detected: 0
+
+Total CVE numbers of loadlibrary detected: 0
+
+Total CVE numbers of tetragon detected: 0
+
+Total CVE numbers of LookingGlass detected: 0
+
+Total CVE numbers of esp8266-wiki detected: 0
+
+Total CVE numbers of FBI detected: 0
+
+Found CVE-2021-33657 in dosbox-x !
+Match! Method Map1to1 in file vs/sdl2/src/video/SDL_pixels.c is homologous with CVE-2021-33657
+Found CVE-2019-7578 in dosbox-x !
+Match! Method SDL_LoadWAV_RW in file vs/sdl2/src/audio/SDL_wave.c is homologous with CVE-2019-7578
+Match! Method InitIMA_ADPCM in file vs/sdl2/src/audio/SDL_wave.c is homologous with CVE-2019-7578
+Match! Method InitIMA_ADPCM in file vs/sdl/src/audio/SDL_wave.c is homologous with CVE-2019-7578
+Found CVE-2022-47021 in dosbox-x !
+Match! Method op_open1 in file src/libs/decoders/internal/opusfile/opusfile.c is homologous with CVE-2022-47021
+Match! Method op_get_data in file src/libs/decoders/internal/opusfile/opusfile.c is homologous with CVE-2022-47021
+Total CVE numbers of dosbox-x detected: 5
+
+Total CVE numbers of cpufetch detected: 0
+
+Total CVE numbers of Provenance detected: 0
+
+Total CVE numbers of obs-studio detected: 0
+
+Total CVE numbers of sioyek detected: 0
+
+Total CVE numbers of ngx_brotli detected: 0
+
+Total CVE numbers of RxFFmpeg detected: 0
+
+Total CVE numbers of how2heap detected: 0
+
+Total CVE numbers of ttyd detected: 0
+
+Total CVE numbers of media-server detected: 0
+
+Found CVE-2021-21309 in wrk !
+Match! Method zmalloc in file src/zmalloc.c is homologous with CVE-2021-21309
+Match! Method zcalloc in file src/zmalloc.c is homologous with CVE-2021-21309
+Match! Method zmalloc_no_tcache in file src/zmalloc.c is homologous with CVE-2021-21309
+Total CVE numbers of wrk detected: 3
+
+Total CVE numbers of wolfssl detected: 0
+
+Total CVE numbers of system-bus-radio detected: 0
+
+Total CVE numbers of ejoy2d detected: 0
+
+Total CVE numbers of onion detected: 0
+
+Found CVE-2021-32020 in IronOS !
+Match! Method pvPortMalloc in file source/Core/BSP/Pinecilv2/MemMang/heap_5.c is homologous with CVE-2021-32020
+Total CVE numbers of IronOS detected: 1
+
+Found CVE-2022-33099 in mjolnir !
+Match! Method luaG_runerror in file Mjolnir/lua/ldebug.c is homologous with CVE-2022-33099
+Total CVE numbers of mjolnir detected: 1
+
+Total CVE numbers of HoloCubic detected: 0
+
+Total CVE numbers of freeswitch detected: 0
+
+Total CVE numbers of FFmpeg detected: 0
+
+Total CVE numbers of fishhook detected: 0
+
+Total CVE numbers of inotify-tools detected: 0
+
+Total CVE numbers of xCrash detected: 0
+
+Total CVE numbers of coreutils detected: 0
+
+Total CVE numbers of c-algorithms detected: 0
+
+Total CVE numbers of drmemory detected: 0
+
+Total CVE numbers of php-rdkafka detected: 0
+
+Total CVE numbers of jq detected: 0
+
+Total CVE numbers of tmux-MacOSX-pasteboard detected: 0
+
+Total CVE numbers of MBE detected: 0
+
+Total CVE numbers of Kernelhub detected: 0
+
+Total CVE numbers of ngx_http_google_filter_module detected: 0
+
+Total CVE numbers of geany detected: 0
+
+Total CVE numbers of itlwm detected: 0
+
+Total CVE numbers of ebpf-for-windows detected: 0
+
+Total CVE numbers of HackSysExtremeVulnerableDriver detected: 0
+
+Total CVE numbers of smartdns detected: 0
+
+Total CVE numbers of libuv detected: 0
+
+Total CVE numbers of flashcache detected: 0
+
+Total CVE numbers of masscan detected: 0
+
+Total CVE numbers of sundown detected: 0
+
+Total CVE numbers of ChinaDNS detected: 0
+
+Total CVE numbers of zlog detected: 0
+
+Total CVE numbers of pingfs detected: 0
+
+Total CVE numbers of smenu detected: 0
+
+Total CVE numbers of stb detected: 0
+
+Total CVE numbers of haproxy detected: 0
+
+Total CVE numbers of pigz detected: 0
+
+Total CVE numbers of criu detected: 0
+
+Total CVE numbers of daytripper detected: 0
+
+Total CVE numbers of projectsandcastle detected: 0
+
+Total CVE numbers of rainmeter detected: 0
+
+Total CVE numbers of OBS detected: 0
+
+Total CVE numbers of torch7 detected: 0
+
+Total CVE numbers of nginx-push-stream-module detected: 0
+
+Found CVE-2021-33657 in awtk !
+Match! Method Map1to1 in file 3rd/SDL/src/video/SDL_pixels.c is homologous with CVE-2021-33657
+Found CVE-2019-7578 in awtk !
+Match! Method SDL_LoadWAV_RW in file 3rd/SDL/src/audio/SDL_wave.c is homologous with CVE-2019-7578
+Match! Method InitIMA_ADPCM in file 3rd/SDL/src/audio/SDL_wave.c is homologous with CVE-2019-7578
+Total CVE numbers of awtk detected: 3
+
+Total CVE numbers of earlyoom detected: 0
+
+Found CVE-2021-21309 in RedisGraph !
+Match! Method sdsMakeRoomFor in file src/util/sds/sds.c is homologous with CVE-2021-21309
+Total CVE numbers of RedisGraph detected: 1
+
+Total CVE numbers of rpitx detected: 0
+
+Total CVE numbers of slurm detected: 0
+
+Total CVE numbers of deepin-wine-ubuntu detected: 0
+
+Total CVE numbers of mjs detected: 0
+

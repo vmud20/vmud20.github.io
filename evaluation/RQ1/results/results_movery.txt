@@ -1,0 +1,696 @@
+Found CVE-2017-12993 in ravynos
+Match! Method "juniper_parse_header" in contrib/tcpdump/print-juniper.c is homologous with CVE-2017-12993
+Match! Method "juniper_pppoe_atm_if_print" in contrib/tcpdump/print-juniper.c is homologous with CVE-2017-12993
+Match! Method "juniper_ggsn_if_print" in contrib/tcpdump/print-juniper.c is homologous with CVE-2017-12993
+Match! Method "juniper_es_if_print" in contrib/tcpdump/print-juniper.c is homologous with CVE-2017-12993
+
+Found CVE-2020-15945 in ravynos
+Match! Method "traceexec" in sys/contrib/openzfs/module/lua/lvm.c is homologous with CVE-2020-15945
+
+Found CVE-2020-24370 in ravynos
+Match! Method "findlocal" in sys/contrib/openzfs/module/lua/ldebug.c is homologous with CVE-2020-24370
+
+Found CVE-2014-5207 in linux
+Match! Method "do_remount" in fs/namespace.c is homologous with CVE-2014-5207
+
+Found CVE-2012-1179 in linux
+Match! Method "gather_pte_stats" in fs/proc/task_mmu.c is homologous with CVE-2012-1179
+
+Found CVE-2015-6937 in linux
+Match! Method "__rds_conn_create" in net/rds/connection.c is homologous with CVE-2015-6937
+Match! Method "__rds_conn_create" in net/rds/connection.c is homologous with CVE-2015-6937
+
+Found CVE-2015-8543 in linux
+Match! Method "pn_socket_create" in net/phonet/af_phonet.c is homologous with CVE-2015-8543
+Match! Method "unix_create" in net/unix/af_unix.c is homologous with CVE-2015-8543
+Match! Method "kcm_create" in net/kcm/kcmsock.c is homologous with CVE-2015-8543
+Match! Method "iucv_sock_create" in net/iucv/af_iucv.c is homologous with CVE-2015-8543
+
+Found CVE-2020-36279 in tess-two
+Match! Method "pixFillMapHoles" in is homologous with CVE-2020-36279
+
+Found CVE-2020-11068 in TencentOS-tiny
+Match! Method "ProcessRadioRxDone" in board/TencentOS_Tiny_EVB_STM32WL/BSP/Middlewares/LoRaWAN/Mac/LoRaMac.c is homologous with CVE-2020-11068
+
+Found CVE-2020-15945 in MLN
+Match! Method "traceexec" in MLN-Android/mlncore/src/main/jni/lua/lvm.c is homologous with CVE-2020-15945
+
+Found CVE-2020-24370 in MLN
+Match! Method "findlocal" in MLN-Android/mlncore/src/main/jni/lua/ldebug.c is homologous with CVE-2020-24370
+
+Found CVE-2015-5224 in android_bootable_recovery
+Match! Method "main" in libblkid/lib/fileutils.c is homologous with CVE-2015-5224
+
+Found CVE-2017-12993 in PF_RING
+Match! Method "juniper_parse_header" in userland/tcpdump-4.99.1/print-juniper.c is homologous with CVE-2017-12993
+Match! Method "juniper_pppoe_atm_if_print" in userland/tcpdump-4.99.1/print-juniper.c is homologous with CVE-2017-12993
+Match! Method "juniper_ggsn_if_print" in userland/tcpdump-4.99.1/print-juniper.c is homologous with CVE-2017-12993
+Match! Method "juniper_es_if_print" in userland/tcpdump-4.99.1/print-juniper.c is homologous with CVE-2017-12993
+
+Found CVE-2017-13037 in minix
+Match! Method "ip_printts" in external/bsd/tcpdump/dist/print-ip.c is homologous with CVE-2017-13037
+
+Found CVE-2017-13010 in minix
+Match! Method "beep_print" in external/bsd/tcpdump/dist/print-beep.c is homologous with CVE-2017-13010
+
+Found CVE-2013-0166 in minix
+Match! Method "ASN1_verify" in crypto/external/bsd/openssl/dist/crypto/asn1/a_verify.c is homologous with CVE-2013-0166
+Match! Method "ASN1_verify" in crypto/external/bsd/openssl/dist/crypto/asn1/a_verify.c is homologous with CVE-2013-0166
+Match! Method "ASN1_verify" in crypto/external/bsd/openssl/dist/crypto/asn1/a_verify.c is homologous with CVE-2013-0166
+
+Found CVE-2017-13039 in minix
+Match! Method "ikev1_n_print" in external/bsd/tcpdump/dist/print-isakmp.c is homologous with CVE-2017-13039
+Match! Method "ikev2_t_print" in external/bsd/tcpdump/dist/print-isakmp.c is homologous with CVE-2017-13039
+Match! Method "ikev1_t_print" in external/bsd/tcpdump/dist/print-isakmp.c is homologous with CVE-2017-13039
+
+Found CVE-2020-24371 in minix
+Match! Method "remarkupvals" in external/mit/lua/dist/src/lgc.c is homologous with CVE-2020-24371
+
+Found CVE-2017-12985 in minix
+Match! Method "ip6_print" in external/bsd/tcpdump/dist/print-ip6.c is homologous with CVE-2017-12985
+
+Found CVE-2017-12993 in minix
+Match! Method "juniper_monitor_print" in external/bsd/tcpdump/dist/print-juniper.c is homologous with CVE-2017-12993
+Match! Method "juniper_atm1_print" in external/bsd/tcpdump/dist/print-juniper.c is homologous with CVE-2017-12993
+Match! Method "juniper_atm2_print" in external/bsd/tcpdump/dist/print-juniper.c is homologous with CVE-2017-12993
+Match! Method "juniper_atm2_print" in external/bsd/tcpdump/dist/print-juniper.c is homologous with CVE-2017-12993
+Match! Method "juniper_parse_header" in external/bsd/tcpdump/dist/print-juniper.c is homologous with CVE-2017-12993
+Match! Method "juniper_pppoe_atm_print" in external/bsd/tcpdump/dist/print-juniper.c is homologous with CVE-2017-12993
+Match! Method "juniper_ggsn_print" in external/bsd/tcpdump/dist/print-juniper.c is homologous with CVE-2017-12993
+Match! Method "juniper_es_print" in external/bsd/tcpdump/dist/print-juniper.c is homologous with CVE-2017-12993
+Match! Method "juniper_services_print" in external/bsd/tcpdump/dist/print-juniper.c is homologous with CVE-2017-12993
+
+Found CVE-2017-13030 in minix
+Match! Method "pimv1_print" in external/bsd/tcpdump/dist/print-pim.c is homologous with CVE-2017-13030
+Match! Method "cisco_autorp_print" in external/bsd/tcpdump/dist/print-pim.c is homologous with CVE-2017-13030
+Match! Method "pimv2_addr_print" in external/bsd/tcpdump/dist/print-pim.c is homologous with CVE-2017-13030
+
+Found CVE-2017-12898 in minix
+Match! Method "nfsreq_print_noaddr" in external/bsd/tcpdump/dist/print-nfs.c is homologous with CVE-2017-12898
+Match! Method "parserep" in external/bsd/tcpdump/dist/print-nfs.c is homologous with CVE-2017-12898
+Match! Method "interp_reply" in external/bsd/tcpdump/dist/print-nfs.c is homologous with CVE-2017-12898
+
+Found CVE-2017-13014 in minix
+Match! Method "wb_prep" in external/bsd/tcpdump/dist/print-wb.c is homologous with CVE-2017-13014
+
+Found CVE-2017-12897 in minix
+Match! Method "null_if_print" in external/bsd/tcpdump/dist/print-null.c is homologous with CVE-2017-12897
+Match! Method "handle_ppp" in external/bsd/tcpdump/dist/print-ppp.c is homologous with CVE-2017-12897
+Match! Method "juniper_mfr_print" in external/bsd/tcpdump/dist/print-juniper.c is homologous with CVE-2017-12897
+Match! Method "juniper_mlppp_print" in external/bsd/tcpdump/dist/print-juniper.c is homologous with CVE-2017-12897
+Match! Method "juniper_mfr_print" in external/bsd/tcpdump/dist/print-juniper.c is homologous with CVE-2017-12897
+Match! Method "atm_if_print" in external/bsd/tcpdump/dist/print-atm.c is homologous with CVE-2017-12897
+Match! Method "juniper_mfr_print" in external/bsd/tcpdump/dist/print-juniper.c is homologous with CVE-2017-12897
+Match! Method "juniper_mlfr_print" in external/bsd/tcpdump/dist/print-juniper.c is homologous with CVE-2017-12897
+
+Found CVE-2017-13013 in minix
+Match! Method "atmarp_print" in external/bsd/tcpdump/dist/print-arp.c is homologous with CVE-2017-13013
+
+Found CVE-2017-12990 in minix
+Match! Method "ikev1_n_print" in external/bsd/tcpdump/dist/print-isakmp.c is homologous with CVE-2017-12990
+
+Found CVE-2017-13690 in minix
+Match! Method "ikev2_ID_print" in external/bsd/tcpdump/dist/print-isakmp.c is homologous with CVE-2017-13690
+Match! Method "ikev2_ke_print" in external/bsd/tcpdump/dist/print-isakmp.c is homologous with CVE-2017-13690
+
+Found CVE-2017-13052 in minix
+Match! Method "cfm_mgmt_addr_print" in external/bsd/tcpdump/dist/print-cfm.c is homologous with CVE-2017-13052
+Match! Method "cfm_print" in external/bsd/tcpdump/dist/print-cfm.c is homologous with CVE-2017-13052
+
+Found CVE-2020-15945 in minix
+Match! Method "luaG_traceexec" in external/mit/lua/dist/src/ldebug.c is homologous with CVE-2020-15945
+
+Found CVE-2014-8275 in minix
+Match! Method "ASN1_item_verify" in crypto/external/bsd/openssl/dist/crypto/asn1/a_verify.c is homologous with CVE-2014-8275
+
+Found CVE-2020-24370 in minix
+Match! Method "findlocal" in external/mit/lua/dist/src/ldebug.c is homologous with CVE-2020-24370
+
+Found CVE-2017-13003 in minix
+Match! Method "lmp_print" in external/bsd/tcpdump/dist/print-lmp.c is homologous with CVE-2017-13003
+
+Found CVE-2017-13022 in minix
+Match! Method "ip_optprint" in external/bsd/tcpdump/dist/print-ip.c is homologous with CVE-2017-13022
+
+Found CVE-2015-0204 in minix
+Match! Method "ssl3_get_key_exchange" in crypto/external/bsd/openssl/dist/ssl/s3_clnt.c is homologous with CVE-2015-0204
+
+Found CVE-2021-21309 in magma
+Match! Method "sdsnewlen" in src/providers/dime/sds/sds.c is homologous with CVE-2021-21309
+Match! Method "sdsMakeRoomFor" in src/providers/dime/sds/sds.c is homologous with CVE-2021-21309
+
+Found CVE-2020-24371 in BizHawk
+Match! Method "remarkupvals" in waterbox/tic80/vendor/lua/lgc.c is homologous with CVE-2020-24371
+
+Found CVE-2020-15945 in BizHawk
+Match! Method "luaG_traceexec" in waterbox/tic80/vendor/lua/ldebug.c is homologous with CVE-2020-15945
+
+Found CVE-2020-24371 in ejoy2d
+Match! Method "remarkupvals" in lua/lgc.c is homologous with CVE-2020-24371
+
+Found CVE-2020-15945 in ejoy2d
+Match! Method "luaG_traceexec" in lua/ldebug.c is homologous with CVE-2020-15945
+
+Found CVE-2020-24370 in ejoy2d
+Match! Method "findlocal" in lua/ldebug.c is homologous with CVE-2020-24370
+
+Found CVE-2014-0064 in gpdb
+Match! Method "json_object" in src/backend/utils/adt/json.c is homologous with CVE-2014-0064
+Match! Method "jsonb_object" in src/backend/utils/adt/jsonb.c is homologous with CVE-2014-0064
+Match! Method "plperl_to_hstore" in contrib/hstore_plperl/hstore_plperl.c is homologous with CVE-2014-0064
+
+Found CVE-2020-24371 in premake-core
+Match! Method "remarkupvals" in contrib/lua/src/lgc.c is homologous with CVE-2020-24371
+
+Found CVE-2020-15945 in premake-core
+Match! Method "luaG_traceexec" in contrib/lua/src/ldebug.c is homologous with CVE-2020-15945
+
+Found CVE-2020-24370 in premake-core
+Match! Method "findlocal" in contrib/lua/src/ldebug.c is homologous with CVE-2020-24370
+
+Found CVE-2021-21309 in RedisGraph
+Match! Method "sdsnewlen" in src/util/sds/sds.c is homologous with CVE-2021-21309
+Match! Method "sdsMakeRoomFor" in src/util/sds/sds.c is homologous with CVE-2021-21309
+
+Found CVE-2020-11724 in tengine
+Match! Method "ngx_http_lua_copy_request_headers" in modules/ngx_http_lua_module/src/ngx_http_lua_subrequest.c is homologous with CVE-2020-11724
+
+Found CVE-2020-15945 in emscripten
+Match! Method "traceexec" in test/third_party/lua/src/lvm.c is homologous with CVE-2020-15945
+
+Found CVE-2020-24370 in emscripten
+Match! Method "findlocal" in test/third_party/lua/src/ldebug.c is homologous with CVE-2020-24370
+
+Found CVE-2017-12993 in tcpdump
+Match! Method "juniper_parse_header" in print-juniper.c is homologous with CVE-2017-12993
+Match! Method "juniper_pppoe_atm_if_print" in print-juniper.c is homologous with CVE-2017-12993
+Match! Method "juniper_ggsn_if_print" in print-juniper.c is homologous with CVE-2017-12993
+Match! Method "juniper_es_if_print" in print-juniper.c is homologous with CVE-2017-12993
+
+Found CVE-2021-21309 in sds
+Match! Method "sdsnewlen" in sds.c is homologous with CVE-2021-21309
+Match! Method "sdsMakeRoomFor" in sds.c is homologous with CVE-2021-21309
+
+Found CVE-2016-3137 in rt-n56u
+Match! Method "cypress_open" in trunk/linux-3.4.x/drivers/usb/serial/cypress_m8.c is homologous with CVE-2016-3137
+Match! Method "generic_startup" in trunk/linux-3.4.x/drivers/usb/serial/cypress_m8.c is homologous with CVE-2016-3137
+Match! Method "cypress_open" in trunk/linux-3.4.x/drivers/usb/serial/cypress_m8.c is homologous with CVE-2016-3137
+Match! Method "generic_startup" in trunk/linux-3.4.x/drivers/usb/serial/cypress_m8.c is homologous with CVE-2016-3137
+
+Found CVE-2020-11609 in rt-n56u
+Match! Method "stv06xx_start" in trunk/linux-3.4.x/drivers/media/video/gspca/stv06xx/stv06xx.c is homologous with CVE-2020-11609
+Match! Method "pb0100_start" in trunk/linux-3.4.x/drivers/media/video/gspca/stv06xx/stv06xx_pb0100.c is homologous with CVE-2020-11609
+Match! Method "pb0100_start" in trunk/linux-3.4.x/drivers/media/video/gspca/stv06xx/stv06xx_pb0100.c is homologous with CVE-2020-11609
+Match! Method "stv06xx_start" in trunk/linux-3.4.x/drivers/media/video/gspca/stv06xx/stv06xx.c is homologous with CVE-2020-11609
+
+Found CVE-2014-5207 in rt-n56u
+Match! Method "do_remount" in trunk/linux-3.4.x/fs/namespace.c is homologous with CVE-2014-5207
+
+Found CVE-2012-1179 in rt-n56u
+Match! Method "gather_pte_stats" in trunk/linux-3.4.x/fs/proc/task_mmu.c is homologous with CVE-2012-1179
+Match! Method "check_pte_range" in trunk/linux-3.4.x/mm/mempolicy.c is homologous with CVE-2012-1179
+
+Found CVE-2020-12652 in rt-n56u
+Match! Method "mptctl_getiocinfo" in trunk/linux-3.4.x/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "mptctl_do_mpt_command" in trunk/linux-3.4.x/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "mptctl_eventquery" in trunk/linux-3.4.x/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "mptctl_do_fw_download" in trunk/linux-3.4.x/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "mptctl_eventquery" in trunk/linux-3.4.x/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "mptctl_eventenable" in trunk/linux-3.4.x/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "mptctl_gettargetinfo" in trunk/linux-3.4.x/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "compat_mptfwxfer_ioctl" in trunk/linux-3.4.x/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "mptctl_replace_fw" in trunk/linux-3.4.x/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "mptctl_eventreport" in trunk/linux-3.4.x/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "compat_mpt_command" in trunk/linux-3.4.x/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "mptctl_hp_hostinfo" in trunk/linux-3.4.x/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "mptctl_eventenable" in trunk/linux-3.4.x/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "mptctl_hp_targetinfo" in trunk/linux-3.4.x/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "mptctl_readtest" in trunk/linux-3.4.x/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "mptctl_do_mpt_command" in trunk/linux-3.4.x/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "mptctl_replace_fw" in trunk/linux-3.4.x/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "mptctl_gettargetinfo" in trunk/linux-3.4.x/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "compat_mpt_command" in trunk/linux-3.4.x/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "mptctl_eventreport" in trunk/linux-3.4.x/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "mptctl_do_fw_download" in trunk/linux-3.4.x/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "mptctl_hp_hostinfo" in trunk/linux-3.4.x/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "mptctl_hp_targetinfo" in trunk/linux-3.4.x/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "mptctl_getiocinfo" in trunk/linux-3.4.x/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "mptctl_readtest" in trunk/linux-3.4.x/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "compat_mptfwxfer_ioctl" in trunk/linux-3.4.x/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+
+Found CVE-2015-6937 in rt-n56u
+Match! Method "__rds_conn_create" in trunk/linux-3.4.x/net/rds/connection.c is homologous with CVE-2015-6937
+Match! Method "__rds_conn_create" in trunk/linux-3.4.x/net/rds/connection.c is homologous with CVE-2015-6937
+
+Found CVE-2020-11608 in rt-n56u
+Match! Method "ov518_mode_init_regs" in trunk/linux-3.4.x/drivers/media/video/gspca/ov519.c is homologous with CVE-2020-11608
+Match! Method "ov511_mode_init_regs" in trunk/linux-3.4.x/drivers/media/video/gspca/ov519.c is homologous with CVE-2020-11608
+Match! Method "ov518_mode_init_regs" in trunk/linux-3.4.x/drivers/media/video/gspca/ov519.c is homologous with CVE-2020-11608
+Match! Method "ov511_mode_init_regs" in trunk/linux-3.4.x/drivers/media/video/gspca/ov519.c is homologous with CVE-2020-11608
+
+Found CVE-2015-7513 in rt-n56u
+Match! Method "kvm_vm_ioctl_set_pit2" in trunk/linux-3.4.x/arch/x86/kvm/x86.c is homologous with CVE-2015-7513
+Match! Method "kvm_vm_ioctl_set_pit2" in trunk/linux-3.4.x/arch/x86/kvm/x86.c is homologous with CVE-2015-7513
+
+Found CVE-2014-0196 in rt-n56u
+Match! Method "n_tty_write" in trunk/linux-3.4.x/drivers/tty/n_tty.c is homologous with CVE-2014-0196
+
+Found CVE-2020-27675 in rt-n56u
+Match! Method "xen_free_irq" in trunk/linux-3.4.x/drivers/xen/events.c is homologous with CVE-2020-27675
+Match! Method "__xen_evtchn_do_upcall" in trunk/linux-3.4.x/drivers/xen/events.c is homologous with CVE-2020-27675
+
+Found CVE-2015-8543 in rt-n56u
+Match! Method "pn_socket_create" in trunk/linux-3.4.x/net/phonet/af_phonet.c is homologous with CVE-2015-8543
+Match! Method "unix_create" in trunk/linux-3.4.x/net/unix/af_unix.c is homologous with CVE-2015-8543
+Match! Method "tipc_create" in trunk/linux-3.4.x/net/tipc/socket.c is homologous with CVE-2015-8543
+Match! Method "iucv_sock_create" in trunk/linux-3.4.x/net/iucv/af_iucv.c is homologous with CVE-2015-8543
+
+Found CVE-2020-15945 in rt-n56u
+Match! Method "traceexec" in trunk/user/xupnpd/src/lua-5.2.0/lvm.c is homologous with CVE-2020-15945
+
+Found CVE-2020-24370 in rt-n56u
+Match! Method "findlocal" in trunk/user/xupnpd/src/lua-5.2.0/ldebug.c is homologous with CVE-2020-24370
+
+Found CVE-2020-24371 in mjolnir
+Match! Method "remarkupvals" in Mjolnir/lua/lgc.c is homologous with CVE-2020-24371
+
+Found CVE-2020-15945 in mjolnir
+Match! Method "luaG_traceexec" in Mjolnir/lua/ldebug.c is homologous with CVE-2020-15945
+
+Found CVE-2020-24370 in mjolnir
+Match! Method "findlocal" in Mjolnir/lua/ldebug.c is homologous with CVE-2020-24370
+
+Found CVE-2021-21309 in cosmopolitan
+Match! Method "sdsnewlen" in third_party/hiredis/sds.c is homologous with CVE-2021-21309
+Match! Method "sdsMakeRoomFor" in third_party/hiredis/sds.c is homologous with CVE-2021-21309
+
+Found CVE-2021-21309 in nchan
+Match! Method "sdsnewlen" in src/store/redis/hiredis/sds.c is homologous with CVE-2021-21309
+Match! Method "sdsMakeRoomFor" in src/store/redis/hiredis/sds.c is homologous with CVE-2021-21309
+
+Found CVE-2017-13037 in AdAway
+Match! Method "ip_printts" in tcpdump/jni/tcpdump/print-ip.c is homologous with CVE-2017-13037
+
+Found CVE-2017-13010 in AdAway
+Match! Method "beep_print" in tcpdump/jni/tcpdump/print-beep.c is homologous with CVE-2017-13010
+
+Found CVE-2017-13039 in AdAway
+Match! Method "ikev1_n_print" in tcpdump/jni/tcpdump/print-isakmp.c is homologous with CVE-2017-13039
+Match! Method "ikev2_t_print" in tcpdump/jni/tcpdump/print-isakmp.c is homologous with CVE-2017-13039
+Match! Method "ikev1_t_print" in tcpdump/jni/tcpdump/print-isakmp.c is homologous with CVE-2017-13039
+
+Found CVE-2017-12985 in AdAway
+Match! Method "ip6_print" in tcpdump/jni/tcpdump/print-ip6.c is homologous with CVE-2017-12985
+
+Found CVE-2017-12993 in AdAway
+Match! Method "juniper_monitor_print" in tcpdump/jni/tcpdump/print-juniper.c is homologous with CVE-2017-12993
+Match! Method "juniper_atm1_print" in tcpdump/jni/tcpdump/print-juniper.c is homologous with CVE-2017-12993
+Match! Method "juniper_atm2_print" in tcpdump/jni/tcpdump/print-juniper.c is homologous with CVE-2017-12993
+Match! Method "juniper_atm2_print" in tcpdump/jni/tcpdump/print-juniper.c is homologous with CVE-2017-12993
+Match! Method "juniper_parse_header" in tcpdump/jni/tcpdump/print-juniper.c is homologous with CVE-2017-12993
+Match! Method "juniper_pppoe_atm_print" in tcpdump/jni/tcpdump/print-juniper.c is homologous with CVE-2017-12993
+Match! Method "juniper_ggsn_print" in tcpdump/jni/tcpdump/print-juniper.c is homologous with CVE-2017-12993
+Match! Method "juniper_es_print" in tcpdump/jni/tcpdump/print-juniper.c is homologous with CVE-2017-12993
+Match! Method "juniper_services_print" in tcpdump/jni/tcpdump/print-juniper.c is homologous with CVE-2017-12993
+
+Found CVE-2017-13030 in AdAway
+Match! Method "pimv1_print" in tcpdump/jni/tcpdump/print-pim.c is homologous with CVE-2017-13030
+Match! Method "cisco_autorp_print" in tcpdump/jni/tcpdump/print-pim.c is homologous with CVE-2017-13030
+Match! Method "pimv2_addr_print" in tcpdump/jni/tcpdump/print-pim.c is homologous with CVE-2017-13030
+
+Found CVE-2017-12898 in AdAway
+Match! Method "nfsreq_print_noaddr" in tcpdump/jni/tcpdump/print-nfs.c is homologous with CVE-2017-12898
+Match! Method "parserep" in tcpdump/jni/tcpdump/print-nfs.c is homologous with CVE-2017-12898
+Match! Method "interp_reply" in tcpdump/jni/tcpdump/print-nfs.c is homologous with CVE-2017-12898
+
+Found CVE-2017-13014 in AdAway
+Match! Method "wb_prep" in tcpdump/jni/tcpdump/print-wb.c is homologous with CVE-2017-13014
+
+Found CVE-2017-12897 in AdAway
+Match! Method "null_if_print" in tcpdump/jni/tcpdump/print-null.c is homologous with CVE-2017-12897
+Match! Method "handle_ppp" in tcpdump/jni/tcpdump/print-ppp.c is homologous with CVE-2017-12897
+Match! Method "juniper_mfr_print" in tcpdump/jni/tcpdump/print-juniper.c is homologous with CVE-2017-12897
+Match! Method "juniper_mlppp_print" in tcpdump/jni/tcpdump/print-juniper.c is homologous with CVE-2017-12897
+Match! Method "juniper_mfr_print" in tcpdump/jni/tcpdump/print-juniper.c is homologous with CVE-2017-12897
+Match! Method "atm_if_print" in tcpdump/jni/tcpdump/print-atm.c is homologous with CVE-2017-12897
+Match! Method "juniper_mfr_print" in tcpdump/jni/tcpdump/print-juniper.c is homologous with CVE-2017-12897
+Match! Method "juniper_mlfr_print" in tcpdump/jni/tcpdump/print-juniper.c is homologous with CVE-2017-12897
+
+Found CVE-2017-13013 in AdAway
+Match! Method "atmarp_print" in tcpdump/jni/tcpdump/print-arp.c is homologous with CVE-2017-13013
+
+Found CVE-2017-12990 in AdAway
+Match! Method "ikev1_n_print" in tcpdump/jni/tcpdump/print-isakmp.c is homologous with CVE-2017-12990
+
+Found CVE-2017-13690 in AdAway
+Match! Method "ikev2_ID_print" in tcpdump/jni/tcpdump/print-isakmp.c is homologous with CVE-2017-13690
+Match! Method "ikev2_ke_print" in tcpdump/jni/tcpdump/print-isakmp.c is homologous with CVE-2017-13690
+
+Found CVE-2017-13052 in AdAway
+Match! Method "cfm_mgmt_addr_print" in tcpdump/jni/tcpdump/print-cfm.c is homologous with CVE-2017-13052
+Match! Method "cfm_print" in tcpdump/jni/tcpdump/print-cfm.c is homologous with CVE-2017-13052
+
+Found CVE-2017-13003 in AdAway
+Match! Method "lmp_print" in tcpdump/jni/tcpdump/print-lmp.c is homologous with CVE-2017-13003
+
+Found CVE-2017-13022 in AdAway
+Match! Method "ip_optprint" in tcpdump/jni/tcpdump/print-ip.c is homologous with CVE-2017-13022
+
+Found CVE-2017-12898 in src
+Match! Method "nfsreq_print" in usr.sbin/tcpdump/print-nfs.c is homologous with CVE-2017-12898
+
+Found CVE-2014-8275 in src
+Match! Method "ASN1_item_verify" in lib/libcrypto/asn1/asn1_item.c is homologous with CVE-2014-8275
+
+Found CVE-2015-0288 in src
+Match! Method "X509_to_X509_REQ" in lib/libcrypto/x509/x509_req.c is homologous with CVE-2015-0288
+
+Found CVE-2021-21309 in hiredis
+Match! Method "sdsnewlen" in sds.c is homologous with CVE-2021-21309
+Match! Method "sdsMakeRoomFor" in sds.c is homologous with CVE-2021-21309
+
+Found CVE-2021-21309 in zimg
+Match! Method "sdsnewlen" in deps/hiredis/sds.c is homologous with CVE-2021-21309
+Match! Method "sdsMakeRoomFor" in deps/hiredis/sds.c is homologous with CVE-2021-21309
+
+Found CVE-2015-1792 in CloverBootloader
+Match! Method "do_free_upto" in Library/OpensslLib/openssl-1.0.1e/crypto/cms/cms_smime.c is homologous with CVE-2015-1792
+
+Found CVE-2013-0166 in CloverBootloader
+Match! Method "ASN1_verify" in Library/OpensslLib/openssl-1.0.1e/crypto/asn1/a_verify.c is homologous with CVE-2013-0166
+Match! Method "ASN1_verify" in Library/OpensslLib/openssl-1.0.1e/crypto/asn1/a_verify.c is homologous with CVE-2013-0166
+Match! Method "ASN1_verify" in Library/OpensslLib/openssl-1.0.1e/crypto/asn1/a_verify.c is homologous with CVE-2013-0166
+
+Found CVE-2014-3508 in CloverBootloader
+Match! Method "OBJ_obj2txt" in Library/OpensslLib/openssl-1.0.1e/crypto/objects/obj_dat.c is homologous with CVE-2014-3508
+Match! Method "c2i_ASN1_OBJECT" in Library/OpensslLib/openssl-1.0.1e/crypto/asn1/a_object.c is homologous with CVE-2014-3508
+
+Found CVE-2014-8275 in CloverBootloader
+Match! Method "ASN1_verify" in Library/OpensslLib/openssl-1.0.1e/crypto/asn1/a_verify.c is homologous with CVE-2014-8275
+Match! Method "ASN1_item_verify" in Library/OpensslLib/openssl-1.0.1e/crypto/asn1/a_verify.c is homologous with CVE-2014-8275
+Match! Method "ASN1_verify" in Library/OpensslLib/openssl-1.0.1e/crypto/asn1/a_verify.c is homologous with CVE-2014-8275
+
+Found CVE-2015-5224 in Team-Win-Recovery-Project
+Match! Method "main" in libblkid/lib/fileutils.c is homologous with CVE-2015-5224
+
+Found CVE-2014-0064 in pipelinedb
+Match! Method "json_object" in src/json.c is homologous with CVE-2014-0064
+Match! Method "jsonb_object" in src/jsonb.c is homologous with CVE-2014-0064
+
+Found CVE-2014-0064 in PolarDB-for-PostgreSQL
+Match! Method "json_object" in src/backend/utils/adt/json.c is homologous with CVE-2014-0064
+Match! Method "jsonb_object" in src/backend/utils/adt/jsonb.c is homologous with CVE-2014-0064
+Match! Method "plperl_to_hstore" in contrib/hstore_plperl/hstore_plperl.c is homologous with CVE-2014-0064
+
+Found CVE-2021-21309 in redis
+Match! Method "_sdsnewlen" in src/sds.c is homologous with CVE-2021-21309
+Match! Method "_sdsMakeRoomFor" in src/sds.c is homologous with CVE-2021-21309
+
+Found CVE-2020-24371 in RetroArch
+Match! Method "remarkupvals" in deps/lua/src/lgc.c is homologous with CVE-2020-24371
+
+Found CVE-2020-15945 in RetroArch
+Match! Method "luaG_traceexec" in deps/lua/src/ldebug.c is homologous with CVE-2020-15945
+
+Found CVE-2020-24370 in RetroArch
+Match! Method "findlocal" in deps/lua/src/ldebug.c is homologous with CVE-2020-24370
+
+Found CVE-2021-21309 in redis-3.0-annotated
+Match! Method "sdsnewlen" in src/sds.c is homologous with CVE-2021-21309
+Match! Method "sdsnewlen" in deps/hiredis/sds.c is homologous with CVE-2021-21309
+Match! Method "sdsMakeRoomFor" in src/sds.c is homologous with CVE-2021-21309
+Match! Method "sdsMakeRoomFor" in deps/hiredis/sds.c is homologous with CVE-2021-21309
+
+Found CVE-2020-14147 in redis-3.0-annotated
+Match! Method "optsize" in deps/lua/src/lua_struct.c is homologous with CVE-2020-14147
+Match! Method "controloptions" in deps/lua/src/lua_struct.c is homologous with CVE-2020-14147
+
+Found CVE-2020-24371 in xLua
+Match! Method "remarkupvals" in WebGLPlugins/lgc.c is homologous with CVE-2020-24371
+Match! Method "remarkupvals" in build/lua-5.3.5/src/lgc.c is homologous with CVE-2020-24371
+Match! Method "remarkupvals" in build/lua-5.3.4/src/lgc.c is homologous with CVE-2020-24371
+Match! Method "remarkupvals" in build/lua-5.3.3/src/lgc.c is homologous with CVE-2020-24371
+
+Found CVE-2020-15945 in xLua
+Match! Method "luaG_traceexec" in WebGLPlugins/ldebug.c is homologous with CVE-2020-15945
+Match! Method "luaG_traceexec" in build/lua-5.3.5/src/ldebug.c is homologous with CVE-2020-15945
+Match! Method "luaG_traceexec" in build/lua-5.3.4/src/ldebug.c is homologous with CVE-2020-15945
+Match! Method "luaG_traceexec" in build/lua-5.3.3/src/ldebug.c is homologous with CVE-2020-15945
+
+Found CVE-2020-24370 in xLua
+Match! Method "findlocal" in WebGLPlugins/ldebug.c is homologous with CVE-2020-24370
+Match! Method "findlocal" in build/lua-5.3.5/src/ldebug.c is homologous with CVE-2020-24370
+Match! Method "findlocal" in build/lua-5.3.4/src/ldebug.c is homologous with CVE-2020-24370
+Match! Method "findlocal" in build/lua-5.3.3/src/ldebug.c is homologous with CVE-2020-24370
+
+Found CVE-2020-24371 in wcc
+Match! Method "remarkupvals" in src/wsh/lua/src/lgc.c is homologous with CVE-2020-24371
+
+Found CVE-2020-15945 in wcc
+Match! Method "luaG_traceexec" in src/wsh/lua/src/ldebug.c is homologous with CVE-2020-15945
+
+Found CVE-2020-24370 in wcc
+Match! Method "findlocal" in src/wsh/lua/src/ldebug.c is homologous with CVE-2020-24370
+
+Found CVE-2017-12993 in freebsd-src
+Match! Method "juniper_parse_header" in contrib/tcpdump/print-juniper.c is homologous with CVE-2017-12993
+Match! Method "juniper_pppoe_atm_if_print" in contrib/tcpdump/print-juniper.c is homologous with CVE-2017-12993
+Match! Method "juniper_ggsn_if_print" in contrib/tcpdump/print-juniper.c is homologous with CVE-2017-12993
+Match! Method "juniper_es_if_print" in contrib/tcpdump/print-juniper.c is homologous with CVE-2017-12993
+
+Found CVE-2020-15945 in freebsd-src
+Match! Method "traceexec" in sys/contrib/openzfs/module/lua/lvm.c is homologous with CVE-2020-15945
+
+Found CVE-2020-24370 in freebsd-src
+Match! Method "findlocal" in sys/contrib/openzfs/module/lua/ldebug.c is homologous with CVE-2020-24370
+
+Found CVE-2016-3137 in fastsocket
+Match! Method "cypress_open" in kernel/drivers/usb/serial/cypress_m8.c is homologous with CVE-2016-3137
+Match! Method "generic_startup" in kernel/drivers/usb/serial/cypress_m8.c is homologous with CVE-2016-3137
+Match! Method "cypress_open" in kernel/drivers/usb/serial/cypress_m8.c is homologous with CVE-2016-3137
+Match! Method "generic_startup" in kernel/drivers/usb/serial/cypress_m8.c is homologous with CVE-2016-3137
+
+Found CVE-2020-11609 in fastsocket
+Match! Method "stv06xx_start" in kernel/drivers/media/video/gspca/stv06xx/stv06xx.c is homologous with CVE-2020-11609
+Match! Method "pb0100_start" in kernel/drivers/media/video/gspca/stv06xx/stv06xx_pb0100.c is homologous with CVE-2020-11609
+Match! Method "pb0100_start" in kernel/drivers/media/video/gspca/stv06xx/stv06xx_pb0100.c is homologous with CVE-2020-11609
+Match! Method "stv06xx_start" in kernel/drivers/media/video/gspca/stv06xx/stv06xx.c is homologous with CVE-2020-11609
+
+Found CVE-2014-5207 in fastsocket
+Match! Method "do_remount" in kernel/fs/namespace.c is homologous with CVE-2014-5207
+
+Found CVE-2012-1179 in fastsocket
+Match! Method "gather_pte_stats" in kernel/fs/proc/task_mmu.c is homologous with CVE-2012-1179
+Match! Method "check_pte_range" in kernel/mm/mempolicy.c is homologous with CVE-2012-1179
+
+Found CVE-2020-12652 in fastsocket
+Match! Method "mptctl_getiocinfo" in kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "mptctl_do_mpt_command" in kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "mptctl_eventquery" in kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "mptctl_do_fw_download" in kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "mptctl_eventquery" in kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "mptctl_eventenable" in kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "mptctl_gettargetinfo" in kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "compat_mptfwxfer_ioctl" in kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "mptctl_replace_fw" in kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "mptctl_eventreport" in kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "compat_mpt_command" in kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "mptctl_hp_hostinfo" in kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "mptctl_eventenable" in kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "mptctl_hp_targetinfo" in kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "mptctl_readtest" in kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "mptctl_do_mpt_command" in kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "mptctl_replace_fw" in kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "mptctl_gettargetinfo" in kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "compat_mpt_command" in kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "mptctl_eventreport" in kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "mptctl_do_fw_download" in kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "mptctl_hp_hostinfo" in kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "mptctl_hp_targetinfo" in kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "mptctl_getiocinfo" in kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "mptctl_readtest" in kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+Match! Method "compat_mptfwxfer_ioctl" in kernel/drivers/message/fusion/mptctl.c is homologous with CVE-2020-12652
+
+Found CVE-2015-6937 in fastsocket
+Match! Method "__rds_conn_create" in kernel/net/rds/connection.c is homologous with CVE-2015-6937
+Match! Method "__rds_conn_create" in kernel/net/rds/connection.c is homologous with CVE-2015-6937
+
+Found CVE-2020-11608 in fastsocket
+Match! Method "ov518_mode_init_regs" in kernel/drivers/media/video/gspca/ov519.c is homologous with CVE-2020-11608
+Match! Method "ov511_mode_init_regs" in kernel/drivers/media/video/gspca/ov519.c is homologous with CVE-2020-11608
+Match! Method "ov518_mode_init_regs" in kernel/drivers/media/video/gspca/ov519.c is homologous with CVE-2020-11608
+Match! Method "ov511_mode_init_regs" in kernel/drivers/media/video/gspca/ov519.c is homologous with CVE-2020-11608
+
+Found CVE-2015-8543 in fastsocket
+Match! Method "irda_create" in kernel/net/irda/af_irda.c is homologous with CVE-2015-8543
+Match! Method "pn_socket_create" in kernel/net/phonet/af_phonet.c is homologous with CVE-2015-8543
+Match! Method "unix_create" in kernel/net/unix/af_unix.c is homologous with CVE-2015-8543
+Match! Method "tipc_create" in kernel/net/tipc/socket.c is homologous with CVE-2015-8543
+Match! Method "ax25_create" in kernel/net/ax25/af_ax25.c is homologous with CVE-2015-8543
+Match! Method "irda_create" in kernel/net/irda/af_irda.c is homologous with CVE-2015-8543
+Match! Method "dn_create" in kernel/net/decnet/af_decnet.c is homologous with CVE-2015-8543
+Match! Method "iucv_sock_create" in kernel/net/iucv/af_iucv.c is homologous with CVE-2015-8543
+Match! Method "inet6_create" in kernel/net/ipv6/af_inet6.c is homologous with CVE-2015-8543
+Match! Method "inet_create" in kernel/net/ipv4/af_inet.c is homologous with CVE-2015-8543
+Match! Method "ax25_create" in kernel/net/ax25/af_ax25.c is homologous with CVE-2015-8543
+Match! Method "inet6_create" in kernel/net/ipv6/af_inet6.c is homologous with CVE-2015-8543
+Match! Method "inet_create" in kernel/net/ipv4/af_inet.c is homologous with CVE-2015-8543
+
+Found CVE-2015-5307 in fastsocket
+Match! Method "handle_exception" in kernel/arch/x86/kvm/vmx.c is homologous with CVE-2015-5307
+Match! Method "init_vmcb" in kernel/arch/x86/kvm/svm.c is homologous with CVE-2015-5307
+Match! Method "init_vmcb" in kernel/arch/x86/kvm/svm.c is homologous with CVE-2015-5307
+Match! Method "handle_exception" in kernel/arch/x86/kvm/vmx.c is homologous with CVE-2015-5307
+
+Found CVE-2015-7513 in fastsocket
+Match! Method "kvm_vm_ioctl_set_pit2" in kernel/arch/x86/kvm/x86.c is homologous with CVE-2015-7513
+Match! Method "kvm_vm_ioctl_set_pit2" in kernel/arch/x86/kvm/x86.c is homologous with CVE-2015-7513
+
+Found CVE-2014-0196 in fastsocket
+Match! Method "n_tty_write" in kernel/drivers/char/n_tty.c is homologous with CVE-2014-0196
+
+Found CVE-2015-8104 in fastsocket
+Match! Method "init_vmcb" in kernel/arch/x86/kvm/svm.c is homologous with CVE-2015-8104
+Match! Method "init_vmcb" in kernel/arch/x86/kvm/svm.c is homologous with CVE-2015-8104
+
+Found CVE-2014-3610 in fastsocket
+Match! Method "handle_wrmsr" in kernel/arch/x86/kvm/vmx.c is homologous with CVE-2014-3610
+
+Found CVE-2014-4943 in fastsocket
+Match! Method "pppol2tp_setsockopt" in kernel/drivers/net/pppol2tp.c is homologous with CVE-2014-4943
+Match! Method "pppol2tp_getsockopt" in kernel/drivers/net/pppol2tp.c is homologous with CVE-2014-4943
+
+Found CVE-2020-36279 in mobile-ffmpeg
+Match! Method "pixFillMapHoles" in src/leptonica/src/adaptmap.c is homologous with CVE-2020-36279
+
+Found CVE-2021-21309 in viabtc_exchange_server
+Match! Method "sdsMakeRoomFor" in utils/ut_sds.c is homologous with CVE-2021-21309
+Match! Method "sdsMakeRoomFor" in depends/hiredis/sds.c is homologous with CVE-2021-21309
+
+Found CVE-2020-15945 in clink
+Match! Method "traceexec" in lua/src/lvm.c is homologous with CVE-2020-15945
+
+Found CVE-2020-24370 in clink
+Match! Method "findlocal" in lua/src/ldebug.c is homologous with CVE-2020-24370
+
+Found CVE-2020-15945 in proxmark3
+Match! Method "traceexec" in liblua/lvm.c is homologous with CVE-2020-15945
+
+Found CVE-2020-24370 in proxmark3
+Match! Method "findlocal" in liblua/ldebug.c is homologous with CVE-2020-24370
+
+Found CVE-2021-21309 in annotated_redis_source
+Match! Method "sdsnewlen" in src/sds.c is homologous with CVE-2021-21309
+Match! Method "sdsnewlen" in deps/hiredis/sds.c is homologous with CVE-2021-21309
+Match! Method "sdsMakeRoomFor" in src/sds.c is homologous with CVE-2021-21309
+Match! Method "sdsMakeRoomFor" in deps/hiredis/sds.c is homologous with CVE-2021-21309
+
+Found CVE-2020-14147 in annotated_redis_source
+Match! Method "optsize" in deps/lua/src/lua_struct.c is homologous with CVE-2020-14147
+Match! Method "commoncases" in deps/lua/src/lua_struct.c is homologous with CVE-2020-14147
+
+Found CVE-2014-0064 in yugabyte-db
+Match! Method "json_object" in src/postgres/src/backend/utils/adt/json.c is homologous with CVE-2014-0064
+Match! Method "jsonb_object" in src/postgres/src/backend/utils/adt/jsonb.c is homologous with CVE-2014-0064
+Match! Method "plperl_to_hstore" in src/postgres/contrib/hstore_plperl/hstore_plperl.c is homologous with CVE-2014-0064
+
+Found CVE-2020-15945 in zfs
+Match! Method "traceexec" in module/lua/lvm.c is homologous with CVE-2020-15945
+
+Found CVE-2020-24370 in zfs
+Match! Method "findlocal" in module/lua/ldebug.c is homologous with CVE-2020-24370
+
+Found CVE-2020-1916 in php-src
+Match! Method "BF_crypt" in ext/standard/crypt_blowfish.c is homologous with CVE-2020-1916
+
+Found CVE-2021-24025 in php-src
+Match! Method "exif_scan_thumbnail" in ext/exif/exif.c is homologous with CVE-2021-24025
+
+Found CVE-2021-21309 in rspamd
+Match! Method "sdsMakeRoomFor" in contrib/hiredis/sds.c is homologous with CVE-2021-21309
+
+Found CVE-2021-21309 in disque
+Match! Method "sdsnewlen" in src/sds.c is homologous with CVE-2021-21309
+Match! Method "sdsnewlen" in deps/hiredis/sds.c is homologous with CVE-2021-21309
+Match! Method "sdsMakeRoomFor" in src/sds.c is homologous with CVE-2021-21309
+Match! Method "sdsMakeRoomFor" in deps/hiredis/sds.c is homologous with CVE-2021-21309
+
+Found CVE-2021-21309 in webdis
+Match! Method "sdsnewlen" in src/hiredis/sds.c is homologous with CVE-2021-21309
+Match! Method "sdsMakeRoomFor" in src/hiredis/sds.c is homologous with CVE-2021-21309
+
+Found CVE-2020-11724 in reading-code-of-nginx-1.9.2
+Match! Method "ngx_http_lua_copy_request_headers" in nginx-1.9.2/src/lua-nginx-module-master/src/ngx_http_lua_subrequest.c is homologous with CVE-2020-11724
+
+Found CVE-2018-16300 in nexmon
+Match! Method "bgp_attr_print" in utilities/tcpdump/print-bgp.c is homologous with CVE-2018-16300
+Match! Method "bgp_update_print" in utilities/tcpdump/print-bgp.c is homologous with CVE-2018-16300
+
+Found CVE-2020-11080 in nexmon
+Match! Method "nghttp2_strerror" in utilities/wireshark/epan/nghttp2/nghttp2_helper.c is homologous with CVE-2020-11080
+
+Found CVE-2020-24371 in civetweb
+Match! Method "remarkupvals" in src/third_party/lua-5.3.6/src/lgc.c is homologous with CVE-2020-24371
+
+Found CVE-2020-15945 in civetweb
+Match! Method "luaG_traceexec" in src/third_party/lua-5.3.6/src/ldebug.c is homologous with CVE-2020-15945
+Match! Method "traceexec" in src/third_party/lua-5.2.4/src/lvm.c is homologous with CVE-2020-15945
+
+Found CVE-2020-24370 in civetweb
+Match! Method "findlocal" in src/third_party/lua-5.2.4/src/ldebug.c is homologous with CVE-2020-24370
+
+Found CVE-2020-14147 in civetweb
+Match! Method "optsize" in src/third_party/lua_struct.c is homologous with CVE-2020-14147
+Match! Method "controloptions" in src/third_party/lua_struct.c is homologous with CVE-2020-14147
+
+Found CVE-2013-0166 in sl4a
+Match! Method "OCSP_basic_verify" in python-build/openssl/crypto/ocsp/ocsp_vfy.c is homologous with CVE-2013-0166
+Match! Method "ASN1_item_verify" in python-build/openssl/crypto/asn1/a_verify.c is homologous with CVE-2013-0166
+Match! Method "ASN1_verify" in python-build/openssl/crypto/asn1/a_verify.c is homologous with CVE-2013-0166
+Match! Method "ASN1_item_verify" in python-build/openssl/crypto/asn1/a_verify.c is homologous with CVE-2013-0166
+Match! Method "ASN1_verify" in python-build/openssl/crypto/asn1/a_verify.c is homologous with CVE-2013-0166
+Match! Method "OCSP_basic_verify" in python-build/openssl/crypto/ocsp/ocsp_vfy.c is homologous with CVE-2013-0166
+Match! Method "ASN1_item_verify" in python-build/openssl/crypto/asn1/a_verify.c is homologous with CVE-2013-0166
+Match! Method "ASN1_verify" in python-build/openssl/crypto/asn1/a_verify.c is homologous with CVE-2013-0166
+Match! Method "OCSP_basic_verify" in python-build/openssl/crypto/ocsp/ocsp_vfy.c is homologous with CVE-2013-0166
+
+Found CVE-2014-3568 in sl4a
+Match! Method "ssl23_get_client_method" in python-build/openssl/ssl/s23_clnt.c is homologous with CVE-2014-3568
+Match! Method "ssl23_get_client_hello" in python-build/openssl/ssl/s23_srvr.c is homologous with CVE-2014-3568
+Match! Method "ssl23_get_server_method" in python-build/openssl/ssl/s23_srvr.c is homologous with CVE-2014-3568
+Match! Method "ssl23_get_server_hello" in python-build/openssl/ssl/s23_clnt.c is homologous with CVE-2014-3568
+
+Found CVE-2014-0221 in sl4a
+Match! Method "dtls1_get_message_fragment" in python-build/openssl/ssl/d1_both.c is homologous with CVE-2014-0221
+
+Found CVE-2014-3508 in sl4a
+Match! Method "OBJ_obj2txt" in python-build/openssl/crypto/objects/obj_dat.c is homologous with CVE-2014-3508
+Match! Method "c2i_ASN1_OBJECT" in python-build/openssl/crypto/asn1/a_object.c is homologous with CVE-2014-3508
+
+Found CVE-2014-8275 in sl4a
+Match! Method "ASN1_item_verify" in python-build/openssl/crypto/asn1/a_verify.c is homologous with CVE-2014-8275
+Match! Method "ASN1_verify" in python-build/openssl/crypto/asn1/a_verify.c is homologous with CVE-2014-8275
+Match! Method "ASN1_item_verify" in python-build/openssl/crypto/asn1/a_verify.c is homologous with CVE-2014-8275
+Match! Method "ASN1_verify" in python-build/openssl/crypto/asn1/a_verify.c is homologous with CVE-2014-8275
+
+Found CVE-2015-0206 in sl4a
+Match! Method "dtls1_buffer_record" in python-build/openssl/ssl/d1_pkt.c is homologous with CVE-2015-0206
+
+Found CVE-2015-0204 in sl4a
+Match! Method "ssl3_get_key_exchange" in python-build/openssl/ssl/s3_clnt.c is homologous with CVE-2015-0204
+
+Found CVE-2020-13113 in pyrebox
+Match! Method "exif_mnote_data_pentax_load" in sleuthkit/framework/modules/c_LibExifModule/libexif-0.6.20/libexif/pentax/exif-mnote-data-pentax.c is homologous with CVE-2020-13113
+Match! Method "exif_mnote_data_fuji_load" in sleuthkit/framework/modules/c_LibExifModule/libexif-0.6.20/libexif/fuji/exif-mnote-data-fuji.c is homologous with CVE-2020-13113
+Match! Method "exif_mnote_data_pentax_load" in sleuthkit/framework/modules/c_LibExifModule/libexif-0.6.20/libexif/pentax/exif-mnote-data-pentax.c is homologous with CVE-2020-13113
+Match! Method "exif_mnote_data_olympus_load" in sleuthkit/framework/modules/c_LibExifModule/libexif-0.6.20/libexif/olympus/exif-mnote-data-olympus.c is homologous with CVE-2020-13113
+Match! Method "exif_mnote_data_canon_load" in sleuthkit/framework/modules/c_LibExifModule/libexif-0.6.20/libexif/canon/exif-mnote-data-canon.c is homologous with CVE-2020-13113
+
+Found CVE-2020-13112 in pyrebox
+Match! Method "exif_mnote_data_canon_load" in sleuthkit/framework/modules/c_LibExifModule/libexif-0.6.20/libexif/canon/exif-mnote-data-canon.c is homologous with CVE-2020-13112
+Match! Method "exif_mnote_data_fuji_load" in sleuthkit/framework/modules/c_LibExifModule/libexif-0.6.20/libexif/fuji/exif-mnote-data-fuji.c is homologous with CVE-2020-13112
+Match! Method "exif_mnote_data_pentax_load" in sleuthkit/framework/modules/c_LibExifModule/libexif-0.6.20/libexif/pentax/exif-mnote-data-pentax.c is homologous with CVE-2020-13112
+
+Found CVE-2020-5210 in NetHack
+Match! Method "process_options" in outdated/sys/be/bemain.c is homologous with CVE-2020-5210
+

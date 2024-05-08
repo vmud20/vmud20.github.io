@@ -1,0 +1,13 @@
+     100 files     200 files     300 files     400 files     407 text files.
+classified 407 filesDuplicate file check 407 files (364 known unique)Unique:      100 files                                          Unique:      200 files                                          Unique:      300 files                                               394 unique files.                              
+Counting:  100Counting:  200Counting:  300     273 files ignored.
+
+github.com/AlDanial/cloc v 1.82  T=2.44 s (55.8 files/s, 31855.7 lines/s)
+-------------------------------------------------------------------------------
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+C                              129          10271           5837          54124
+C++                              7           1040            415           5997
+-------------------------------------------------------------------------------
+SUM:                           136          11311           6252          60121
+-------------------------------------------------------------------------------

@@ -111,7 +111,7 @@ Our code can be download [here](https://github.com/vmud20/vmud20.github.io/tree/
   - *Detector.py*: python script to implement vmud
   - *Instructions for Utilizing SAGA.md*: a instruction for SAGA
   
-- **configuration for detector:**
+- **configuration for VMUD detector:**
 
   - *signature_path*: the absolute path to store rephrased signature *Xrep*
   - *work_path*: the absolute path to the directory of joern-cli
@@ -125,8 +125,13 @@ Our code can be download [here](https://github.com/vmud20/vmud20.github.io/tree/
   - *targetRepoMacros*:  the absolute path to store macros
   - *pagerank_location_prefix*: the directory path to store the PageRank score files.
   - *pagerank_threshold*: PageRank score threshold, the default is 0.018
+  - *th_syn_v*: the threshold for syn(*X_tgt* , *X_src_V* ), the default is 0.7
+  - *th_sem_v*: the threshold for sem(*X_tgt* , *X_src_V* ), the default is 0.6
+  - *th_syn_p*: the threshold for syn(*X_tgt* , *X_src_P* ), the default is 0.3
+  - *th_sem_p*: the threshold for sem(*X_tgt* , *X_src_P* ), the default is 0.4
+  - *th_ce*: the threshold for CESM(*X_tgt* , *X_src* ) , the default is 0.6
 
-- **Detector**
+- **VMUD Detector**
 
   1. In the *joern-cli* directory (which should include executable files such as *joern*, *joern-parse*, and *joern-flow*), create five folders named *temp*, *slicingJson*, *normalizeJson*, *normalized*, and *conditionJson*. 
 
@@ -144,4 +149,105 @@ Our code can be download [here](https://github.com/vmud20/vmud20.github.io/tree/
 
 ### Evaluation
 
-TBD
+The evaluation contains RQ1, RQ2, RQ3, RQ4 and RQ5, the data and code can download [here](https://github.com/vmud20/vmud20.github.io/tree/main/evaluation), after downloading, you can easily replicat the result on our paper.
+
+- **RQ0: the dataset overview for evaluation.**
+
+  - **Number and Percentage of Functions in Collected VM**: 
+
+    To replicate our results for the number and Percentage of Functions in Collected VM, which is shown in table 3 in our paper, please use :
+
+    ```bash
+    python Number_of_functions_in_VMs.py signaturePath_org signaturePath_rep
+    ```
+
+    - **signaturePath_org** refers to the absolute path of the original signature *Xorg*, in our evaluation, it's [signature_org](https://github.com/vmud20/vmud20.github.io/tree/main/dataset/signature_org).
+    - **signaturePath_rep** refers to the absolute path of the original signature *Xrep*, in our evaluation, it's [signature_rep](https://github.com/vmud20/vmud20.github.io/tree/main/dataset/signature_rep).
+
+  - **Number of Files and Lines of Code (LOC) on our Evaluated Dataset:**
+
+    To replicate our results for the Number of Files and Lines of Code (LOC) on our Evaluated Dataset, which is shown in Figure 4 in our paper, please    run the following steps:
+
+    1.  clone the repositories and checkout to the corresponding versions. The information of repositories' URL and the corresponding versions can be found in [this file](https://github.com/vmud20/vmud20.github.io/tree/main/dataset/projects.json).
+    2. Use **cloc** to analyse these repositories and then you will gain the raw information which is Number of Files and Lines of Code (LOC) on our Evaluated Dataset. It is shown in [cloc directory](https://github.com/vmud20/vmud20.github.io/tree/main/evaluation/RQ0/data/cloc).
+    3. Run the python script ***getrepoCloc.py*** and then you will gain [repoFileNum.json](evaluation/RQ0/data/repoFileNum.json) and  [repoCodeNum.json](evaluation/RQ0/data/repoCodeNum.json).
+    4. To get the [Figure 4](evaluation/RQ0/figs/rq0_repoInfo.pdf), please run the python script ***RQ0_dataset.py***.
+
+- **RQ1: effectiveness Evaluation.**
+
+  - ***Accuracy Results***
+
+    As for **VUDDY**, we cloned the open-source code of [Vuddy](https://github.com/squizz617/vuddy), following their [instructions](https://github.com/squizz617/vulnDBGen/blob/f4cb690e43e5c4fe212a85317782cfe13a3c9bab/docs/%EC%B7%A8%EC%95%BD%EC%A0%90%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EC%83%9D%EC%84%B1%20%EC%86%94%EB%A3%A8%EC%85%98%20%EB%A7%A4%EB%89%B4%EC%96%BC%20V1.0.pdf), generated our own signatures and conducted detection on the all [projects](https://github.com/vmud20/vmud20.github.io/tree/main/dataset/projects.json), obtaining the detection [results](evaluation/RQ1/results/results_vuddy.txt), then we conducted manual validation of all positive results by the authors to confirm the presence of VM, and then get the confirmed [results](evaluation/RQ1/results/results_vuddy.xlsx).
+
+    As for **MVP**, cause it's not open-sourced, we just implemented MVP based on their paper. Then we use it to generate signatures and detected all [projects](https://github.com/vmud20/vmud20.github.io/tree/main/dataset/projects.json), obtaining the [results](evaluation/RQ1/results/results_MVP.txt), then we conducted manual validation of all positive results by the authors to confirm the presence of VM, and then get the confirmed [results](evaluation/RQ1/results/results_MVP.csv).
+
+    As for **Movery**, as Movery does not provide open-source code for signature generation, we intersected our collected CVEs with their dataset to ensure a fair evaluation, which resulted in a Diminished VM Dataset of 144 VM signatures, the intersected CVEs is shown in [intersection_cve.pkl](). We just test [MOVERY](https://hub.docker.com/r/seunghoonwoo/movery-public) using Docker,  obtaining the [results](evaluation/RQ1/results/results_movery.txt), then we conducted manual validation of all positive results by the authors to confirm the presence of VM, and then get the confirmed [results](evaluation/RQ1/results/results_movery.csv).
+
+    As for **V1scan**, We just run V1scan using docker following the [instructions](https://github.com/WOOSEUNGHOON/V1SCAN-public/blob/main/README.md),  obtaining the [results](evaluation/RQ1/results/results_v1scan.txt), then we conducted manual validation of all positive results by the authors to confirm the presence of VM, and then get the confirmed [results](evaluation/RQ1/results/results_v1scan.csv).
+
+    As for **VMUD**, we run our tool to detect all [projects](https://github.com/vmud20/vmud20.github.io/tree/main/dataset/projects.json), obtaining the [results](evaluation/RQ1/results/results_vmud.txt), then we conducted manual validation of all positive results by the authors to confirm the presence of VM, and then get the confirmed [results](evaluation/RQ1/results/results_vmud.csv).
+
+    After that, we merge all positive results and get the [Groundtruth](evaluation/RQ1/datas/GT.csv). 
+
+    Above all, we get the results of **matching-one-function-in-all approach**. To get the results of  **matching-all-functions approach**, we analyzed the results file and removed all positive results where there was not a complete match with all modified methods in the patch. Then we get the results shown in Table 4.
+
+  - ***Accuracy Per Project***
+
+    To get the accuracies of each tool’s results on every project containing VM, please use:
+
+    ```
+    python get_repo_results.py
+    ```
+
+    Then you will get the results *i.e.*[results_repo_movery.json](evaluation/RQ1/results/results_repo_movery.json), [results_repo_MVP.json](evaluation/RQ1/results/results_repo_MVP.json), [results_repo_vmud.json](evaluation/RQ1/results/results_repo_vmud.json), [results_repo_v1scan.json](evaluation/RQ1/results/results_repo_v1scan.json),[results_repo_vuddy.json](evaluation/RQ1/results/results_repo_vuddy.json).
+    
+    To get the Figure 5 of our paper, please use:
+    
+    ```bash
+    python RQ1_accuracy.py
+    ```
+    
+    To get the Figure 6 of our paper, please use:
+    
+    ```bash
+    python RQ1_accuracyBar.py
+    ```
+
+  - ***Comparison with Learning-based Approaches***
+
+    Additionally, we compared two learning-based tools using precision and recall w.r.t vulnerable functions. We directly utilized the trained models of [DeepDFA](https://github.com/ISU-PAAL/DeepDFA) and [SySeVR](https://github.com/SySeVR/SySeVR) on their respective datasets and used our ground truth as the testing dataset, the results is shown in Table 6.
+
+
+  **We used the default configurations outlined in the original papers for all selected tools.**
+
+- **RQ2: robustness.**
+
+  To assess VMud’s robustness, we examine its accuracy across VM with varying numbers of fixing functions. 
+
+  ```bash
+  python get_cve_results.py
+  ```
+
+  Then you will get the [results](evaluation/RQ2/results/resultsCVE_vmud.json), which is shown in Table 7.
+
+- **RQ3: ablation.**
+
+  To get the ablation study results which is shown in Table 8 of our paper, just replace the *Detector.py* file in VMUD with [w_o_CFS.py](evaluation/RQ3/w_o_CFS.py), [w_o_PR.py](evaluation/RQ3/w_o_PR.py), [w_o_CESM.py](evaluation/RQ3/w_o_CESM.py), respectively, and following the usage instructions outlined above to detect all [projects](https://github.com/vmud20/vmud20.github.io/tree/main/dataset/projects.json).
+
+- **RQ4: threshold Sensitivity.**
+
+  We conducted a sensitivity analysis to assess the impact of various thresholds (*th_pr* , *th_syn_V*, *th_sem_V*, *th_syn_P* , *th_sem_P*, *th_ce*) on VMud’s performance. Just modify the corresponding configurations in ***config.json*** and proceed to detect all [projects](https://github.com/vmud20/vmud20.github.io/tree/main/dataset/projects.json). Then we will get the [results](https://github.com/vmud20/vmud20.github.io/tree/main/evaluation/RQ4/datas) depends on the [Groundtruth](evaluation/RQ1/datas/GT.csv). To get [Figure 7](https://github.com/vmud20/vmud20.github.io/tree/main/evaluation/RQ4/figs) in our paper, please run the python script ***RQ4_sensitivity.py***.
+
+- **RQ5: performance Evaluation.**
+
+  The the time cost of VMud will output in the log file which you configured in the *config.json* when you detect the project using vmud. As for our evaluation for RQ5, we extract the cost time into [result_vmudTime.json](evaluation/RQ5/result_vmudTime.json). 
+
+  Besides, as for Vuddy, MVP, Movery and V1scan, we can also extract the cost time from their log file. The cost time of detector using every tool is shown [here](https://github.com/vmud20/vmud20.github.io/tree/main/evaluation/RQ5/data).
+
+  To get box plot illustrating the time spent on VM detection in each project, please use:
+
+  ```bash
+  python RQ5_performance.py
+  ```
+
+  Then you will get [Figure 8](evaluation/RQ5/figs/rq5_performance.pdf)

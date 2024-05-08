@@ -30,6 +30,11 @@ temp_work_dir = info["work_path"]
 targetRepoMacros = info["targetRepoMacros"]
 pagerank_location_prefix = info["pagerank_location_prefix"]
 pagerank_threshold = info["pagerank_threshold"]
+th_syn_v = info["th_syn_v"]
+th_sem_v = info["th_sem_v"]
+th_syn_p = info["th_syn_p"]
+th_sem_p = info["th_sem_p"]
+th_ce = info["th_ce"]
 includeFiles = []
 analysizedFiles = []
 removedMacros = ["__FILE__", "__LINE__", "__DATE__", "__TIME__", "__STDC__", "__STDC_VERSION__", 
@@ -1059,7 +1064,7 @@ def detect_file(detect_dir, file, CVEList):
                         ans_list[CVE][key][method_name]["del_gcc"] = is_match
                         sus_method_syn=copy.deepcopy(sus_method_dict[index]["func_syn"])
                         cnt_vul_syn,match_dict_syn = matchSyn(sus_method_syn.copy(),vul_syn.copy(),vul_merge.copy(),sus_method_merge.copy())
-                        if len(set(vul_syn)) > 0 and cnt_vul_syn / len(vul_syn) <= 0.7:
+                        if len(set(vul_syn)) > 0 and cnt_vul_syn / len(vul_syn) <= th_syn_v:
                             is_match=False   
                             ans_list[CVE][key][method_name]["vul_syn_gcc"] = is_match
                         else:
@@ -1074,7 +1079,7 @@ def detect_file(detect_dir, file, CVEList):
                         sus_method_sem=copy.deepcopy(sus_method_dict[index]["func_sem"])
                         cnt_pat_syn,match_dict_syn = matchSyn(sus_method_syn.copy(),pat_syn.copy(),pat_merge.copy(),sus_method_merge.copy())
 
-                        if len(set(pat_syn)) > 0 and cnt_pat_syn / len(pat_syn) > 0.3:
+                        if len(set(pat_syn)) > 0 and cnt_pat_syn / len(pat_syn) > th_syn_p:
                             is_match=False
                             ans_list[CVE][key][method_name]["pat_syn_gcc"] = is_match
                         else:
@@ -1114,7 +1119,7 @@ def detect_file(detect_dir, file, CVEList):
                                 del sus_method_syn[tar_key]
                                 cnt_vul_syn += 1
                     
-                        if len(set(syn_sig)) > 0 and cnt_vul_syn / len(syn_sig) <= 0.7:
+                        if len(set(syn_sig)) > 0 and cnt_vul_syn / len(syn_sig) <= th_syn_v:
                             is_match=False
                             ans_list[CVE][key][method_name]["syn_gcc"] = is_match
                         else:
@@ -1130,7 +1135,7 @@ def detect_file(detect_dir, file, CVEList):
                             if tar_key != -1:
                                 del sus_method_sem[tar_key]
                                 cnt_match_vul_sem += 1
-                        if len(sem_sig)!=0 and cnt_match_vul_sem/len(sem_sig)<=0.7:
+                        if len(sem_sig)!=0 and cnt_match_vul_sem/len(sem_sig)<=th_syn_v:
                             is_match=False
                             ans_list[CVE][key][method_name]["sem_gcc"] = is_match
                         else:
@@ -1211,7 +1216,7 @@ def detect_file(detect_dir, file, CVEList):
                         sus_method_syn=copy.deepcopy(sus_method_dict[index]["func_syn"])
 
                         cnt_vul_syn,match_dict_syn = matchSyn(sus_method_syn.copy(),vul_syn.copy(),vul_merge.copy(),sus_method_merge.copy())
-                        if len(set(vul_syn)) > 0 and cnt_vul_syn / len(vul_syn) <= 0.7:
+                        if len(set(vul_syn)) > 0 and cnt_vul_syn / len(vul_syn) <= th_syn_v:
                             is_match=False
                             ans_list[CVE][key][method_name]["vul_syn"] = False
                         else:
@@ -1226,7 +1231,7 @@ def detect_file(detect_dir, file, CVEList):
 
                         cnt_pat_syn,match_dict_syn = matchSyn(sus_method_syn.copy(),pat_syn.copy(),pat_merge.copy(),sus_method_merge.copy())
 
-                        if len(set(pat_syn)) > 0 and cnt_pat_syn / len(pat_syn) > 0.3:
+                        if len(set(pat_syn)) > 0 and cnt_pat_syn / len(pat_syn) > th_syn_p:
                             is_match=False
                             ans_list[CVE][key][method_name]["pat_syn"] = is_match
                         else:
@@ -1262,7 +1267,7 @@ def detect_file(detect_dir, file, CVEList):
                                 del sus_method_syn[tar_key]
                                 cnt_vul_syn += 1
                     
-                        if len(set(syn_sig)) > 0 and cnt_vul_syn / len(syn_sig) <= 0.7:
+                        if len(set(syn_sig)) > 0 and cnt_vul_syn / len(syn_sig) <= th_syn_v:
                             is_match=False
                             ans_list[CVE][key][method_name]["syn"] = False
                         else:
@@ -1278,7 +1283,7 @@ def detect_file(detect_dir, file, CVEList):
                             if tar_key != -1:
                                 del sus_method_sem[tar_key]
                                 cnt_match_vul_sem += 1
-                        if len(sem_sig)!=0 and cnt_match_vul_sem/len(sem_sig)<=0.7:
+                        if len(sem_sig)!=0 and cnt_match_vul_sem/len(sem_sig)<=th_syn_v:
                             is_match=False
                             ans_list[CVE][key][method_name]["sem"] = is_match
                         else:
@@ -1320,10 +1325,10 @@ def matchSem(func_sem,sig_sem,sig_merge, match_dict_source,func_merge,isPatch):
                         sem_match_cnt += 1
             max_sem_cnt.append(sem_match_cnt)
             if isPatch:
-                if len(set(sig_sem)) > 0 and max(max_sem_cnt) / len(sig_sem) > 0.4:
+                if len(set(sig_sem)) > 0 and max(max_sem_cnt) / len(sig_sem) > th_sem_p:
                     return True
             else:
-                if len(set(sig_sem)) > 0 and max(max_sem_cnt) / len(sig_sem) > 0.6:
+                if len(set(sig_sem)) > 0 and max(max_sem_cnt) / len(sig_sem) > th_sem_v:
                     return False
         else:
             key = sorted(list(keys))[0]
@@ -1334,12 +1339,12 @@ def matchSem(func_sem,sig_sem,sig_merge, match_dict_source,func_merge,isPatch):
                     i += 1
                 if (len(match_dict[key])==0 and sig_merge[key] != []):
                     if isPatch:
-                        if len(set(sig_sem)) > 0 and max(max_sem_cnt) / len(sig_sem) > 0.4:
+                        if len(set(sig_sem)) > 0 and max(max_sem_cnt) / len(sig_sem) > th_sem_p:
                             return True
                         else:
                             return False
                     else:
-                        if len(set(sig_sem)) > 0 and max(max_sem_cnt) / len(sig_sem) <= 0.6:
+                        if len(set(sig_sem)) > 0 and max(max_sem_cnt) / len(sig_sem) <= th_sem_v:
                             return True
                         else:
                             return False
@@ -1381,12 +1386,12 @@ def matchSem(func_sem,sig_sem,sig_merge, match_dict_source,func_merge,isPatch):
                 sem_match_cnt += 1
     max_sem_cnt.append(sem_match_cnt)
     if isPatch:
-        if len(set(sig_sem)) > 0 and max(max_sem_cnt) / len(sig_sem) > 0.4:
+        if len(set(sig_sem)) > 0 and max(max_sem_cnt) / len(sig_sem) > th_sem_p:
             return True
         else:
             return False
     else:
-        if len(set(sig_sem)) > 0 and max(max_sem_cnt) / len(sig_sem) <= 0.6:
+        if len(set(sig_sem)) > 0 and max(max_sem_cnt) / len(sig_sem) <= th_sem_v:
             return True
         else:
             return False   
@@ -1441,7 +1446,7 @@ def matchSyn(sus_method_syn,sig_syn,sig_merge,sus_method_merge):
                     if three_tuple_vul_sem in merge_func[func_line]:
                         cnt_match_vul_syn_merge += 1
                         merge_func[func_line].remove(three_tuple_vul_sem)
-                if len(sig_merge[syn_line]) != 0 and cnt_match_vul_syn_merge / len(sig_merge[syn_line]) >= 0.6:
+                if len(sig_merge[syn_line]) != 0 and cnt_match_vul_syn_merge / len(sig_merge[syn_line]) >= th_ce:
                     if syn_line not in match_syn.keys():
                         match_syn[syn_line] = []
                     if func_line not in vis_func and syn_line not in vis_syn:
@@ -1767,7 +1772,7 @@ def getSignatureInfo():
                 pat_sem=sigs[key]["pat_sem"]
                 pat_merge = sigs[key]['pat_merge']
                 cnt_pat_syn,match_dict_syn = matchSyn(vul_syn.copy(),pat_syn.copy(),pat_merge.copy(),vul_merge.copy())
-                if len(set(pat_syn)) > 0 and cnt_pat_syn / len(pat_syn) > 0.3 and len(set(vul_syn)) > 0 and (len(vul_syn) - cnt_pat_syn) / len(vul_syn) <= 0.7:
+                if len(set(pat_syn)) > 0 and cnt_pat_syn / len(pat_syn) > th_syn_p and len(set(vul_syn)) > 0 and (len(vul_syn) - cnt_pat_syn) / len(vul_syn) <= th_syn_v:
                     signautres[cve][key]["pure_sig"] = False
                     continue
                 signautres[cve][key]["pure_sig"] = True
@@ -1793,7 +1798,7 @@ def getSignatureInfo():
                 pat_sem=sigs[key]["pat_sem"]
                 pat_merge = sigs[key]['pat_merge']
                 cnt_pat_syn,match_dict_syn = matchSyn(vul_syn.copy(),pat_syn.copy(),pat_merge.copy(),vul_merge.copy())
-                if len(set(pat_syn)) > 0 and cnt_pat_syn / len(pat_syn) > 0.3 and len(set(vul_syn)) > 0 and (len(vul_syn) - cnt_pat_syn) / len(vul_syn) <= 0.7:
+                if len(set(pat_syn)) > 0 and cnt_pat_syn / len(pat_syn) > th_syn_p and len(set(vul_syn)) > 0 and (len(vul_syn) - cnt_pat_syn) / len(vul_syn) <= th_syn_v:
                     signautres[cve][key]["gcc_sig"] = False
                     continue
                 signautres[cve][key]["gcc_sig"] = True
@@ -1834,7 +1839,10 @@ if __name__ == '__main__':
     f = open("sig_info.json","r")
     signature_info = json.load(f)
     try:
+        time0 = time.time()
         filter_multi(detect_dir, signature_info)
+        with open(progress_file,"a") as f:
+            f.write(f"Elapsed time: {time.time()-time0}\n")
     except Exception as e:
         print("Error when detect repo " + dir)
         print(e)

@@ -10,5 +10,10 @@
     "signature_path_org": "/path/to/signature_org/",
     "targetRepoMacros":"/path/to/save/tarMacros/",
     "pagerank_location_prefix":"/path/to/pagerank_dir",
-    "pagerank_threshold":0.018
+    "pagerank_threshold":0.018,
+    "th_syn_v":0.7,
+    "th_sem_v":0.6,
+    "th_syn_p":0.3,
+    "th_sem_p":0.4,
+    "th_ce":0.6
 }
