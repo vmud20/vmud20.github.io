@@ -1023,7 +1023,7 @@ def detect_file(detect_dir, file, CVEList):
                 now_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
                 f.write("["+now_time+"]"+" Matching "+CVE+" now. Progress:"+index1.__str__()+"/"+total.__str__()+"\n")
             for key in sig.keys():
-                if key not in key_point_list[CVE]:
+                if key not in key_point_list:
                     continue
                 if key not in ans_list[CVE].keys():
                     ans_list[CVE][key] = {}
@@ -1174,7 +1174,7 @@ def detect_file(detect_dir, file, CVEList):
         with open(signature_path_old+CVE+".json","r") as f:
             sig=json.load(f)
             for key in sig.keys(): 
-                if key not in key_point_list[CVE]:
+                if key not in key_point_list:
                     continue
                 if key not in ans_list[CVE].keys():
                     ans_list[CVE][key] = {}
