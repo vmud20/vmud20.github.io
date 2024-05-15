@@ -19,7 +19,7 @@ file.close()
 work_dir = info["work_path"]
 saga_dir = info["saga_path"]
 signature_path = info["signature_path"]
-signature_path_old = info["signature_path_old"]
+signature_path_old = info["signature_path_org"]
 progress_file=info["progress_file"]
 saga_file = info["saga_multi"]
 vulFileMulti = info["vulFileMulti"]
