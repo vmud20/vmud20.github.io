@@ -10,15 +10,15 @@ This page lists the supplementary materiales including the dataset, source code 
 
 - [2024-06-22]📢📢📢we have released [documents](doc/ProgramRephrasing.xlsx) about program Rephrasing.
 - [2024-06-22]📢📢📢we have released the progress of the [GroundTruth Construction](https://github.com/vmud20/vmud20.github.io/tree/main/dataset/GroundTruth), which can help you understand our GroundTruth.
-- [2024-06-22]📢📢📢we have done an extra [experiments](#📢📢📢**EXTRA experiments to show vmud's state-of-the-art.****) to show vmud's state-of-the-art.
-- [2024-06-20]📢📢📢we have conducted a broad [survey](#📢📢📢 broad survey) about vulnerability detection and released the paper list. 
+- [2024-06-22]📢📢📢we have done an extra [experiments](#experiment) to show vmud's state-of-the-art.
+- [2024-06-20]📢📢📢we have conducted a broad [survey](#survey) about vulnerability detection and released the paper list. 
 - [2024-04-30]🚀🚀🚀our paper is submitted to CCS 2024.
 - [2024-04-27]🚀🚀🚀we have released out [Groundtruth](evaluation/RQ1/results/GT.csv), thanks for two annotators and one mediator!
 - [2024-04-25]🚀🚀🚀our tool have been released, welcome to reproduce our tool and give us some suggestions.
 
 ### ✨✨WHAT IS NEW
 
-##### 📢📢📢**EXTRA experiments to show vmud's state-of-the-art.**
+##### 📢📢📢**EXTRA experiments to show vmud's state-of-the-art.**<a id="experiment"></a>
 
 - We have done an extra ablation experiment which can show the effectiveness of semantic equivalence. To get the ablation study results of VMUD w/o PR+CESM. We have released the [code](evaluation/RQ3/w_o_PR_CESM.py), you can just replace the *detection.py* file in VMUD with the [code](evaluation/RQ3/w_o_PR_CESM.py) to reproduce our results. The step is similar to the vmud.
 
@@ -28,7 +28,7 @@ This page lists the supplementary materiales including the dataset, source code 
   - **Heuristic rules**: we define heuristic rules as a set of guidelines where if all the functions along a call path are matched during the matching process, it indicates a potential vulnerability in the target project.To reproduce the results of our experiment, you can just replace the  [pagerank.py](vmud/signatureGeneration/pagerank.py) with [HITS.py](evaluation/pagerank_evaluation/heuristic/callgraph.py) and replace [detection.py](vmud/Detection/detection.py) with [heuristic.py](evaluation/pagerank_evaluation/heuristic/heuristic.py) when you run VMUD. The step is similar to the vmud. After our experiments, we find that using heuristic rules resulted in a 0.09 decrease in precision and 0.20 decrease in recall.
 
 
-##### 📢📢📢 broad survey
+##### 📢📢📢 broad survey<a id="survey"></a>
 
 - Firstly, we identified 1,401 [papers](docs/literature_all.csv) by searching the academic databases Google Scholar, Semantic Scholar, Scopus, and Crossref using the keywords "vulnerability," "detection," "vulnerable," and "discovery." Then, following V1Scan (2023), DeepDFA (2024), we identified 387 [papers](docs/literature_software_vulnerability.csv) from 1,401 papers on software vulnerability. Among them, we excluded 67 empirical studies, 196 domain-specific papers, 97 deep-learning-based papers before DeepDFA. The remaining 27 papers include regular papers, short papers, preprints across various venues.
 
