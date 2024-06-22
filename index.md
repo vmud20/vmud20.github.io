@@ -14,9 +14,9 @@ This page lists the supplementary materiales including the dataset, source code 
 - [2024-04-26] 🚀🚀🚀we have released out [Groundtruth](evaluation/RQ1/results/GT.csv), thanks for two annotators and one mediator!
 - [2024-04-30]👉 👉 👉our paper is submitted to CCS 2024.
 - [2024-06-22]📢📢📢we have released [documents](doc/ProgramRephrasing.xlsx) about program Rephrasing.
-- [2024-06-22]📢📢📢we have released the progress of the [GroundTruth Construction](dataset/GroundTruth), which can help you understand our GroundTruth.
+- [2024-06-22]📢📢📢we have released the progress of the [GroundTruth Construction](https://github.com/vmud20/vmud20.github.io/tree/main/dataset/GroundTruth), which can help you understand our GroundTruth.
 - [2024-06-22]📢📢📢we have done an extra ablation experiment which can show the effectiveness of semantic equivalence, i.e., VMUD w/o PR+CESM. We have released the [code](evaluation/RQ3/w_o_PR_CESM.py), you can run it to reproduce our results. The step is similar to the vmud.
--  [2024-06-22]📢📢📢we have evaluated CodeQL, Fortify, Checkmarx on our 84 projects. They only identify 6 true positives. The results of Fortify and Checkmarx is shown in [Fortify_results](evaluation/static_tool_analysis/Fortify) and [checkmarx_results](evaluation/static_tool_analysis/checkmarx) respectively. As for CodeQL, we have done it by GitHub Action embedded in the CodeQL tool, you can reproduce our results by [Github](https://github.com). The overall results is shown in [static_analysis_tool_results.xlsx](evaluation/static_tool_analysis/static_analysis_tool_results.xlsx).
+-  [2024-06-22]📢📢📢we have evaluated CodeQL, Fortify, Checkmarx on our 84 projects. They only identify 6 true positives. The results of Fortify and Checkmarx is shown in [Fortify_results](https://github.com/vmud20/vmud20.github.io/tree/main/evaluation/static_tool_analysis/Fortify) and [checkmarx_results](https://github.com/vmud20/vmud20.github.io/tree/main/evaluation/static_tool_analysis/checkmarx) respectively. As for CodeQL, we have done it by GitHub Action embedded in the CodeQL tool, you can reproduce our results by [Github](https://github.com). The overall results is shown in [static_analysis_tool_results.xlsx](evaluation/static_tool_analysis/static_analysis_tool_results.xlsx).
 
 ### Dataset
 
