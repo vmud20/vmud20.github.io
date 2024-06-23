@@ -10,7 +10,7 @@
   
   - [2024-06-22]📢📢📢we have released [documents](doc/ProgramRephrasing.xlsx) about program Rephrasing.
   - [2024-06-22]📢📢📢we have released the progress of the [GroundTruth Construction](https://github.com/vmud20/vmud20.github.io/tree/main/dataset/GroundTruth), which can help you understand our GroundTruth.
-  - [2024-06-22]📢📢📢we have done an extra [experiments](#experiment) to show vmud's state-of-the-art.
+  - [2024-06-22]📢📢📢we have done an extra [experiments](#experiment), including extra ablation experiment and comparative experiment.
   - [2024-06-20]📢📢📢we have conducted a broad [survey](#survey) about vulnerability detection and released the paper list. 
   - [2024-04-30]🚀🚀🚀our paper is submitted to CCS 2024.
   - [2024-04-27]🚀🚀🚀we have released out [Groundtruth](evaluation/RQ1/results/GT.csv), thanks for two annotators and one mediator!
