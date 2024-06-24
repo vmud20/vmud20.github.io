@@ -1,9 +1,16 @@
-remote_theme: pages-themes/leap-day@v0.2.0
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+theme: jekyll-theme-leap-day
 title: |-
   VMud: Detecting Recurring Vulnerabilities with Multiple Fixing Functions
 markdown: kramdown
 show_downloads: true
 # title: Leap Day theme
 # description: "VMud: Detecting Recurring Vulnerabilities with Multiple Fixing Functions"
+
+# description: Annotation Counts：Unveiling Missing and Spurious Calls for Analyzing Spring Web Applications
+math:
+    engine: 'mathjax'
+    mathjax:
+        src: "//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+        config:
+            tex2jax:
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ]
