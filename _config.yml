@@ -1,6 +1,5 @@
 theme: jekyll-theme-leap-day
-title: |-
-  VMud: Detecting Recurring Vulnerabilities with Multiple Fixing Functions
+title: "VMud: Detecting Recurring Vulnerabilities\n with Multiple Fixing Functions"
 markdown: kramdown
 show_downloads: true
 # title: Leap Day theme
